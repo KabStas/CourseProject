@@ -1,7 +1,29 @@
+// import Foundation
+// import ArgumentParser
+
+func main() {
+    let container = Container()
+    let parser = container.argumentsParser
+    guard let arguments = parser.parsing() else {
+        return 
+    }
+    print(arguments)
+}
+
+main()
+
+class Container {
+    var argumentsParser: ArgumentsParserProtocol {
+        return ArgumentsParser()
+    }
+}
+
+
+/*
 import Foundation
 import ArgumentParser
 
-let path = Bundle.main.path( forResource: "dict", ofType: "json") ?? "dict.json"
+let path = Bundle.main.path(forResource: "dict", ofType: "json") ?? "dict.json"
 var dictionaries: [String: [String: String]] = [:]
 let decoder = JSONDecoder()
 let encoder = JSONEncoder()
@@ -159,3 +181,4 @@ struct Run: ParsableCommand {
     }
 }
 Run.main()
+*/
