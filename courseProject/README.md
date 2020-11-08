@@ -9,17 +9,12 @@
 ### Запуск проекта
 > 
     
-    USAGE: swift run courseProject <action> [<word>] [--key <key>] [--language <language>]
-
-    ARGUMENTS:
-    <action>                search, update or delete 
-    <word>                  chosen word to update 
+    USAGE: swift run courseProject <subcommand>
     
-    ARGUMENTS:
-    <action>                search, update or delete 
-    <word>                  chosen word to update 
+    SUBCOMMANDS:
+      search                  Searching for values
+      update                  Updating values
+      delete                  Deleting selected value
     
     OPTIONS:
-    -k, --key <key>             A word to translate
-    -l, --language <language>   A language to choose
-    -h, --help                  Show help information
+      -h, --help                  Show help information
