@@ -1,5 +1,4 @@
 import ArgumentParser
-//import Foundation
 
 class ArgumentsParser: ArgumentsParserProtocol {
     func parsing() -> Arguments? {
@@ -20,7 +19,7 @@ class ArgumentsParser: ArgumentsParserProtocol {
                 print(Commands.helpMessage())
                 return nil                
             }
-        } 
+        }
         catch {
             print(Commands.helpMessage())
             return nil   
@@ -29,7 +28,6 @@ class ArgumentsParser: ArgumentsParserProtocol {
 }
 
 private struct Commands: ParsableCommand {
-  
     static var configuration = CommandConfiguration(
         subcommands: [Search.self, Update.self, Delete.self]
     )
@@ -37,27 +35,33 @@ private struct Commands: ParsableCommand {
 
 extension Commands {
     struct Search: ParsableCommand {
-        @Option (name: .shortAndLong, help: "A word to translate")
+        static var configuration =
+            CommandConfiguration(abstract: "Searching for values")
+        @Option (name: .shortAndLong)
         var key: String?
 
-        @Option (name: .shortAndLong, help: "A language to choose")
+        @Option (name: .shortAndLong)
         var language: String?
     }
     struct Delete: ParsableCommand {
-        @Option (name: .shortAndLong, help: "A word to translate")
+        static var configuration =
+            CommandConfiguration(abstract: "Deleting selected value")
+        @Option (name: .shortAndLong)
         var key: String?
 
-        @Option (name: .shortAndLong, help: "A language to choose")
+        @Option (name: .shortAndLong)
         var language: String?
     }
     struct Update: ParsableCommand {
-        @Argument(help: "SOS")
+        static var configuration =
+            CommandConfiguration(abstract: "Updating values")
+        @Argument
         var word: String
         
-        @Option (name: .shortAndLong, help: "A word to translate")
+        @Option (name: .shortAndLong)
         var key: String
 
-        @Option (name: .shortAndLong, help: "A language to choose")
+        @Option (name: .shortAndLong)
         var language: String
     }
 }
