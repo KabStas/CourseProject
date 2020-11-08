@@ -1,5 +1,4 @@
 import Foundation
-// import ArgumentParser
 
 class Container {
     var argumentsParser: ArgumentsParserProtocol {
@@ -13,10 +12,7 @@ class Container {
     }
     var delete: DeleteProtocol {
         return Delete()
-    }/*
-    var message: TerminalOutputProtocol {
-        return TerminalOutput()
-    }*/
+    }
 }
 
 func main() {

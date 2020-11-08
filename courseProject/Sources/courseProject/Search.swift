@@ -3,17 +3,17 @@ import Foundation
 class Search: SearchProtocol {
     
     let output: Outputting
-    let dictionary: GettingData
+    let dict: GettingData
     
     
     init() {
-        self.dictionary = GettingData()
+        self.dict = GettingData()
         self.output = Outputting()
     }
     
     func searching(key: String?, language: String?) {
 
-        let dictionary = dictionary.creatingDictionary()
+        //let dictionary = dict.creatingDictionary()
         
         if let key = key {
             if let language = language { 
