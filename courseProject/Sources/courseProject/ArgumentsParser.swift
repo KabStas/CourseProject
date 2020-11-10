@@ -8,26 +8,21 @@ class ArgumentsParser: ArgumentsParserProtocol {
             switch command {
             case let command as Commands.Search:
                 return .search(key: command.key, language: command.language)
-
             case let command as Commands.Update:
                 return .update(word: command.word, key: command.key, language: command.language)  
-
             case let command as Commands.Delete:
                 return .delete(key: command.key, language: command.language)
-
             default:
-                print(Commands.helpMessage())
                 return nil                
             }
         }
         catch {
-            print(Commands.helpMessage())
             return nil   
         }
     }
 }
 
-private struct Commands: ParsableCommand {
+struct Commands: ParsableCommand {
     static var configuration = CommandConfiguration(
         subcommands: [Search.self, Update.self, Delete.self]
     )

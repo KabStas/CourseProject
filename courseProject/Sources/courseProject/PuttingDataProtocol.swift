@@ -1,3 +1,3 @@
 protocol PuttingDataProtocol {
-    func writingToFile (dictionary: [String: [String: String]])
+    func writingToFile(dictionary: [String: [String: String]])
 }
