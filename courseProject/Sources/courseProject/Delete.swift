@@ -4,10 +4,12 @@ class Delete: DeleteProtocol {
 
     let read: GetDataProtocol
     let write: PutDataProtocol
-    
-    init(reading: GetDataProtocol, writing: PutDataProtocol) {
+    let output: OutputProtocol
+
+    init(reading: GetDataProtocol, writing: PutDataProtocol, outputting: OutputProtocol) {
         self.read = reading
         self.write = writing
+        self.output = outputting
     }
 
     private func deletingValuesFromDictionary(language: String, dictionary: [String: [String: String]]) -> 
@@ -43,7 +45,8 @@ class Delete: DeleteProtocol {
     func deleting(key: String?, language: String?) {
 
         var dictionary = read.creatingDictionary()
-        
+        let isSearchingByLanguage = false
+
         if let key = key {
             if let language = language { 
                 dictionary = deletingValuesFromDictionary(key: key, language: language, 
@@ -56,6 +59,13 @@ class Delete: DeleteProtocol {
             dictionary = deletingValuesFromDictionary(language: language, 
                 dictionary: dictionary) 
         }
+        for (word, translations) in dictionary {
+                output.outputtingSearchResults(string: word)
+                for (language, value) in translations {
+                    output.outputtingSearchResults(string: language, value: value,
+                        boolean: isSearchingByLanguage)
+                }
+            }
         write.writingToFile(dictionary: dictionary)
     }
 }          

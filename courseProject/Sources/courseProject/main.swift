@@ -5,9 +5,9 @@ class Container {
     private lazy var parsing = ArgumentsParser()
     private lazy var reading = GetData()
     private lazy var writing = PutData()
-    private lazy var updating = Update(reading: getData, writing: putData)
+    private lazy var updating = Update(reading: getData, writing: putData, outputting: output)
     private lazy var searching = Search(reading: getData, outputting: output)
-    private lazy var deleting = Delete(reading: getData, writing: putData)
+    private lazy var deleting = Delete(reading: getData, writing: putData, outputting: output)
     private lazy var outputting = Output()
     
     var argumentsParser: ArgumentsParserProtocol {
