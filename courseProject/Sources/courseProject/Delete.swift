@@ -2,12 +2,12 @@ import Foundation
 
 class Delete: DeleteProtocol {
 
-    let dict: GettingData
-    let write: PuttingData
+    let read: GetDataProtocol
+    let write: PutDataProtocol
     
-    init() {
-        self.dict = GettingData()
-        self.write = PuttingData()
+    init(reading: GetDataProtocol, writing: PutDataProtocol) {
+        self.read = reading
+        self.write = writing
     }
 
     private func deletingValuesFromDictionary(language: String, dictionary: [String: [String: String]]) -> 
@@ -42,7 +42,7 @@ class Delete: DeleteProtocol {
 
     func deleting(key: String?, language: String?) {
 
-        var dictionary = dict.creatingDictionary()
+        var dictionary = read.creatingDictionary()
         
         if let key = key {
             if let language = language { 

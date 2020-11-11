@@ -2,17 +2,17 @@ import Foundation
 
 class Update: UpdateProtocol {
     
-    let dict: GettingData
-    let write: PuttingData
+    let read: GetDataProtocol
+    let write: PutDataProtocol
     
-    init() {
-        self.dict = GettingData()
-        self.write = PuttingData()
+    init(reading: GetDataProtocol, writing: PutDataProtocol) {
+        self.read = reading
+        self.write = writing
     }
-
+    
     func updating(word: String, key: String, language: String) {
 
-        var dictionary = dict.creatingDictionary()
+        var dictionary = read.creatingDictionary()
         
         var newWord: [String: String] = dictionary[key] ?? [:]
         newWord[language] = word

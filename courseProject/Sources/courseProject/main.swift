@@ -1,20 +1,35 @@
 import Foundation
 
 class Container {
+    
+    private lazy var parsing = ArgumentsParser()
+    private lazy var reading = GetData()
+    private lazy var writing = PutData()
+    private lazy var updating = Update(reading: getData, writing: putData)
+    private lazy var searching = Search(reading: getData, outputting: output)
+    private lazy var deleting = Delete(reading: getData, writing: putData)
+    private lazy var outputting = Output()
+    
     var argumentsParser: ArgumentsParserProtocol {
-        return ArgumentsParser()
+        parsing
     }
     var search: SearchProtocol {
-        return Search()
+        searching
     }
-    var update: UpdateProtocol {
-        return Update()
+    var getData: GetDataProtocol {
+        reading 
+    }
+    var putData: PutDataProtocol {
+        writing 
     }
     var delete: DeleteProtocol {
-        return Delete()
+        deleting
     }
-    var outputting: OutputtingProtocol {
-        return Outputting()
+    var update: UpdateProtocol {
+        updating
+    }
+    var output: OutputProtocol {
+        outputting
     }
 }
 
@@ -31,7 +46,7 @@ func main() {
     } else if case .delete(let key, let language) = arguments {
         container.delete.deleting(key: key, language: language)
     } else {
-        container.outputting.outputtingHelp() 
+        container.output.outputtingHelp() 
     } 
 }
 main()

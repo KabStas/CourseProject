@@ -1,6 +1,6 @@
 import Foundation
 
-class GettingData {
+class GetData: GetDataProtocol {
 
     func creatingDictionary() -> [String: [String: String]] {
 

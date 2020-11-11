@@ -1,6 +1,6 @@
 import Foundation
 
-class PuttingData {
+class PutData: PutDataProtocol {
    
     func writingToFile(dictionary: [String: [String: String]] ) {
         

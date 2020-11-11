@@ -1,6 +1,6 @@
 import Foundation
 
-class Outputting: OutputtingProtocol  {
+class Output: OutputProtocol  {
 
     func outputtingSearchResults(string: String) {
         

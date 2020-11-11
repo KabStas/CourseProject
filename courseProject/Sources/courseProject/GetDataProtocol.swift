@@ -1,3 +1,3 @@
-protocol DictionaryProtocol {
+protocol GetDataProtocol {
     func creatingDictionary() -> [String: [String: String]]
 }

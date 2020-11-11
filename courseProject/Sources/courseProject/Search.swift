@@ -2,17 +2,17 @@ import Foundation
 
 class Search: SearchProtocol {
     
-    let output: Outputting
-    let dict: GettingData
-    
-    init() {
-        self.dict = GettingData()
-        self.output = Outputting()
+    let read: GetDataProtocol
+    let output: OutputProtocol
+
+    init(reading: GetDataProtocol, outputting: OutputProtocol) {
+        self.read = reading
+        self.output = outputting
     }
-    
+
     func searching(key: String?, language: String?) {
 
-        let dictionary = dict.creatingDictionary()
+        let dictionary = read.creatingDictionary()
         var isSearchingByLanguage = false
         
         if let key = key {
