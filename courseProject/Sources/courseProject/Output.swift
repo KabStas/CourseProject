@@ -2,21 +2,12 @@ import Foundation
 
 class Output: OutputProtocol  {
 
-    func outputtingSearchResults(string: String) {
-        
-        print(string) 
+    func outputtingResults(key: String) { 
+        print(key)
     }
 
-    func outputtingSearchResults(string: String, value: String, boolean: Bool) {
-        
-        if boolean == false {
-            print("  \(string): \(value)")
-        } else {
-            print("  \(string) = \(value)")
-        } 
-    }
-
-    func outputtingHelp() {
-        print(Commands.helpMessage())
+    func outputtingResults(key: String, value: String, alternativeOutput: Bool) {
+        alternativeOutput == true
+        ? print("  \(key) = \(value)") : print("  \(key): \(value)")
     }
 } 

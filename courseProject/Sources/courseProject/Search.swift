@@ -11,63 +11,50 @@ class Search: SearchProtocol {
     }
 
     func searching(key: String?, language: String?) {
-
         let dictionary = read.creatingDictionary()
-        var isSearchingByLanguage = false
-        
+        var alternativeOutput = false
         if let key = key {
             if let language = language { 
-                for (word, translations) in dictionary { 
-                    if key == word { 
-                        for (languages, value) in translations {
-                            if language == languages {
-                                output.outputtingSearchResults(string: value)
-                                return
-                            }
-                        }
-                    } 
+                if let word = dictionary[key]?[language] {
+                    output.outputtingResults(key: word)
                 }
-                output.outputtingSearchResults(string: "Not found")      
+                else {
+                    output.outputtingResults(key: "Not found")
+                }
             } else {
-                isSearchingByLanguage = false
+                alternativeOutput = false
                 for (word, translations) in dictionary { 
                     if key == word { 
-                        output.outputtingSearchResults(string: word)
+                        output.outputtingResults(key: key)
                         for (language, value) in translations {
-                            output.outputtingSearchResults(string: language, value: value,
-                                boolean: isSearchingByLanguage)
+                            output.outputtingResults(key: language, value: value, alternativeOutput: alternativeOutput)
                         }
                         return
                     }
                 }
-                output.outputtingSearchResults(string: "Not found")   
+                output.outputtingResults(key: "Not found")   
             }
         } else if let language = language {
-
             var countForMatches = 0
-            isSearchingByLanguage = true
+            alternativeOutput = true
             for (word, translations) in dictionary { 
                 for (languages, value) in translations {
                     if language == languages {
                         countForMatches += 1    
-                        output.outputtingSearchResults(string: word, value: value, 
-                            boolean: isSearchingByLanguage)
-                        
+                        output.outputtingResults(key: word, value: value, alternativeOutput: alternativeOutput)  
                     }
                 }
             }
             if countForMatches == 0 {
-                output.outputtingSearchResults(string: "Not found")    
+                output.outputtingResults(key: "Not found")    
             }
         } else { 
-            isSearchingByLanguage = false
-            for (word, translations) in dictionary {
-                output.outputtingSearchResults(string: word)
+            for (word, translations) in dictionary { 
+                output.outputtingResults(key: word)
                 for (language, value) in translations {
-                    output.outputtingSearchResults(string: language, value: value,
-                        boolean: isSearchingByLanguage)
+                    output.outputtingResults(key: language, value: value, alternativeOutput: alternativeOutput)
                 }
             }
-        }
+        }      
     }
 }

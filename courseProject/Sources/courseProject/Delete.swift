@@ -14,38 +14,34 @@ class Delete: DeleteProtocol {
 
     private func deletingValuesFromDictionary(language: String, dictionary: [String: [String: String]]) -> 
         [String: [String: String]] {
-
-        var dictionary = dictionary
-        for (word, translations) in dictionary {
-            var  translations = translations
-            translations[language] = nil
-            dictionary[word] = translations
-        } 
-        return dictionary
+            var dictionary = dictionary
+            for (word, translations) in dictionary {
+                var  translations = translations
+                translations[language] = nil
+                dictionary[word] = translations
+            } 
+            return dictionary
     }
 
     private func deletingValuesFromDictionary(key: String, language: String, 
         dictionary: [String: [String: String]]) -> [String: [String: String]] {
-
-        var dictionary = dictionary        
-        var translations = dictionary[key] ?? [:]
-        translations[language] = nil
-        dictionary[key] = translations
-        return dictionary
+            var dictionary = dictionary        
+            var translations = dictionary[key] ?? [:]
+            translations[language] = nil
+            dictionary[key] = translations
+            return dictionary
     }
 
     private func deletingValuesFromDictionary(key: String, dictionary: [String: [String: String]]) -> 
         [String: [String: String]] {
-        
-        var dictionary = dictionary
-        dictionary[key] = nil
-        return dictionary     
+            var dictionary = dictionary
+            dictionary[key] = nil
+            return dictionary     
     }
 
     func deleting(key: String?, language: String?) {
-
         var dictionary = read.creatingDictionary()
-        let isSearchingByLanguage = false
+        let alternativeOutput = false
 
         if let key = key {
             if let language = language { 
@@ -60,10 +56,10 @@ class Delete: DeleteProtocol {
                 dictionary: dictionary) 
         }
         for (word, translations) in dictionary {
-                output.outputtingSearchResults(string: word)
+                output.outputtingResults(key: word)
                 for (language, value) in translations {
-                    output.outputtingSearchResults(string: language, value: value,
-                        boolean: isSearchingByLanguage)
+                    output.outputtingResults(key: language, value: value,
+                        alternativeOutput: alternativeOutput)
                 }
             }
         write.writingToFile(dictionary: dictionary)

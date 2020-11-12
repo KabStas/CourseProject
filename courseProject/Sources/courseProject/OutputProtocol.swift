@@ -1,5 +1,4 @@
 protocol OutputProtocol {
-    func outputtingSearchResults(string: String) 
-    func outputtingSearchResults(string: String, value: String, boolean: Bool) 
-    func outputtingHelp()
+    func outputtingResults(key: String) 
+    func outputtingResults(key: String, value: String, alternativeOutput: Bool) 
 } 

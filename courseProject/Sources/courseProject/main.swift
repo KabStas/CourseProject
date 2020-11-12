@@ -34,7 +34,6 @@ class Container {
 }
 
 func main() {
-
     let container = Container()
     let parser = container.argumentsParser
     let arguments = parser.parsing()
@@ -45,8 +44,8 @@ func main() {
         container.update.updating(word: word, key: key, language: language)
     } else if case .delete(let key, let language) = arguments {
         container.delete.deleting(key: key, language: language)
-    } else {
-        container.output.outputtingHelp() 
-    } 
+    } else if case .help (let helpText) = arguments {
+        container.output.outputtingResults(key: helpText)
+    }
 }
 main()
