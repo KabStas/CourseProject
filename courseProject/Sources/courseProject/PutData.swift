@@ -2,7 +2,7 @@ import Foundation
 
 class PutData: PutDataProtocol {
    
-    func writingToFile(dictionary: [String: [String: String]] ) {  
+    func writing(dictionary: [String: [String: String]] ) {  
         let encoder = JSONEncoder()
         encoder.outputFormatting = .prettyPrinted
         let json = (try? encoder.encode(dictionary))

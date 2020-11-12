@@ -28,6 +28,6 @@ class Update: UpdateProtocol {
                 }
             }
         }
-        write.writingToFile(dictionary: dictionary)
+        write.writing(dictionary: dictionary)
     }
 }

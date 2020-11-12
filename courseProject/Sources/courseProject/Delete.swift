@@ -62,6 +62,6 @@ class Delete: DeleteProtocol {
                         alternativeOutput: alternativeOutput)
                 }
             }
-        write.writingToFile(dictionary: dictionary)
+        write.writing(dictionary: dictionary)
     }
 }          
