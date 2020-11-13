@@ -16,23 +16,22 @@ class Search: SearchProtocol {
         if let key = key {
             if let language = language { 
                 if let word = dictionary[key]?[language] {
-                    output.outputtingResults(key: word)
+                    output.outputting(key: word)
                 }
                 else {
-                    output.outputtingResults(key: "Not found")
+                    output.outputting(key: "Not found")
                 }
-            } else {
-                alternativeOutput = false
+            } 
+            else {
                 for (word, translations) in dictionary { 
                     if key == word { 
-                        output.outputtingResults(key: key)
-                        for (language, value) in translations {
-                            output.outputtingResults(key: language, value: value, alternativeOutput: alternativeOutput)
-                        }
+                        output.outputting(key: key)
+                        let translations = translations
+                        output.outputtingResults(dictionary: translations)
                         return
                     }
                 }
-                output.outputtingResults(key: "Not found")   
+                output.outputting(key: "Not found")   
             }
         } else if let language = language {
             var countForMatches = 0
@@ -41,20 +40,17 @@ class Search: SearchProtocol {
                 for (languages, value) in translations {
                     if language == languages {
                         countForMatches += 1    
-                        output.outputtingResults(key: word, value: value, alternativeOutput: alternativeOutput)  
+                        output.outputtingResults(key: word, value: value, 
+                            alternativeOutput: alternativeOutput)  
                     }
                 }
             }
             if countForMatches == 0 {
-                output.outputtingResults(key: "Not found")    
+                output.outputting(key: "Not found")    
             }
-        } else { 
-            for (word, translations) in dictionary { 
-                output.outputtingResults(key: word)
-                for (language, value) in translations {
-                    output.outputtingResults(key: language, value: value, alternativeOutput: alternativeOutput)
-                }
-            }
+        } 
+        else {
+            output.outputtingResults(dictionary: dictionary)
         }      
     }
 }

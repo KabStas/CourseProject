@@ -41,27 +41,20 @@ class Delete: DeleteProtocol {
 
     func deleting(key: String?, language: String?) {
         var dictionary = read.creatingDictionary()
-        let alternativeOutput = false
 
         if let key = key {
             if let language = language { 
                 dictionary = deletingValuesFromDictionary(key: key, language: language, 
-                    dictionary: dictionary)
+                    dictionary: dictionary)   
             } else { 
                 dictionary = deletingValuesFromDictionary(key: key, 
-                    dictionary: dictionary)        
+                    dictionary: dictionary)            
             }
         } else if let language = language {
             dictionary = deletingValuesFromDictionary(language: language, 
-                dictionary: dictionary) 
+                dictionary: dictionary)
         }
-        for (word, translations) in dictionary {
-                output.outputtingResults(key: word)
-                for (language, value) in translations {
-                    output.outputtingResults(key: language, value: value,
-                        alternativeOutput: alternativeOutput)
-                }
-            }
+        output.outputtingResults(dictionary: dictionary)
         write.writing(dictionary: dictionary)
     }
 }          
