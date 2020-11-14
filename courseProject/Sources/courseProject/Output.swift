@@ -2,8 +2,8 @@ import Foundation
 
 class Output: OutputProtocol  {
     
-    func outputting(key: String) { 
-        print(key)
+    func outputting(value: String) { 
+        print(value)
     }
 
     func outputtingResults(key: String, value: String, alternativeOutput: Bool) {
@@ -14,7 +14,7 @@ class Output: OutputProtocol  {
     func outputtingResults(dictionary: [String: [String: String]]) {
         let alternativeOutput = false
         for (word, translations) in dictionary {
-            outputting(key: word)
+            outputting(value: word)
             for (language, value) in translations {
                 outputtingResults(key: language, value: value,
                     alternativeOutput: alternativeOutput)

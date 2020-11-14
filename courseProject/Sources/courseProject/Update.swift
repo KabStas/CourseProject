@@ -21,7 +21,7 @@ class Update: UpdateProtocol {
         guard let dict = dictionary[key] else {
             return
         }
-        output.outputting(key: key)
+        output.outputting(value: key)
         output.outputtingResults(dictionary: dict)
         write.writing(dictionary: dictionary)
     }

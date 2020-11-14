@@ -45,7 +45,7 @@ func main() {
     } else if case .delete(let key, let language) = arguments {
         container.delete.deleting(key: key, language: language)
     } else if case .help (let helpText) = arguments {
-        container.output.outputting(key: helpText)
+        container.output.outputting(value: helpText)
     }
 }
 main()

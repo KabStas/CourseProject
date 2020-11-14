@@ -16,22 +16,22 @@ class Search: SearchProtocol {
         if let key = key {
             if let language = language { 
                 if let word = dictionary[key]?[language] {
-                    output.outputting(key: word)
+                    output.outputting(value: word)
                 }
                 else {
-                    output.outputting(key: "Not found")
+                    output.outputting(value: "Not found")
                 }
             } 
             else {
                 for (word, translations) in dictionary { 
                     if key == word { 
-                        output.outputting(key: key)
+                        output.outputting(value: key)
                         let translations = translations
                         output.outputtingResults(dictionary: translations)
                         return
                     }
                 }
-                output.outputting(key: "Not found")   
+                output.outputting(value: "Not found")   
             }
         } else if let language = language {
             var countForMatches = 0
@@ -46,7 +46,7 @@ class Search: SearchProtocol {
                 }
             }
             if countForMatches == 0 {
-                output.outputting(key: "Not found")    
+                output.outputting(value: "Not found")    
             }
         } 
         else {
