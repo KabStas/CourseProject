@@ -1,6 +1,6 @@
 import Foundation
 
-class Update: UpdateProtocol {
+public class Update: UpdateProtocol {
     
     let read: GetDataProtocol
     let write: PutDataProtocol
@@ -12,7 +12,7 @@ class Update: UpdateProtocol {
         self.output = outputting
     }
     
-    func updating(word: String, key: String, language: String) {
+    public func updating(word: String, key: String, language: String) {
         var dictionary = read.creatingDictionary()
         var newWord: [String: String] = dictionary[key] ?? [:]
 

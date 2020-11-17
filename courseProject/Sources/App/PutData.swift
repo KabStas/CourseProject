@@ -1,8 +1,8 @@
 import Foundation
 
-class PutData: PutDataProtocol {
+public class PutData: PutDataProtocol {
    
-    func writing(dictionary: [String: [String: String]] ) {  
+    public func writing(dictionary: [String: [String: String]] ) {  
         let encoder = JSONEncoder()
         encoder.outputFormatting = .prettyPrinted
         let json = (try? encoder.encode(dictionary))

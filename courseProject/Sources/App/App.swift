@@ -1,6 +1,6 @@
 import Foundation
 
-class Container {
+public class Container {
     
     private lazy var parsing = ArgumentsParser()
     private lazy var reading = GetData()
@@ -33,7 +33,7 @@ class Container {
     }
 }
 
-func main() {
+public func main() {
     let container = Container()
     let parser = container.argumentsParser
     let arguments = parser.parsing()
@@ -48,4 +48,3 @@ func main() {
         container.output.outputting(value: helpText)
     }
 }
-main()
