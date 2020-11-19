@@ -1,7 +1,6 @@
 import XCTest
-
-import courseProjectTests
+import AppTests
 
 var tests = [XCTestCaseEntry]()
-tests += courseProjectTests.allTests()
+tests += allTests()
 XCTMain(tests)

@@ -1,9 +1,9 @@
 import ArgumentParser
 
 public class ArgumentsParser: ArgumentsParserProtocol {
-    public func parsing() -> Arguments? {
+    public func parsing(_ arguments: [String]?) -> Arguments? {
         do {
-            let command = try Commands.parseAsRoot()
+            let command = try Commands.parseAsRoot(arguments)
 
             switch command {
             case let command as Commands.Search:
@@ -13,11 +13,23 @@ public class ArgumentsParser: ArgumentsParserProtocol {
             case let command as Commands.Delete:
                 return .delete(key: command.key, language: command.language)
             default:
-                return .help(text: Commands.helpMessage())      
+                return .help(text: Commands.helpMessage())
             }
+
+            /*
+                do {
+                    try command.run()
+                    return .failure(.unknownCommand(text: "Unknown command"))
+                } 
+                catch {
+                    return .success(.help(text: Commands.message(for: error)))
+                }   
+            }*/
         }
         catch {
-            return .help(text: Commands.helpMessage())   
+            //return .failure(.unknownArguments(text: Commands.message(for: error)))
+            //return .success(.help(text: Commands.helpMessage()))
+            return .help(text: Commands.helpMessage()) 
         }
     }
 }

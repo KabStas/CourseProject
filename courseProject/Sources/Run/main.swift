@@ -1,5 +1,5 @@
 import Foundation
 import App
 
-/*let result = */main()
-//exit(Int32(result))
+let result = main()
+exit(Int32(result))

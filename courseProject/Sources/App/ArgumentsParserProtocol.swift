@@ -1,3 +1,3 @@
 public protocol ArgumentsParserProtocol {
-    func parsing() -> Arguments?
+    func parsing(_ arguments: [String]?) -> /*Result <*/Arguments?/*, ArgumentsParserError>*/
 }
