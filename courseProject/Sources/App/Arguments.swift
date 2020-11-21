@@ -3,4 +3,5 @@ public enum Arguments {
     case update(word: String, key: String, language: String)
     case delete(key: String?, language: String?)
     case help(text: String)
+    case error(error: Int32)
 }  

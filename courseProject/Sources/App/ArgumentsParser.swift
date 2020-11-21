@@ -11,13 +11,13 @@ public class ArgumentsParser: ArgumentsParserProtocol {
             case let command as Commands.Update:
                 return .update(word: command.word, key: command.key, language: command.language)  
             case let command as Commands.Delete:
-                return .delete(key: command.key, language: command.language)
+                return .delete(key: command.key, language: command.language)   
             default:
                 return .help(text: Commands.helpMessage())
             }
         }
         catch {
-            return .help(text: Commands.helpMessage()) 
+            return .error(error: 1)
         }
     }
 }

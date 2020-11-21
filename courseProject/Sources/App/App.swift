@@ -51,8 +51,9 @@ public func main() -> Int {
     } else if case .help (let helpText) = arguments {
         container.output.outputting(value: helpText)
         result = Result.SuccessfulHelp
+    } else {
+        result = Result.Error
     }
-        
     guard result != .Error else {
         return 1
     }

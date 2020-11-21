@@ -1,0 +1,42 @@
+tests_passed=0
+tests_failed=0
+
+function test() {
+
+    test_name=$1
+    params=$2
+    expected_code=$3
+
+    /workspaces/swift/projects/courseProject/.build/debug/Run "$params"
+    actual_code=$?
+
+    if [ $actual_code -eq "$expected_code" ]; then
+        ((tests_passed++))
+        tput setaf 2
+        echo "$test_name passed with $actual_code (expected $expected_code)"
+        tput setaf 7
+    else
+        ((tests_failed++))
+        tput setaf 1
+        echo "$test_name failed with $actual_code (expected $expected_code)"
+        tput setaf 7
+    fi
+}
+
+test "Запуск приложения без команд" "" 0
+test "Запуск приложения c неправильной командой" "clean" 1
+test "Поиск без ключа и языка" "search" 0
+test "Поиск по ключу" "search -k cat" 0
+test "Поиск по языку" "search -l esp" 0
+test "Поиск по ключу и языку" "search -k cat -l esp" 0
+test "Поиск по другому ключу" "search -b cat" 1
+test "Один из ключей правильный при поиске" "search -k cat -с esp" 1
+test "Удаление по ключу" "delete -k cat" 0
+test "Удаление по языку" "delete -l esp" 0
+test "Удаление по ключу и языку" "delete -k cat -l rus" 0
+test "Один из ключей правильный при удалении" "delete -t cat -l rus" 1
+test "Правильное обновление словаря" "update kit -k cat -l ukr" 0
+test "Один из ключей правильный при обновление словаря" "update kit -k cat -t ukr" 1
+
+echo "Tests passed: $tests_passed"
+echo "Tests failed: $tests_failed"
