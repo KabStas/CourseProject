@@ -39,7 +39,7 @@ public class Delete: DeleteProtocol {
             return dictionary     
     }
 
-    public func deleting(key: String?, language: String?) {
+    public func deleting(key: String?, language: String?) -> Result{
         var dictionary = read.creatingDictionary()
 
         if let key = key {
@@ -56,5 +56,6 @@ public class Delete: DeleteProtocol {
         }
         output.outputtingResults(dictionary: dictionary)
         write.writing(dictionary: dictionary)
+        return .DeletingSuccess
     }
 }          

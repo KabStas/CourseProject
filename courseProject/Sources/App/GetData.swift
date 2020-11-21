@@ -3,7 +3,7 @@ import Foundation
 public class GetData: GetDataProtocol {
 
     public func creatingDictionary() -> [String: [String: String]] {
-        let path = Bundle.main.path(forResource: "dict", ofType: "json") ?? "dict.json"
+        let path = Bundle.module.path(forResource: "dict", ofType: "json") ?? "dict.json"
         var dictionary: [String: [String: String]]
         let decoder = JSONDecoder()
         if let json = FileManager.default.contents(atPath: path) { 

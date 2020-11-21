@@ -10,7 +10,7 @@ public class Search: SearchProtocol {
         self.output = outputting
     }
 
-    public func searching(key: String?, language: String?) {
+    public func searching(key: String?, language: String?) -> Result {
         let dictionary = read.creatingDictionary()
         var alternativeOutput = false
         if let key = key {
@@ -28,7 +28,7 @@ public class Search: SearchProtocol {
                         output.outputting(value: key)
                         let translations = translations
                         output.outputtingResults(dictionary: translations)
-                        return
+                        return .SearchingSuccess 
                     }
                 }
                 output.outputting(value: "Not found")   
@@ -51,6 +51,7 @@ public class Search: SearchProtocol {
         } 
         else {
             output.outputtingResults(dictionary: dictionary)
-        }      
+        }
+        return .SearchingSuccess      
     }
 }

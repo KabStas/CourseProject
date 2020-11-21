@@ -122,6 +122,6 @@ class ArgumentsParserTests: XCTestCase {
         ("testSearchWithKeyAndLanguage", testSearchWithLanguage),
         ("testDeletionWithKeyAndLanguage", testDeletionWithLanguage),
         ("testSearchWithoutArguments", testSearchWithoutArguments),
-        ("testUpdate", testUpdate),
+        ("testUpdate", testUpdate)
     ]
 }

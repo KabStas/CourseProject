@@ -12,17 +12,18 @@ public class Update: UpdateProtocol {
         self.output = outputting
     }
     
-    public func updating(word: String, key: String, language: String) {
+    public func updating(word: String, key: String, language: String) -> Result {
         var dictionary = read.creatingDictionary()
         var newWord: [String: String] = dictionary[key] ?? [:]
 
         newWord[language] = word
         dictionary[key] = newWord
         guard let dict = dictionary[key] else {
-            return
+            return .UpdatingSuccess
         }
         output.outputting(value: key)
         output.outputtingResults(dictionary: dict)
         write.writing(dictionary: dictionary)
+        return .UpdatingSuccess
     }
 }

@@ -15,20 +15,8 @@ public class ArgumentsParser: ArgumentsParserProtocol {
             default:
                 return .help(text: Commands.helpMessage())
             }
-
-            /*
-                do {
-                    try command.run()
-                    return .failure(.unknownCommand(text: "Unknown command"))
-                } 
-                catch {
-                    return .success(.help(text: Commands.message(for: error)))
-                }   
-            }*/
         }
         catch {
-            //return .failure(.unknownArguments(text: Commands.message(for: error)))
-            //return .success(.help(text: Commands.helpMessage()))
             return .help(text: Commands.helpMessage()) 
         }
     }

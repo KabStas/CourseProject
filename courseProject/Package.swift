@@ -16,13 +16,15 @@ let package = Package(
         .target(
             name: "App",
             dependencies: [.product(name: "ArgumentParser", package: "swift-argument-parser")],
+            path: "Sources/App",
             resources: [
                 .process("dict.json")
                 ]
         ),
         .target(
             name: "Run",
-            dependencies: ["App"]
+            dependencies: ["App"],
+            path: "Sources/Run"
         ), 
         .testTarget(
             name: "AppTests",
