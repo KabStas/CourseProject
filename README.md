@@ -3,18 +3,33 @@
 ### Сборка проекта
 > 
     git clone https://github.com/KabStas/CourseProject
-    cd CourseProject/courseProject/Sources/courseProject
+    cd courseProject
     swift build 
 
 ### Запуск проекта
 > 
     
-    USAGE: swift run courseProject <subcommand>
+    USAGE: swift run Run <subcommand>
     
-    SUBCOMMANDS:
+    SUBCOMMAND:
       search                  Searching for values
+      OPTIONS:
+        -k, --key             A word to find
+        -l, --language        A language to choose
+        
+    SUBCOMMAND:
       update                  Updating values
-      delete                  Deleting selected value
-    
-    OPTIONS:
-      -h, --help                  Show help information
+      ARGUMENT:
+        <word>                A value to add
+      OPTIONS:
+        -k, --key             A word to update
+        -l, --language        A language to choose
+        
+    SUBCOMMAND:
+      delete                  Deleting values
+      OPTIONS:
+        -k, --key             A word to delete
+        -l, --language        A language to choose
+     
+    SUBCOMMAND:
+      help                    Help
