@@ -5,11 +5,14 @@ public class Delete: DeleteProtocol {
     let read: GetDataProtocol
     let write: PutDataProtocol
     let output: OutputProtocol
+    let search: SearchProtocol
 
-    init(reading: GetDataProtocol, writing: PutDataProtocol, outputting: OutputProtocol) {
-        self.read = reading
-        self.write = writing
-        self.output = outputting
+    init(reading: GetDataProtocol, searching: SearchProtocol, 
+        writing: PutDataProtocol, outputting: OutputProtocol) {
+            self.read = reading
+            self.search = searching
+            self.write = writing
+            self.output = outputting
     }
 
     private func deletingValuesFromDictionary(language: String, dictionary: [String: [String: String]]) -> 
@@ -39,13 +42,17 @@ public class Delete: DeleteProtocol {
             return dictionary     
     }
 
-    public func deleting(key: String?, language: String?) -> Result{
+    public func deleting(key: String?, language: String?) -> AppResults{
         var dictionary = read.creatingDictionary()
+        let result = search.searching(key: key, language:language)
 
+        guard result == .searchingSuccess else {
+            return .notFound
+        }
         if let key = key {
             if let language = language { 
                 dictionary = deletingValuesFromDictionary(key: key, language: language, 
-                    dictionary: dictionary)   
+                    dictionary: dictionary)  
             } else { 
                 dictionary = deletingValuesFromDictionary(key: key, 
                     dictionary: dictionary)            
@@ -56,6 +63,6 @@ public class Delete: DeleteProtocol {
         }
         output.outputtingResults(dictionary: dictionary)
         write.writing(dictionary: dictionary)
-        return .DeletingSuccess
+        return .deletingSuccess
     }
-}          
+}

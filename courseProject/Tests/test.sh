@@ -23,20 +23,23 @@ function test() {
     fi
 }
 
-test "Запуск приложения без команд" "" 0
-test "Запуск приложения c неправильной командой" "clean" 1
+test "Запуск приложения без команд" "" 1
+test "Запуск приложения c неправильной командой" "clean" 2
 test "Поиск без ключа и языка" "search" 0
 test "Поиск по ключу" "search -k cat" 0
 test "Поиск по языку" "search -l esp" 0
+test "Поиск несуществующего словаря" "search -k horse" 3
 test "Поиск по ключу и языку" "search -k cat -l esp" 0
-test "Поиск по другому ключу" "search -b cat" 1
-test "Один из ключей правильный при поиске" "search -k cat -с esp" 1
+test "Поиск по другому ключу" "search -b cat" 2
+test "Один из ключей правильный при поиске" "search -k cat -с esp" 2
 test "Удаление по ключу" "delete -k cat" 0
+test "Удаление по ключу несуществующего словаря" "delete -k horse" 3
 test "Удаление по языку" "delete -l esp" 0
 test "Удаление по ключу и языку" "delete -k cat -l rus" 0
-test "Один из ключей правильный при удалении" "delete -t cat -l rus" 1
+test "Один из ключей правильный при удалении" "delete -t cat -l rus" 2
 test "Правильное обновление словаря" "update kit -k cat -l ukr" 0
-test "Один из ключей правильный при обновление словаря" "update kit -k cat -t ukr" 1
+test "Один из ключей правильный при обновление словаря" "update kit -k cat -t ukr" 2
+test "Вызов помощи" "help" 4
 
 echo "Tests passed: $tests_passed"
 echo "Tests failed: $tests_failed"

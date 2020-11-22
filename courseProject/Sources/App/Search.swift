@@ -1,6 +1,6 @@
 import Foundation
 
-public class Search: SearchProtocol {
+public class Search: SearchProtocol{
     
     let read: GetDataProtocol
     let output: OutputProtocol
@@ -10,17 +10,18 @@ public class Search: SearchProtocol {
         self.output = outputting
     }
 
-    public func searching(key: String?, language: String?) -> Result {
+    public func searching(key: String?, language: String?) -> AppResults {
         let dictionary = read.creatingDictionary()
         var alternativeOutput = false
         if let key = key {
             if let language = language { 
                 if let word = dictionary[key]?[language] {
                     output.outputting(value: word)
-                    return .SearchingSuccess
+                    return .searchingSuccess
                 }
                 else {
-                    output.outputting(value: "Not found")
+                    output.outputting(value:"Not found")
+                    return .notFound
                 }
             } 
             else {
@@ -29,10 +30,11 @@ public class Search: SearchProtocol {
                         output.outputting(value: key)
                         let translations = translations
                         output.outputtingResults(dictionary: translations)
-                        return .SearchingSuccess 
+                        return .searchingSuccess 
                     }
                 }
-                output.outputting(value: "Not found")
+                output.outputting(value:"Not found")
+                return .notFound
             }
         } else if let language = language {
             var countForMatches = 0
@@ -47,12 +49,13 @@ public class Search: SearchProtocol {
                 }
             }
             if countForMatches == 0 {
-                output.outputting(value: "Not found")      
+                output.outputting(value:"Not found")
+                return .notFound
             }
         } 
         else {
             output.outputtingResults(dictionary: dictionary)
-        }      
-        return .SearchingSuccess
-    }
+        } 
+    return .searchingSuccess
+    }  
 }

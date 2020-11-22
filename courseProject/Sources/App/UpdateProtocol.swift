@@ -1,3 +1,3 @@
 public protocol UpdateProtocol {
-    func updating(word: String, key: String, language: String) -> Result
+    func updating(word: String, key: String, language: String) -> AppResults
 }
