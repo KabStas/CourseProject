@@ -15,18 +15,17 @@ public class Update: UpdateProtocol {
             self.output = outputting
     }
     
+
     public func updating(word: String, key: String, language: String) -> AppResults {
         var dictionary = read.creatingDictionary()
-        let result = search.searching(key: key, language:nil)
-
+        let result = search.searching(key: key, dictionary: dictionary)
+        //print(result)
         guard result == .searchingSuccess else {
             return .notFound
         }
         var newWord: [String: String] = dictionary[key] ?? [:]
-
         newWord[language] = word
         dictionary[key] = newWord
-        
         let dict = dictionary[key] ?? [:]
         output.outputting(value: key)
         output.outputtingResults(dictionary: dict)
