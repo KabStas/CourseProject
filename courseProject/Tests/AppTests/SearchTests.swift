@@ -15,44 +15,76 @@ final class SearchTests: XCTestCase {
     func testSearchWithKeyAndLanguage() throws {
         let key = "cat"
         let language = "rus"
-        let results = searching.searching(key: key, language: language)
-        XCTAssertEqual(results, Result.SearchingSuccess)
+        reading.getDataResult = ["cat": ["rus":"Кот"]]
+        let results = searching.searching(key: key, language: language, dictionary: nil)
+        XCTAssertEqual(results, AppResults.searchingSuccess)
+        XCTAssertEqual(reading.getDataCallsCount, 1)
+        XCTAssertEqual(outputting.outputCallsCount, 1)
+        XCTAssertEqual(outputting.outputParameters, "Кот")
     }
 
     func testSearchWithKey() throws {
         let key = "dog"
-        let results = searching.searching(key: key, language: nil)
-        XCTAssertEqual(results, Result.SearchingSuccess)
+        reading.getDataResult = ["dog": ["rus":"Собака"]]
+        let results = searching.searching(key: key, language: nil, dictionary: nil)
+        XCTAssertEqual(results, AppResults.searchingSuccess)
+        XCTAssertEqual(reading.getDataCallsCount, 1)
+        XCTAssertEqual(outputting.outputCallsCount, 1)
+        XCTAssertEqual(outputting.outputParameters, "dog")
+        XCTAssertEqual(outputting.outputttingCallsCount, 1)
+        XCTAssertEqual(outputting.outputttingParameters, ["rus":"Собака"])
+
     }
 
     func testSearchWithLanguage() throws {
-        let language = "esp"
-        let results = searching.searching(key: nil, language: language)
-        XCTAssertEqual(results, Result.SearchingSuccess)
+        let language = "rus"
+        reading.getDataResult = ["mouse": ["rus":"Мышь"]]
+        let results = searching.searching(key: nil, language: language, dictionary: nil)
+        XCTAssertEqual(results, AppResults.searchingSuccess)
+        XCTAssertEqual(reading.getDataCallsCount, 1)
+        XCTAssertEqual(outputting.outputingCallsCount, 1)  
     }
 
     func testSearchWithoutArguments() throws {
-        let results = searching.searching(key: nil, language: nil)
-        XCTAssertEqual(results, Result.SearchingSuccess)
+        reading.getDataResult = ["mouse": ["rus":"Мышь"]]
+        let results = searching.searching(key: nil, language: nil, dictionary: nil)
+        XCTAssertEqual(results, AppResults.searchingSuccess)
+        XCTAssertEqual(reading.getDataCallsCount, 1)
+        XCTAssertEqual(outputting.outputtingCallsCount, 1) 
+        XCTAssertEqual(outputting.outputtingParameters, ["mouse": ["rus":"Мышь"]]) 
     }
 
-    func testSearchWithAnotherKeyAndLanguage() throws {
-        let key = "dog"
-        let language = "esp"
-        let results = searching.searching(key: key, language: language)
-        XCTAssertEqual(results, Result.SearchingSuccess)
-    }
-    
-    func testSearchWithAnotherKey() throws {
-        let key = "mouse"
-        let results = searching.searching(key: key, language: nil)
-        XCTAssertEqual(results, Result.SearchingSuccess)
+    func testSearchWithUncorrectKeyAndLanguage() throws {
+        let key = "horse"
+        let language = "mol"
+        reading.getDataResult = ["dog": ["rus":"Собака"]]
+        let results = searching.searching(key: key, language: language, dictionary: nil)
+        XCTAssertEqual(results, AppResults.notFound)
+        XCTAssertEqual(reading.getDataCallsCount, 1)
+        XCTAssertEqual(outputting.outputCallsCount, 1)
+        XCTAssertEqual(outputting.outputParameters, "Not found")
     }
 
-    func testSearchWithAnotherLanguage() throws {
-        let language = "fr"
-        let results = searching.searching(key: nil, language: language)
-        XCTAssertEqual(results, Result.SearchingSuccess)
+    func testSearchWithUncorrectKey() throws {
+        let key = "dig"
+        reading.getDataResult = ["dog": ["rus":"Собака"]]
+        let results = searching.searching(key: key, language: nil, dictionary: nil)
+        XCTAssertEqual(results, AppResults.notFound)
+        XCTAssertEqual(reading.getDataCallsCount, 1)
+        XCTAssertEqual(outputting.outputCallsCount, 1)
+        XCTAssertEqual(outputting.outputParameters, "Not found")
+        XCTAssertEqual(outputting.outputttingCallsCount, 0)
+    }
+
+    func testSearchWithUncorrectLanguage() throws {
+        let language = "slv"
+        reading.getDataResult = ["mouse": ["rus":"Мышь"]]
+        let results = searching.searching(key: nil, language: language, dictionary: nil)
+        XCTAssertEqual(results, AppResults.notFound)
+        XCTAssertEqual(reading.getDataCallsCount, 1)
+        XCTAssertEqual(outputting.outputCallsCount, 1)
+        XCTAssertEqual(outputting.outputParameters, "Not found")
+        XCTAssertEqual(outputting.outputingCallsCount, 0)  
     }
 
     static var allTests = [
@@ -60,8 +92,8 @@ final class SearchTests: XCTestCase {
         ("testSearchWithKey", testSearchWithKey),
         ("testSearchWithLanguage", testSearchWithLanguage),
         ("testSearchWithoutArguments", testSearchWithoutArguments),
-        ("testSearchWithAnotherKeyAndLanguage", testSearchWithAnotherKeyAndLanguage),
-        ("testSearchWithAnotherKey", testSearchWithAnotherKey),
-        ("testSearchWithAnotherLanguage", testSearchWithAnotherLanguage),
+        ("testSearchWithUncorrectKeyAndLanguage", testSearchWithUncorrectKeyAndLanguage),
+        ("testSearchWithUncorrectKey", testSearchWithUncorrectKey),
+        ("testSearchWithUncorrectLanguage", testSearchWithUncorrectLanguage),
     ]
 }

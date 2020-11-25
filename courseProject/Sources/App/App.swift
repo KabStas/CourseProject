@@ -44,7 +44,7 @@ public func main() -> Int {
         case .success(let value):
             switch value {
             case .search(let key, let language):
-                let result = container.search.searching(key: key, language: language)
+                let result = container.search.searching(key: key, language: language, dictionary: nil)
                 switch result {
                 case .searchingSuccess:
                     return 0
@@ -74,7 +74,7 @@ public func main() -> Int {
                     return 7        
                 }        
             case .help(let helpText):
-                container.output.outputting(value: helpText)
+                container.output.outputting(value: helpText) 
                 return 4        
             }
         case .failure(let value):
@@ -85,6 +85,6 @@ public func main() -> Int {
             case .parseError(let helpText):
                 container.output.outputting(value: helpText)
                 return 2 
-            }         
+            }        
     }
 }

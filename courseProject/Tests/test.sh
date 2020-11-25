@@ -7,10 +7,11 @@ function test() {
     params=$2
     expected_code=$3
 
-    /workspaces/swift/projects/courseProject/.build/debug/Run "$params"
+    ../.build/debug/Run ${params}
     actual_code=$?
 
-    if [ $actual_code -eq "$expected_code" ]; then
+    if [ $actual_code -eq $expected_code ]
+    then
         ((tests_passed++))
         tput setaf 2
         echo "$test_name passed with $actual_code (expected $expected_code)"
@@ -32,14 +33,17 @@ test "Поиск несуществующего словаря" "search -k horse
 test "Поиск по ключу и языку" "search -k cat -l esp" 0
 test "Поиск по другому ключу" "search -b cat" 2
 test "Один из ключей правильный при поиске" "search -k cat -с esp" 2
-test "Удаление по ключу" "delete -k cat" 0
+test "Удаление по ключу" "delete -k dog" 0
 test "Удаление по ключу несуществующего словаря" "delete -k horse" 3
 test "Удаление по языку" "delete -l esp" 0
-test "Удаление по ключу и языку" "delete -k cat -l rus" 0
+test "Удаление по ключу и языку" "delete -k mouse -l rus" 0
 test "Один из ключей правильный при удалении" "delete -t cat -l rus" 2
 test "Правильное обновление словаря" "update kit -k cat -l ukr" 0
 test "Один из ключей правильный при обновление словаря" "update kit -k cat -t ukr" 2
 test "Вызов помощи" "help" 4
 
+tput setaf 2
 echo "Tests passed: $tests_passed"
+tput setaf 1
 echo "Tests failed: $tests_failed"
+tput setaf 7

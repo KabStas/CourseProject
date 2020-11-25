@@ -10,9 +10,10 @@ public class Search: SearchProtocol{
         self.output = outputting
     }
 
-    public func searching(key: String?, language: String?) -> AppResults {
-        let dictionary = read.creatingDictionary()
+    public func searching(key: String?, language: String?, dictionary: [String: [String: String]]?) -> AppResults {
         var alternativeOutput = false
+        let dictionary = dictionary ?? read.creatingDictionary()
+
         if let key = key {
             if let language = language { 
                 if let word = dictionary[key]?[language] {
@@ -57,5 +58,15 @@ public class Search: SearchProtocol{
             output.outputtingResults(dictionary: dictionary)
         } 
     return .searchingSuccess
-    }  
+    }
+
+    public func searching(key: String, dictionary: [String: [String: String]]) -> AppResults {
+
+        if let dict = dictionary[key] {
+            return .searchingSuccess
+        } 
+        else {
+            return .notFound
+        }
+    }
 }

@@ -9,16 +9,19 @@ class ArgumentsParserTests: XCTestCase {
         parser = ArgumentsParser()
     }
 
+    override func tearDown() {
+        parser = nil      
+    }
+
     func testSearchWithKey() throws {
         let arguments = parser.parsing(["search", "-k", "cat"])
 
         switch arguments {
-            case .search(let key, let language):
+            case .success(.search(let key, let language)):
                 XCTAssertEqual(key, "cat")
                 XCTAssertEqual(language, nil)
-
             default:
-                XCTFail()
+                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
         }
     }
 
@@ -26,12 +29,13 @@ class ArgumentsParserTests: XCTestCase {
         let arguments = parser.parsing(["delete", "-k", "dog"])
 
         switch arguments {
-            case .delete(let key, let language):
+            case .success(.delete(let key, let language)):
                 XCTAssertEqual(key, "dog")
                 XCTAssertEqual(language, nil)
 
             default:
-                XCTFail()
+                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
+    
         }
     }
 
@@ -39,12 +43,12 @@ class ArgumentsParserTests: XCTestCase {
         let arguments = parser.parsing(["search", "-l", "rus"])
 
         switch arguments {
-            case .search(let key, let language):
+            case .success(.search(let key, let language)):
                 XCTAssertEqual(key, nil)
                 XCTAssertEqual(language, "rus")
 
             default:
-                XCTFail()
+                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
         }
     }
 
@@ -52,12 +56,12 @@ class ArgumentsParserTests: XCTestCase {
         let arguments = parser.parsing(["delete", "-l", "esp"])
 
         switch arguments {
-            case .delete(let key, let language):
+            case .success(.delete(let key, let language)):
                 XCTAssertEqual(key, nil)
                 XCTAssertEqual(language, "esp")
 
             default:
-                XCTFail()
+                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
         }
     }
 
@@ -65,12 +69,12 @@ class ArgumentsParserTests: XCTestCase {
         let arguments = parser.parsing(["search", "-k", "cat", "-l", "rus"])
 
         switch arguments {
-            case .search(let key, let language):
+            case .success(.search(let key, let language)):
                 XCTAssertEqual(key, "cat")
                 XCTAssertEqual(language, "rus")
 
             default:
-                XCTFail()
+                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
         }
     }
 
@@ -78,12 +82,12 @@ class ArgumentsParserTests: XCTestCase {
         let arguments = parser.parsing(["delete", "-k", "dog", "-l", "esp"])
 
         switch arguments {
-            case .delete(let key, let language):
+            case .success(.delete(let key, let language)):
                 XCTAssertEqual(key, "dog")
                 XCTAssertEqual(language, "esp")
 
             default:
-                XCTFail()
+                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
         }
     }
 
@@ -91,12 +95,12 @@ class ArgumentsParserTests: XCTestCase {
         let arguments = parser.parsing(["search"])
 
         switch arguments {
-            case .search(let key, let language):
+            case .success(.search(let key, let language)):
                 XCTAssertEqual(key, nil)
                 XCTAssertEqual(language, nil)
 
             default:
-                XCTFail()
+                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
         }
     }
 
@@ -104,13 +108,37 @@ class ArgumentsParserTests: XCTestCase {
         let arguments = parser.parsing(["update", "kit", "-k", "cat", "-l", "ukr"])
 
         switch arguments {
-            case .update(let word, let key, let language):
+            case .success(.update(let word, let key, let language)):
                 XCTAssertEqual(word, "kit")
                 XCTAssertEqual(key, "cat")
                 XCTAssertEqual(language, "ukr")
 
             default:
-                XCTFail()
+                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
+        }
+    }
+
+    func testParsingWithoutArguments() throws {
+        
+        let arguments = parser.parsing([])
+
+        switch arguments {
+            case .failure(.commandNotFound(let text)):
+                XCTAssertEqual(text, Commands.helpMessage())
+            default:
+                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
+        }
+    }
+
+    func testParsingWithUncorrectArguments() throws {
+        
+        let arguments = parser.parsing(["search", "-b", "cat",])
+
+        switch arguments {
+            case .failure(.parseError(let text)):
+                XCTAssertEqual(text, Commands.helpMessage())
+            default:
+                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
         }
     }
 
@@ -122,6 +150,7 @@ class ArgumentsParserTests: XCTestCase {
         ("testSearchWithKeyAndLanguage", testSearchWithLanguage),
         ("testDeletionWithKeyAndLanguage", testDeletionWithLanguage),
         ("testSearchWithoutArguments", testSearchWithoutArguments),
-        ("testUpdate", testUpdate)
+        ("testParsingWithoutArguments", testParsingWithoutArguments),
+        ("testParsingWithUncorrectArguments", testParsingWithUncorrectArguments) 
     ]
 }

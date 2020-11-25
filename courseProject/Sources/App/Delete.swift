@@ -44,7 +44,7 @@ public class Delete: DeleteProtocol {
 
     public func deleting(key: String?, language: String?) -> AppResults{
         var dictionary = read.creatingDictionary()
-        let result = search.searching(key: key, language:language)
+        let result = search.searching(key: key, language:language, dictionary: dictionary)
 
         guard result == .searchingSuccess else {
             return .notFound
