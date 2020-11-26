@@ -9,10 +9,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  setting:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: fwal/setup-swift@v1
         with:
             swift-version: "5.3.0"
-      - run: swift -version
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      
