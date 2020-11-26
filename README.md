@@ -12,6 +12,7 @@
     USAGE: swift run Run <subcommand>
     
     SUBCOMMAND:
+
       search                      Searching for values
       update                      Updating values
       delete                      Deleting values
@@ -29,4 +30,3 @@
       search [--key <key>] [--language <language>]
       update [<word> --key <key> --language <language>]
       delete [--key <key>] [--language <language>]
-      
