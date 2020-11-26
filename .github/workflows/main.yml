@@ -27,9 +27,8 @@ jobs:
       - name: Swift Action
         # You may pin to the exact commit or the version.
         # uses: Didstopia/SwiftAction@9207c0b840b29265a4774d65d2abbba9a499532d
-        uses: Didstopia/SwiftAction@v1.0.3
+        uses: Didstopia/SwiftAction@v1.0.1
         with:
-          # Swift action to run
-          swift-action: # default is build
+          swift-action: 'build'
       - name: Run build
         run: swift build
