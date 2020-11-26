@@ -47,3 +47,9 @@ echo "Tests passed: $tests_passed"
 tput setaf 1
 echo "Tests failed: $tests_failed"
 tput setaf 7
+
+if [ $tests_failed -eq 0 ]; then
+  exit 0
+else
+  exit 1
+fi
