@@ -1,10 +1,10 @@
-public enum AppResults { 
+enum AppResults { 
     case searchingSuccess
     case notFound
     case deletingSuccess
     case updatingSuccess
 
-    public var errorDescription: String {
+    var errorDescription: String {
         switch self {
         case .notFound:
             return "Value not found in dictionary"

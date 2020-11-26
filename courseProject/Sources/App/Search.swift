@@ -1,6 +1,6 @@
 import Foundation
 
-public class Search: SearchProtocol{
+class Search: SearchProtocol{
     
     let read: GetDataProtocol
     let output: OutputProtocol
@@ -10,7 +10,7 @@ public class Search: SearchProtocol{
         self.output = outputting
     }
 
-    public func searching(key: String?, language: String?, dictionary: [String: [String: String]]?) -> AppResults {
+    func searching(key: String?, language: String?, dictionary: [String: [String: String]]?) -> AppResults {
         var alternativeOutput = false
         let dictionary = dictionary ?? read.creatingDictionary()
 
@@ -60,7 +60,7 @@ public class Search: SearchProtocol{
     return .searchingSuccess
     }
 
-    public func searching(key: String, dictionary: [String: [String: String]]) -> AppResults {
+    func searching(key: String, dictionary: [String: [String: String]]) -> AppResults {
 
         if let dict = dictionary[key] {
             return .searchingSuccess

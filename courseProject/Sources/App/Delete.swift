@@ -1,6 +1,6 @@
 import Foundation
 
-public class Delete: DeleteProtocol {
+class Delete: DeleteProtocol {
 
     let read: GetDataProtocol
     let write: PutDataProtocol
@@ -42,7 +42,7 @@ public class Delete: DeleteProtocol {
             return dictionary     
     }
 
-    public func deleting(key: String?, language: String?) -> AppResults{
+    func deleting(key: String?, language: String?) -> AppResults{
         var dictionary = read.creatingDictionary()
         let result = search.searching(key: key, language:language, dictionary: dictionary)
 

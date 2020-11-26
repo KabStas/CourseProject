@@ -1,8 +1,8 @@
 import Foundation
 
-public class GetData: GetDataProtocol {
+class GetData: GetDataProtocol {
 
-    public func creatingDictionary() -> [String: [String: String]] {
+    func creatingDictionary() -> [String: [String: String]] {
         let path = Bundle.module.path(forResource: "dict", ofType: "json") ?? "dict.json"
         var dictionary: [String: [String: String]]
         let decoder = JSONDecoder()

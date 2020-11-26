@@ -1,3 +1,3 @@
-public protocol PutDataProtocol {
+protocol PutDataProtocol {
     func writing(dictionary: [String: [String: String]])
 }

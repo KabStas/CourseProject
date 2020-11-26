@@ -1,17 +1,17 @@
 import Foundation
 
-public class Output: OutputProtocol  {
+class Output: OutputProtocol  {
     
-    public func outputting(value: String) { 
+    func outputting(value: String) { 
         print(value)
     }
 
-    public func outputtingResults(key: String, value: String, alternativeOutput: Bool) {
+    func outputtingResults(key: String, value: String, alternativeOutput: Bool) {
         alternativeOutput == true
         ? print("  \(key) = \(value)") : print("  \(key): \(value)")
     }
 
-    public func outputtingResults(dictionary: [String: [String: String]]) { 
+    func outputtingResults(dictionary: [String: [String: String]]) { 
         let alternativeOutput = false
         for (word, translations) in dictionary {
             outputting(value: word)
@@ -22,7 +22,7 @@ public class Output: OutputProtocol  {
         }
     }
 
-    public func outputtingResults(dictionary: [String: String]) {
+    func outputtingResults(dictionary: [String: String]) {
         let alternativeOutput = false
         for (language, value) in dictionary {
             outputtingResults(key: language, value: value, alternativeOutput: alternativeOutput)

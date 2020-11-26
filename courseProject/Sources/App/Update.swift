@@ -1,6 +1,6 @@
 import Foundation
 
-public class Update: UpdateProtocol {
+class Update: UpdateProtocol {
     
     let read: GetDataProtocol
     let search: SearchProtocol
@@ -15,7 +15,7 @@ public class Update: UpdateProtocol {
             self.output = outputting
     }
     
-    public func updating(word: String, key: String, language: String) -> AppResults {
+    func updating(word: String, key: String, language: String) -> AppResults {
         var dictionary = read.creatingDictionary()
         let result = search.searching(key: key, dictionary: dictionary)
         guard result == .searchingSuccess else {
