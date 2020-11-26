@@ -3,4 +3,4 @@ enum Arguments {
     case update(word: String, key: String, language: String)
     case delete(key: String?, language: String?)
     case help(text: String)
-}
+}  

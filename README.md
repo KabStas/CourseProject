@@ -12,24 +12,21 @@
     USAGE: swift run Run <subcommand>
     
     SUBCOMMAND:
-      search                  Searching for values
-      OPTIONS:
-        -k, --key             A word to find
-        -l, --language        A language to choose
+
+      search                      Searching for values
+      update                      Updating values
+      delete                      Deleting values
+      help                        Help
+       
+    ARGUMENT:
+      <word>                      A value to add
         
-    SUBCOMMAND:
-      update                  Updating values
-      ARGUMENT:
-        <word>                A value to add
-      OPTIONS:
-        -k, --key             A word to update
-        -l, --language        A language to choose
-        
-    SUBCOMMAND:
-      delete                  Deleting values
-      OPTIONS:
-        -k, --key             A word to delete
-        -l, --language        A language to choose
-     
-    SUBCOMMAND:
-      help                    Help     
+    OPTIONS:
+      -k, --key <key>             A word to choose
+      -l, --language <language>   A language to choose
+      -h, --help                  Show help information  
+    
+    USAGE: 
+      search [--key <key>] [--language <language>]
+      update [<word> --key <key> --language <language>]
+      delete [--key <key>] [--language <language>]

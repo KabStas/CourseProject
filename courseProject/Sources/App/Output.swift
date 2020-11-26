@@ -11,7 +11,7 @@ class Output: OutputProtocol  {
         ? print("  \(key) = \(value)") : print("  \(key): \(value)")
     }
 
-    func outputtingResults(dictionary: [String: [String: String]]) {
+    func outputtingResults(dictionary: [String: [String: String]]) { 
         let alternativeOutput = false
         for (word, translations) in dictionary {
             outputting(value: word)
