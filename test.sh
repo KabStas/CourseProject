@@ -7,7 +7,7 @@ function test() {
     params=$2
     expected_code=$3
 
-    .build/debug/Run ${params}
+    ../.build/debug/Run ${params}
     actual_code=$?
 
     if [ $actual_code -eq $expected_code ]
