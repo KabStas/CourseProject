@@ -16,7 +16,7 @@ jobs:
     - name: Setup Swift
       uses: fwal/setup-swift@v1.3.0
     - uses: actions/checkout@v2
-    - name: Build
-      uses: Didstopia/SwiftAction@v1.0.3
-      with:
-          swift-action: build
+    - name: Entering Directory
+      run: cd courseProject
+    - name: Build   
+      run: swift build
