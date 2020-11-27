@@ -19,4 +19,4 @@ jobs:
     - name: Entering Directory
       run: cd courseProject
     - name: Build   
-      run: swift build
+      run: swift build -v
