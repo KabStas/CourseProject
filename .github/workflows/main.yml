@@ -32,8 +32,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Enter directory
-      run: cd courseProject
     - name: Run test.sh
       run: bash test.sh
   
