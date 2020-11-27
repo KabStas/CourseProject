@@ -29,5 +29,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Run System Test
-      run: bash Test.sh
+      run: bash test.sh
     
