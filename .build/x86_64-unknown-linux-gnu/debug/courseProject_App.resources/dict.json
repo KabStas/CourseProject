@@ -1,0 +1,10 @@
+{
+  "cat" : {
+    "fr" : "Le chat",
+    "rus" : "Кот",
+    "ukr" : "kit"
+  },
+  "mouse" : {
+    "fr" : "La souris"
+  }
+}

@@ -12,7 +12,7 @@ final class UpdateTests: XCTestCase {
         reading = GetDataMock()
         writing = PutDataMock()
         outputting = OutputMock()
-        searching = SearchMock() //Search(reading: reading, outputting: outputting)//
+        searching = SearchMock() 
         updating = Update(reading: reading, searching: searching, 
             writing: writing, outputting: outputting)
     }

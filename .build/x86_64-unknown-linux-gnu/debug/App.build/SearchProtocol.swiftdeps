@@ -1,0 +1,27 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SearchProtocol"
+provides-nominal:
+- "3App14SearchProtocolP"
+provides-member:
+- ["3App14SearchProtocolP", ""]
+depends-top-level:
+- "AppResults"
+- "SearchProtocol"
+- "String"
+depends-member:
+- ["3App14SearchProtocolP", "AppResults"]
+- ["3App14SearchProtocolP", "String"]
+- ["3App14SearchProtocolP", "searching"]
+depends-nominal:
+- "3App14SearchProtocolP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "833d2a9c20fc85c6564584f4b41a7c3d"

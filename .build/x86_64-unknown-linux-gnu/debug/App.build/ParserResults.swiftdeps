@@ -1,0 +1,28 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ParserResults"
+provides-nominal:
+- "3App13ParserResultsO"
+provides-member:
+- ["3App13ParserResultsO", ""]
+depends-top-level:
+- "Arguments"
+- "ArgumentsParserError"
+- "ParserResults"
+depends-member:
+- ["3App13ParserResultsO", "Arguments"]
+- ["3App13ParserResultsO", "ArgumentsParserError"]
+- ["3App13ParserResultsO", "failure"]
+- ["3App13ParserResultsO", "success"]
+depends-nominal:
+- "3App13ParserResultsO"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "a6d5a4dd0d9e9fb84b76911364999bf1"

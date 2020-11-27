@@ -1,0 +1,31 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ArgumentsParserProtocol"
+provides-nominal:
+- "3App23ArgumentsParserProtocolP"
+provides-member:
+- ["3App23ArgumentsParserProtocolP", ""]
+depends-top-level:
+- "Arguments"
+- "ArgumentsParserError"
+- "ArgumentsParserProtocol"
+- "ParserResults"
+- "String"
+depends-member:
+- ["3App23ArgumentsParserProtocolP", "Arguments"]
+- ["3App23ArgumentsParserProtocolP", "ArgumentsParserError"]
+- ["3App23ArgumentsParserProtocolP", "ParserResults"]
+- ["3App23ArgumentsParserProtocolP", "String"]
+- ["3App23ArgumentsParserProtocolP", "parsing"]
+depends-nominal:
+- "3App23ArgumentsParserProtocolP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "416497fec044519f2550362f5b9bb8e9"

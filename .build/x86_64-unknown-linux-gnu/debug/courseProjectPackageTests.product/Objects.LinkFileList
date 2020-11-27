@@ -1,0 +1,70 @@
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/App.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/App.swiftmodule.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/AppResults.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/Arguments.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/ArgumentsParser.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/ArgumentsParserError.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/ArgumentsParserProtocol.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/Delete.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/DeleteProtocol.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/GetData.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/GetDataProtocol.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/Output.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/OutputProtocol.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/ParserResults.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/PutData.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/PutDataProtocol.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/Search.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/SearchProtocol.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/Update.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/UpdateProtocol.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/resource_bundle_accessor.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AppTests.build/AppTests.swiftmodule.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AppTests.build/ArgumentsParserTests.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AppTests.build/DeleteTests.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AppTests.build/Mock/DeleteMock.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AppTests.build/Mock/GetDataMock.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AppTests.build/Mock/OutputMock.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AppTests.build/Mock/PutDataMock.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AppTests.build/Mock/SearchMock.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AppTests.build/SearchTests.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AppTests.build/UpdateTests.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AppTests.build/XCTestManifests.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/ArgumentParser.swiftmodule.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Completions/BashCompletionsGenerator.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Completions/CompletionsGenerator.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Completions/FishCompletionsGenerator.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Completions/ZshCompletionsGenerator.swift.o
+'/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsable Properties/Argument.swift.o'
+'/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsable Properties/ArgumentHelp.swift.o'
+'/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsable Properties/CompletionKind.swift.o'
+'/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsable Properties/Errors.swift.o'
+'/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsable Properties/Flag.swift.o'
+'/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsable Properties/NameSpecification.swift.o'
+'/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsable Properties/Option.swift.o'
+'/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsable Properties/OptionGroup.swift.o'
+'/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsable Types/CommandConfiguration.swift.o'
+'/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsable Types/EnumerableFlag.swift.o'
+'/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsable Types/ExpressibleByArgument.swift.o'
+'/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsable Types/ParsableArguments.swift.o'
+'/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsable Types/ParsableArgumentsValidation.swift.o'
+'/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsable Types/ParsableCommand.swift.o'
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsing/ArgumentDecoder.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsing/ArgumentDefinition.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsing/ArgumentSet.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsing/CommandParser.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsing/InputOrigin.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsing/Name.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsing/Parsed.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsing/ParsedValues.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsing/ParserError.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Parsing/SplitArguments.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Usage/HelpCommand.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Usage/HelpGenerator.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Usage/MessageInfo.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Usage/UsageGenerator.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Utilities/SequenceExtensions.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Utilities/StringExtensions.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.build/Utilities/Tree.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/courseProjectPackageTests.build/LinuxMain.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/courseProjectPackageTests.build/courseProjectPackageTests.swiftmodule.o

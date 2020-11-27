@@ -1,0 +1,25 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GetDataProtocol"
+provides-nominal:
+- "3App15GetDataProtocolP"
+provides-member:
+- ["3App15GetDataProtocolP", ""]
+depends-top-level:
+- "GetDataProtocol"
+- "String"
+depends-member:
+- ["3App15GetDataProtocolP", "String"]
+- ["3App15GetDataProtocolP", "creatingDictionary"]
+depends-nominal:
+- "3App15GetDataProtocolP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "64a4b4571c4cc485887d044bb6864a1a"

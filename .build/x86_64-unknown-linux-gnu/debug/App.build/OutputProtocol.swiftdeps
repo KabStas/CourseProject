@@ -1,0 +1,28 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OutputProtocol"
+provides-nominal:
+- "3App14OutputProtocolP"
+provides-member:
+- ["3App14OutputProtocolP", ""]
+depends-top-level:
+- "Bool"
+- "OutputProtocol"
+- "String"
+depends-member:
+- ["3App14OutputProtocolP", "Bool"]
+- ["3App14OutputProtocolP", "String"]
+- ["3App14OutputProtocolP", "outputting"]
+- ["3App14OutputProtocolP", "outputtingResults"]
+depends-nominal:
+- "3App14OutputProtocolP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "ef496081810206e7d784e9d0fd708cbc"
