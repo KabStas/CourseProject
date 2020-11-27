@@ -24,10 +24,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build Package
       run: swift build -v
-  system-test:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-    - name: Run System Test
-      run: bash test.sh
+    - name: Run Test.sh
+      run: bash Test.sh
+  
     
