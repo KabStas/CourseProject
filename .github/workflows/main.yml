@@ -10,6 +10,7 @@ env:
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
   
 jobs:
+ 
   setup:
     runs-on: ubuntu-latest
     steps:
@@ -17,6 +18,7 @@ jobs:
       uses: fwal/setup-swift@v1.3.0
       with:
         swift-version: "5.3.0"
+        
   build:
     needs: setup
     runs-on: ubuntu-latest
@@ -24,10 +26,13 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build Package
       run: swift build
-  system-test:
+  
+  system_test:
     needs: build
     runs-on: ubuntu-latest
     steps:
-    - name: Run System Test
+    - uses: actions/checkout@v2    
+    - name: Run test.sh
       run: bash test.sh
+  
     
