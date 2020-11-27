@@ -23,13 +23,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build Package
-      run: swift build
+      run: swift build -v
   system-test:
     needs: build
     runs-on: ubuntu-latest
     steps:
-    - name: Enter directory
-      run: cd courseProject
     - name: Run System Test
       run: bash test.sh
     
