@@ -17,4 +17,6 @@ jobs:
       uses: fwal/setup-swift@v1.3.0
     - uses: actions/checkout@v2
     - name: Build
-      run: swift build
+      uses: Didstopia/SwiftAction@v1.0.3
+      with:
+          swift-action: build
