@@ -16,7 +16,5 @@ jobs:
     - name: Setup Swift
       uses: fwal/setup-swift@v1.3.0
     - uses: actions/checkout@v2
-    - name: Package Resolve
-      run: swift package resolve
     - name: Build
       run: swift build
