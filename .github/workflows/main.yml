@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Enter directory
-      run: cd CourseProject
+      run: cd courseProject
     - name: Run System Test
       run: bash test.sh
     
