@@ -2,20 +2,21 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
-  workflow_dispatch:
-
+env:
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+  
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Swift Action
-        uses: Didstopia/SwiftAction@v1.0.1
-        with:
-          swift-action: 'build'
-      - name: Run build
-        run: swift build
+    - name: Setup Swift
+      uses: fwal/setup-swift@v1.3.0
+    - uses: actions/checkout@v2
+    - name: Entering Directory
+      run: cd courseProject
+    - name: Build   
+      run: swift build -v
