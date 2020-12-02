@@ -1,11 +1,12 @@
 .DS_Store
-.build
 /Packages
 /*.xcodeproj
 xcuserdata/
 /.vscode
 /docker
 /test_tasks
-/someUse
 /.devcontainer
-/.build
+.build
+toolbox
+hello
+.gitignore
