@@ -1,4 +1,4 @@
-enum AppResults { 
+public enum AppResults { 
     case searchingSuccess
     case notFound
     case deletingSuccess

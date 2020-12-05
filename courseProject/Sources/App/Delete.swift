@@ -18,11 +18,12 @@ class Delete: DeleteProtocol {
     private func deletingValuesFromDictionary(language: String, dictionary: [String: [String: String]]) -> 
         [String: [String: String]] {
             var dictionary = dictionary
-            for (word, translations) in dictionary {
+
+            dictionary.forEach { word, translations in 
                 var  translations = translations
                 translations[language] = nil
                 dictionary[word] = translations
-            } 
+            }
             return dictionary
     }
 
@@ -44,8 +45,11 @@ class Delete: DeleteProtocol {
 
     func deleting(key: String?, language: String?) -> AppResults{
         var dictionary = read.creatingDictionary()
-        let result = search.searching(key: key, language:language, dictionary: dictionary)
-
+        let searchingForDeletion = true
+        let result = search.searching(key: key, language:language, dictionary: dictionary, 
+            searchingForDeletion: searchingForDeletion)
+        
+        
         guard result == .searchingSuccess else {
             return .notFound
         }

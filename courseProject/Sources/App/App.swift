@@ -44,7 +44,7 @@ public func main() -> Int {
         case .success(let value):
             switch value {
             case .search(let key, let language):
-                let result = container.search.searching(key: key, language: language, dictionary: nil)
+                let result = container.search.searching(key: key, language: language, dictionary: nil, searchingForDeletion: false)
                 switch result {
                 case .searchingSuccess:
                     return 0
