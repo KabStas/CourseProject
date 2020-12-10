@@ -10,4 +10,14 @@ class DeleteMock: DeleteProtocol {
         deleteParameters = (key, language)
         return deleteResult
     }
+
+    var deleteParametersAPI: (String?, String?)!
+    var deleteResultAPI: [String: [String: String]] = [:]    
+    var deleteCallsCountAPI = 0
+    public func deletingAPI(key: String?, language: String?) -> [String: [String: String]] {
+        deleteCallsCountAPI += 1
+        deleteParametersAPI = (key, language)
+        return deleteResultAPI
+    }
+
 }

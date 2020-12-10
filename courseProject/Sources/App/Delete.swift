@@ -70,7 +70,7 @@ class Delete: DeleteProtocol {
         return .deletingSuccess
     }
 
-    public func deletingAPI(key: String?, language: String?) -> [String: [String: String]]{
+    public func deletingAPI(key: String?, language: String?) -> [String: [String: String]] {
         var dictionary = read.creatingDictionary()
         
         if let key = key {
