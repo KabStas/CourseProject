@@ -30,4 +30,13 @@ class Update: UpdateProtocol {
         write.writing(dictionary: dictionary)
         return .updatingSuccess
     }
+
+    public func updatingAPI(word: String, key: String, language: String) -> [String: [String: String]] {
+        var dictionary = read.creatingDictionary()
+        var newWord: [String: String] = dictionary[key] ?? [:]
+        newWord[language] = word
+        dictionary[key] = newWord
+        write.writing(dictionary: dictionary)
+        return dictionary
+    }
 }

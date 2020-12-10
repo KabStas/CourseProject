@@ -1,12 +1,20 @@
-// import Vapor
+import Vapor
+import App
+import Fluent
+import Foundation
 
-// func routes(_ app: Application) throws {
+public func routes(_ app: Application) throws {
+
+    let container = Container()
+    let searching = container.search
+    let deleting = container.delete
+    let updating = container.update
+
+    app.get() { req in
+        return "Здравствуйте!"
+    }
     
-//     app.get { req in
-//         return "It works!"
-//     }
-
-//     try app.register(collection: SearchController())
-//     //try app.register(collection: updateController())
-//     //try app.register(collection: deleteController()) */
-// }
+    try app.register(collection: SearchController(search: searching))
+    try app.register(collection: DeleteController(delete: deleting))
+    try app.register(collection: UpdateController(update: updating))
+}

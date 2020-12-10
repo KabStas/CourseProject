@@ -10,7 +10,7 @@ class Search: SearchProtocol{
         self.output = outputting
     }
 
-    func searching(key: String?, language: String?, dictionary: [String: [String: String]]?,
+    public func searching(key: String?, language: String?, dictionary: [String: [String: String]]?,
         searchingForDeletion: Bool) -> AppResults {
         var alternativeOutput = false
         let dictionary = dictionary ?? read.creatingDictionary()
@@ -56,7 +56,6 @@ class Search: SearchProtocol{
                     }
                 }
             }
-            return .searchingSuccess
             if countForMatches == 0 {
                 output.outputting(value:"Not found")
                 return .notFound
@@ -67,7 +66,7 @@ class Search: SearchProtocol{
                 output.outputtingResults(dictionary: dictionary)
             }
         } 
-    return .searchingSuccess
+        return .searchingSuccess
     }
 
     func searching(key: String, dictionary: [String: [String: String]]) -> AppResults {
@@ -80,57 +79,42 @@ class Search: SearchProtocol{
         }
     }
 
-
-
-
-
-    func APIsearching(key: String?, language: String?) -> ([String: [String: String]]) {
-        var alternativeOutput = false
+    public func searchingAPI(key: String?, language: String?) -> [String: [String: String]] {
         let dictionary = read.creatingDictionary()
+        var anotherDict: [String: [String: String]] = [:]
+        var searchedString: [String: String] = [:]
 
         if let key = key {
-            if let language = language { 
-                if let word = dictionary[key]?[language] {
-                    //output.outputting(value: word)
-                    return ["String": ["String": "String"]]
+            if let language = language {
+                dictionary[key]?.forEach { languages, value in
+                    if language == languages {
+                        searchedString[language] = value   
+                        anotherDict.updateValue(searchedString, forKey: key)  
+                    }
                 }
-                else {
-                    //output.outputting(value:"Not found")
-                    return ["String": ["String": "String"]]
-                }
+                return anotherDict
             } 
             else {
-                for (word, translations) in dictionary { 
-                    if key == word { 
-                        //output.outputting(value: key)
-                        let translations = translations
-                        //output.outputtingResults(dictionary: translations)
-                        return ["String": ["String": "String"]] 
+                dictionary.forEach { word, translations in
+                    if key == word {
+                        anotherDict.updateValue(dictionary[key] ?? [:], forKey: key)
                     }
                 }
-                //output.outputting(value:"Not found")
-                return ["String": ["String": "String"]]
+                return anotherDict
             }
-        } else if let language = language {
-            var countForMatches = 0
-            alternativeOutput = true
-            for (word, translations) in dictionary { 
-                for (languages, value) in translations {
+        } else if let language = language { 
+            dictionary.forEach { word, translations in
+                translations.forEach { languages, value in
                     if language == languages {
-                        countForMatches += 1    
-                        //output.outputtingResults(key: word, value: value, 
-                            //alternativeOutput: alternativeOutput)  
+                        searchedString[language] = value
+                        anotherDict.updateValue(searchedString, forKey: word)  
                     }
                 }
             }
-            if countForMatches == 0 {
-                //output.outputting(value:"Not found")
-                return ["String": ["String": "String"]]
-            }
+            return anotherDict
         } 
         else {
-            //output.outputtingResults(dictionary: dictionary)
+            return dictionary
         } 
-    return ["String": ["String": "String"]]
     }
 }

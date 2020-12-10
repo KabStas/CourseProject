@@ -3,7 +3,7 @@ import ArgumentParser
 class ArgumentsParser: ArgumentsParserProtocol {
     func parsing(_ arguments: [String]?) -> ParserResults <Arguments, ArgumentsParserError> {
         do {
-            var command = try Commands.parseAsRoot(arguments)
+            let command = try Commands.parseAsRoot(arguments)
 
             switch command {
             case let command as Commands.Search:

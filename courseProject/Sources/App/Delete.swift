@@ -69,4 +69,23 @@ class Delete: DeleteProtocol {
         write.writing(dictionary: dictionary)
         return .deletingSuccess
     }
+
+    public func deletingAPI(key: String?, language: String?) -> [String: [String: String]]{
+        var dictionary = read.creatingDictionary()
+        
+        if let key = key {
+            if let language = language { 
+                dictionary = deletingValuesFromDictionary(key: key, language: language, 
+                    dictionary: dictionary)  
+            } else { 
+                dictionary = deletingValuesFromDictionary(key: key, 
+                    dictionary: dictionary)            
+            }
+        } else if let language = language {
+            dictionary = deletingValuesFromDictionary(language: language, 
+                dictionary: dictionary)
+        }
+        write.writing(dictionary: dictionary)
+        return dictionary
+    }
 }

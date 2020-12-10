@@ -1,7 +1,10 @@
 import Foundation
 
-class Container {
+public class Container {
     
+    public init() {
+
+    }
     private lazy var parsing = ArgumentsParser()
     private lazy var reading = GetData()
     private lazy var writing = PutData()
@@ -15,7 +18,7 @@ class Container {
     var argumentsParser: ArgumentsParserProtocol {
         parsing
     }
-    var search: SearchProtocol {
+    public var search: SearchProtocol {
         searching
     }
     var getData: GetDataProtocol {
@@ -24,10 +27,10 @@ class Container {
     var putData: PutDataProtocol {
         writing 
     }
-    var delete: DeleteProtocol {
+    public var delete: DeleteProtocol {
         deleting
     }
-    var update: UpdateProtocol {
+    public var update: UpdateProtocol {
         updating
     }
     var output: OutputProtocol {

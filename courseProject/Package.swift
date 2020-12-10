@@ -1,6 +1,4 @@
 // swift-tools-version:5.3
-// The swift-tools-version declares the minimum version of Swift required to build this package.
-
 import PackageDescription
 
 let package = Package(
@@ -10,7 +8,9 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser", from: "0.3.0"),
-        .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0")
+        .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
+        .package(url: "https://github.com/vapor/fluent.git", from: "4.0.0"),
+        .package(url: "https://github.com/vapor/fluent-sqlite-driver.git", from: "4.0.0"), 
     ],
 
     targets: [
@@ -18,6 +18,9 @@ let package = Package(
             name: "App",
             dependencies: [
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
+                .product(name: "Vapor", package: "vapor"),
+                .product(name: "FluentSQLiteDriver", package: "fluent-sqlite-driver"), 
+                .product(name: "Fluent", package: "fluent")
                 ],
             resources: [
                 .process("dict.json")
@@ -29,7 +32,7 @@ let package = Package(
         ), 
         .target(
             name: "APICore",
-            dependencies: ["App",.product(name: "Vapor", package: "vapor")]
+            dependencies: ["App"]
         ), 
         .target(
             name: "RunAPI",
@@ -37,7 +40,8 @@ let package = Package(
         ), 
         .testTarget(
             name: "AppTests",
-            dependencies: ["App"]
+            dependencies: ["App", .product(name: "XCTVapor", package: "vapor"),]
         ),
+        
     ]
 )
