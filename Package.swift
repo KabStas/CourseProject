@@ -22,25 +22,30 @@ let package = Package(
                 .product(name: "FluentSQLiteDriver", package: "fluent-sqlite-driver"), 
                 .product(name: "Fluent", package: "fluent")
                 ],
+            path: "courseProject/Sources/App",
             resources: [
                 .process("dict.json")
                 ]
         ),
         .target(
             name: "Run",
-            dependencies: ["App"]
+            dependencies: ["App"],
+            path: "courseProject/Sources/Run"
         ), 
         .target(
             name: "APICore",
-            dependencies: ["App"]
+            dependencies: ["App"],
+            path: "courseProject/Sources/APICore"
         ), 
         .target(
             name: "RunAPI",
-            dependencies: ["APICore"]
+            dependencies: ["APICore"],
+            path: "courseProject/Sources/RunAPI"
         ), 
         .testTarget(
             name: "AppTests",
-            dependencies: ["App", .product(name: "XCTVapor", package: "vapor"),]
+            dependencies: ["App", .product(name: "XCTVapor", package: "vapor")],
+            path: "courseProject/Tests/AppTests"
         ),
         
     ]
