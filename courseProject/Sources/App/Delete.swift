@@ -43,49 +43,29 @@ class Delete: DeleteProtocol {
             return dictionary     
     }
 
-    func deleting(key: String?, language: String?) -> AppResults{
+    func deleting(key: String?, language: String?) -> Result<[String : [String : String]], AppErrors> {
         var dictionary = read.creatingDictionary()
-        let searchingForDeletion = true
         let result = search.searching(key: key, language:language, dictionary: dictionary, 
-            searchingForDeletion: searchingForDeletion)
+            searchingForDeletion: true)
         
-        
-        guard result == .searchingSuccess else {
-            return .notFound
+        guard result != .failure(.notFound) else {
+            return .failure(.notFound)
         }
-        if let key = key {
-            if let language = language { 
-                dictionary = deletingValuesFromDictionary(key: key, language: language, 
-                    dictionary: dictionary)  
-            } else { 
-                dictionary = deletingValuesFromDictionary(key: key, 
-                    dictionary: dictionary)            
-            }
-        } else if let language = language {
-            dictionary = deletingValuesFromDictionary(language: language, 
-                dictionary: dictionary)
-        }
-        output.outputtingResults(dictionary: dictionary)
-        write.writing(dictionary: dictionary)
-        return .deletingSuccess
-    }
 
-    public func deletingAPI(key: String?, language: String?) -> [String: [String: String]] {
-        var dictionary = read.creatingDictionary()
-        
         if let key = key {
             if let language = language { 
                 dictionary = deletingValuesFromDictionary(key: key, language: language, 
-                    dictionary: dictionary)  
+                    dictionary: dictionary)      
             } else { 
                 dictionary = deletingValuesFromDictionary(key: key, 
-                    dictionary: dictionary)            
+                    dictionary: dictionary)
             }
         } else if let language = language {
             dictionary = deletingValuesFromDictionary(language: language, 
-                dictionary: dictionary)
+                dictionary: dictionary)    
         }
         write.writing(dictionary: dictionary)
-        return dictionary
+        output.outputtingResults(dictionary: dictionary)
+        return .success(dictionary)
     }
 }

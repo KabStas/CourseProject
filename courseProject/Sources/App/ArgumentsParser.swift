@@ -1,7 +1,7 @@
 import ArgumentParser
 
 class ArgumentsParser: ArgumentsParserProtocol {
-    func parsing(_ arguments: [String]?) -> ParserResults <Arguments, ArgumentsParserError> {
+    func parsing(_ arguments: [String]?) -> ArgumentsParserResults <Arguments, AppErrors> {
         do {
             let command = try Commands.parseAsRoot(arguments)
 

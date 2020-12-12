@@ -18,8 +18,9 @@ public struct UpdateController: RouteCollection {
     func updating(req: Request) -> EventLoopFuture<[String: [String: String]]> {
         let parameters = try? req.query.decode(Parameters.self)
         req.logger.info("Parameters: \(parameters?.word ?? "") \(parameters?.key ?? "") \(parameters?.language ?? "")")
-        let result = update.updatingAPI(word: parameters?.word ?? "", key: parameters?.key ?? "", language: parameters?.language ?? "")
-        return req.eventLoop.future(result)
+        let result = update.updating(word: parameters?.word ?? "", key: parameters?.key ?? "", language: parameters?.language ?? "")
+            .mapError{ $0 as Error }
+        return req.eventLoop.future(result: result)
     }
 }
 

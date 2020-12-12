@@ -18,8 +18,9 @@ public struct DeleteController: RouteCollection {
     func deleting(req: Request) -> EventLoopFuture<[String: [String: String]]> {
         let parameters = try? req.query.decode(Parameters.self)
         req.logger.info("Parameters: \(parameters?.key ?? "") \(parameters?.language ?? "")")
-        let result = delete.deletingAPI(key: parameters?.key, language: parameters?.language)
-        return req.eventLoop.future(result)
+        let result = delete.deleting(key: parameters?.key, language: parameters?.language)
+            .mapError{ $0 as Error }
+        return req.eventLoop.future(result: result)
     }
 }
 

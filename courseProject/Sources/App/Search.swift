@@ -11,110 +11,84 @@ class Search: SearchProtocol{
     }
 
     public func searching(key: String?, language: String?, dictionary: [String: [String: String]]?,
-        searchingForDeletion: Bool) -> AppResults {
-        var alternativeOutput = false
+        searchingForDeletion: Bool) -> Result<[String : [String : String]], AppErrors> {
+        
         let dictionary = dictionary ?? read.creatingDictionary()
-
-        if let key = key {
-            if let language = language { 
-                if let word = dictionary[key]?[language] {
-                    if searchingForDeletion != true {
-                        output.outputting(value: word)
-                    }
-                    return .searchingSuccess
-                }
-                else {
-                    output.outputting(value:"Not found")
-                    return .notFound
-                }
-            } 
-            else {
-                for (word, translations) in dictionary {       
-                    if key == word { 
-                        if searchingForDeletion != true {
-                            output.outputting(value: key)
-                            let translations = translations
-                            output.outputtingResults(dictionary: translations)
-                        }
-                        return .searchingSuccess
-                    }
-                } 
-                output.outputting(value:"Not found")
-                return .notFound
-            }
-        } else if let language = language {
-            var countForMatches = 0
-            alternativeOutput = true
-            dictionary.forEach { word, translations in
-                translations.forEach { languages, value in
-                    if language == languages {
-                        countForMatches += 1 
-                        if searchingForDeletion != true {   
-                            output.outputtingResults(key: word, value: value, 
-                                alternativeOutput: alternativeOutput)
-                        }  
-                    }
-                }
-            }
-            if countForMatches == 0 {
-                output.outputting(value:"Not found")
-                return .notFound
-            }
-        } 
-        else {
-            if searchingForDeletion != true {
-                output.outputtingResults(dictionary: dictionary)
-            }
-        } 
-        return .searchingSuccess
-    }
-
-    func searching(key: String, dictionary: [String: [String: String]]) -> AppResults {
-
-        if let dict = dictionary[key] {
-            return .searchingSuccess
-        } 
-        else {
-            return .notFound
-        }
-    }
-
-    public func searchingAPI(key: String?, language: String?) -> [String: [String: String]] {
-        let dictionary = read.creatingDictionary()
         var anotherDict: [String: [String: String]] = [:]
         var searchedString: [String: String] = [:]
+        var existedMatches = false
 
         if let key = key {
             if let language = language {
                 dictionary[key]?.forEach { languages, value in
                     if language == languages {
+                        existedMatches = true
                         searchedString[language] = value   
-                        anotherDict.updateValue(searchedString, forKey: key)  
+                        anotherDict.updateValue(searchedString, forKey: key)
+                        if searchingForDeletion != true {
+                            output.outputting(value: key)
+                            output.outputtingResults(dictionary: searchedString)
+                        } 
                     }
                 }
-                return anotherDict
-            } 
+                if !existedMatches {
+                    output.outputting(value: "Not found")
+                    return .failure(.notFound)
+                } 
+                return .success(anotherDict)
+            }
             else {
                 dictionary.forEach { word, translations in
                     if key == word {
+                        existedMatches = true
                         anotherDict.updateValue(dictionary[key] ?? [:], forKey: key)
+                        if searchingForDeletion != true {
+                            output.outputting(value: key)
+                            output.outputtingResults(dictionary: translations)
+                        }
                     }
                 }
-                return anotherDict
+                if !existedMatches {
+                    output.outputting(value: "Not found")
+                    return .failure(.notFound)
+                } 
+                return .success(anotherDict)
             }
-        } else if let language = language { 
+        } else if let language = language {
             dictionary.forEach { word, translations in
                 translations.forEach { languages, value in
                     if language == languages {
+                        existedMatches = true
                         searchedString[language] = value
-                        anotherDict.updateValue(searchedString, forKey: word)  
+                        anotherDict.updateValue(searchedString, forKey: word)
+                        if searchingForDeletion != true {
+                            output.outputtingResults(key: word, value: value, alternativeOutput: true)
+                        }  
                     }
                 }
             }
-            return anotherDict
+            if !existedMatches {
+                output.outputting(value: "Not found")
+                return .failure(.notFound)
+            }
+            return .success(anotherDict)
         } 
         else {
-            return dictionary
+            if searchingForDeletion != true {
+                output.outputtingResults(dictionary: dictionary)
+            } 
+            return .success(dictionary)
+        }
+    }  
+
+    func searching(key: String, dictionary: [String: [String: String]]) -> Result<[String : [String : String]], AppErrors> {
+
+        if let dict = dictionary[key] {
+            return .success(dictionary)
         } 
+        else {
+            return .failure(.notFound)
+        }
     }
+
 }

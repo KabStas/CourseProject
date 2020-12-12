@@ -23,7 +23,7 @@ final class UpdateTests: XCTestCase {
         let language = "ukr"
         reading.getDataResult = ["cat": ["ukr":"jhg"]]
         let result = updating.updating(word: word, key: key, language: language)
-        XCTAssertEqual(result, AppResults.updatingSuccess)
+        XCTAssertEqual(result, .success(["cat": ["ukr":"kit"]]))
         XCTAssertEqual(reading.getDataCallsCount, 1)
         XCTAssertEqual(writing.putDataCallsCount, 1)
         XCTAssertEqual(writing.putDataParameters, ["cat": ["ukr":"kit"]])
@@ -37,7 +37,7 @@ final class UpdateTests: XCTestCase {
         let language = "rom"
         reading.getDataResult = ["cat": ["rom":"jhg"]]
         let result = updating.updating(word: word, key: key, language: language)
-        XCTAssertEqual(result, AppResults.updatingSuccess)
+        XCTAssertEqual(result, .success(["cat": ["rom":"kot"]]))
         XCTAssertEqual(reading.getDataCallsCount, 1)
         XCTAssertEqual(writing.putDataCallsCount, 1)
         XCTAssertEqual(writing.putDataParameters, ["cat": ["rom":"kot"]])
@@ -50,9 +50,9 @@ final class UpdateTests: XCTestCase {
         let key = "cnt"
         let language = "rom"
         reading.getDataResult = ["cat": ["rom":"kot"]]
-        searching.searchWithKeyResult = .notFound
+        searching.searchWithKeyResult = .failure(.notFound)
         let result = updating.updating(word: word, key: key, language: language)
-        XCTAssertEqual(result, AppResults.notFound)
+        XCTAssertEqual(result, .failure(.notFound))
         XCTAssertEqual(reading.getDataCallsCount, 1)
         XCTAssertEqual(writing.putDataCallsCount, 0)
         XCTAssertEqual(outputting.outputCallsCount, 0)

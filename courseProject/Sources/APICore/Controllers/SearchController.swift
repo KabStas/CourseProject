@@ -18,8 +18,9 @@ public struct SearchController: RouteCollection {
     func searching(req: Request) -> EventLoopFuture<[String: [String: String]]> {
         let parameters = try? req.query.decode(Parameters.self)
         req.logger.info("Parameters: \(parameters?.key ?? "") \(parameters?.language ?? "")")
-        let result = search.searchingAPI(key: parameters?.key, language: parameters?.language)
-        return req.eventLoop.future(result)
+        let result = search.searching(key: parameters?.key, language: parameters?.language, dictionary: nil, searchingForDeletion: false)
+            .mapError{ $0 as Error }
+        return req.eventLoop.future(result: result)
     }
 }
 

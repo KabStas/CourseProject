@@ -1,4 +1,3 @@
 public protocol DeleteProtocol {
-    func deleting(key: String?, language: String?) -> AppResults
-    func deletingAPI(key: String?, language: String?) -> [String: [String: String]]
+    func deleting(key: String?, language: String?) -> Result<[String : [String : String]], AppErrors>
 }
