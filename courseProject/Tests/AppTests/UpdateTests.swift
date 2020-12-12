@@ -45,7 +45,6 @@ final class UpdateTests: XCTestCase {
         let key = "cnt"
         let language = "rom"
         reading.getDataResult = ["cat": ["rom":"kot"]]
-        searching.searchWithKeyResult = .failure(.notFound)
         let result = updating.updating(word: word, key: key, language: language)
         XCTAssertEqual(result, .success(["cnt": ["rom":"kot"]]))
         XCTAssertEqual(reading.getDataCallsCount, 1)
