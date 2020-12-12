@@ -40,7 +40,7 @@ test "Удаление по ключу и языку" "delete -k mouse -l rus" 0
 test "Один из ключей правильный при удалении" "delete -t cat -l rus" 2
 test "Правильное обновление словаря" "update kit -k cat -l ukr" 0
 test "Один из ключей правильный при обновление словаря" "update kit -k cat -t ukr" 2
-test "Вызов помощи" "help" 4
+test "Вызов помощи" "help" 0
 
 tput setaf 2
 echo "Tests passed: $tests_passed"
