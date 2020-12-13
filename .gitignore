@@ -1,0 +1,15 @@
+.DS_Store
+/Packages
+/*.xcodeproj
+xcuserdata/
+/.vscode
+/docker
+/test_tasks
+/.devcontainer
+.build
+/.build
+toolbox
+hello
+.gitignore
+/toolbox
+/hello
