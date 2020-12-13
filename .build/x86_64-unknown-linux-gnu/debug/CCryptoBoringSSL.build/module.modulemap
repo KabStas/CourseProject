@@ -1,4 +1,0 @@
-module CCryptoBoringSSL {
-    umbrella header "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL.h"
-    export *
-}

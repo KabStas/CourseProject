@@ -1,4 +1,0 @@
-module CURLParser {
-    umbrella "/root/CourseProject/.build/checkouts/vapor/Sources/CURLParser/include"
-    export *
-}

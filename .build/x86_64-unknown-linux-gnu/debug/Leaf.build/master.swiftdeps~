@@ -1,9 +1,0 @@
-version: "Swift version 5.3 (swift-5.3-RELEASE)"
-options: "ac2e014d06532e94e7cae52ea42adebd"
-build_time: [1607856905, 727494400]
-inputs:
-  "/root/CourseProject/.build/checkouts/leaf/Sources/Leaf/Application+Leaf.swift": [1607829479, 570000000]
-  "/root/CourseProject/.build/checkouts/leaf/Sources/Leaf/Exports.swift": [1607829479, 570000000]
-  "/root/CourseProject/.build/checkouts/leaf/Sources/Leaf/LeafEncoder.swift": [1607829479, 570000000]
-  "/root/CourseProject/.build/checkouts/leaf/Sources/Leaf/LeafRenderer+ViewRenderer.swift": [1607829479, 570000000]
-  "/root/CourseProject/.build/checkouts/leaf/Sources/Leaf/Request+Leaf.swift": [1607829479, 570000000]

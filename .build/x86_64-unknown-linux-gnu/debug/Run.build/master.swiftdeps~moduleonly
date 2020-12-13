@@ -1,5 +1,0 @@
-version: "Swift version 5.3 (swift-5.3-RELEASE)"
-options: "8de5ec574495a9f318832d110e1efff9"
-build_time: [1607829546, 382899900]
-inputs:
-  "/root/CourseProject/courseProject/Sources/Run/main.swift": [1607777767, 582245900]

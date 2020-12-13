@@ -1,7 +1,0 @@
-version: "Swift version 5.3 (swift-5.3-RELEASE)"
-options: "a5b4acc49d4f2129938e936c9d9e4dc4"
-build_time: [1607856903, 187020700]
-inputs:
-  "/root/CourseProject/.build/checkouts/swift-log/Sources/Logging/Locks.swift": [1607829479, 470000000]
-  "/root/CourseProject/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift": [1607829479, 470000000]
-  "/root/CourseProject/.build/checkouts/swift-log/Sources/Logging/Logging.swift": [1607829479, 480000000]

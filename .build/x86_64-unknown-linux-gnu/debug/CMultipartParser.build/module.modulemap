@@ -1,4 +1,0 @@
-module CMultipartParser {
-    umbrella "/root/CourseProject/.build/checkouts/vapor/Sources/CMultipartParser/include"
-    export *
-}
