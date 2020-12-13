@@ -1,6 +1,6 @@
 version: "Swift version 5.3 (swift-5.3-RELEASE)"
 options: "dc835c9d71ccb85e4aad2abe62d4d512"
-build_time: [1607835079, 897391100]
+build_time: [1607835494, 999064100]
 inputs:
   "/root/CourseProject/.build/checkouts/fluent-kit/Sources/FluentKit/Database/Database+Logging.swift": [1607829478, 760000000]
   "/root/CourseProject/.build/checkouts/fluent-kit/Sources/FluentKit/Database/Database.swift": [1607829478, 760000000]

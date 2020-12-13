@@ -1,6 +1,6 @@
 version: "Swift version 5.3 (swift-5.3-RELEASE)"
 options: "3c7902c646c20cc51e8a0a5c6d677b8a"
-build_time: [1607835079, 999706700]
+build_time: [1607835495, 80261800]
 inputs:
   "/root/CourseProject/.build/checkouts/swift-nio/Sources/NIOWebSocket/Base64.swift": [1607829479, 760000000]
   "/root/CourseProject/.build/checkouts/swift-nio/Sources/NIOWebSocket/NIOWebSocketClientUpgrader.swift": [1607829479, 760000000]
