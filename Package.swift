@@ -30,9 +30,9 @@ let package = Package(
                 ]
         ),
         .target(
-            name: "Run",
+            name: "RunConsole",
             dependencies: ["App"],
-            path: "courseProject/Sources/Run"
+            path: "courseProject/Sources/RunConsole"
         ), 
         .target(
             name: "APICore",
@@ -43,6 +43,13 @@ let package = Package(
             name: "RunAPI",
             dependencies: ["APICore"],
             path: "courseProject/Sources/RunAPI"
+        ),
+        .target(
+            name: "RunWeb",
+            dependencies: [
+                .target(name: "App")
+            ],
+            path: "courseProject/Sources/RunWeb" 
         ), 
         .testTarget(
             name: "AppTests",
