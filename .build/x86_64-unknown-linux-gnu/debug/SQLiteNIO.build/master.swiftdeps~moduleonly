@@ -1,0 +1,12 @@
+version: "Swift version 5.3 (swift-5.3-RELEASE)"
+options: "6bd15a5f4c6644d1b28c09e39e7d4f7a"
+build_time: [1607829515, 85493700]
+inputs:
+  "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/Exports.swift": [1607829478, 970000000]
+  "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteConnection.swift": [1607829478, 970000000]
+  "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteData.swift": [1607829478, 970000000]
+  "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteDataConvertible.swift": [1607829478, 970000000]
+  "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteDataType.swift": [1607829478, 970000000]
+  "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteError.swift": [1607829478, 970000000]
+  "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteRow.swift": [1607829478, 970000000]
+  "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteStatement.swift": [1607829478, 970000000]

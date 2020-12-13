@@ -1,0 +1,13 @@
+{
+    "cat": {"esp": "Gato",
+            "rus": "Кот",
+             "fr": "Le chat"},
+    
+    "dog": {"esp": "Perro",
+            "rus": "Собака",
+             "fr": "La chienne"},
+    
+    "mouse": {"esp": "Ratón",
+              "rus": "Мышь",
+               "fr": "La souris"} 
+    }

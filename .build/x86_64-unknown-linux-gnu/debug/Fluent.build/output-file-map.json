@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/master.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/fluent/Sources/Fluent/Exports.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/Exports.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/Exports.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/Exports.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/fluent/Sources/Fluent/Fluent+History.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/Fluent+History.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/Fluent+History.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/Fluent+History~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/Fluent+History.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/fluent/Sources/Fluent/Fluent+Paginate.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/Fluent+Paginate.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/Fluent+Paginate.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/Fluent+Paginate~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/Fluent+Paginate.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/fluent/Sources/Fluent/Fluent+Sessions.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/Fluent+Sessions.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/Fluent+Sessions.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/Fluent+Sessions~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/Fluent+Sessions.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/fluent/Sources/Fluent/FluentProvider.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/FluentProvider.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/FluentProvider.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/FluentProvider~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/FluentProvider.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/fluent/Sources/Fluent/MigrateCommand.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/MigrateCommand.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/MigrateCommand.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/MigrateCommand~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/MigrateCommand.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/fluent/Sources/Fluent/ModelAuthenticatable.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/ModelAuthenticatable.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/ModelAuthenticatable.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/ModelAuthenticatable~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/ModelAuthenticatable.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/fluent/Sources/Fluent/ModelCredentialsAuthenticatable.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/ModelCredentialsAuthenticatable.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/ModelCredentialsAuthenticatable.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/ModelCredentialsAuthenticatable~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/ModelCredentialsAuthenticatable.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/fluent/Sources/Fluent/ModelTokenAuthenticatable.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/ModelTokenAuthenticatable.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/ModelTokenAuthenticatable.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/ModelTokenAuthenticatable~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.build/ModelTokenAuthenticatable.swiftdeps"
+  }
+}

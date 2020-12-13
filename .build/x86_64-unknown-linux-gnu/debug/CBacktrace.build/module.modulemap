@@ -1,0 +1,4 @@
+module CBacktrace {
+    umbrella "/root/CourseProject/.build/checkouts/swift-backtrace/Sources/CBacktrace/include"
+    export *
+}

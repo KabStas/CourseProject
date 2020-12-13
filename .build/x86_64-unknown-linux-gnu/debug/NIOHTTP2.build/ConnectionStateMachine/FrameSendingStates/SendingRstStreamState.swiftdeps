@@ -1,0 +1,75 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SendingRstStreamState"
+provides-nominal:
+- "8NIOHTTP221SendingRstStreamStateP"
+provides-member:
+- ["8NIOHTTP221SendingRstStreamStateP", ""]
+- ["8NIOHTTP221SendingRstStreamStateP", "sendRstStream"]
+depends-top-level:
+- "ConnectionStreamState"
+- "HTTP2ErrorCode"
+- "HTTP2StreamID"
+- "HasFlowControlWindows"
+- "SendingRstStreamState"
+- "StateMachineResultWithEffect"
+depends-member:
+- !private ["8NIOHTTP221ConnectionStreamStateV", "locallyResetStreamState"]
+- !private ["8NIOHTTP223HTTP2StreamStateMachineV", "sendRstStream"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "ConnectionStreamState"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "HTTP2ErrorCode"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "HTTP2StreamID"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "StateMachineResultWithEffect"]
+- ["8NIOHTTP221HasFlowControlWindowsP", ""]
+- !private ["8NIOHTTP221HasFlowControlWindowsP", "inboundFlowControlWindow"]
+- !private ["8NIOHTTP221HasFlowControlWindowsP", "outboundFlowControlWindow"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "streamState"]
+- !private ["8NIOHTTP213PerStreamDataP", "sendRstStream"]
+- ["8NIOHTTP221SendingRstStreamStateP", "ConnectionStreamState"]
+- ["8NIOHTTP221SendingRstStreamStateP", "HTTP2ErrorCode"]
+- ["8NIOHTTP221SendingRstStreamStateP", "HTTP2StreamID"]
+- ["8NIOHTTP221SendingRstStreamStateP", "StateMachineResultWithEffect"]
+- ["8NIOHTTP221SendingRstStreamStateP", ""]
+- !private ["8NIOHTTP221SendingRstStreamStateP", "inboundFlowControlWindow"]
+- !private ["8NIOHTTP221SendingRstStreamStateP", "outboundFlowControlWindow"]
+- ["8NIOHTTP221SendingRstStreamStateP", "sendRstStream"]
+- ["8NIOHTTP221SendingRstStreamStateP", "streamState"]
+- !private ["8NIOHTTP228StateMachineResultWithEffectV", "init"]
+depends-nominal:
+- !private "8NIOHTTP221ConnectionStreamStateV"
+- !private "8NIOHTTP223HTTP2StreamStateMachineV"
+- "8NIOHTTP221HasFlowControlWindowsP"
+- !private "8NIOHTTP213PerStreamDataP"
+- "8NIOHTTP221SendingRstStreamStateP"
+- !private "8NIOHTTP228StateMachineResultWithEffectV"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHPACK.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTLS.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "615611ceca063d9740e055cf84c7c0ea"

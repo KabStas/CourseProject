@@ -1,0 +1,11 @@
+version: "Swift version 5.3 (swift-5.3-RELEASE)"
+options: "f2cf0f6ff362bba5e6191d459d069898"
+build_time: [1607829546, 383172700]
+inputs:
+  "/root/CourseProject/courseProject/Sources/APICore/Controllers/DeleteController.swift": [1607777767, 572245900]
+  "/root/CourseProject/courseProject/Sources/APICore/Controllers/SearchController.swift": [1607777767, 572245900]
+  "/root/CourseProject/courseProject/Sources/APICore/Controllers/UpdateController.swift": [1607777767, 582245900]
+  "/root/CourseProject/courseProject/Sources/APICore/Migrations/CreatingDictionary.swift": [1607772003, 142245900]
+  "/root/CourseProject/courseProject/Sources/APICore/Models/Dictionary.swift": [1607579950, 850000000]
+  "/root/CourseProject/courseProject/Sources/APICore/configure.swift": [1607829347, 770000000]
+  "/root/CourseProject/courseProject/Sources/APICore/routes.swift": [1607772000, 832245900]

@@ -1,0 +1,747 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "URLQueryFragmentConvertible"
+provides-nominal:
+- "5Vapor27URLQueryFragmentConvertibleP"
+- "SS"
+- "Si"
+- "s4Int8V"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "Su"
+- "s5UInt8V"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "Sf"
+- "Sd"
+- "Sb"
+- "10Foundation7DecimalV"
+- "10Foundation4DateV"
+- "10Foundation3URLV"
+provides-member:
+- ["5Vapor27URLQueryFragmentConvertibleP", ""]
+- ["SS", ""]
+- ["s17FixedWidthIntegerP", ""]
+- ["Si", ""]
+- ["s4Int8V", ""]
+- ["s5Int16V", ""]
+- ["s5Int32V", ""]
+- ["s5Int64V", ""]
+- ["Su", ""]
+- ["s5UInt8V", ""]
+- ["s6UInt16V", ""]
+- ["s6UInt32V", ""]
+- ["s6UInt64V", ""]
+- ["SB", ""]
+- ["Sf", ""]
+- ["Sd", ""]
+- ["Sb", ""]
+- ["10Foundation7DecimalV", ""]
+- ["10Foundation4DateV", ""]
+- ["10Foundation3URLV", ""]
+- ["s17FixedWidthIntegerP", "init"]
+- ["s17FixedWidthIntegerP", "urlQueryFragmentValue"]
+- ["SB", "init"]
+- ["SB", "urlQueryFragmentValue"]
+depends-top-level:
+- "AssignmentPrecedence"
+- "BinaryFloatingPoint"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Date"
+- "Decimal"
+- "Double"
+- "FixedWidthInteger"
+- "Float"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- !private "Self"
+- "String"
+- !private "StringLiteralType"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- "URL"
+- "URLQueryFragment"
+- "URLQueryFragmentConvertible"
+- !private "UnicodeScalarType"
+- !private "timeIntervalSince1970"
+- !private "~="
+depends-member:
+- ["6Crypto24ASN1IntegerRepresentableP", "init"]
+- ["6Crypto24ASN1IntegerRepresentableP", "urlQueryFragmentValue"]
+- ["6Crypto13ASN1ParseableP", ""]
+- ["6Crypto13ASN1ParseableP", "init"]
+- ["6Crypto13ASN1ParseableP", "urlQueryFragmentValue"]
+- ["6Crypto16ASN1SerializableP", ""]
+- ["6Crypto16ASN1SerializableP", "init"]
+- ["6Crypto16ASN1SerializableP", "urlQueryFragmentValue"]
+- !private ["s18AdditiveArithmeticP", "Decimal"]
+- !private ["s18AdditiveArithmeticP", "Double"]
+- !private ["s18AdditiveArithmeticP", "RawSignificand"]
+- !private ["s18AdditiveArithmeticP", "Self"]
+- ["s18AdditiveArithmeticP", "URLQueryFragment"]
+- ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "description"]
+- ["s18AdditiveArithmeticP", "init"]
+- ["s18AdditiveArithmeticP", "urlQueryFragmentValue"]
+- ["5Vapor15AnyOptionalTypeP", ""]
+- !private ["5Vapor15AnyOptionalTypeP", "description"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "description"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "urlQueryFragmentValue"]
+- ["SK", ""]
+- !private ["SK", "callAsFunction"]
+- ["SK", "init"]
+- !private ["SK", "lowercased"]
+- ["SK", "urlQueryFragmentValue"]
+- !private ["SB", "Double"]
+- !private ["SB", "RawSignificand"]
+- !private ["SB", "Self"]
+- ["SB", "URLQueryFragment"]
+- ["SB", ""]
+- !private ["SB", "description"]
+- ["SB", "init"]
+- ["SB", "urlQueryFragmentValue"]
+- !private ["Sz", "Self"]
+- ["Sz", "URLQueryFragment"]
+- ["Sz", ""]
+- !private ["Sz", "description"]
+- ["Sz", "init"]
+- ["Sz", "urlQueryFragmentValue"]
+- ["Sb", "URLQueryFragment"]
+- ["Sb", ""]
+- !private ["Sb", "description"]
+- ["Sb", "init"]
+- ["Sb", "urlQueryFragmentValue"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "description"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "urlQueryFragmentValue"]
+- !private ["5Vapor22CodingKeyRepresentableP", "callAsFunction"]
+- ["5Vapor22CodingKeyRepresentableP", "init"]
+- !private ["5Vapor22CodingKeyRepresentableP", "lowercased"]
+- ["5Vapor22CodingKeyRepresentableP", "urlQueryFragmentValue"]
+- ["Sl", ""]
+- !private ["Sl", "callAsFunction"]
+- ["Sl", "init"]
+- !private ["Sl", "lowercased"]
+- ["Sl", "urlQueryFragmentValue"]
+- !private ["SL", "Date"]
+- !private ["SL", "Decimal"]
+- !private ["SL", "Double"]
+- !private ["SL", "RawSignificand"]
+- !private ["SL", "Self"]
+- ["SL", "URLQueryFragment"]
+- ["SL", ""]
+- !private ["SL", "callAsFunction"]
+- !private ["SL", "description"]
+- ["SL", "init"]
+- !private ["SL", "lowercased"]
+- !private ["SL", "timeIntervalSince1970"]
+- ["SL", "urlQueryFragmentValue"]
+- !private ["5Vapor7ContentP", "callAsFunction"]
+- !private ["5Vapor7ContentP", "description"]
+- ["5Vapor7ContentP", "init"]
+- !private ["5Vapor7ContentP", "lowercased"]
+- ["5Vapor7ContentP", "urlQueryFragmentValue"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- ["s28CustomDebugStringConvertibleP", "urlQueryFragmentValue"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "Date"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "Double"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "String"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "absoluteString"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "init"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "timeIntervalSince1970"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "urlQueryFragmentValue"]
+- !private ["s17CustomReflectableP", "Date"]
+- !private ["s17CustomReflectableP", "Double"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "description"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- ["s17CustomReflectableP", "urlQueryFragmentValue"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "Decimal"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Self"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "URLQueryFragment"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
+- !private ["s23CustomStringConvertibleP", "callAsFunction"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- ["s23CustomStringConvertibleP", "urlQueryFragmentValue"]
+- !private ["10Foundation4DateV", "Date"]
+- !private ["10Foundation4DateV", "Double"]
+- ["10Foundation4DateV", "URLQueryFragment"]
+- ["10Foundation4DateV", ""]
+- ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- ["10Foundation4DateV", "urlQueryFragmentValue"]
+- !private ["10Foundation7DecimalV", "Decimal"]
+- ["10Foundation7DecimalV", "URLQueryFragment"]
+- ["10Foundation7DecimalV", ""]
+- !private ["10Foundation7DecimalV", "description"]
+- ["10Foundation7DecimalV", "init"]
+- ["10Foundation7DecimalV", "urlQueryFragmentValue"]
+- !private ["Se", "Date"]
+- !private ["Se", "Decimal"]
+- !private ["Se", "Double"]
+- !private ["Se", "String"]
+- ["Se", ""]
+- !private ["Se", "absoluteString"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "description"]
+- ["Se", "init"]
+- !private ["Se", "lowercased"]
+- !private ["Se", "timeIntervalSince1970"]
+- ["Se", "urlQueryFragmentValue"]
+- ["Sd", ""]
+- !private ["Sd", "description"]
+- ["Sd", "init"]
+- ["Sd", "urlQueryFragmentValue"]
+- !private ["SE", "Date"]
+- !private ["SE", "Decimal"]
+- !private ["SE", "Double"]
+- !private ["SE", "String"]
+- ["SE", ""]
+- !private ["SE", "absoluteString"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "description"]
+- ["SE", "init"]
+- !private ["SE", "lowercased"]
+- !private ["SE", "timeIntervalSince1970"]
+- ["SE", "urlQueryFragmentValue"]
+- !private ["SQ", "Date"]
+- !private ["SQ", "Decimal"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "RawSignificand"]
+- !private ["SQ", "Self"]
+- !private ["SQ", "String"]
+- ["SQ", "URLQueryFragment"]
+- ["SQ", ""]
+- !private ["SQ", "absoluteString"]
+- !private ["SQ", "asUrlDecoded"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "description"]
+- ["SQ", "init"]
+- !private ["SQ", "lowercased"]
+- !private ["SQ", "timeIntervalSince1970"]
+- !private ["SQ", "urlDecoded"]
+- ["SQ", "urlQueryFragmentValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "description"]
+- ["s27ExpressibleByBooleanLiteralP", "init"]
+- ["s27ExpressibleByBooleanLiteralP", "urlQueryFragmentValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "asUrlDecoded"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "callAsFunction"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "urlDecoded"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "urlQueryFragmentValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "Decimal"]
+- !private ["s25ExpressibleByFloatLiteralP", "Double"]
+- !private ["s25ExpressibleByFloatLiteralP", "RawSignificand"]
+- !private ["s25ExpressibleByFloatLiteralP", "Self"]
+- ["s25ExpressibleByFloatLiteralP", "URLQueryFragment"]
+- ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "description"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "urlQueryFragmentValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Decimal"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Double"]
+- !private ["s27ExpressibleByIntegerLiteralP", "RawSignificand"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Self"]
+- ["s27ExpressibleByIntegerLiteralP", "URLQueryFragment"]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "urlQueryFragmentValue"]
+- !private ["s23ExpressibleByNilLiteralP", "description"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "callAsFunction"]
+- ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "lowercased"]
+- ["s32ExpressibleByStringInterpolationP", "urlQueryFragmentValue"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "asUrlDecoded"]
+- !private ["s26ExpressibleByStringLiteralP", "callAsFunction"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "urlDecoded"]
+- ["s26ExpressibleByStringLiteralP", "urlQueryFragmentValue"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "asUrlDecoded"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "callAsFunction"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "urlDecoded"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "urlQueryFragmentValue"]
+- !private ["s17FixedWidthIntegerP", "Self"]
+- ["s17FixedWidthIntegerP", "URLQueryFragment"]
+- ["s17FixedWidthIntegerP", ""]
+- !private ["s17FixedWidthIntegerP", "description"]
+- ["s17FixedWidthIntegerP", "init"]
+- ["s17FixedWidthIntegerP", "urlQueryFragmentValue"]
+- ["Sf", ""]
+- ["Sf", "init"]
+- ["Sf", "urlQueryFragmentValue"]
+- !private ["SF", "Double"]
+- !private ["SF", "RawSignificand"]
+- !private ["SF", "Self"]
+- ["SF", "URLQueryFragment"]
+- ["SF", ""]
+- !private ["SF", "description"]
+- ["SF", "init"]
+- ["SF", "urlQueryFragmentValue"]
+- !private ["SH", "Date"]
+- !private ["SH", "Decimal"]
+- !private ["SH", "Double"]
+- !private ["SH", "RawSignificand"]
+- !private ["SH", "Self"]
+- !private ["SH", "String"]
+- ["SH", "URLQueryFragment"]
+- ["SH", ""]
+- !private ["SH", "absoluteString"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "description"]
+- ["SH", "init"]
+- !private ["SH", "lowercased"]
+- !private ["SH", "timeIntervalSince1970"]
+- ["SH", "urlQueryFragmentValue"]
+- ["Si", ""]
+- ["Si", "init"]
+- ["Si", "urlQueryFragmentValue"]
+- ["s5Int16V", ""]
+- ["s5Int16V", "init"]
+- ["s5Int16V", "urlQueryFragmentValue"]
+- ["s5Int32V", ""]
+- ["s5Int32V", "init"]
+- ["s5Int32V", "urlQueryFragmentValue"]
+- ["s5Int64V", ""]
+- ["s5Int64V", "init"]
+- ["s5Int64V", "urlQueryFragmentValue"]
+- ["s4Int8V", ""]
+- ["s4Int8V", "init"]
+- ["s4Int8V", "urlQueryFragmentValue"]
+- !private ["s25LosslessStringConvertibleP", "Self"]
+- ["s25LosslessStringConvertibleP", "URLQueryFragment"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "callAsFunction"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- ["s25LosslessStringConvertibleP", "urlQueryFragmentValue"]
+- !private ["s10MirrorPathP", "callAsFunction"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "lowercased"]
+- ["s10MirrorPathP", "urlQueryFragmentValue"]
+- !private ["5Vapor24MultipartPartConvertibleP", "callAsFunction"]
+- !private ["5Vapor24MultipartPartConvertibleP", "description"]
+- ["5Vapor24MultipartPartConvertibleP", "init"]
+- !private ["5Vapor24MultipartPartConvertibleP", "lowercased"]
+- ["5Vapor24MultipartPartConvertibleP", "urlQueryFragmentValue"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "description"]
+- ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "urlQueryFragmentValue"]
+- !private ["10Foundation8NSCodingP", ""]
+- !private ["10Foundation8NSCodingP", "lowercased"]
+- !private ["10Foundation8NSCodingP", "urlQueryFragmentValue"]
+- !private ["10Foundation9NSCopyingP", "lowercased"]
+- !private ["10Foundation9NSCopyingP", "urlQueryFragmentValue"]
+- !private ["10Foundation16NSMutableCopyingP", "lowercased"]
+- !private ["10Foundation16NSMutableCopyingP", "urlQueryFragmentValue"]
+- !private ["10Foundation8NSObjectC", "lowercased"]
+- !private ["10Foundation8NSObjectC", "urlQueryFragmentValue"]
+- !private ["10Foundation16NSObjectProtocolP", "lowercased"]
+- !private ["10Foundation16NSObjectProtocolP", "urlQueryFragmentValue"]
+- !private ["10Foundation14NSSecureCodingP", "lowercased"]
+- !private ["10Foundation14NSSecureCodingP", "urlQueryFragmentValue"]
+- !private ["10Foundation8NSStringC", "lowercased"]
+- !private ["10Foundation8NSStringC", "urlQueryFragmentValue"]
+- !private ["Sj", "*"]
+- !private ["Sj", "*="]
+- !private ["Sj", "Decimal"]
+- !private ["Sj", "Double"]
+- !private ["Sj", "RawSignificand"]
+- !private ["Sj", "Self"]
+- ["Sj", "URLQueryFragment"]
+- ["Sj", ""]
+- !private ["Sj", "description"]
+- ["Sj", "init"]
+- !private ["Sj", "magnitude"]
+- ["Sj", "urlQueryFragmentValue"]
+- !private ["Sq", "description"]
+- !private ["5Vapor12OptionalTypeP", "description"]
+- !private ["Sm", "callAsFunction"]
+- ["Sm", "init"]
+- !private ["Sm", "lowercased"]
+- ["Sm", "urlQueryFragmentValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "Date"]
+- !private ["10Foundation20ReferenceConvertibleP", "Double"]
+- !private ["10Foundation20ReferenceConvertibleP", "String"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- ["10Foundation20ReferenceConvertibleP", "urlQueryFragmentValue"]
+- ["5Vapor16RequestDecodableP", ""]
+- !private ["5Vapor16RequestDecodableP", "callAsFunction"]
+- !private ["5Vapor16RequestDecodableP", "description"]
+- ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "lowercased"]
+- ["5Vapor16RequestDecodableP", "urlQueryFragmentValue"]
+- ["5Vapor17ResponseEncodableP", ""]
+- !private ["5Vapor17ResponseEncodableP", "callAsFunction"]
+- !private ["5Vapor17ResponseEncodableP", "description"]
+- ["5Vapor17ResponseEncodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "lowercased"]
+- ["5Vapor17ResponseEncodableP", "urlQueryFragmentValue"]
+- !private ["s10SIMDScalarP", "description"]
+- ["s10SIMDScalarP", "init"]
+- ["s10SIMDScalarP", "urlQueryFragmentValue"]
+- ["ST", ""]
+- !private ["ST", "callAsFunction"]
+- ["ST", "init"]
+- !private ["ST", "lowercased"]
+- ["ST", "urlQueryFragmentValue"]
+- ["SZ", "init"]
+- ["SZ", "urlQueryFragmentValue"]
+- !private ["s13SignedNumericP", "Decimal"]
+- !private ["s13SignedNumericP", "Double"]
+- !private ["s13SignedNumericP", "RawSignificand"]
+- !private ["s13SignedNumericP", "Self"]
+- ["s13SignedNumericP", "URLQueryFragment"]
+- ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "description"]
+- ["s13SignedNumericP", "init"]
+- ["s13SignedNumericP", "urlQueryFragmentValue"]
+- !private ["Sx", "Decimal"]
+- !private ["Sx", "Double"]
+- !private ["Sx", "RawSignificand"]
+- !private ["Sx", "Self"]
+- ["Sx", "URLQueryFragment"]
+- ["Sx", ""]
+- !private ["Sx", "description"]
+- ["Sx", "init"]
+- ["Sx", "urlQueryFragmentValue"]
+- ["SS", "URLQueryFragment"]
+- ["SS", ""]
+- !private ["SS", "callAsFunction"]
+- ["SS", "init"]
+- !private ["SS", "lowercased"]
+- ["SS", "urlQueryFragmentValue"]
+- !private ["Sy", "callAsFunction"]
+- ["Sy", "init"]
+- !private ["Sy", "lowercased"]
+- ["Sy", "urlQueryFragmentValue"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "callAsFunction"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- ["s16TextOutputStreamP", "urlQueryFragmentValue"]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "callAsFunction"]
+- !private ["s20TextOutputStreamableP", "description"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- ["s20TextOutputStreamableP", "urlQueryFragmentValue"]
+- ["Su", ""]
+- ["Su", "init"]
+- ["Su", "urlQueryFragmentValue"]
+- ["s6UInt16V", ""]
+- ["s6UInt16V", "init"]
+- ["s6UInt16V", "urlQueryFragmentValue"]
+- ["s6UInt32V", ""]
+- ["s6UInt32V", "init"]
+- ["s6UInt32V", "urlQueryFragmentValue"]
+- ["s6UInt64V", ""]
+- ["s6UInt64V", "init"]
+- ["s6UInt64V", "urlQueryFragmentValue"]
+- ["s5UInt8V", ""]
+- ["s5UInt8V", "init"]
+- ["s5UInt8V", "urlQueryFragmentValue"]
+- !private ["10Foundation3URLV", "String"]
+- ["10Foundation3URLV", "URLQueryFragment"]
+- ["10Foundation3URLV", ""]
+- !private ["10Foundation3URLV", "absoluteString"]
+- ["10Foundation3URLV", "init"]
+- ["10Foundation3URLV", "urlQueryFragmentValue"]
+- !private ["5Vapor16URLQueryFragmentO", "asUrlDecoded"]
+- !private ["5Vapor16URLQueryFragmentO", "urlDecoded"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "Date"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "Decimal"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "Double"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "String"]
+- ["5Vapor27URLQueryFragmentConvertibleP", "URLQueryFragment"]
+- ["5Vapor27URLQueryFragmentConvertibleP", ""]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "absoluteString"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "callAsFunction"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "description"]
+- ["5Vapor27URLQueryFragmentConvertibleP", "init"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "lowercased"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "timeIntervalSince1970"]
+- ["5Vapor27URLQueryFragmentConvertibleP", "urlQueryFragmentValue"]
+- ["SU", "init"]
+- ["SU", "urlQueryFragmentValue"]
+- !private ["10Foundation13_CFBridgeableP", "Date"]
+- !private ["10Foundation13_CFBridgeableP", "Double"]
+- !private ["10Foundation13_CFBridgeableP", "String"]
+- !private ["10Foundation13_CFBridgeableP", "absoluteString"]
+- !private ["10Foundation13_CFBridgeableP", "callAsFunction"]
+- !private ["10Foundation13_CFBridgeableP", "description"]
+- ["10Foundation13_CFBridgeableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "lowercased"]
+- !private ["10Foundation13_CFBridgeableP", "timeIntervalSince1970"]
+- ["10Foundation13_CFBridgeableP", "urlQueryFragmentValue"]
+- !private ["s15_CVarArgAlignedP", "description"]
+- ["s15_CVarArgAlignedP", "init"]
+- ["s15_CVarArgAlignedP", "urlQueryFragmentValue"]
+- !private ["s22_CVarArgPassedAsDoubleP", "description"]
+- ["s22_CVarArgPassedAsDoubleP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "urlQueryFragmentValue"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "callAsFunction"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "description"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "lowercased"]
+- ["s30_CustomPlaygroundQuickLookableP", "urlQueryFragmentValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "description"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "urlQueryFragmentValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "callAsFunction"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "urlQueryFragmentValue"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "description"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "urlQueryFragmentValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "urlQueryFragmentValue"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "callAsFunction"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "urlQueryFragmentValue"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "callAsFunction"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "urlQueryFragmentValue"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "String"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "urlQueryFragmentValue"]
+- !private ["s19_HasContiguousBytesP", "callAsFunction"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "lowercased"]
+- ["s19_HasContiguousBytesP", "urlQueryFragmentValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "urlQueryFragmentValue"]
+- !private ["10Foundation13_NSBridgeableP", "Date"]
+- !private ["10Foundation13_NSBridgeableP", "Double"]
+- !private ["10Foundation13_NSBridgeableP", "String"]
+- !private ["10Foundation13_NSBridgeableP", "absoluteString"]
+- !private ["10Foundation13_NSBridgeableP", "callAsFunction"]
+- ["10Foundation13_NSBridgeableP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "lowercased"]
+- !private ["10Foundation13_NSBridgeableP", "timeIntervalSince1970"]
+- ["10Foundation13_NSBridgeableP", "urlQueryFragmentValue"]
+- !private ["s21_ObjectiveCBridgeableP", "Date"]
+- !private ["s21_ObjectiveCBridgeableP", "Decimal"]
+- !private ["s21_ObjectiveCBridgeableP", "Double"]
+- !private ["s21_ObjectiveCBridgeableP", "String"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+- ["s21_ObjectiveCBridgeableP", "urlQueryFragmentValue"]
+- ["s14_StringElementP", "init"]
+- ["s14_StringElementP", "urlQueryFragmentValue"]
+- !private ["10Foundation17_StructBridgeableP", ""]
+- !private ["10Foundation17_StructBridgeableP", "lowercased"]
+- !private ["10Foundation17_StructBridgeableP", "urlQueryFragmentValue"]
+- !private ["10Foundation21_StructTypeBridgeableP", "lowercased"]
+- !private ["10Foundation21_StructTypeBridgeableP", "urlQueryFragmentValue"]
+- !private ["10Foundation16_SwiftBridgeableP", "lowercased"]
+- !private ["10Foundation16_SwiftBridgeableP", "urlQueryFragmentValue"]
+- !private ["s12_UnwrappableP", "description"]
+depends-nominal:
+- "6Crypto24ASN1IntegerRepresentableP"
+- "6Crypto13ASN1ParseableP"
+- "6Crypto16ASN1SerializableP"
+- "s18AdditiveArithmeticP"
+- "5Vapor15AnyOptionalTypeP"
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "SK"
+- "SB"
+- "Sz"
+- "Sb"
+- "s7CVarArgP"
+- "5Vapor22CodingKeyRepresentableP"
+- "Sl"
+- "SL"
+- "5Vapor7ContentP"
+- "s28CustomDebugStringConvertibleP"
+- "s34CustomPlaygroundDisplayConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DateV"
+- "10Foundation7DecimalV"
+- "Se"
+- "Sd"
+- "SE"
+- "SQ"
+- "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "Sf"
+- "SF"
+- "SH"
+- "Si"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "s4Int8V"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "5Vapor24MultipartPartConvertibleP"
+- "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "10Foundation8NSCodingP"
+- !private "10Foundation9NSCopyingP"
+- !private "10Foundation16NSMutableCopyingP"
+- !private "10Foundation8NSObjectC"
+- !private "10Foundation16NSObjectProtocolP"
+- !private "10Foundation14NSSecureCodingP"
+- !private "10Foundation8NSStringC"
+- "Sj"
+- !private "Sq"
+- !private "5Vapor12OptionalTypeP"
+- "Sm"
+- "10Foundation20ReferenceConvertibleP"
+- "5Vapor16RequestDecodableP"
+- "5Vapor17ResponseEncodableP"
+- "s10SIMDScalarP"
+- "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "Su"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "s5UInt8V"
+- "10Foundation3URLV"
+- !private "5Vapor16URLQueryFragmentO"
+- "5Vapor27URLQueryFragmentConvertibleP"
+- "SU"
+- "10Foundation13_CFBridgeableP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation13_NSBridgeableP"
+- "s21_ObjectiveCBridgeableP"
+- "s14_StringElementP"
+- !private "10Foundation17_StructBridgeableP"
+- !private "10Foundation21_StructTypeBridgeableP"
+- !private "10Foundation16_SwiftBridgeableP"
+- !private "s12_UnwrappableP"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP2.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHPACK.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOSSL.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTLS.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Backtrace.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTPCompression.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Crypto.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOExtras.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Metrics.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CoreMetrics.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTransportServices.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOFoundationCompat.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOWebSocket.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ConsoleKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/RoutingKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/WebSocketKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncHTTPClient.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/root/CourseProject/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/root/CourseProject/.build/checkouts/swift-backtrace/Sources/CBacktrace/include/backtrace.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CURLParser/include/urlparser.h"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CMultipartParser/include/multipartparser.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+interface-hash: "d24b8fccaae3a575376fa18f4647079c"

@@ -1,0 +1,157 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["3NIO15EventLoopFutureC", ""]
+- ["3NIO15EventLoopFutureC", "mapEach"]
+- ["3NIO15EventLoopFutureC", "mapEachCompact"]
+- ["3NIO15EventLoopFutureC", "flatMapEach"]
+- ["3NIO15EventLoopFutureC", "flatMapEachCompact"]
+- ["3NIO15EventLoopFutureC", "flatMapEachThrowing"]
+- ["3NIO15EventLoopFutureC", "flatMapEachCompactThrowing"]
+- ["3NIO15EventLoopFutureC", "sequencedFlatMapEach"]
+- ["3NIO15EventLoopFutureC", "sequencedFlatMapEach"]
+- ["3NIO15EventLoopFutureC", "sequencedFlatMapEachCompact"]
+depends-top-level:
+- !private "Array"
+- "EventLoop"
+- "EventLoopFuture"
+- "Sequence"
+- "Value"
+- "Void"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["Se", "append"]
+- !private ["Se", "map"]
+- !private ["SE", "append"]
+- !private ["SE", "map"]
+- !private ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "eventLoop"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "flatMapThrowing"]
+- !private ["SQ", "map"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "transform"]
+- !private ["3NIO9EventLoopP", "future"]
+- ["3NIO15EventLoopFutureC", "EventLoop"]
+- ["3NIO15EventLoopFutureC", "EventLoopFuture"]
+- ["3NIO15EventLoopFutureC", "Sequence"]
+- ["3NIO15EventLoopFutureC", "Void"]
+- ["3NIO15EventLoopFutureC", ""]
+- !private ["3NIO15EventLoopFutureC", "eventLoop"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- ["3NIO15EventLoopFutureC", "flatMapEach"]
+- ["3NIO15EventLoopFutureC", "flatMapEachCompact"]
+- ["3NIO15EventLoopFutureC", "flatMapEachCompactThrowing"]
+- ["3NIO15EventLoopFutureC", "flatMapEachThrowing"]
+- !private ["3NIO15EventLoopFutureC", "flatMapThrowing"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- ["3NIO15EventLoopFutureC", "mapEach"]
+- ["3NIO15EventLoopFutureC", "mapEachCompact"]
+- !private ["3NIO15EventLoopFutureC", "reduce"]
+- ["3NIO15EventLoopFutureC", "sequencedFlatMapEach"]
+- ["3NIO15EventLoopFutureC", "sequencedFlatMapEachCompact"]
+- !private ["3NIO15EventLoopFutureC", "transform"]
+- !private ["3NIO14EventLoopGroupP", ""]
+- !private ["3NIO14EventLoopGroupP", "future"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["SH", "append"]
+- !private ["SH", "map"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["Sq", "map"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- ["ST", "Element"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "map"]
+- !private ["ST", "reduce"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["10Foundation13_CFBridgeableP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["10Foundation13_NSBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s12_UnwrappableP", "map"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "3NIO9EventLoopP"
+- "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- "ST"
+- !private "s14_ArrayProtocolP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s12_UnwrappableP"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "335bb278d2f95cb69cfb43565d4eeb1f"

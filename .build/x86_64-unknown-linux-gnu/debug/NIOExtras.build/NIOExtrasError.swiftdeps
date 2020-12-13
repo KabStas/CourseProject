@@ -1,0 +1,111 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NIOExtrasError"
+- "NIOExtrasErrors"
+provides-nominal:
+- "9NIOExtras0A5ErrorP"
+- "9NIOExtras0A6ErrorsO"
+- "9NIOExtras0A6ErrorsO18LeftOverBytesErrorV"
+- "9NIOExtras0A6ErrorsO29ClosedBeforeReceivingResponseV"
+provides-member:
+- ["9NIOExtras0A5ErrorP", ""]
+- ["9NIOExtras0A6ErrorsO", ""]
+- ["9NIOExtras0A6ErrorsO18LeftOverBytesErrorV", ""]
+- ["9NIOExtras0A6ErrorsO29ClosedBeforeReceivingResponseV", ""]
+depends-top-level:
+- "=="
+- !private "BooleanLiteralType"
+- "ByteBuffer"
+- "Equatable"
+- "Error"
+- "NIOExtrasError"
+- "NIOExtrasErrors"
+depends-member:
+- ["9NIOExtras0A6ErrorsO29ClosedBeforeReceivingResponseV", "=="]
+- ["9NIOExtras0A6ErrorsO29ClosedBeforeReceivingResponseV", ""]
+- ["9NIOExtras0A6ErrorsO29ClosedBeforeReceivingResponseV", "__derived_struct_equals"]
+- ["9NIOExtras0A6ErrorsO29ClosedBeforeReceivingResponseV", "_code"]
+- ["9NIOExtras0A6ErrorsO29ClosedBeforeReceivingResponseV", "_domain"]
+- ["9NIOExtras0A6ErrorsO29ClosedBeforeReceivingResponseV", "_userInfo"]
+- ["9NIOExtras0A6ErrorsO29ClosedBeforeReceivingResponseV", "code"]
+- ["9NIOExtras0A6ErrorsO29ClosedBeforeReceivingResponseV", "domain"]
+- ["9NIOExtras0A6ErrorsO29ClosedBeforeReceivingResponseV", "init"]
+- ["9NIOExtras0A6ErrorsO29ClosedBeforeReceivingResponseV", "userInfo"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- !private ["SQ", "__derived_struct_equals"]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_userInfo"]
+- ["SQ", "code"]
+- ["SQ", "domain"]
+- ["SQ", "userInfo"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- !private ["s5ErrorP", "__derived_struct_equals"]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "domain"]
+- ["s5ErrorP", "userInfo"]
+- ["9NIOExtras0A6ErrorsO18LeftOverBytesErrorV", "=="]
+- ["9NIOExtras0A6ErrorsO18LeftOverBytesErrorV", "ByteBuffer"]
+- ["9NIOExtras0A6ErrorsO18LeftOverBytesErrorV", ""]
+- ["9NIOExtras0A6ErrorsO18LeftOverBytesErrorV", "__derived_struct_equals"]
+- ["9NIOExtras0A6ErrorsO18LeftOverBytesErrorV", "_code"]
+- ["9NIOExtras0A6ErrorsO18LeftOverBytesErrorV", "_domain"]
+- ["9NIOExtras0A6ErrorsO18LeftOverBytesErrorV", "_userInfo"]
+- ["9NIOExtras0A6ErrorsO18LeftOverBytesErrorV", "code"]
+- ["9NIOExtras0A6ErrorsO18LeftOverBytesErrorV", "domain"]
+- ["9NIOExtras0A6ErrorsO18LeftOverBytesErrorV", "init"]
+- ["9NIOExtras0A6ErrorsO18LeftOverBytesErrorV", "leftOverBytes"]
+- ["9NIOExtras0A6ErrorsO18LeftOverBytesErrorV", "userInfo"]
+- ["9NIOExtras0A5ErrorP", "=="]
+- ["9NIOExtras0A5ErrorP", ""]
+- !private ["9NIOExtras0A5ErrorP", "__derived_struct_equals"]
+- ["9NIOExtras0A5ErrorP", "_code"]
+- ["9NIOExtras0A5ErrorP", "_domain"]
+- ["9NIOExtras0A5ErrorP", "_userInfo"]
+- ["9NIOExtras0A5ErrorP", "code"]
+- ["9NIOExtras0A5ErrorP", "domain"]
+- ["9NIOExtras0A5ErrorP", "userInfo"]
+- ["9NIOExtras0A6ErrorsO", "ByteBuffer"]
+- ["9NIOExtras0A6ErrorsO", "ClosedBeforeReceivingResponse"]
+- ["9NIOExtras0A6ErrorsO", "LeftOverBytesError"]
+- ["9NIOExtras0A6ErrorsO", "NIOExtrasError"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+depends-nominal:
+- "9NIOExtras0A6ErrorsO29ClosedBeforeReceivingResponseV"
+- "SQ"
+- "s5ErrorP"
+- "9NIOExtras0A6ErrorsO18LeftOverBytesErrorV"
+- "9NIOExtras0A5ErrorP"
+- "9NIOExtras0A6ErrorsO"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "923a54401b5c106899f873d7276da07a"

@@ -1,0 +1,316 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CBacktraceErrorCallback"
+- "CBacktraceFullCallback"
+- "CBacktraceSimpleCallback"
+- "CBacktraceSyminfoCallback"
+- "Backtrace"
+provides-nominal:
+- "9BacktraceAAO"
+provides-member:
+- ["9BacktraceAAO", ""]
+depends-top-level:
+- "Array"
+- "AssignmentPrecedence"
+- "Backtrace"
+- "CBacktraceErrorCallback"
+- "CBacktraceFullCallback"
+- "CBacktraceSimpleCallback"
+- "CBacktraceSyminfoCallback"
+- "CChar"
+- "CInt"
+- !private "CUnsignedInt"
+- "CommandLine"
+- "FloatLiteralType"
+- "Int32"
+- "IntegerLiteralType"
+- !private "SA_NODEFER"
+- !private "SA_RESETHAND"
+- !private "SIGILL"
+- "String"
+- "StringLiteralType"
+- "UInt"
+- "UnicodeScalarType"
+- "UnsafeMutableRawPointer"
+- "UnsafePointer"
+- "Void"
+- "_stdlib_demangleName"
+- "backtrace_create_state"
+- "backtrace_full"
+- "errorCallback"
+- "fullCallback"
+- "sigaction"
+- !private "sigset_t"
+- "state"
+- "stderr"
+- !private "unsafeBitCast"
+- "vfprintf"
+- !private "withUnsafePointer"
+- "withVaList"
+- !private "|"
+- "||"
+depends-member:
+- ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["Sa", "subscript"]
+- ["9BacktraceAAO", "CInt"]
+- !private ["9BacktraceAAO", "CUnsignedInt"]
+- ["9BacktraceAAO", "Int32"]
+- !private ["9BacktraceAAO", "SA_NODEFER"]
+- !private ["9BacktraceAAO", "SA_RESETHAND"]
+- !private ["9BacktraceAAO", "SIGILL"]
+- ["9BacktraceAAO", "Void"]
+- !private ["9BacktraceAAO", "backtrace_full"]
+- !private ["9BacktraceAAO", "errorCallback"]
+- !private ["9BacktraceAAO", "fullCallback"]
+- ["9BacktraceAAO", "install"]
+- ["9BacktraceAAO", "print"]
+- !private ["9BacktraceAAO", "setupHandler"]
+- !private ["9BacktraceAAO", "sigaction"]
+- !private ["9BacktraceAAO", "sigset_t"]
+- !private ["9BacktraceAAO", "state"]
+- !private ["9BacktraceAAO", "unsafeBitCast"]
+- !private ["9BacktraceAAO", "withUnsafePointer"]
+- ["SK", ""]
+- ["SK", "append"]
+- ["SK", "hasPrefix"]
+- ["SK", "init"]
+- ["SK", "subscript"]
+- ["SK", "withCString"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "init"]
+- ["Sl", ""]
+- ["Sl", "append"]
+- ["Sl", "hasPrefix"]
+- ["Sl", "init"]
+- ["Sl", "subscript"]
+- ["Sl", "withCString"]
+- ["s11CommandLineO", "arguments"]
+- ["SL", ""]
+- ["SL", "append"]
+- ["SL", "hasPrefix"]
+- ["SL", "init"]
+- ["SL", "withCString"]
+- ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "hasPrefix"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "withCString"]
+- ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "hasPrefix"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "subscript"]
+- ["s17CustomReflectableP", "withCString"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "hasPrefix"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "withCString"]
+- ["Se", "append"]
+- ["Se", "hasPrefix"]
+- ["Se", "init"]
+- ["Se", "subscript"]
+- ["Se", "withCString"]
+- ["SE", "append"]
+- ["SE", "hasPrefix"]
+- ["SE", "init"]
+- ["SE", "subscript"]
+- ["SE", "withCString"]
+- ["SQ", ""]
+- ["SQ", "append"]
+- ["SQ", "hasPrefix"]
+- ["SQ", "init"]
+- ["SQ", "subscript"]
+- ["SQ", "withCString"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "append"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "withCString"]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", "append"]
+- ["s32ExpressibleByStringInterpolationP", "hasPrefix"]
+- ["s32ExpressibleByStringInterpolationP", "init"]
+- ["s32ExpressibleByStringInterpolationP", "withCString"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "append"]
+- ["s26ExpressibleByStringLiteralP", "hasPrefix"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "withCString"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "append"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "hasPrefix"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "withCString"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", ""]
+- ["SH", "append"]
+- ["SH", "hasPrefix"]
+- ["SH", "init"]
+- ["SH", "subscript"]
+- ["SH", "withCString"]
+- !private ["s5Int32V", "init"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", "append"]
+- ["s25LosslessStringConvertibleP", "hasPrefix"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "withCString"]
+- ["s10MirrorPathP", "append"]
+- ["s10MirrorPathP", "hasPrefix"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "withCString"]
+- ["SM", "subscript"]
+- ["Sj", ""]
+- !private ["Sj", "init"]
+- ["Sk", "subscript"]
+- ["Sm", ""]
+- ["Sm", "append"]
+- ["Sm", "hasPrefix"]
+- ["Sm", "init"]
+- ["Sm", "subscript"]
+- ["Sm", "withCString"]
+- !private ["s10SIMDScalarP", "init"]
+- ["ST", ""]
+- ["ST", "append"]
+- ["ST", "hasPrefix"]
+- ["ST", "init"]
+- ["ST", "subscript"]
+- ["ST", "withCString"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- ["Sx", ""]
+- !private ["Sx", "init"]
+- ["SS", "append"]
+- ["SS", "hasPrefix"]
+- ["SS", "init"]
+- ["SS", "withCString"]
+- ["Sy", "append"]
+- ["Sy", "hasPrefix"]
+- ["Sy", "init"]
+- ["Sy", "withCString"]
+- ["s16TextOutputStreamP", ""]
+- ["s16TextOutputStreamP", "append"]
+- ["s16TextOutputStreamP", "hasPrefix"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "withCString"]
+- ["s20TextOutputStreamableP", ""]
+- ["s20TextOutputStreamableP", "append"]
+- ["s20TextOutputStreamableP", "hasPrefix"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "withCString"]
+- !private ["s6UInt32V", "init"]
+- !private ["SU", "init"]
+- ["s14_ArrayProtocolP", "subscript"]
+- ["s30_CustomPlaygroundQuickLookableP", "append"]
+- ["s30_CustomPlaygroundQuickLookableP", "hasPrefix"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "withCString"]
+- ["s24_DestructorSafeContainerP", "subscript"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "append"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "withCString"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "append"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "hasPrefix"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "withCString"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "append"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hasPrefix"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "withCString"]
+- ["s19_HasContiguousBytesP", "append"]
+- ["s19_HasContiguousBytesP", "hasPrefix"]
+- ["s19_HasContiguousBytesP", "init"]
+- ["s19_HasContiguousBytesP", "subscript"]
+- ["s19_HasContiguousBytesP", "withCString"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["So10__sigset_ta", "init"]
+- !private ["So9sigactionV", "_Unnamed_union___sigaction_handler"]
+- !private ["So9sigactionV", "__Unnamed_union___sigaction_handler"]
+- !private ["So9sigactionV", "init"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "Sa"
+- "9BacktraceAAO"
+- "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- "Sl"
+- "s11CommandLineO"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s5Int32V"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "SM"
+- "Sj"
+- "Sk"
+- "Sm"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- !private "SU"
+- "s14_ArrayProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "So10__sigset_ta"
+- !private "So9sigactionV"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-backtrace/Sources/CBacktrace/include/backtrace.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+interface-hash: "cc3379a7d8596f2ec39782203e217107"

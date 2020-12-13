@@ -1,0 +1,88 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLList"
+- "EncodableWrapper"
+provides-nominal:
+- "9FluentSQL7SQLListV"
+- "9FluentSQL16EncodableWrapperV"
+provides-member:
+- ["9FluentSQL7SQLListV", ""]
+- ["9FluentSQL16EncodableWrapperV", ""]
+depends-top-level:
+- !private "!"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Encodable"
+- "EncodableWrapper"
+- "Encoder"
+- "SQLExpression"
+- "SQLList"
+- "SQLSerializer"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- ["SE", ""]
+- !private ["SE", "encodable"]
+- ["SE", "encode"]
+- ["9FluentSQL16EncodableWrapperV", "Encodable"]
+- ["9FluentSQL16EncodableWrapperV", "Encoder"]
+- ["9FluentSQL16EncodableWrapperV", ""]
+- ["9FluentSQL16EncodableWrapperV", "encodable"]
+- ["9FluentSQL16EncodableWrapperV", "encode"]
+- ["9FluentSQL16EncodableWrapperV", "init"]
+- ["6SQLKit13SQLExpressionP", ""]
+- !private ["6SQLKit13SQLExpressionP", "items"]
+- !private ["6SQLKit13SQLExpressionP", "separator"]
+- ["6SQLKit13SQLExpressionP", "serialize"]
+- ["9FluentSQL7SQLListV", "SQLExpression"]
+- ["9FluentSQL7SQLListV", "SQLSerializer"]
+- ["9FluentSQL7SQLListV", "init"]
+- ["9FluentSQL7SQLListV", "items"]
+- ["9FluentSQL7SQLListV", "separator"]
+- ["9FluentSQL7SQLListV", "serialize"]
+- !private ["6SQLKit13SQLSerializerV", "write"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", "makeIterator"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "SE"
+- "9FluentSQL16EncodableWrapperV"
+- "6SQLKit13SQLExpressionP"
+- "9FluentSQL7SQLListV"
+- !private "6SQLKit13SQLSerializerV"
+- !private "ST"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentKit.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "ff44538929ea3d1d5a502c13b58935b4"

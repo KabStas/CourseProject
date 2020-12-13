@@ -1,0 +1,159 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Search"
+provides-nominal:
+- "3App6SearchC"
+provides-member:
+- ["3App6SearchC", ""]
+depends-top-level:
+- !private "!"
+- "!="
+- "=="
+- "??"
+- "AppErrors"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Dictionary"
+- "GetDataProtocol"
+- "OutputProtocol"
+- "Result"
+- "Search"
+- "SearchProtocol"
+- "String"
+- !private "StringLiteralType"
+- "output"
+- !private "read"
+depends-member:
+- ["3App0A6ErrorsO", ""]
+- !private ["3App0A6ErrorsO", "notFound"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "updateValue"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "updateValue"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "updateValue"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "updateValue"]
+- !private ["Se", "forEach"]
+- !private ["Se", "subscript"]
+- !private ["Se", "updateValue"]
+- !private ["SD", "forEach"]
+- !private ["SD", "subscript"]
+- !private ["SD", "updateValue"]
+- !private ["SE", "forEach"]
+- !private ["SE", "subscript"]
+- !private ["SE", "updateValue"]
+- !private ["SQ", ""]
+- !private ["SQ", "failure"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "notFound"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "success"]
+- !private ["SQ", "updateValue"]
+- !private ["s5ErrorP", "notFound"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "forEach"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "updateValue"]
+- !private ["3App15GetDataProtocolP", "creatingDictionary"]
+- !private ["SH", "failure"]
+- !private ["SH", "forEach"]
+- !private ["SH", "subscript"]
+- !private ["SH", "success"]
+- !private ["SH", "updateValue"]
+- !private ["3App14OutputProtocolP", "outputting"]
+- !private ["3App14OutputProtocolP", "outputtingResults"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- ["3App6SearchC", "AppErrors"]
+- ["3App6SearchC", "Bool"]
+- ["3App6SearchC", "GetDataProtocol"]
+- ["3App6SearchC", "OutputProtocol"]
+- ["3App6SearchC", "Result"]
+- ["3App6SearchC", "String"]
+- ["3App6SearchC", "deinit"]
+- ["3App6SearchC", "init"]
+- ["3App6SearchC", "output"]
+- ["3App6SearchC", "read"]
+- ["3App6SearchC", "searching"]
+- ["3App14SearchProtocolP", ""]
+- !private ["3App14SearchProtocolP", "output"]
+- !private ["3App14SearchProtocolP", "read"]
+- ["3App14SearchProtocolP", "searching"]
+- !private ["ST", ""]
+- !private ["ST", "forEach"]
+- !private ["ST", "subscript"]
+- !private ["ST", "updateValue"]
+- !private ["10Foundation13_CFBridgeableP", "forEach"]
+- !private ["10Foundation13_CFBridgeableP", "subscript"]
+- !private ["10Foundation13_CFBridgeableP", "updateValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "updateValue"]
+- !private ["10Foundation13_NSBridgeableP", "forEach"]
+- !private ["10Foundation13_NSBridgeableP", "subscript"]
+- !private ["10Foundation13_NSBridgeableP", "updateValue"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "updateValue"]
+depends-nominal:
+- "3App0A6ErrorsO"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "3App15GetDataProtocolP"
+- !private "SH"
+- !private "3App14OutputProtocolP"
+- !private "s6ResultO"
+- "3App6SearchC"
+- "3App14SearchProtocolP"
+- !private "ST"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/CSQLite/module.modulemap"
+interface-hash: "9e48a063d92fca771e3f7305b1c86029"

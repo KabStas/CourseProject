@@ -1,0 +1,10 @@
+version: "Swift version 5.3 (swift-5.3-RELEASE)"
+options: "f48575c1ce3d505f782525e0e6bb1965"
+build_time: [1607829526, 785829500]
+inputs:
+  "/root/CourseProject/.build/checkouts/websocket-kit/Sources/WebSocketKit/Exports.swift": [1607829478, 820000000]
+  "/root/CourseProject/.build/checkouts/websocket-kit/Sources/WebSocketKit/HTTPInitialRequestHandler.swift": [1607829478, 820000000]
+  "/root/CourseProject/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket+Connect.swift": [1607829478, 820000000]
+  "/root/CourseProject/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket.swift": [1607829478, 820000000]
+  "/root/CourseProject/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketClient.swift": [1607829478, 820000000]
+  "/root/CourseProject/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketHandler.swift": [1607829478, 820000000]

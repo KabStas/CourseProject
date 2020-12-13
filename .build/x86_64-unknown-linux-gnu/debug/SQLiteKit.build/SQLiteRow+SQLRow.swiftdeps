@@ -1,0 +1,178 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MissingColumn"
+provides-nominal:
+- "9SQLiteNIO0A3RowV"
+- "9SQLiteKit13MissingColumnV"
+provides-member:
+- ["9SQLiteNIO0A3RowV", ""]
+- ["9SQLiteKit13MissingColumnV", ""]
+depends-top-level:
+- !private "!="
+- !private "=="
+- "Bool"
+- "Decodable"
+- "Error"
+- "MissingColumn"
+- "SQLRow"
+- !private "SQLiteDataDecoder"
+- "SQLiteRow"
+- "String"
+depends-member:
+- !private ["Sa", "map"]
+- !private ["SK", ""]
+- !private ["SK", "map"]
+- !private ["Sl", ""]
+- !private ["Sl", "map"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "MissingColumn"]
+- !private ["s23CustomStringConvertibleP", "SQLiteDataDecoder"]
+- ["s23CustomStringConvertibleP", "allColumns"]
+- !private ["s23CustomStringConvertibleP", "column"]
+- !private ["s23CustomStringConvertibleP", "columns"]
+- ["s23CustomStringConvertibleP", "contains"]
+- ["s23CustomStringConvertibleP", "decode"]
+- ["s23CustomStringConvertibleP", "decodeNil"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "null"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "map"]
+- !private ["SE", "map"]
+- !private ["SE", "null"]
+- !private ["SQ", "=="]
+- !private ["SQ", ""]
+- !private ["SQ", "map"]
+- !private ["SQ", "null"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "domain"]
+- !private ["s5ErrorP", "init"]
+- ["s5ErrorP", "userInfo"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["SH", "map"]
+- ["9SQLiteKit13MissingColumnV", "String"]
+- ["9SQLiteKit13MissingColumnV", ""]
+- ["9SQLiteKit13MissingColumnV", "_code"]
+- ["9SQLiteKit13MissingColumnV", "_domain"]
+- ["9SQLiteKit13MissingColumnV", "_userInfo"]
+- ["9SQLiteKit13MissingColumnV", "code"]
+- ["9SQLiteKit13MissingColumnV", "column"]
+- ["9SQLiteKit13MissingColumnV", "domain"]
+- ["9SQLiteKit13MissingColumnV", "init"]
+- ["9SQLiteKit13MissingColumnV", "userInfo"]
+- !private ["SM", ""]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["Sk", ""]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "map"]
+- !private ["6SQLKit6SQLRowP", "MissingColumn"]
+- !private ["6SQLKit6SQLRowP", "SQLiteDataDecoder"]
+- ["6SQLKit6SQLRowP", ""]
+- ["6SQLKit6SQLRowP", "allColumns"]
+- !private ["6SQLKit6SQLRowP", "column"]
+- !private ["6SQLKit6SQLRowP", "columns"]
+- ["6SQLKit6SQLRowP", "contains"]
+- ["6SQLKit6SQLRowP", "decode"]
+- ["6SQLKit6SQLRowP", "decodeNil"]
+- !private ["9SQLiteNIO0A6ColumnV", "name"]
+- !private ["9SQLiteNIO0A4DataO", "null"]
+- !private ["9SQLiteKit0A11DataDecoderV", "decode"]
+- !private ["9SQLiteKit0A11DataDecoderV", "init"]
+- ["9SQLiteNIO0A3RowV", "Bool"]
+- ["9SQLiteNIO0A3RowV", "Decodable"]
+- !private ["9SQLiteNIO0A3RowV", "MissingColumn"]
+- !private ["9SQLiteNIO0A3RowV", "SQLiteDataDecoder"]
+- ["9SQLiteNIO0A3RowV", "String"]
+- ["9SQLiteNIO0A3RowV", ""]
+- ["9SQLiteNIO0A3RowV", "allColumns"]
+- !private ["9SQLiteNIO0A3RowV", "column"]
+- !private ["9SQLiteNIO0A3RowV", "columns"]
+- ["9SQLiteNIO0A3RowV", "contains"]
+- ["9SQLiteNIO0A3RowV", "decode"]
+- ["9SQLiteNIO0A3RowV", "decodeNil"]
+- !private ["ST", ""]
+- !private ["ST", "map"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["10Foundation13_CFBridgeableP", "map"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation13_NSBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- "9SQLiteKit13MissingColumnV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- "6SQLKit6SQLRowP"
+- !private "9SQLiteNIO0A6ColumnV"
+- !private "9SQLiteNIO0A4DataO"
+- !private "9SQLiteKit0A11DataDecoderV"
+- "9SQLiteNIO0A3RowV"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/CSQLite/module.modulemap"
+interface-hash: "5391b456c7741de4e8bb3d3a16a1c3c1"

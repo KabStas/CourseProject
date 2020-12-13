@@ -1,0 +1,5 @@
+version: "Swift version 5.3 (swift-5.3-RELEASE)"
+options: "ac5f40eac419937c8b251238752ec4c3"
+build_time: [1607829546, 809862500]
+inputs:
+  "/root/CourseProject/courseProject/Sources/RunAPI/main.swift": [1607771388, 562245900]

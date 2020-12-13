@@ -1,0 +1,165 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnyOptionalType"
+- "OptionalType"
+provides-nominal:
+- "9FluentKit15AnyOptionalTypeP"
+- "9FluentKit12OptionalTypeP"
+- "Sq"
+provides-member:
+- ["9FluentKit15AnyOptionalTypeP", ""]
+- ["9FluentKit12OptionalTypeP", ""]
+- ["Sq", ""]
+- ["9FluentKit12OptionalTypeP", "wrappedType"]
+depends-top-level:
+- "AnyOptionalType"
+- "CastingPrecedence"
+- "Optional"
+- "OptionalType"
+- !private "Self"
+- "Wrapped"
+depends-member:
+- ["9FluentKit15AnyOptionalTypeP", "Default_Wrapped"]
+- !private ["9FluentKit15AnyOptionalTypeP", "Self"]
+- ["9FluentKit15AnyOptionalTypeP", "Wrapped"]
+- ["9FluentKit15AnyOptionalTypeP", ""]
+- ["9FluentKit15AnyOptionalTypeP", "_Default_Wrapped"]
+- ["9FluentKit15AnyOptionalTypeP", "init"]
+- ["9FluentKit15AnyOptionalTypeP", "nil"]
+- !private ["9FluentKit15AnyOptionalTypeP", "none"]
+- ["9FluentKit15AnyOptionalTypeP", "wrappedType"]
+- ["9FluentKit15AnyOptionalTypeP", "wrappedValue"]
+- ["s28CustomDebugStringConvertibleP", "Default_Wrapped"]
+- !private ["s28CustomDebugStringConvertibleP", "Self"]
+- ["s28CustomDebugStringConvertibleP", "Wrapped"]
+- ["s28CustomDebugStringConvertibleP", "_Default_Wrapped"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "nil"]
+- !private ["s28CustomDebugStringConvertibleP", "none"]
+- ["s28CustomDebugStringConvertibleP", "wrappedType"]
+- ["s28CustomDebugStringConvertibleP", "wrappedValue"]
+- ["s17CustomReflectableP", "Default_Wrapped"]
+- !private ["s17CustomReflectableP", "Self"]
+- ["s17CustomReflectableP", "Wrapped"]
+- ["s17CustomReflectableP", "_Default_Wrapped"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "nil"]
+- !private ["s17CustomReflectableP", "none"]
+- ["s17CustomReflectableP", "wrappedType"]
+- ["s17CustomReflectableP", "wrappedValue"]
+- ["Se", "Default_Wrapped"]
+- !private ["Se", "Self"]
+- ["Se", "Wrapped"]
+- ["Se", "_Default_Wrapped"]
+- ["Se", "init"]
+- ["Se", "nil"]
+- !private ["Se", "none"]
+- ["Se", "wrappedType"]
+- ["Se", "wrappedValue"]
+- ["SE", "Default_Wrapped"]
+- !private ["SE", "Self"]
+- ["SE", "Wrapped"]
+- ["SE", "_Default_Wrapped"]
+- ["SE", "init"]
+- ["SE", "nil"]
+- !private ["SE", "none"]
+- ["SE", "wrappedType"]
+- ["SE", "wrappedValue"]
+- ["SQ", "Default_Wrapped"]
+- !private ["SQ", "Self"]
+- ["SQ", "Wrapped"]
+- ["SQ", ""]
+- ["SQ", "_Default_Wrapped"]
+- ["SQ", "init"]
+- ["SQ", "nil"]
+- !private ["SQ", "none"]
+- ["SQ", "wrappedType"]
+- ["SQ", "wrappedValue"]
+- ["s23ExpressibleByNilLiteralP", "Default_Wrapped"]
+- !private ["s23ExpressibleByNilLiteralP", "Self"]
+- ["s23ExpressibleByNilLiteralP", "Wrapped"]
+- ["s23ExpressibleByNilLiteralP", "_Default_Wrapped"]
+- ["s23ExpressibleByNilLiteralP", "init"]
+- ["s23ExpressibleByNilLiteralP", "nil"]
+- !private ["s23ExpressibleByNilLiteralP", "none"]
+- ["s23ExpressibleByNilLiteralP", "wrappedType"]
+- ["s23ExpressibleByNilLiteralP", "wrappedValue"]
+- ["SH", "Default_Wrapped"]
+- !private ["SH", "Self"]
+- ["SH", "Wrapped"]
+- ["SH", "_Default_Wrapped"]
+- ["SH", "init"]
+- ["SH", "nil"]
+- !private ["SH", "none"]
+- ["SH", "wrappedType"]
+- ["SH", "wrappedValue"]
+- ["Sq", "Default_Wrapped"]
+- !private ["Sq", "Self"]
+- ["Sq", "Wrapped"]
+- ["Sq", ""]
+- ["Sq", "_Default_Wrapped"]
+- ["Sq", "init"]
+- ["Sq", "nil"]
+- !private ["Sq", "none"]
+- ["Sq", "wrappedType"]
+- ["Sq", "wrappedValue"]
+- ["9FluentKit12OptionalTypeP", "Default_Wrapped"]
+- !private ["9FluentKit12OptionalTypeP", "Self"]
+- ["9FluentKit12OptionalTypeP", "Wrapped"]
+- ["9FluentKit12OptionalTypeP", ""]
+- ["9FluentKit12OptionalTypeP", "_Default_Wrapped"]
+- ["9FluentKit12OptionalTypeP", "init"]
+- ["9FluentKit12OptionalTypeP", "nil"]
+- !private ["9FluentKit12OptionalTypeP", "none"]
+- ["9FluentKit12OptionalTypeP", "wrappedType"]
+- ["9FluentKit12OptionalTypeP", "wrappedValue"]
+- ["s12_UnwrappableP", "Default_Wrapped"]
+- !private ["s12_UnwrappableP", "Self"]
+- ["s12_UnwrappableP", "Wrapped"]
+- ["s12_UnwrappableP", "_Default_Wrapped"]
+- ["s12_UnwrappableP", "init"]
+- ["s12_UnwrappableP", "nil"]
+- !private ["s12_UnwrappableP", "none"]
+- ["s12_UnwrappableP", "wrappedType"]
+- ["s12_UnwrappableP", "wrappedValue"]
+depends-nominal:
+- "9FluentKit15AnyOptionalTypeP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "Se"
+- "SE"
+- "SQ"
+- "s23ExpressibleByNilLiteralP"
+- "SH"
+- "Sq"
+- "9FluentKit12OptionalTypeP"
+- "s12_UnwrappableP"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "9ae76564a36e19dc9813d14a96b1f9c3"

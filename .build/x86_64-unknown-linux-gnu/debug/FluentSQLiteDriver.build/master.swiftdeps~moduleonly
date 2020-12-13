@@ -1,0 +1,11 @@
+version: "Swift version 5.3 (swift-5.3-RELEASE)"
+options: "2d6a06da1c16a544589f3d1eb4a4e769"
+build_time: [1607829531, 620822700]
+inputs:
+  "/root/CourseProject/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/Exports.swift": [1607829480, 190000000]
+  "/root/CourseProject/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/FluentSQLiteConfiguration.swift": [1607829480, 190000000]
+  "/root/CourseProject/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/FluentSQLiteDatabase.swift": [1607829480, 190000000]
+  "/root/CourseProject/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/FluentSQLiteDriver.swift": [1607829480, 190000000]
+  "/root/CourseProject/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/SQLiteConverterDelegate.swift": [1607829480, 190000000]
+  "/root/CourseProject/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/SQLiteError+Database.swift": [1607829480, 190000000]
+  "/root/CourseProject/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/SQLiteRow+Database.swift": [1607829480, 190000000]

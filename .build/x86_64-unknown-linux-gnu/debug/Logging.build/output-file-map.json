@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.build/master.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/swift-log/Sources/Logging/Locks.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.build/Locks.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.build/Locks.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.build/Locks~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.build/Locks.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.build/LogHandler.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.build/LogHandler.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.build/LogHandler~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.build/LogHandler.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/swift-log/Sources/Logging/Logging.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.build/Logging.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.build/Logging.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.build/Logging~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.build/Logging.swiftdeps"
+  }
+}

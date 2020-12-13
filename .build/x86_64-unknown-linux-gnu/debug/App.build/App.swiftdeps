@@ -1,0 +1,184 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Container"
+- "main"
+provides-nominal:
+- "3App9ContainerC"
+provides-member:
+- ["3App9ContainerC", ""]
+depends-top-level:
+- "AppErrors"
+- "ArgumentsParser"
+- "ArgumentsParserProtocol"
+- !private "BooleanLiteralType"
+- "Container"
+- "Delete"
+- "DeleteProtocol"
+- !private "Dictionary"
+- "GetData"
+- "GetDataProtocol"
+- "Output"
+- "OutputProtocol"
+- "PutData"
+- "PutDataProtocol"
+- "Result"
+- "Search"
+- "SearchProtocol"
+- "String"
+- "Update"
+- "UpdateProtocol"
+- !private "deleting"
+- "getData"
+- "main"
+- "output"
+- !private "outputting"
+- !private "parsing"
+- "putData"
+- !private "reading"
+- "search"
+- !private "searching"
+- !private "updating"
+- !private "writing"
+depends-member:
+- ["3App0A6ErrorsO", ""]
+- ["3App0A6ErrorsO", "commandNotFound"]
+- !private ["3App0A6ErrorsO", "defaultError"]
+- ["3App0A6ErrorsO", "parseError"]
+- ["3App9ArgumentsO", "delete"]
+- ["3App9ArgumentsO", "help"]
+- ["3App9ArgumentsO", "search"]
+- ["3App9ArgumentsO", "update"]
+- !private ["3App15ArgumentsParserC", ""]
+- ["3App15ArgumentsParserC", "init"]
+- ["3App23ArgumentsParserProtocolP", "init"]
+- !private ["3App23ArgumentsParserProtocolP", "parsing"]
+- ["3App22ArgumentsParserResultsO", "failure"]
+- ["3App22ArgumentsParserResultsO", "success"]
+- !private ["3App9ContainerC", "$__lazy_storage_$_deleting"]
+- !private ["3App9ContainerC", "$__lazy_storage_$_outputting"]
+- !private ["3App9ContainerC", "$__lazy_storage_$_parsing"]
+- !private ["3App9ContainerC", "$__lazy_storage_$_reading"]
+- !private ["3App9ContainerC", "$__lazy_storage_$_searching"]
+- !private ["3App9ContainerC", "$__lazy_storage_$_updating"]
+- !private ["3App9ContainerC", "$__lazy_storage_$_writing"]
+- ["3App9ContainerC", "ArgumentsParser"]
+- ["3App9ContainerC", "ArgumentsParserProtocol"]
+- ["3App9ContainerC", "Delete"]
+- ["3App9ContainerC", "DeleteProtocol"]
+- ["3App9ContainerC", "GetData"]
+- ["3App9ContainerC", "GetDataProtocol"]
+- ["3App9ContainerC", "Output"]
+- ["3App9ContainerC", "OutputProtocol"]
+- ["3App9ContainerC", "PutData"]
+- ["3App9ContainerC", "PutDataProtocol"]
+- ["3App9ContainerC", "Search"]
+- ["3App9ContainerC", "SearchProtocol"]
+- ["3App9ContainerC", "Update"]
+- ["3App9ContainerC", "UpdateProtocol"]
+- ["3App9ContainerC", "argumentsParser"]
+- ["3App9ContainerC", "deinit"]
+- ["3App9ContainerC", "delete"]
+- !private ["3App9ContainerC", "deleting"]
+- ["3App9ContainerC", "getData"]
+- ["3App9ContainerC", "init"]
+- ["3App9ContainerC", "output"]
+- !private ["3App9ContainerC", "outputting"]
+- !private ["3App9ContainerC", "parsing"]
+- ["3App9ContainerC", "putData"]
+- !private ["3App9ContainerC", "reading"]
+- ["3App9ContainerC", "search"]
+- !private ["3App9ContainerC", "searching"]
+- ["3App9ContainerC", "update"]
+- !private ["3App9ContainerC", "updating"]
+- !private ["3App9ContainerC", "writing"]
+- !private ["3App6DeleteC", ""]
+- ["3App6DeleteC", "init"]
+- !private ["3App14DeleteProtocolP", "deleting"]
+- ["3App14DeleteProtocolP", "init"]
+- !private ["SQ", ""]
+- ["SQ", "commandNotFound"]
+- !private ["SQ", "defaultError"]
+- !private ["SQ", "failure"]
+- ["SQ", "parseError"]
+- !private ["SQ", "success"]
+- ["s5ErrorP", "commandNotFound"]
+- !private ["s5ErrorP", "defaultError"]
+- ["s5ErrorP", "parseError"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["3App7GetDataC", ""]
+- ["3App7GetDataC", "init"]
+- ["3App15GetDataProtocolP", "init"]
+- !private ["SH", "failure"]
+- !private ["SH", "success"]
+- !private ["3App6OutputC", ""]
+- ["3App6OutputC", "init"]
+- ["3App14OutputProtocolP", "init"]
+- !private ["3App14OutputProtocolP", "outputting"]
+- !private ["3App7PutDataC", ""]
+- ["3App7PutDataC", "init"]
+- ["3App15PutDataProtocolP", "init"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["3App6SearchC", ""]
+- ["3App6SearchC", "init"]
+- ["3App14SearchProtocolP", "init"]
+- !private ["3App14SearchProtocolP", "searching"]
+- !private ["3App6UpdateC", ""]
+- ["3App6UpdateC", "init"]
+- ["3App14UpdateProtocolP", "init"]
+- !private ["3App14UpdateProtocolP", "updating"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+depends-nominal:
+- "3App0A6ErrorsO"
+- "3App9ArgumentsO"
+- "3App15ArgumentsParserC"
+- "3App23ArgumentsParserProtocolP"
+- "3App22ArgumentsParserResultsO"
+- "3App9ContainerC"
+- "3App6DeleteC"
+- "3App14DeleteProtocolP"
+- "SQ"
+- "s5ErrorP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "3App7GetDataC"
+- "3App15GetDataProtocolP"
+- !private "SH"
+- "3App6OutputC"
+- "3App14OutputProtocolP"
+- "3App7PutDataC"
+- "3App15PutDataProtocolP"
+- !private "s6ResultO"
+- "3App6SearchC"
+- "3App14SearchProtocolP"
+- "3App6UpdateC"
+- "3App14UpdateProtocolP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/CSQLite/module.modulemap"
+interface-hash: "2e005dda650f9d27ef5c3428734f660e"

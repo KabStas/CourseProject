@@ -1,0 +1,358 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EnumBuilder"
+provides-nominal:
+- "9FluentKit11EnumBuilderC"
+provides-member:
+- ["9FluentKit8DatabaseP", ""]
+- ["9FluentKit11EnumBuilderC", ""]
+- ["9FluentKit8DatabaseP", "enum"]
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Database"
+- "DatabaseEnum"
+- "DatabaseSchema"
+- "DefaultPrecedence"
+- "EnumBuilder"
+- "EnumMetadata"
+- "EventLoopFuture"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "Self"
+- "String"
+- "Void"
+- "~~"
+depends-member:
+- !private ["9FluentKit12DatabaseEnumV6ActionO", "create"]
+- !private ["9FluentKit12DatabaseEnumV6ActionO", "delete"]
+- !private ["9FluentKit12DatabaseEnumV6ActionO", "update"]
+- !private ["9FluentKit8AnyModelP", "$case"]
+- !private ["9FluentKit8AnyModelP", "$name"]
+- !private ["9FluentKit8AnyModelP", "IDValue"]
+- ["9FluentKit8AnyModelP", ""]
+- !private ["9FluentKit8AnyModelP", "case"]
+- !private ["9FluentKit8AnyModelP", "init"]
+- !private ["9FluentKit8AnyModelP", "migration"]
+- !private ["9FluentKit8AnyModelP", "name"]
+- !private ["9FluentKit8AnyModelP", "query"]
+- !private ["9FluentKit15AnyOptionalTypeP", "Wrapped"]
+- ["9FluentKit15AnyOptionalTypeP", ""]
+- !private ["9FluentKit11AnyPropertyP", "Model"]
+- !private ["9FluentKit11AnyPropertyP", "Value"]
+- ["9FluentKit11AnyPropertyP", ""]
+- !private ["9FluentKit20AnyQueryablePropertyP", "Model"]
+- !private ["9FluentKit20AnyQueryablePropertyP", "Value"]
+- ["9FluentKit20AnyQueryablePropertyP", ""]
+- !private ["Sa", "append"]
+- !private ["Sa", "create"]
+- !private ["Sa", "map"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "create"]
+- !private ["SK", "map"]
+- !private ["Sl", "Element"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "create"]
+- !private ["Sl", "map"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "create"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "create"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "create"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "$case"]
+- !private ["s23CustomStringConvertibleP", "$name"]
+- !private ["s23CustomStringConvertibleP", "IDValue"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "case"]
+- !private ["s23CustomStringConvertibleP", "create"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "migration"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "query"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "create"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["9FluentKit14DatabaseSchemaV8DataTypeO", "enum"]
+- ["9FluentKit8DatabaseP", "EnumBuilder"]
+- ["9FluentKit8DatabaseP", "String"]
+- ["9FluentKit8DatabaseP", ""]
+- ["9FluentKit8DatabaseP", "enum"]
+- !private ["9FluentKit8DatabaseP", "eventLoop"]
+- !private ["9FluentKit8DatabaseP", "execute"]
+- !private ["9FluentKit12DatabaseEnumV", "action"]
+- !private ["9FluentKit12DatabaseEnumV", "createCases"]
+- !private ["9FluentKit12DatabaseEnumV", "deleteCases"]
+- !private ["9FluentKit12DatabaseEnumV", "init"]
+- !private ["9FluentKit12DatabaseEnumV", "name"]
+- ["9FluentKit14DatabaseSchemaV", "DataType"]
+- !private ["Se", "$case"]
+- !private ["Se", "$name"]
+- !private ["Se", "IDValue"]
+- !private ["Se", "Wrapped"]
+- ["Se", ""]
+- !private ["Se", "append"]
+- !private ["Se", "case"]
+- !private ["Se", "create"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "migration"]
+- !private ["Se", "name"]
+- !private ["Se", "query"]
+- !private ["9FluentKit16EagerLoadBuilderP", "all"]
+- !private ["9FluentKit16EagerLoadBuilderP", "count"]
+- !private ["9FluentKit16EagerLoadBuilderP", "delete"]
+- !private ["9FluentKit16EagerLoadBuilderP", "filter"]
+- !private ["SE", "$case"]
+- !private ["SE", "$name"]
+- !private ["SE", "IDValue"]
+- !private ["SE", "Wrapped"]
+- ["SE", ""]
+- !private ["SE", "append"]
+- !private ["SE", "case"]
+- !private ["SE", "create"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "migration"]
+- !private ["SE", "name"]
+- !private ["SE", "query"]
+- !private ["9FluentKit14DatabaseSchemaV8DataTypeO4EnumV", "init"]
+- ["9FluentKit11EnumBuilderC", "Database"]
+- ["9FluentKit11EnumBuilderC", "DatabaseEnum"]
+- ["9FluentKit11EnumBuilderC", "DatabaseSchema"]
+- !private ["9FluentKit11EnumBuilderC", "EnumMetadata"]
+- ["9FluentKit11EnumBuilderC", "EventLoopFuture"]
+- ["9FluentKit11EnumBuilderC", "Self"]
+- ["9FluentKit11EnumBuilderC", "String"]
+- ["9FluentKit11EnumBuilderC", "Void"]
+- ["9FluentKit11EnumBuilderC", "case"]
+- ["9FluentKit11EnumBuilderC", "create"]
+- ["9FluentKit11EnumBuilderC", "database"]
+- ["9FluentKit11EnumBuilderC", "deinit"]
+- ["9FluentKit11EnumBuilderC", "delete"]
+- ["9FluentKit11EnumBuilderC", "deleteCase"]
+- !private ["9FluentKit11EnumBuilderC", "deleteMetadata"]
+- ["9FluentKit11EnumBuilderC", "enum"]
+- !private ["9FluentKit11EnumBuilderC", "generateDatatype"]
+- ["9FluentKit11EnumBuilderC", "init"]
+- !private ["9FluentKit11EnumBuilderC", "initializeMetadata"]
+- ["9FluentKit11EnumBuilderC", "read"]
+- ["9FluentKit11EnumBuilderC", "update"]
+- !private ["9FluentKit11EnumBuilderC", "updateMetadata"]
+- !private ["9FluentKit12EnumMetadataC", "$case"]
+- !private ["9FluentKit12EnumMetadataC", "$name"]
+- !private ["9FluentKit12EnumMetadataC", ""]
+- !private ["9FluentKit12EnumMetadataC", "case"]
+- !private ["9FluentKit12EnumMetadataC", "init"]
+- !private ["9FluentKit12EnumMetadataC", "migration"]
+- !private ["9FluentKit12EnumMetadataC", "name"]
+- !private ["9FluentKit12EnumMetadataC", "query"]
+- !private ["SQ", ""]
+- !private ["SQ", "and"]
+- !private ["SQ", "append"]
+- !private ["SQ", "create"]
+- !private ["SQ", "delete"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "flatMapError"]
+- !private ["SQ", "map"]
+- !private ["SQ", "update"]
+- !private ["3NIO9EventLoopP", "makeSucceededFuture"]
+- !private ["3NIO15EventLoopFutureC", "and"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- !private ["3NIO15EventLoopFutureC", "flatMapError"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO14EventLoopGroupP", ""]
+- !private ["3NIO14EventLoopGroupP", "makeSucceededFuture"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "create"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["9FluentKit8FieldKeyO", ""]
+- !private ["9FluentKit13FieldPropertyC", ""]
+- !private ["9FluentKit13FieldPropertyC", "subscript"]
+- !private ["9FluentKit6FieldsP", "$case"]
+- !private ["9FluentKit6FieldsP", "$name"]
+- !private ["9FluentKit6FieldsP", "IDValue"]
+- ["9FluentKit6FieldsP", ""]
+- !private ["9FluentKit6FieldsP", "case"]
+- !private ["9FluentKit6FieldsP", "init"]
+- !private ["9FluentKit6FieldsP", "migration"]
+- !private ["9FluentKit6FieldsP", "name"]
+- !private ["9FluentKit6FieldsP", "query"]
+- !private ["SH", "append"]
+- !private ["SH", "create"]
+- !private ["SH", "delete"]
+- !private ["SH", "map"]
+- !private ["SH", "update"]
+- !private ["9FluentKit10IDPropertyC", "subscript"]
+- !private ["9FluentKit9MigrationP", "prepare"]
+- !private ["9FluentKit9MigrationP", "revert"]
+- !private ["9FluentKit5ModelP", "$case"]
+- !private ["9FluentKit5ModelP", "$name"]
+- !private ["9FluentKit5ModelP", "IDValue"]
+- !private ["9FluentKit5ModelP", "case"]
+- !private ["9FluentKit5ModelP", "init"]
+- !private ["9FluentKit5ModelP", "migration"]
+- !private ["9FluentKit5ModelP", "name"]
+- !private ["9FluentKit5ModelP", "query"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "create"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "create"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["9FluentKit12OptionalTypeP", "Wrapped"]
+- !private ["9FluentKit8PropertyP", "Model"]
+- !private ["9FluentKit8PropertyP", "Value"]
+- ["9FluentKit8PropertyP", ""]
+- !private ["9FluentKit12QueryBuilderC", "all"]
+- !private ["9FluentKit12QueryBuilderC", "count"]
+- !private ["9FluentKit12QueryBuilderC", "delete"]
+- !private ["9FluentKit12QueryBuilderC", "filter"]
+- !private ["9FluentKit17QueryablePropertyP", "Model"]
+- !private ["9FluentKit17QueryablePropertyP", "Value"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "create"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "create"]
+- !private ["Sm", "map"]
+- !private ["9FluentKit6SchemaP", "$case"]
+- !private ["9FluentKit6SchemaP", "$name"]
+- !private ["9FluentKit6SchemaP", "IDValue"]
+- ["9FluentKit6SchemaP", ""]
+- !private ["9FluentKit6SchemaP", "case"]
+- !private ["9FluentKit6SchemaP", "init"]
+- !private ["9FluentKit6SchemaP", "migration"]
+- !private ["9FluentKit6SchemaP", "name"]
+- !private ["9FluentKit6SchemaP", "query"]
+- !private ["ST", "Element"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "create"]
+- !private ["ST", "map"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "create"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["10Foundation13_CFBridgeableP", "append"]
+- !private ["10Foundation13_CFBridgeableP", "create"]
+- !private ["10Foundation13_CFBridgeableP", "map"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "create"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "create"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "create"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation13_NSBridgeableP", "append"]
+- !private ["10Foundation13_NSBridgeableP", "create"]
+- !private ["10Foundation13_NSBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "create"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "9FluentKit12DatabaseEnumV6ActionO"
+- "9FluentKit8AnyModelP"
+- "9FluentKit15AnyOptionalTypeP"
+- "9FluentKit11AnyPropertyP"
+- "9FluentKit20AnyQueryablePropertyP"
+- !private "Sa"
+- !private "SK"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "9FluentKit14DatabaseSchemaV8DataTypeO"
+- "9FluentKit8DatabaseP"
+- !private "9FluentKit12DatabaseEnumV"
+- "9FluentKit14DatabaseSchemaV"
+- "Se"
+- !private "9FluentKit16EagerLoadBuilderP"
+- "SE"
+- !private "9FluentKit14DatabaseSchemaV8DataTypeO4EnumV"
+- "9FluentKit11EnumBuilderC"
+- !private "9FluentKit12EnumMetadataC"
+- !private "SQ"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "9FluentKit8FieldKeyO"
+- !private "9FluentKit13FieldPropertyC"
+- "9FluentKit6FieldsP"
+- !private "SH"
+- !private "9FluentKit10IDPropertyC"
+- !private "9FluentKit9MigrationP"
+- !private "9FluentKit5ModelP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "9FluentKit12OptionalTypeP"
+- "9FluentKit8PropertyP"
+- !private "9FluentKit12QueryBuilderC"
+- !private "9FluentKit17QueryablePropertyP"
+- !private "Sk"
+- !private "Sm"
+- "9FluentKit6SchemaP"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "7467b048968fc91f5090b149df8c9ba5"

@@ -1,0 +1,107 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLPredicateBuilder"
+provides-nominal:
+- "6SQLKit19SQLPredicateBuilderP"
+provides-member:
+- ["6SQLKit19SQLPredicateBuilderP", ""]
+- ["6SQLKit19SQLPredicateBuilderP", "where"]
+- ["6SQLKit19SQLPredicateBuilderP", "where"]
+- ["6SQLKit19SQLPredicateBuilderP", "where"]
+- ["6SQLKit19SQLPredicateBuilderP", "where"]
+- ["6SQLKit19SQLPredicateBuilderP", "where"]
+- ["6SQLKit19SQLPredicateBuilderP", "where"]
+- ["6SQLKit19SQLPredicateBuilderP", "where"]
+- ["6SQLKit19SQLPredicateBuilderP", "orWhere"]
+- ["6SQLKit19SQLPredicateBuilderP", "orWhere"]
+- ["6SQLKit19SQLPredicateBuilderP", "orWhere"]
+- ["6SQLKit19SQLPredicateBuilderP", "orWhere"]
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Encodable"
+- !private "SQLBinaryExpression"
+- "SQLBinaryOperator"
+- !private "SQLBind"
+- "SQLExpression"
+- "SQLIdentifier"
+- "SQLPredicateBuilder"
+- "Self"
+- "String"
+depends-member:
+- !private ["SQ", ""]
+- !private ["SQ", "and"]
+- !private ["SQ", "or"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "and"]
+- !private ["SH", "or"]
+- !private ["6SQLKit19SQLBinaryExpressionV", ""]
+- !private ["6SQLKit19SQLBinaryExpressionV", "init"]
+- !private ["6SQLKit17SQLBinaryOperatorO", ""]
+- !private ["6SQLKit17SQLBinaryOperatorO", "and"]
+- !private ["6SQLKit17SQLBinaryOperatorO", "or"]
+- !private ["6SQLKit7SQLBindV", ""]
+- !private ["6SQLKit7SQLBindV", "group"]
+- !private ["6SQLKit7SQLBindV", "init"]
+- !private ["6SQLKit13SQLExpressionP", "and"]
+- !private ["6SQLKit13SQLExpressionP", "group"]
+- !private ["6SQLKit13SQLExpressionP", "init"]
+- !private ["6SQLKit13SQLExpressionP", "or"]
+- !private ["6SQLKit13SQLIdentifierV", ""]
+- !private ["6SQLKit13SQLIdentifierV", "init"]
+- ["6SQLKit19SQLPredicateBuilderP", "Encodable"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "SQLBinaryExpression"]
+- ["6SQLKit19SQLPredicateBuilderP", "SQLBinaryOperator"]
+- !private ["6SQLKit19SQLPredicateBuilderP", "SQLBind"]
+- ["6SQLKit19SQLPredicateBuilderP", "SQLExpression"]
+- ["6SQLKit19SQLPredicateBuilderP", "SQLIdentifier"]
+- ["6SQLKit19SQLPredicateBuilderP", "String"]
+- ["6SQLKit19SQLPredicateBuilderP", ""]
+- ["6SQLKit19SQLPredicateBuilderP", "orWhere"]
+- ["6SQLKit19SQLPredicateBuilderP", "predicate"]
+- ["6SQLKit19SQLPredicateBuilderP", "where"]
+depends-nominal:
+- !private "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "6SQLKit19SQLBinaryExpressionV"
+- !private "6SQLKit17SQLBinaryOperatorO"
+- !private "6SQLKit7SQLBindV"
+- !private "6SQLKit13SQLExpressionP"
+- !private "6SQLKit13SQLIdentifierV"
+- "6SQLKit19SQLPredicateBuilderP"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "abbc43bd5f13836e01771e69cfd97dfc"

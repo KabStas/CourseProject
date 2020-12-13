@@ -1,0 +1,165 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLJoinBuilder"
+provides-nominal:
+- "6SQLKit14SQLJoinBuilderP"
+provides-member:
+- ["6SQLKit14SQLJoinBuilderP", ""]
+- ["6SQLKit14SQLJoinBuilderP", "join"]
+- ["6SQLKit14SQLJoinBuilderP", "join"]
+- ["6SQLKit14SQLJoinBuilderP", "join"]
+- ["6SQLKit14SQLJoinBuilderP", "join"]
+depends-top-level:
+- "AnyObject"
+- !private "Array"
+- !private "SQLBinaryExpression"
+- "SQLBinaryOperator"
+- "SQLExpression"
+- !private "SQLIdentifier"
+- !private "SQLJoin"
+- "SQLJoinBuilder"
+- "SQLJoinMethod"
+- !private "SQLList"
+- !private "SQLRaw"
+- "Self"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["Se", "append"]
+- !private ["SE", "append"]
+- !private ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "inner"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "append"]
+- !private ["SH", "inner"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["6SQLKit19SQLBinaryExpressionV", ""]
+- !private ["6SQLKit19SQLBinaryExpressionV", "init"]
+- !private ["6SQLKit17SQLBinaryOperatorO", ""]
+- !private ["6SQLKit13SQLExpressionP", "init"]
+- !private ["6SQLKit13SQLExpressionP", "inner"]
+- !private ["6SQLKit13SQLIdentifierV", ""]
+- !private ["6SQLKit13SQLIdentifierV", "init"]
+- !private ["6SQLKit7SQLJoinV", ""]
+- !private ["6SQLKit7SQLJoinV", "init"]
+- !private ["6SQLKit14SQLJoinBuilderP", "SQLBinaryExpression"]
+- ["6SQLKit14SQLJoinBuilderP", "SQLBinaryOperator"]
+- ["6SQLKit14SQLJoinBuilderP", "SQLExpression"]
+- !private ["6SQLKit14SQLJoinBuilderP", "SQLIdentifier"]
+- !private ["6SQLKit14SQLJoinBuilderP", "SQLJoin"]
+- ["6SQLKit14SQLJoinBuilderP", "SQLJoinMethod"]
+- !private ["6SQLKit14SQLJoinBuilderP", "SQLList"]
+- !private ["6SQLKit14SQLJoinBuilderP", "SQLRaw"]
+- ["6SQLKit14SQLJoinBuilderP", "String"]
+- ["6SQLKit14SQLJoinBuilderP", ""]
+- ["6SQLKit14SQLJoinBuilderP", "join"]
+- ["6SQLKit14SQLJoinBuilderP", "joins"]
+- ["6SQLKit13SQLJoinMethodO", ""]
+- !private ["6SQLKit13SQLJoinMethodO", "inner"]
+- !private ["6SQLKit7SQLListV", ""]
+- !private ["6SQLKit7SQLListV", "init"]
+- !private ["6SQLKit6SQLRawV", ""]
+- !private ["6SQLKit6SQLRawV", "init"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["10Foundation13_CFBridgeableP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["10Foundation13_NSBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- !private "6SQLKit19SQLBinaryExpressionV"
+- !private "6SQLKit17SQLBinaryOperatorO"
+- !private "6SQLKit13SQLExpressionP"
+- !private "6SQLKit13SQLIdentifierV"
+- !private "6SQLKit7SQLJoinV"
+- "6SQLKit14SQLJoinBuilderP"
+- "6SQLKit13SQLJoinMethodO"
+- !private "6SQLKit7SQLListV"
+- !private "6SQLKit6SQLRawV"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "0008a00e3f582499aa20b1901a6f45cc"

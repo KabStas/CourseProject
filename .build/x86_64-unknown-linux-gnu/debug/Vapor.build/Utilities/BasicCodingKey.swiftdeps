@@ -1,0 +1,556 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CodingKeyRepresentable"
+- "BasicCodingKey"
+provides-nominal:
+- "5Vapor22CodingKeyRepresentableP"
+- "SS"
+- "Si"
+- "5Vapor14BasicCodingKeyO"
+provides-member:
+- ["5Vapor22CodingKeyRepresentableP", ""]
+- ["SS", ""]
+- ["Si", ""]
+- ["Sa", ""]
+- ["5Vapor14BasicCodingKeyO", ""]
+- ["Sa", "dotPath"]
+depends-top-level:
+- "Array"
+- "AssignmentPrecedence"
+- "BasicCodingKey"
+- "CodingKey"
+- "CodingKeyRepresentable"
+- "CustomDebugStringConvertible"
+- "CustomStringConvertible"
+- "Element"
+- "Int"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "map"
+depends-member:
+- !private ["6Crypto24ASN1IntegerRepresentableP", "BasicCodingKey"]
+- ["6Crypto24ASN1IntegerRepresentableP", "codingKey"]
+- !private ["6Crypto24ASN1IntegerRepresentableP", "description"]
+- !private ["6Crypto24ASN1IntegerRepresentableP", "init"]
+- !private ["6Crypto13ASN1ParseableP", "BasicCodingKey"]
+- ["6Crypto13ASN1ParseableP", ""]
+- ["6Crypto13ASN1ParseableP", "codingKey"]
+- !private ["6Crypto13ASN1ParseableP", "description"]
+- !private ["6Crypto13ASN1ParseableP", "init"]
+- !private ["6Crypto16ASN1SerializableP", "BasicCodingKey"]
+- ["6Crypto16ASN1SerializableP", ""]
+- ["6Crypto16ASN1SerializableP", "codingKey"]
+- !private ["6Crypto16ASN1SerializableP", "description"]
+- !private ["6Crypto16ASN1SerializableP", "init"]
+- !private ["s18AdditiveArithmeticP", "BasicCodingKey"]
+- ["s18AdditiveArithmeticP", ""]
+- ["s18AdditiveArithmeticP", "codingKey"]
+- !private ["s18AdditiveArithmeticP", "description"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["Sa", "CodingKey"]
+- ["Sa", "String"]
+- ["Sa", ""]
+- ["Sa", "dotPath"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "BasicCodingKey"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "codingKey"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "description"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- ["5Vapor14BasicCodingKeyO", "CodingKey"]
+- ["5Vapor14BasicCodingKeyO", "CodingKeyRepresentable"]
+- ["5Vapor14BasicCodingKeyO", "Int"]
+- ["5Vapor14BasicCodingKeyO", "String"]
+- ["5Vapor14BasicCodingKeyO", ""]
+- ["5Vapor14BasicCodingKeyO", "debugDescription"]
+- ["5Vapor14BasicCodingKeyO", "description"]
+- ["5Vapor14BasicCodingKeyO", "index"]
+- ["5Vapor14BasicCodingKeyO", "init"]
+- ["5Vapor14BasicCodingKeyO", "intValue"]
+- ["5Vapor14BasicCodingKeyO", "key"]
+- ["5Vapor14BasicCodingKeyO", "stringValue"]
+- !private ["SK", "BasicCodingKey"]
+- ["SK", ""]
+- ["SK", "codingKey"]
+- !private ["SK", "debugDescription"]
+- !private ["SK", "description"]
+- !private ["SK", "joined"]
+- !private ["SK", "map"]
+- !private ["Sz", "BasicCodingKey"]
+- ["Sz", ""]
+- ["Sz", "codingKey"]
+- !private ["Sz", "description"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "BasicCodingKey"]
+- ["s7CVarArgP", "codingKey"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s9CodingKeyP", "Int"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "index"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "key"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["5Vapor22CodingKeyRepresentableP", "BasicCodingKey"]
+- ["5Vapor22CodingKeyRepresentableP", "CodingKey"]
+- ["5Vapor22CodingKeyRepresentableP", ""]
+- ["5Vapor22CodingKeyRepresentableP", "codingKey"]
+- !private ["5Vapor22CodingKeyRepresentableP", "debugDescription"]
+- !private ["5Vapor22CodingKeyRepresentableP", "description"]
+- !private ["5Vapor22CodingKeyRepresentableP", "init"]
+- !private ["Sl", "BasicCodingKey"]
+- ["Sl", ""]
+- ["Sl", "codingKey"]
+- !private ["Sl", "debugDescription"]
+- !private ["Sl", "description"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "map"]
+- !private ["SL", "BasicCodingKey"]
+- ["SL", ""]
+- ["SL", "codingKey"]
+- !private ["SL", "debugDescription"]
+- !private ["SL", "description"]
+- !private ["SL", "init"]
+- !private ["5Vapor7ContentP", "BasicCodingKey"]
+- ["5Vapor7ContentP", "codingKey"]
+- !private ["5Vapor7ContentP", "debugDescription"]
+- !private ["5Vapor7ContentP", "description"]
+- !private ["5Vapor7ContentP", "init"]
+- !private ["5Vapor7ContentP", "joined"]
+- !private ["5Vapor7ContentP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "BasicCodingKey"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "codingKey"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "index"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- ["s28CustomDebugStringConvertibleP", "key"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "BasicCodingKey"]
+- ["s17CustomReflectableP", "codingKey"]
+- !private ["s17CustomReflectableP", "debugDescription"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "BasicCodingKey"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "codingKey"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "index"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- ["s23CustomStringConvertibleP", "key"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "BasicCodingKey"]
+- ["Se", ""]
+- ["Se", "codingKey"]
+- !private ["Se", "debugDescription"]
+- !private ["Se", "description"]
+- !private ["Se", "init"]
+- !private ["Se", "joined"]
+- !private ["Se", "map"]
+- !private ["SE", "BasicCodingKey"]
+- ["SE", ""]
+- ["SE", "codingKey"]
+- !private ["SE", "debugDescription"]
+- !private ["SE", "description"]
+- !private ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["SE", "map"]
+- !private ["SQ", "BasicCodingKey"]
+- ["SQ", ""]
+- ["SQ", "codingKey"]
+- !private ["SQ", "debugDescription"]
+- !private ["SQ", "description"]
+- !private ["SQ", "init"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "BasicCodingKey"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "codingKey"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "debugDescription"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "description"]
+- !private ["s27ExpressibleByIntegerLiteralP", "BasicCodingKey"]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", "codingKey"]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "BasicCodingKey"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", "codingKey"]
+- !private ["s32ExpressibleByStringInterpolationP", "debugDescription"]
+- !private ["s32ExpressibleByStringInterpolationP", "description"]
+- !private ["s26ExpressibleByStringLiteralP", "BasicCodingKey"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "codingKey"]
+- !private ["s26ExpressibleByStringLiteralP", "debugDescription"]
+- !private ["s26ExpressibleByStringLiteralP", "description"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "BasicCodingKey"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "codingKey"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "debugDescription"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "description"]
+- !private ["s17FixedWidthIntegerP", "BasicCodingKey"]
+- ["s17FixedWidthIntegerP", "codingKey"]
+- !private ["s17FixedWidthIntegerP", "description"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "BasicCodingKey"]
+- ["SH", ""]
+- ["SH", "codingKey"]
+- !private ["SH", "debugDescription"]
+- !private ["SH", "description"]
+- !private ["SH", "init"]
+- !private ["SH", "joined"]
+- !private ["SH", "map"]
+- !private ["Si", "BasicCodingKey"]
+- ["Si", "CodingKey"]
+- ["Si", ""]
+- ["Si", "codingKey"]
+- !private ["Si", "description"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "BasicCodingKey"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", "codingKey"]
+- !private ["s25LosslessStringConvertibleP", "debugDescription"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "BasicCodingKey"]
+- ["s10MirrorPathP", "codingKey"]
+- !private ["s10MirrorPathP", "debugDescription"]
+- !private ["s10MirrorPathP", "description"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["5Vapor24MultipartPartConvertibleP", "BasicCodingKey"]
+- ["5Vapor24MultipartPartConvertibleP", "codingKey"]
+- !private ["5Vapor24MultipartPartConvertibleP", "debugDescription"]
+- !private ["5Vapor24MultipartPartConvertibleP", "description"]
+- !private ["5Vapor24MultipartPartConvertibleP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "joined"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "BasicCodingKey"]
+- ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "codingKey"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "description"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- !private ["10Foundation8NSCodingP", ""]
+- !private ["10Foundation8NSCodingP", "debugDescription"]
+- !private ["10Foundation8NSCodingP", "description"]
+- !private ["10Foundation9NSCopyingP", "debugDescription"]
+- !private ["10Foundation9NSCopyingP", "description"]
+- !private ["10Foundation16NSMutableCopyingP", "debugDescription"]
+- !private ["10Foundation16NSMutableCopyingP", "description"]
+- ["10Foundation8NSObjectC", ""]
+- !private ["10Foundation8NSObjectC", "debugDescription"]
+- !private ["10Foundation8NSObjectC", "description"]
+- !private ["10Foundation16NSObjectProtocolP", "debugDescription"]
+- !private ["10Foundation16NSObjectProtocolP", "description"]
+- !private ["10Foundation14NSSecureCodingP", "debugDescription"]
+- !private ["10Foundation14NSSecureCodingP", "description"]
+- !private ["10Foundation8NSStringC", "debugDescription"]
+- !private ["10Foundation8NSStringC", "description"]
+- !private ["Sj", "BasicCodingKey"]
+- ["Sj", ""]
+- ["Sj", "codingKey"]
+- !private ["Sj", "description"]
+- !private ["Sj", "init"]
+- !private ["Sk", ""]
+- !private ["Sk", "joined"]
+- !private ["Sk", "map"]
+- !private ["Sm", "BasicCodingKey"]
+- !private ["Sm", ""]
+- ["Sm", "codingKey"]
+- !private ["Sm", "debugDescription"]
+- !private ["Sm", "description"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "map"]
+- !private ["5Vapor16RequestDecodableP", "BasicCodingKey"]
+- ["5Vapor16RequestDecodableP", ""]
+- ["5Vapor16RequestDecodableP", "codingKey"]
+- !private ["5Vapor16RequestDecodableP", "debugDescription"]
+- !private ["5Vapor16RequestDecodableP", "description"]
+- !private ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "joined"]
+- !private ["5Vapor16RequestDecodableP", "map"]
+- !private ["5Vapor17ResponseEncodableP", "BasicCodingKey"]
+- ["5Vapor17ResponseEncodableP", ""]
+- ["5Vapor17ResponseEncodableP", "codingKey"]
+- !private ["5Vapor17ResponseEncodableP", "debugDescription"]
+- !private ["5Vapor17ResponseEncodableP", "description"]
+- !private ["5Vapor17ResponseEncodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "joined"]
+- !private ["5Vapor17ResponseEncodableP", "map"]
+- !private ["s10SIMDScalarP", "BasicCodingKey"]
+- ["s10SIMDScalarP", "codingKey"]
+- !private ["s10SIMDScalarP", "description"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "BasicCodingKey"]
+- ["ST", ""]
+- ["ST", "codingKey"]
+- !private ["ST", "debugDescription"]
+- !private ["ST", "description"]
+- !private ["ST", "joined"]
+- !private ["ST", "map"]
+- !private ["SZ", "BasicCodingKey"]
+- ["SZ", "codingKey"]
+- !private ["SZ", "description"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "BasicCodingKey"]
+- ["s13SignedNumericP", ""]
+- ["s13SignedNumericP", "codingKey"]
+- !private ["s13SignedNumericP", "description"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "BasicCodingKey"]
+- ["Sx", ""]
+- ["Sx", "codingKey"]
+- !private ["Sx", "description"]
+- !private ["Sx", "init"]
+- !private ["SS", "BasicCodingKey"]
+- ["SS", "CodingKey"]
+- ["SS", ""]
+- ["SS", "codingKey"]
+- !private ["SS", "debugDescription"]
+- !private ["SS", "description"]
+- !private ["Sy", "BasicCodingKey"]
+- ["Sy", "codingKey"]
+- !private ["Sy", "debugDescription"]
+- !private ["Sy", "description"]
+- !private ["s16TextOutputStreamP", "BasicCodingKey"]
+- ["s16TextOutputStreamP", ""]
+- ["s16TextOutputStreamP", "codingKey"]
+- !private ["s16TextOutputStreamP", "debugDescription"]
+- !private ["s16TextOutputStreamP", "description"]
+- !private ["s20TextOutputStreamableP", "BasicCodingKey"]
+- ["s20TextOutputStreamableP", ""]
+- ["s20TextOutputStreamableP", "codingKey"]
+- !private ["s20TextOutputStreamableP", "debugDescription"]
+- !private ["s20TextOutputStreamableP", "description"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "BasicCodingKey"]
+- ["5Vapor27URLQueryFragmentConvertibleP", "codingKey"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "debugDescription"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "description"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "init"]
+- !private ["6Crypto11ZeroizationP", "joined"]
+- !private ["6Crypto11ZeroizationP", "map"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["10Foundation13_CFBridgeableP", "BasicCodingKey"]
+- ["10Foundation13_CFBridgeableP", "codingKey"]
+- !private ["10Foundation13_CFBridgeableP", "debugDescription"]
+- !private ["10Foundation13_CFBridgeableP", "description"]
+- !private ["10Foundation13_CFBridgeableP", "joined"]
+- !private ["10Foundation13_CFBridgeableP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "BasicCodingKey"]
+- ["s30_CustomPlaygroundQuickLookableP", "codingKey"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "debugDescription"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "description"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "BasicCodingKey"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "codingKey"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "debugDescription"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "description"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "BasicCodingKey"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "codingKey"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "BasicCodingKey"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "codingKey"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "debugDescription"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "description"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "BasicCodingKey"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "codingKey"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "debugDescription"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "description"]
+- !private ["s19_HasContiguousBytesP", "BasicCodingKey"]
+- ["s19_HasContiguousBytesP", "codingKey"]
+- !private ["s19_HasContiguousBytesP", "debugDescription"]
+- !private ["s19_HasContiguousBytesP", "description"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "BasicCodingKey"]
+- ["s35_HasCustomAnyHashableRepresentationP", "codingKey"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation13_NSBridgeableP", "BasicCodingKey"]
+- ["10Foundation13_NSBridgeableP", "codingKey"]
+- !private ["10Foundation13_NSBridgeableP", "debugDescription"]
+- !private ["10Foundation13_NSBridgeableP", "description"]
+- !private ["10Foundation13_NSBridgeableP", "joined"]
+- !private ["10Foundation13_NSBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "BasicCodingKey"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- ["s21_ObjectiveCBridgeableP", "codingKey"]
+- !private ["s21_ObjectiveCBridgeableP", "debugDescription"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["10Foundation17_StructBridgeableP", ""]
+- !private ["10Foundation17_StructBridgeableP", "debugDescription"]
+- !private ["10Foundation17_StructBridgeableP", "description"]
+- !private ["10Foundation21_StructTypeBridgeableP", "debugDescription"]
+- !private ["10Foundation21_StructTypeBridgeableP", "description"]
+- !private ["10Foundation16_SwiftBridgeableP", "debugDescription"]
+- !private ["10Foundation16_SwiftBridgeableP", "description"]
+depends-nominal:
+- "6Crypto24ASN1IntegerRepresentableP"
+- "6Crypto13ASN1ParseableP"
+- "6Crypto16ASN1SerializableP"
+- "s18AdditiveArithmeticP"
+- "Sa"
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "5Vapor14BasicCodingKeyO"
+- "SK"
+- "Sz"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "5Vapor22CodingKeyRepresentableP"
+- "Sl"
+- "SL"
+- "5Vapor7ContentP"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "SH"
+- "Si"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "5Vapor24MultipartPartConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "10Foundation8NSCodingP"
+- !private "10Foundation9NSCopyingP"
+- !private "10Foundation16NSMutableCopyingP"
+- "10Foundation8NSObjectC"
+- !private "10Foundation16NSObjectProtocolP"
+- !private "10Foundation14NSSecureCodingP"
+- !private "10Foundation8NSStringC"
+- "Sj"
+- !private "Sk"
+- "Sm"
+- "5Vapor16RequestDecodableP"
+- "5Vapor17ResponseEncodableP"
+- "s10SIMDScalarP"
+- "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "5Vapor27URLQueryFragmentConvertibleP"
+- !private "6Crypto11ZeroizationP"
+- !private "s14_ArrayProtocolP"
+- "10Foundation13_CFBridgeableP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation13_NSBridgeableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "10Foundation17_StructBridgeableP"
+- !private "10Foundation21_StructTypeBridgeableP"
+- !private "10Foundation16_SwiftBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP2.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHPACK.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOSSL.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTLS.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Backtrace.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTPCompression.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Crypto.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOExtras.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Metrics.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CoreMetrics.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTransportServices.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOFoundationCompat.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOWebSocket.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ConsoleKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/RoutingKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/WebSocketKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncHTTPClient.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/root/CourseProject/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/root/CourseProject/.build/checkouts/swift-backtrace/Sources/CBacktrace/include/backtrace.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CURLParser/include/urlparser.h"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CMultipartParser/include/multipartparser.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+interface-hash: "4f684448763151647b9563c1b856a17c"

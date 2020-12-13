@@ -1,0 +1,70 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["9FluentKit8DatabaseP", ""]
+- ["9FluentKit8DatabaseP", "logging"]
+depends-top-level:
+- "Bool"
+- "Database"
+- "DatabaseContext"
+- "DatabaseEnum"
+- "DatabaseOutput"
+- "DatabaseQuery"
+- "DatabaseSchema"
+- "EventLoopFuture"
+- "Logger"
+- "LoggingOverrideDatabase"
+- "Void"
+depends-member:
+- ["s23CustomStringConvertibleP", ""]
+- ["9FluentKit8DatabaseP", "Database"]
+- ["9FluentKit8DatabaseP", "Logger"]
+- !private ["9FluentKit8DatabaseP", "LoggingOverrideDatabase"]
+- ["9FluentKit8DatabaseP", ""]
+- ["9FluentKit8DatabaseP", "context"]
+- !private ["9FluentKit8DatabaseP", "database"]
+- ["9FluentKit8DatabaseP", "execute"]
+- ["9FluentKit8DatabaseP", "inTransaction"]
+- !private ["9FluentKit8DatabaseP", "init"]
+- !private ["9FluentKit8DatabaseP", "logger"]
+- ["9FluentKit8DatabaseP", "logging"]
+- ["9FluentKit8DatabaseP", "transaction"]
+- ["9FluentKit8DatabaseP", "withConnection"]
+- !private ["9FluentKit15DatabaseContextV", "configuration"]
+- !private ["9FluentKit15DatabaseContextV", "eventLoop"]
+- !private ["9FluentKit15DatabaseContextV", "history"]
+- !private ["9FluentKit15DatabaseContextV", "init"]
+depends-nominal:
+- "s23CustomStringConvertibleP"
+- "9FluentKit8DatabaseP"
+- !private "9FluentKit15DatabaseContextV"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "fe9a641d264e92350194f64ea8a0de5e"

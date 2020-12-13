@@ -1,0 +1,377 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MigrateCommand"
+provides-nominal:
+- "6Fluent14MigrateCommandC"
+- "6Fluent14MigrateCommandC9SignatureV"
+provides-member:
+- ["6Fluent14MigrateCommandC", ""]
+- ["6Fluent14MigrateCommandC9SignatureV", ""]
+depends-top-level:
+- !private ">"
+- !private "??"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Command"
+- "CommandContext"
+- "CommandSignature"
+- "Flag"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MigrateCommand"
+- "Signature"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+depends-member:
+- ["10ConsoleKit10AnyCommandP", "CommandSignature"]
+- ["10ConsoleKit10AnyCommandP", "Flag"]
+- ["10ConsoleKit10AnyCommandP", "Signature"]
+- ["10ConsoleKit10AnyCommandP", ""]
+- ["10ConsoleKit10AnyCommandP", "help"]
+- ["10ConsoleKit10AnyCommandP", "outputAutoComplete"]
+- ["10ConsoleKit10AnyCommandP", "outputHelp"]
+- !private ["10ConsoleKit10AnyCommandP", "prepare"]
+- ["10ConsoleKit10AnyCommandP", "renderCompletionFunctions"]
+- !private ["10ConsoleKit10AnyCommandP", "revert"]
+- ["10ConsoleKit10AnyCommandP", "run"]
+- ["10ConsoleKit7AnyFlagP", "init"]
+- ["10ConsoleKit7AnyFlagP", "wrappedValue"]
+- !private ["9FluentKit11AnyPropertyP", ""]
+- !private ["9FluentKit20AnyQueryablePropertyP", ""]
+- ["10ConsoleKit17AnySignatureValueP", ""]
+- ["10ConsoleKit17AnySignatureValueP", "init"]
+- ["10ConsoleKit17AnySignatureValueP", "wrappedValue"]
+- !private ["5Vapor11ApplicationC", "migrator"]
+- !private ["Sa", "count"]
+- !private ["SK", ""]
+- !private ["SK", "consoleText"]
+- !private ["SK", "count"]
+- !private ["5Vapor22CodingKeyRepresentableP", "consoleText"]
+- !private ["Sl", ""]
+- !private ["Sl", "consoleText"]
+- !private ["Sl", "count"]
+- ["10ConsoleKit7CommandP", "CommandSignature"]
+- ["10ConsoleKit7CommandP", "Flag"]
+- ["10ConsoleKit7CommandP", "Signature"]
+- ["10ConsoleKit7CommandP", ""]
+- ["10ConsoleKit7CommandP", "help"]
+- ["10ConsoleKit7CommandP", "outputAutoComplete"]
+- ["10ConsoleKit7CommandP", "outputHelp"]
+- !private ["10ConsoleKit7CommandP", "prepare"]
+- ["10ConsoleKit7CommandP", "renderCompletionFunctions"]
+- !private ["10ConsoleKit7CommandP", "revert"]
+- ["10ConsoleKit7CommandP", "run"]
+- !private ["10ConsoleKit14CommandContextV", "application"]
+- !private ["10ConsoleKit14CommandContextV", "console"]
+- ["10ConsoleKit16CommandSignatureP", "Flag"]
+- ["10ConsoleKit16CommandSignatureP", ""]
+- ["10ConsoleKit16CommandSignatureP", "init"]
+- !private ["10ConsoleKit16CommandSignatureP", "revert"]
+- !private ["SL", ""]
+- !private ["SL", "consoleText"]
+- !private ["10ConsoleKit0A0P", "confirm"]
+- !private ["10ConsoleKit0A0P", "error"]
+- !private ["10ConsoleKit0A0P", "info"]
+- !private ["10ConsoleKit0A0P", "print"]
+- !private ["10ConsoleKit0A0P", "success"]
+- !private ["10ConsoleKit0A0P", "warning"]
+- !private ["10ConsoleKit0A5StyleV", "warning"]
+- !private ["5Vapor7ContentP", "consoleText"]
+- !private ["5Vapor7ContentP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "consoleText"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s17CustomReflectableP", "consoleText"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "consoleText"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["9FluentKit10DatabaseIDV", "string"]
+- !private ["Se", ""]
+- !private ["Se", "consoleText"]
+- !private ["Se", "count"]
+- !private ["Se", "string"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", ""]
+- !private ["SE", "consoleText"]
+- !private ["SE", "count"]
+- !private ["SE", "string"]
+- !private ["SQ", ""]
+- !private ["SQ", "consoleText"]
+- !private ["SQ", "count"]
+- !private ["SQ", "string"]
+- !private ["SQ", "wait"]
+- !private ["3NIO15EventLoopFutureC", "wait"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "consoleText"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "consoleText"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "consoleText"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "consoleText"]
+- ["10ConsoleKit4FlagC", "init"]
+- ["10ConsoleKit4FlagC", "projectedValue"]
+- ["10ConsoleKit4FlagC", "subscript"]
+- ["10ConsoleKit4FlagC", "wrappedValue"]
+- !private ["SH", ""]
+- !private ["SH", "consoleText"]
+- !private ["SH", "count"]
+- !private ["SH", "string"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "consoleText"]
+- ["6Fluent14MigrateCommandC", "Bool"]
+- ["6Fluent14MigrateCommandC", "CommandContext"]
+- ["6Fluent14MigrateCommandC", "CommandSignature"]
+- ["6Fluent14MigrateCommandC", "Flag"]
+- ["6Fluent14MigrateCommandC", "Signature"]
+- ["6Fluent14MigrateCommandC", "String"]
+- ["6Fluent14MigrateCommandC", ""]
+- ["6Fluent14MigrateCommandC", "deinit"]
+- ["6Fluent14MigrateCommandC", "help"]
+- ["6Fluent14MigrateCommandC", "init"]
+- ["6Fluent14MigrateCommandC", "outputAutoComplete"]
+- ["6Fluent14MigrateCommandC", "outputHelp"]
+- !private ["6Fluent14MigrateCommandC", "prepare"]
+- ["6Fluent14MigrateCommandC", "renderCompletionFunctions"]
+- !private ["6Fluent14MigrateCommandC", "revert"]
+- ["6Fluent14MigrateCommandC", "run"]
+- ["6Fluent14MigrateCommandC", "signature"]
+- !private ["9FluentKit9MigrationP", "name"]
+- !private ["9FluentKit8MigratorV", "prepareBatch"]
+- !private ["9FluentKit8MigratorV", "previewPrepareBatch"]
+- !private ["9FluentKit8MigratorV", "previewRevertLastBatch"]
+- !private ["9FluentKit8MigratorV", "revertLastBatch"]
+- !private ["9FluentKit8MigratorV", "setupIfNeeded"]
+- !private ["s10MirrorPathP", "consoleText"]
+- !private ["5Vapor24MultipartPartConvertibleP", "consoleText"]
+- !private ["SM", ""]
+- !private ["SM", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation8NSCodingP", ""]
+- !private ["10Foundation8NSCodingP", "consoleText"]
+- !private ["10Foundation9NSCopyingP", "consoleText"]
+- !private ["10Foundation16NSMutableCopyingP", "consoleText"]
+- !private ["10Foundation8NSObjectC", "consoleText"]
+- !private ["10Foundation16NSObjectProtocolP", "consoleText"]
+- !private ["10Foundation14NSSecureCodingP", "consoleText"]
+- !private ["10Foundation8NSStringC", "consoleText"]
+- !private ["9FluentKit8PropertyP", ""]
+- !private ["Sk", ""]
+- !private ["Sk", "count"]
+- !private ["Sm", ""]
+- !private ["Sm", "consoleText"]
+- !private ["Sm", "count"]
+- !private ["5Vapor16RequestDecodableP", ""]
+- !private ["5Vapor16RequestDecodableP", "consoleText"]
+- !private ["5Vapor16RequestDecodableP", "count"]
+- !private ["5Vapor17ResponseEncodableP", ""]
+- !private ["5Vapor17ResponseEncodableP", "consoleText"]
+- !private ["5Vapor17ResponseEncodableP", "count"]
+- !private ["5Vapor17ResponseEncodableP", "wait"]
+- !private ["5Vapor13RoutesBuilderP", "migrator"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "consoleText"]
+- !private ["ST", "count"]
+- !private ["ST", "makeIterator"]
+- ["6Fluent14MigrateCommandC9SignatureV", "$revert"]
+- ["6Fluent14MigrateCommandC9SignatureV", "Bool"]
+- ["6Fluent14MigrateCommandC9SignatureV", "Flag"]
+- ["6Fluent14MigrateCommandC9SignatureV", ""]
+- !private ["6Fluent14MigrateCommandC9SignatureV", "_revert"]
+- ["6Fluent14MigrateCommandC9SignatureV", "init"]
+- ["6Fluent14MigrateCommandC9SignatureV", "revert"]
+- !private ["SS", "consoleText"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "consoleText"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "consoleText"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "consoleText"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "consoleText"]
+- !private ["6Crypto11ZeroizationP", "count"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["10Foundation13_CFBridgeableP", "consoleText"]
+- !private ["10Foundation13_CFBridgeableP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "consoleText"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "consoleText"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "consoleText"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "consoleText"]
+- !private ["s19_HasContiguousBytesP", "consoleText"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["10Foundation13_NSBridgeableP", "consoleText"]
+- !private ["10Foundation13_NSBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "consoleText"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["10Foundation17_StructBridgeableP", ""]
+- !private ["10Foundation17_StructBridgeableP", "consoleText"]
+- !private ["10Foundation21_StructTypeBridgeableP", "consoleText"]
+- !private ["10Foundation16_SwiftBridgeableP", "consoleText"]
+depends-nominal:
+- "10ConsoleKit10AnyCommandP"
+- "10ConsoleKit7AnyFlagP"
+- !private "9FluentKit11AnyPropertyP"
+- !private "9FluentKit20AnyQueryablePropertyP"
+- "10ConsoleKit17AnySignatureValueP"
+- !private "5Vapor11ApplicationC"
+- !private "Sa"
+- !private "SK"
+- !private "5Vapor22CodingKeyRepresentableP"
+- !private "Sl"
+- "10ConsoleKit7CommandP"
+- !private "10ConsoleKit14CommandContextV"
+- "10ConsoleKit16CommandSignatureP"
+- !private "SL"
+- !private "10ConsoleKit0A0P"
+- !private "10ConsoleKit0A5StyleV"
+- !private "5Vapor7ContentP"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "9FluentKit10DatabaseIDV"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SQ"
+- !private "3NIO15EventLoopFutureC"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "10ConsoleKit4FlagC"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- "6Fluent14MigrateCommandC"
+- !private "9FluentKit9MigrationP"
+- !private "9FluentKit8MigratorV"
+- !private "s10MirrorPathP"
+- !private "5Vapor24MultipartPartConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "10Foundation8NSCodingP"
+- !private "10Foundation9NSCopyingP"
+- !private "10Foundation16NSMutableCopyingP"
+- !private "10Foundation8NSObjectC"
+- !private "10Foundation16NSObjectProtocolP"
+- !private "10Foundation14NSSecureCodingP"
+- !private "10Foundation8NSStringC"
+- !private "9FluentKit8PropertyP"
+- !private "Sk"
+- !private "Sm"
+- !private "5Vapor16RequestDecodableP"
+- !private "5Vapor17ResponseEncodableP"
+- !private "5Vapor13RoutesBuilderP"
+- !private "ST"
+- "6Fluent14MigrateCommandC9SignatureV"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "5Vapor27URLQueryFragmentConvertibleP"
+- !private "6Crypto11ZeroizationP"
+- !private "s14_ArrayProtocolP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "10Foundation17_StructBridgeableP"
+- !private "10Foundation21_StructTypeBridgeableP"
+- !private "10Foundation16_SwiftBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP2.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHPACK.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOSSL.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTLS.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Backtrace.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTPCompression.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Crypto.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Vapor.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOExtras.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Metrics.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CoreMetrics.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTransportServices.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOFoundationCompat.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOWebSocket.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ConsoleKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/RoutingKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/WebSocketKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncHTTPClient.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/root/CourseProject/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/root/CourseProject/.build/checkouts/swift-backtrace/Sources/CBacktrace/include/backtrace.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CURLParser/include/urlparser.h"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CMultipartParser/include/multipartparser.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+interface-hash: "029f96a7631baaf7951f1ef26e426816"

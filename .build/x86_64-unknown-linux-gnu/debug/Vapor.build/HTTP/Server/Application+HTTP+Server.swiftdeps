@@ -1,0 +1,169 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "5Vapor11ApplicationC4HTTPV6ServerV"
+- "5Vapor11ApplicationC4HTTPV6ServerV3KeyV"
+- "5Vapor11ApplicationC4HTTPV6ServerV16ConfigurationKeyV"
+provides-member:
+- ["5Vapor11ApplicationC7ServersV8ProviderV", ""]
+- ["5Vapor11ApplicationC4HTTPV", ""]
+- ["5Vapor11ApplicationC4HTTPV6ServerV", ""]
+- ["5Vapor11ApplicationC4HTTPV6ServerV3KeyV", ""]
+- ["5Vapor11ApplicationC4HTTPV6ServerV16ConfigurationKeyV", ""]
+- ["5Vapor11ApplicationC7ServersV8ProviderV", "http"]
+- ["5Vapor11ApplicationC4HTTPV", "server"]
+- ["5Vapor11ApplicationC4HTTPV", "Server"]
+depends-top-level:
+- !private "??"
+- "Application"
+- "AssignmentPrecedence"
+- !private "ConfigurationKey"
+- "HTTPServer"
+- !private "Key"
+- "Self"
+- "Server"
+- "StorageKey"
+- !private "StringLiteralType"
+depends-member:
+- ["5Vapor11ApplicationC", "HTTP"]
+- ["5Vapor11ApplicationC", "Servers"]
+- !private ["5Vapor11ApplicationC", "eventLoopGroup"]
+- !private ["5Vapor11ApplicationC", "http"]
+- !private ["5Vapor11ApplicationC", "logger"]
+- !private ["5Vapor11ApplicationC", "responder"]
+- !private ["5Vapor11ApplicationC", "servers"]
+- !private ["5Vapor11ApplicationC", "storage"]
+- !private ["5Vapor10HTTPServerC13ConfigurationV", "init"]
+- ["5Vapor11ApplicationC4HTTPV6ServerV16ConfigurationKeyV", "HTTPServer"]
+- ["5Vapor11ApplicationC4HTTPV6ServerV16ConfigurationKeyV", "Value"]
+- !private ["5Vapor11ApplicationC4HTTPV6ServerV16ConfigurationKeyV", ""]
+- ["5Vapor11ApplicationC4HTTPV6ServerV16ConfigurationKeyV", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["5Vapor11ApplicationC4HTTPV", "Application"]
+- !private ["5Vapor11ApplicationC4HTTPV", "ConfigurationKey"]
+- ["5Vapor11ApplicationC4HTTPV", "HTTPServer"]
+- !private ["5Vapor11ApplicationC4HTTPV", "Key"]
+- ["5Vapor11ApplicationC4HTTPV", "Server"]
+- ["5Vapor11ApplicationC4HTTPV", "StorageKey"]
+- ["5Vapor11ApplicationC4HTTPV", ""]
+- !private ["5Vapor11ApplicationC4HTTPV", "application"]
+- ["5Vapor11ApplicationC4HTTPV", "server"]
+- ["5Vapor10HTTPServerC", "Configuration"]
+- !private ["5Vapor10HTTPServerC", ""]
+- !private ["5Vapor10HTTPServerC", "init"]
+- !private ["5Vapor16HTTPVersionMajorO", ""]
+- ["5Vapor11ApplicationC4HTTPV6ServerV3KeyV", "HTTPServer"]
+- ["5Vapor11ApplicationC4HTTPV6ServerV3KeyV", "Value"]
+- !private ["5Vapor11ApplicationC4HTTPV6ServerV3KeyV", ""]
+- ["5Vapor11ApplicationC4HTTPV6ServerV3KeyV", "init"]
+- !private ["7Logging6LoggerV", "warning"]
+- ["5Vapor11ApplicationC7ServersV8ProviderV", "Self"]
+- ["5Vapor11ApplicationC7ServersV8ProviderV", ""]
+- ["5Vapor11ApplicationC7ServersV8ProviderV", "http"]
+- !private ["5Vapor11ApplicationC7ServersV8ProviderV", "init"]
+- !private ["5Vapor11ApplicationC9ResponderV", "current"]
+- !private ["5Vapor9ResponderP", "current"]
+- !private ["5Vapor13RoutesBuilderP", "eventLoopGroup"]
+- !private ["5Vapor13RoutesBuilderP", "http"]
+- !private ["5Vapor13RoutesBuilderP", "logger"]
+- !private ["5Vapor13RoutesBuilderP", "responder"]
+- !private ["5Vapor13RoutesBuilderP", "servers"]
+- !private ["5Vapor13RoutesBuilderP", "storage"]
+- ["5Vapor11ApplicationC4HTTPV6ServerV", "Application"]
+- ["5Vapor6ServerP", "Configuration"]
+- ["5Vapor11ApplicationC4HTTPV6ServerV", "ConfigurationKey"]
+- ["5Vapor11ApplicationC4HTTPV6ServerV", "HTTPServer"]
+- ["5Vapor11ApplicationC4HTTPV6ServerV", "Key"]
+- ["5Vapor11ApplicationC4HTTPV6ServerV", "StorageKey"]
+- ["5Vapor11ApplicationC4HTTPV6ServerV", "application"]
+- ["5Vapor11ApplicationC4HTTPV6ServerV", "configuration"]
+- ["5Vapor11ApplicationC4HTTPV6ServerV", "init"]
+- !private ["5Vapor6ServerP", "init"]
+- ["5Vapor11ApplicationC4HTTPV6ServerV", "shared"]
+- ["5Vapor11ApplicationC7ServersV", "Provider"]
+- !private ["5Vapor11ApplicationC7ServersV", "use"]
+- !private ["5Vapor7StorageV", "contains"]
+- !private ["5Vapor7StorageV", "subscript"]
+- ["5Vapor10StorageKeyP", "Value"]
+- ["5Vapor10StorageKeyP", ""]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "5Vapor11ApplicationC"
+- !private "5Vapor10HTTPServerC13ConfigurationV"
+- "5Vapor11ApplicationC4HTTPV6ServerV16ConfigurationKeyV"
+- !private "s26ExpressibleByStringLiteralP"
+- "5Vapor11ApplicationC4HTTPV"
+- "5Vapor10HTTPServerC"
+- !private "5Vapor16HTTPVersionMajorO"
+- "5Vapor11ApplicationC4HTTPV6ServerV3KeyV"
+- !private "7Logging6LoggerV"
+- "5Vapor11ApplicationC7ServersV8ProviderV"
+- !private "5Vapor11ApplicationC9ResponderV"
+- !private "5Vapor9ResponderP"
+- !private "5Vapor13RoutesBuilderP"
+- "5Vapor11ApplicationC4HTTPV6ServerV"
+- "5Vapor6ServerP"
+- "5Vapor11ApplicationC4HTTPV6ServerV"
+- !private "5Vapor6ServerP"
+- "5Vapor11ApplicationC4HTTPV6ServerV"
+- "5Vapor11ApplicationC7ServersV"
+- !private "5Vapor7StorageV"
+- "5Vapor10StorageKeyP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP2.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHPACK.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOSSL.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTLS.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Backtrace.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTPCompression.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Crypto.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOExtras.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Metrics.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CoreMetrics.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTransportServices.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOFoundationCompat.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOWebSocket.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ConsoleKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/RoutingKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/WebSocketKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncHTTPClient.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/root/CourseProject/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/root/CourseProject/.build/checkouts/swift-backtrace/Sources/CBacktrace/include/backtrace.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CURLParser/include/urlparser.h"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CMultipartParser/include/multipartparser.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+interface-hash: "09ebe276043c349322ce925f17a28a79"

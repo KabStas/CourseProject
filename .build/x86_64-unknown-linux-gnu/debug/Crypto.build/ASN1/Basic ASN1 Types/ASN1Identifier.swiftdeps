@@ -1,0 +1,374 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "6Crypto4ASN1O0B10IdentifierV"
+- "6Crypto4ASN1O0B10IdentifierV8TagClassO"
+provides-member:
+- ["6Crypto4ASN1O", ""]
+- ["6Crypto4ASN1O0B10IdentifierV", ""]
+- ["6Crypto4ASN1O0B10IdentifierV8TagClassO", ""]
+- ["6Crypto4ASN1O", "ASN1Identifier"]
+- ["6Crypto4ASN1O0B10IdentifierV", "objectIdentifier"]
+- ["6Crypto4ASN1O0B10IdentifierV", "primitiveBitString"]
+- ["6Crypto4ASN1O0B10IdentifierV", "primitiveOctetString"]
+- ["6Crypto4ASN1O0B10IdentifierV", "integer"]
+- ["6Crypto4ASN1O0B10IdentifierV", "sequence"]
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&"
+- "<"
+- !private "<<"
+- "=="
+- ">="
+- !private ">>"
+- "ASN1"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CryptoKitASN1Error"
+- "CustomStringConvertible"
+- "FloatLiteralType"
+- "Hashable"
+- "Int"
+- "IntegerLiteralType"
+- "String"
+- !private "StringLiteralType"
+- "TagClass"
+- "UInt8"
+- !private "UnicodeScalarType"
+- !private "fatalError"
+- !private "precondition"
+- !private "preconditionFailure"
+- !private "|="
+- !private "~="
+depends-member:
+- ["6Crypto4ASN1O", "ASN1Identifier"]
+- ["6Crypto4ASN1O", "Bool"]
+- !private ["6Crypto4ASN1O", "CryptoKitASN1Error"]
+- ["6Crypto4ASN1O", "Int"]
+- ["6Crypto4ASN1O", "UInt8"]
+- ["6Crypto4ASN1O", ""]
+- !private ["6Crypto4ASN1O", "fatalError"]
+- !private ["6Crypto4ASN1O", "precondition"]
+- !private ["6Crypto4ASN1O", "preconditionFailure"]
+- ["6Crypto4ASN1O0B10IdentifierV", "=="]
+- ["6Crypto4ASN1O0B10IdentifierV", "ASN1"]
+- ["6Crypto4ASN1O0B10IdentifierV", "Bool"]
+- !private ["6Crypto4ASN1O0B10IdentifierV", "CryptoKitASN1Error"]
+- ["6Crypto4ASN1O0B10IdentifierV", "Int"]
+- ["6Crypto4ASN1O0B10IdentifierV", "String"]
+- ["6Crypto4ASN1O0B10IdentifierV", "TagClass"]
+- ["6Crypto4ASN1O0B10IdentifierV", "UInt8"]
+- ["6Crypto4ASN1O0B10IdentifierV", ""]
+- ["6Crypto4ASN1O0B10IdentifierV", "__derived_struct_equals"]
+- ["6Crypto4ASN1O0B10IdentifierV", "_rawHashValue"]
+- ["6Crypto4ASN1O0B10IdentifierV", "baseTag"]
+- ["6Crypto4ASN1O0B10IdentifierV", "constructed"]
+- ["6Crypto4ASN1O0B10IdentifierV", "description"]
+- !private ["6Crypto4ASN1O0B10IdentifierV", "fatalError"]
+- ["6Crypto4ASN1O0B10IdentifierV", "hash"]
+- ["6Crypto4ASN1O0B10IdentifierV", "hashValue"]
+- ["6Crypto4ASN1O0B10IdentifierV", "init"]
+- ["6Crypto4ASN1O0B10IdentifierV", "integer"]
+- ["6Crypto4ASN1O0B10IdentifierV", "objectIdentifier"]
+- !private ["6Crypto4ASN1O0B10IdentifierV", "precondition"]
+- !private ["6Crypto4ASN1O0B10IdentifierV", "preconditionFailure"]
+- ["6Crypto4ASN1O0B10IdentifierV", "primitive"]
+- ["6Crypto4ASN1O0B10IdentifierV", "primitiveBitString"]
+- ["6Crypto4ASN1O0B10IdentifierV", "primitiveOctetString"]
+- ["6Crypto4ASN1O0B10IdentifierV", "sequence"]
+- ["6Crypto4ASN1O0B10IdentifierV", "tagClass"]
+- !private ["6Crypto24ASN1IntegerRepresentableP", "Element"]
+- !private ["6Crypto24ASN1IntegerRepresentableP", "IntegerBytes"]
+- !private ["6Crypto24ASN1IntegerRepresentableP", "init"]
+- !private ["6Crypto13ASN1ParseableP", "IntegerBytes"]
+- ["6Crypto13ASN1ParseableP", ""]
+- !private ["6Crypto13ASN1ParseableP", "init"]
+- !private ["6Crypto16ASN1SerializableP", "IntegerBytes"]
+- ["6Crypto16ASN1SerializableP", ""]
+- !private ["6Crypto16ASN1SerializableP", "init"]
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["SK", "Element"]
+- !private ["SK", ""]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "Element"]
+- !private ["Sl", "Index"]
+- !private ["Sl", "Indices"]
+- !private ["Sl", "Iterator"]
+- !private ["Sl", "SubSequence"]
+- !private ["Sl", ""]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- ["10Foundation15ContiguousBytesP", "Element"]
+- ["10Foundation15ContiguousBytesP", ""]
+- !private ["6Crypto0A12KitASN1ErrorO", ""]
+- !private ["6Crypto0A12KitASN1ErrorO", "invalidFieldIdentifier"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "ASN1"]
+- !private ["s23CustomStringConvertibleP", "CryptoKitASN1Error"]
+- ["s23CustomStringConvertibleP", "Element"]
+- !private ["s23CustomStringConvertibleP", "UInt8"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "baseTag"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "precondition"]
+- !private ["s23CustomStringConvertibleP", "preconditionFailure"]
+- !private ["s23CustomStringConvertibleP", "primitive"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["6Crypto6DigestP", "Element"]
+- ["6Crypto6DigestP", "Iterator"]
+- !private ["SE", "init"]
+- ["SQ", "=="]
+- ["SQ", "ASN1"]
+- !private ["SQ", "CryptoKitASN1Error"]
+- ["SQ", "Element"]
+- !private ["SQ", "UInt8"]
+- ["SQ", ""]
+- !private ["SQ", "__derived_struct_equals"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "application"]
+- !private ["SQ", "baseTag"]
+- ["SQ", "contextSpecific"]
+- ["SQ", "description"]
+- !private ["SQ", "fatalError"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "invalidFieldIdentifier"]
+- !private ["SQ", "precondition"]
+- !private ["SQ", "preconditionFailure"]
+- !private ["SQ", "primitive"]
+- ["SQ", "private"]
+- ["SQ", "universal"]
+- !private ["s5ErrorP", "invalidFieldIdentifier"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "=="]
+- ["SH", "ASN1"]
+- !private ["SH", "CryptoKitASN1Error"]
+- ["SH", "Element"]
+- !private ["SH", "UInt8"]
+- ["SH", ""]
+- !private ["SH", "__derived_struct_equals"]
+- ["SH", "_rawHashValue"]
+- ["SH", "application"]
+- !private ["SH", "baseTag"]
+- ["SH", "contextSpecific"]
+- ["SH", "description"]
+- !private ["SH", "fatalError"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "invalidFieldIdentifier"]
+- !private ["SH", "precondition"]
+- !private ["SH", "preconditionFailure"]
+- !private ["SH", "primitive"]
+- ["SH", "private"]
+- ["SH", "universal"]
+- !private ["s6HasherV", "combine"]
+- !private ["6Crypto22IntegerBytesCollectionV5IndexV", ""]
+- !private ["6Crypto22IntegerBytesCollectionV", ""]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["6Crypto25MessageAuthenticationCodeP", "Element"]
+- ["6Crypto25MessageAuthenticationCodeP", "Iterator"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["Sk", "Element"]
+- !private ["s10SIMDScalarP", "init"]
+- ["ST", "Element"]
+- !private ["ST", "Index"]
+- !private ["ST", "Indices"]
+- !private ["ST", "Iterator"]
+- !private ["ST", "SubSequence"]
+- ["ST", ""]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- ["6Crypto4ASN1O0B10IdentifierV8TagClassO", "=="]
+- ["6Crypto4ASN1O0B10IdentifierV8TagClassO", ""]
+- ["6Crypto4ASN1O0B10IdentifierV8TagClassO", "__derived_enum_equals"]
+- ["6Crypto4ASN1O0B10IdentifierV8TagClassO", "_rawHashValue"]
+- ["6Crypto4ASN1O0B10IdentifierV8TagClassO", "application"]
+- ["6Crypto4ASN1O0B10IdentifierV8TagClassO", "contextSpecific"]
+- ["6Crypto4ASN1O0B10IdentifierV8TagClassO", "hash"]
+- ["6Crypto4ASN1O0B10IdentifierV8TagClassO", "hashValue"]
+- ["6Crypto4ASN1O0B10IdentifierV8TagClassO", "private"]
+- ["6Crypto4ASN1O0B10IdentifierV8TagClassO", "universal"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s5UInt8V", ""]
+- !private ["s5UInt8V", "init"]
+- !private ["SU", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s14_StringElementP", "init"]
+depends-nominal:
+- "6Crypto4ASN1O"
+- "6Crypto4ASN1O0B10IdentifierV"
+- !private "6Crypto24ASN1IntegerRepresentableP"
+- "6Crypto13ASN1ParseableP"
+- "6Crypto16ASN1SerializableP"
+- !private "s18AdditiveArithmeticP"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "10Foundation15ContiguousBytesP"
+- !private "6Crypto0A12KitASN1ErrorO"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- "6Crypto6DigestP"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s6HasherV"
+- !private "6Crypto22IntegerBytesCollectionV5IndexV"
+- !private "6Crypto22IntegerBytesCollectionV"
+- !private "s25LosslessStringConvertibleP"
+- "6Crypto25MessageAuthenticationCodeP"
+- !private "Sj"
+- !private "Sk"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- "6Crypto4ASN1O0B10IdentifierV8TagClassO"
+- !private "s16TextOutputStreamP"
+- !private "s5UInt8V"
+- !private "SU"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_asn1.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_dtls1.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_pkcs12.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_e_os2.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_x509v3.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_base64.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_rc4.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_md4.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_poly1305.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_md5.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_pkcs7.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_pkcs8.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_x509.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_curve25519.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_chacha.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_sha.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_dsa.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_ecdsa.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_rsa.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_ex_data.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_asn1_mac.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_obj_mac.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_cmac.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_hmac.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_ec.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_aead.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_thread.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_nid.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_ripemd.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_rand.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_engine.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_base.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_hkdf.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_conf.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_opensslconf.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_buf.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_bytestring.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_arm_arch.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_dh.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_ecdh.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_lhash.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_siphash.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_blowfish.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_obj.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_stack.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_safestack.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_type_check.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_pool.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_is_boringssl.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_mem.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_pem.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_boringssl_prefix_symbols_asm.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_span.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_bn.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_trust_token.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_bio.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_crypto.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_evp.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_ossl_typ.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_buffer.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_cipher.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_err.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_aes.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_des.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_boringssl_prefix_symbols.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include/CCryptoBoringSSLShims.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_hrss.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_objects.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_asn1t.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_cast.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_digest.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_cpu.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_opensslv.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_ec_key.h"
+- "/root/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSL/include/CCryptoBoringSSL_x509_vfy.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+interface-hash: "afae8af45d093e616e6545508329bb24"

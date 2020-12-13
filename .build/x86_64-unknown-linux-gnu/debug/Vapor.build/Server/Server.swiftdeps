@@ -1,0 +1,200 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Server"
+- "BindAddress"
+- "ServerStartError"
+provides-nominal:
+- "5Vapor6ServerP"
+- "5Vapor11BindAddressO"
+- "5Vapor16ServerStartErrorO"
+provides-member:
+- ["5Vapor6ServerP", ""]
+- ["5Vapor11BindAddressO", ""]
+- ["5Vapor16ServerStartErrorO", ""]
+- ["5Vapor6ServerP", "start"]
+- ["5Vapor6ServerP", "start"]
+- ["5Vapor6ServerP", "start"]
+depends-top-level:
+- "=="
+- "BindAddress"
+- !private "BooleanLiteralType"
+- "Equatable"
+- "Error"
+- "EventLoopFuture"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "Self"
+- "Server"
+- "ServerStartError"
+- "String"
+- !private "StringLiteralType"
+- "Void"
+depends-member:
+- ["5Vapor15AnyOptionalTypeP", ""]
+- ["5Vapor15AnyOptionalTypeP", "hostname"]
+- ["5Vapor15AnyOptionalTypeP", "none"]
+- ["5Vapor15AnyOptionalTypeP", "unixDomainSocket"]
+- ["5Vapor11BindAddressO", "=="]
+- ["5Vapor11BindAddressO", "Int"]
+- ["5Vapor11BindAddressO", "String"]
+- ["5Vapor11BindAddressO", ""]
+- ["5Vapor11BindAddressO", "__derived_enum_equals"]
+- ["5Vapor11BindAddressO", "hostname"]
+- ["5Vapor11BindAddressO", "none"]
+- ["5Vapor11BindAddressO", "unixDomainSocket"]
+- ["s28CustomDebugStringConvertibleP", "hostname"]
+- ["s28CustomDebugStringConvertibleP", "none"]
+- ["s28CustomDebugStringConvertibleP", "unixDomainSocket"]
+- ["s17CustomReflectableP", "hostname"]
+- ["s17CustomReflectableP", "none"]
+- ["s17CustomReflectableP", "unixDomainSocket"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["Se", "hostname"]
+- ["Se", "none"]
+- ["Se", "unixDomainSocket"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "hostname"]
+- ["SE", "none"]
+- ["SE", "unixDomainSocket"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- !private ["SQ", "__derived_enum_equals"]
+- ["SQ", "hostname"]
+- ["SQ", "none"]
+- ["SQ", "unixDomainSocket"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "domain"]
+- !private ["s5ErrorP", "unsupportedAddress"]
+- ["s5ErrorP", "userInfo"]
+- ["s23ExpressibleByNilLiteralP", "hostname"]
+- ["s23ExpressibleByNilLiteralP", "none"]
+- ["s23ExpressibleByNilLiteralP", "unixDomainSocket"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["SH", "hostname"]
+- ["SH", "none"]
+- ["SH", "unixDomainSocket"]
+- ["Sq", "hostname"]
+- ["Sq", "none"]
+- ["Sq", "unixDomainSocket"]
+- ["5Vapor12OptionalTypeP", "hostname"]
+- ["5Vapor12OptionalTypeP", "none"]
+- ["5Vapor12OptionalTypeP", "unixDomainSocket"]
+- ["5Vapor6ServerP", "BindAddress"]
+- ["5Vapor6ServerP", "EventLoopFuture"]
+- ["5Vapor6ServerP", "Int"]
+- !private ["5Vapor6ServerP", "Self"]
+- !private ["5Vapor6ServerP", "ServerStartError"]
+- ["5Vapor6ServerP", "String"]
+- ["5Vapor6ServerP", "Void"]
+- ["5Vapor6ServerP", ""]
+- ["5Vapor6ServerP", "onShutdown"]
+- ["5Vapor6ServerP", "shutdown"]
+- ["5Vapor6ServerP", "start"]
+- ["5Vapor16ServerStartErrorO", "String"]
+- ["5Vapor16ServerStartErrorO", ""]
+- ["5Vapor16ServerStartErrorO", "_code"]
+- ["5Vapor16ServerStartErrorO", "_domain"]
+- ["5Vapor16ServerStartErrorO", "_userInfo"]
+- ["5Vapor16ServerStartErrorO", "code"]
+- ["5Vapor16ServerStartErrorO", "domain"]
+- ["5Vapor16ServerStartErrorO", "unsupportedAddress"]
+- ["5Vapor16ServerStartErrorO", "userInfo"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s12_UnwrappableP", "hostname"]
+- ["s12_UnwrappableP", "none"]
+- ["s12_UnwrappableP", "unixDomainSocket"]
+depends-nominal:
+- "5Vapor15AnyOptionalTypeP"
+- "5Vapor11BindAddressO"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- "SH"
+- "Sq"
+- "5Vapor12OptionalTypeP"
+- "5Vapor6ServerP"
+- "5Vapor16ServerStartErrorO"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s12_UnwrappableP"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP2.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHPACK.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOSSL.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTLS.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Backtrace.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTPCompression.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Crypto.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOExtras.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Metrics.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CoreMetrics.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTransportServices.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOFoundationCompat.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOWebSocket.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ConsoleKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/RoutingKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/WebSocketKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncHTTPClient.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/root/CourseProject/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/root/CourseProject/.build/checkouts/swift-backtrace/Sources/CBacktrace/include/backtrace.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CURLParser/include/urlparser.h"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CMultipartParser/include/multipartparser.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+interface-hash: "a095931e77399653d90c0b249a46d78a"

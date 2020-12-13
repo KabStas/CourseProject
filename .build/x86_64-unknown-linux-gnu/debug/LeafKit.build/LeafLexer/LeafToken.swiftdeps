@@ -1,0 +1,217 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LeafToken"
+provides-nominal:
+- "7LeafKit0A5TokenO"
+provides-member:
+- ["7LeafKit0A5TokenO", ""]
+depends-top-level:
+- "=="
+- !private "BooleanLiteralType"
+- "CustomStringConvertible"
+- "Equatable"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "LeafToken"
+- "Parameter"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["SK", ""]
+- !private ["SK", "debugDescription"]
+- !private ["Sl", ""]
+- !private ["Sl", "debugDescription"]
+- !private ["SL", ""]
+- !private ["SL", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s17CustomReflectableP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "__derived_enum_equals"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "parameter"]
+- ["s23CustomStringConvertibleP", "parameterDelimiter"]
+- ["s23CustomStringConvertibleP", "parametersEnd"]
+- ["s23CustomStringConvertibleP", "parametersStart"]
+- ["s23CustomStringConvertibleP", "raw"]
+- ["s23CustomStringConvertibleP", "stringLiteral"]
+- ["s23CustomStringConvertibleP", "tag"]
+- ["s23CustomStringConvertibleP", "tagBodyIndicator"]
+- ["s23CustomStringConvertibleP", "tagIndicator"]
+- ["s23CustomStringConvertibleP", "whitespace"]
+- !private ["Se", "debugDescription"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "debugDescription"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- !private ["SQ", "__derived_enum_equals"]
+- !private ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "parameter"]
+- ["SQ", "parameterDelimiter"]
+- ["SQ", "parametersEnd"]
+- ["SQ", "parametersStart"]
+- ["SQ", "raw"]
+- ["SQ", "stringLiteral"]
+- ["SQ", "tag"]
+- ["SQ", "tagBodyIndicator"]
+- ["SQ", "tagIndicator"]
+- ["SQ", "whitespace"]
+- !private ["s5ErrorP", "debugDescription"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "debugDescription"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "debugDescription"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "debugDescription"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "debugDescription"]
+- !private ["SH", ""]
+- !private ["SH", "debugDescription"]
+- !private ["7LeafKit0A17DataRepresentableP", "debugDescription"]
+- ["7LeafKit0A5TokenO", "=="]
+- ["7LeafKit0A5TokenO", "Int"]
+- ["7LeafKit0A5TokenO", "Parameter"]
+- ["7LeafKit0A5TokenO", "String"]
+- ["7LeafKit0A5TokenO", ""]
+- ["7LeafKit0A5TokenO", "__derived_enum_equals"]
+- ["7LeafKit0A5TokenO", "description"]
+- ["7LeafKit0A5TokenO", "parameter"]
+- ["7LeafKit0A5TokenO", "parameterDelimiter"]
+- ["7LeafKit0A5TokenO", "parametersEnd"]
+- ["7LeafKit0A5TokenO", "parametersStart"]
+- ["7LeafKit0A5TokenO", "raw"]
+- ["7LeafKit0A5TokenO", "stringLiteral"]
+- ["7LeafKit0A5TokenO", "tag"]
+- ["7LeafKit0A5TokenO", "tagBodyIndicator"]
+- ["7LeafKit0A5TokenO", "tagIndicator"]
+- ["7LeafKit0A5TokenO", "whitespace"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "debugDescription"]
+- !private ["s10MirrorPathP", "debugDescription"]
+- !private ["10Foundation8NSCodingP", ""]
+- !private ["10Foundation8NSCodingP", "debugDescription"]
+- !private ["10Foundation9NSCopyingP", "debugDescription"]
+- !private ["10Foundation16NSMutableCopyingP", "debugDescription"]
+- ["10Foundation8NSObjectC", ""]
+- !private ["10Foundation8NSObjectC", "debugDescription"]
+- !private ["10Foundation16NSObjectProtocolP", "debugDescription"]
+- !private ["10Foundation14NSSecureCodingP", "debugDescription"]
+- !private ["10Foundation8NSStringC", "debugDescription"]
+- ["7LeafKit9ParameterO", ""]
+- !private ["Sm", "debugDescription"]
+- !private ["ST", ""]
+- !private ["ST", "debugDescription"]
+- !private ["SS", "debugDescription"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "debugDescription"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "debugDescription"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "debugDescription"]
+- !private ["10Foundation13_CFBridgeableP", "debugDescription"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "debugDescription"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "debugDescription"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "debugDescription"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "debugDescription"]
+- !private ["s19_HasContiguousBytesP", "debugDescription"]
+- !private ["10Foundation13_NSBridgeableP", "debugDescription"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "debugDescription"]
+- !private ["10Foundation17_StructBridgeableP", ""]
+- !private ["10Foundation17_StructBridgeableP", "debugDescription"]
+- !private ["10Foundation21_StructTypeBridgeableP", "debugDescription"]
+- !private ["10Foundation16_SwiftBridgeableP", "debugDescription"]
+depends-nominal:
+- !private "SK"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "7LeafKit0A17DataRepresentableP"
+- "7LeafKit0A5TokenO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "10Foundation8NSCodingP"
+- !private "10Foundation9NSCopyingP"
+- !private "10Foundation16NSMutableCopyingP"
+- "10Foundation8NSObjectC"
+- !private "10Foundation16NSObjectProtocolP"
+- !private "10Foundation14NSSecureCodingP"
+- !private "10Foundation8NSStringC"
+- "7LeafKit9ParameterO"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "10Foundation17_StructBridgeableP"
+- !private "10Foundation21_StructTypeBridgeableP"
+- !private "10Foundation16_SwiftBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "7a9ddde0e918e19f82f7e9daf45782a4"

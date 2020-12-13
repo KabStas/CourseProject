@@ -1,0 +1,146 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLiteConnectionSource"
+provides-nominal:
+- "9SQLiteKit0A16ConnectionSourceV"
+- "9SQLiteNIO0A10ConnectionC"
+provides-member:
+- ["9SQLiteKit0A16ConnectionSourceV", ""]
+- ["9SQLiteNIO0A10ConnectionC", ""]
+depends-top-level:
+- "AssignmentPrecedence"
+- "ConnectionPoolItem"
+- "ConnectionPoolSource"
+- "EventLoop"
+- "EventLoopFuture"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Logger"
+- "NIOThreadPool"
+- "SQLiteConfiguration"
+- "SQLiteConnection"
+- "SQLiteConnectionSource"
+- !private "StringLiteralType"
+depends-member:
+- ["8AsyncKit18ConnectionPoolItemP", "Storage"]
+- ["8AsyncKit18ConnectionPoolItemP", ""]
+- ["8AsyncKit18ConnectionPoolItemP", "close"]
+- ["8AsyncKit18ConnectionPoolItemP", "eventLoop"]
+- ["8AsyncKit18ConnectionPoolItemP", "isClosed"]
+- !private ["8AsyncKit18ConnectionPoolItemP", "open"]
+- !private ["8AsyncKit18ConnectionPoolItemP", "query"]
+- ["8AsyncKit20ConnectionPoolSourceP", "Connection"]
+- ["8AsyncKit20ConnectionPoolSourceP", "Default_Connection"]
+- !private ["8AsyncKit20ConnectionPoolSourceP", "SQLiteConnection"]
+- ["8AsyncKit20ConnectionPoolSourceP", ""]
+- ["8AsyncKit20ConnectionPoolSourceP", "_Default_Connection"]
+- !private ["8AsyncKit20ConnectionPoolSourceP", "configuration"]
+- !private ["8AsyncKit20ConnectionPoolSourceP", "connectionStorage"]
+- ["8AsyncKit20ConnectionPoolSourceP", "makeConnection"]
+- !private ["8AsyncKit20ConnectionPoolSourceP", "threadPool"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "map"]
+- !private ["3NIO9EventLoopP", "makeSucceededFuture"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO14EventLoopGroupP", ""]
+- !private ["3NIO14EventLoopGroupP", "makeSucceededFuture"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["9SQLiteKit0A13ConfigurationV", "enableForeignKeys"]
+- !private ["9SQLiteKit0A13ConfigurationV", "storage"]
+- ["9SQLiteNIO0A10ConnectionC", "Storage"]
+- ["9SQLiteNIO0A10ConnectionC", ""]
+- ["9SQLiteNIO0A10ConnectionC", "close"]
+- ["9SQLiteNIO0A10ConnectionC", "eventLoop"]
+- ["9SQLiteNIO0A10ConnectionC", "isClosed"]
+- !private ["9SQLiteNIO0A10ConnectionC", "open"]
+- !private ["9SQLiteNIO0A10ConnectionC", "query"]
+- ["9SQLiteKit0A16ConnectionSourceV", "Connection"]
+- ["9SQLiteKit0A16ConnectionSourceV", "Default_Connection"]
+- ["9SQLiteKit0A16ConnectionSourceV", "EventLoop"]
+- ["9SQLiteKit0A16ConnectionSourceV", "EventLoopFuture"]
+- ["9SQLiteKit0A16ConnectionSourceV", "Logger"]
+- ["9SQLiteKit0A16ConnectionSourceV", "NIOThreadPool"]
+- ["9SQLiteKit0A16ConnectionSourceV", "SQLiteConfiguration"]
+- ["9SQLiteKit0A16ConnectionSourceV", "SQLiteConnection"]
+- ["9SQLiteKit0A16ConnectionSourceV", ""]
+- ["9SQLiteKit0A16ConnectionSourceV", "_Default_Connection"]
+- !private ["9SQLiteKit0A16ConnectionSourceV", "configuration"]
+- !private ["9SQLiteKit0A16ConnectionSourceV", "connectionStorage"]
+- ["9SQLiteKit0A16ConnectionSourceV", "init"]
+- ["9SQLiteKit0A16ConnectionSourceV", "makeConnection"]
+- !private ["9SQLiteKit0A16ConnectionSourceV", "threadPool"]
+- ["9SQLiteNIO0A8DatabaseP", "Storage"]
+- ["9SQLiteNIO0A8DatabaseP", "close"]
+- ["9SQLiteNIO0A8DatabaseP", "eventLoop"]
+- ["9SQLiteNIO0A8DatabaseP", "isClosed"]
+- !private ["9SQLiteNIO0A8DatabaseP", "open"]
+- !private ["9SQLiteNIO0A8DatabaseP", "query"]
+- ["9SQLiteKit0A13ConfigurationV7StorageO", "file"]
+- !private ["9SQLiteNIO0A10ConnectionC7StorageO", "file"]
+- ["9SQLiteKit0A13ConfigurationV7StorageO", "memory"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "8AsyncKit18ConnectionPoolItemP"
+- "8AsyncKit20ConnectionPoolSourceP"
+- !private "s23CustomStringConvertibleP"
+- !private "s26DefaultStringInterpolationV"
+- !private "SQ"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "9SQLiteKit0A13ConfigurationV"
+- "9SQLiteNIO0A10ConnectionC"
+- "9SQLiteKit0A16ConnectionSourceV"
+- "9SQLiteNIO0A8DatabaseP"
+- "9SQLiteKit0A13ConfigurationV7StorageO"
+- !private "9SQLiteNIO0A10ConnectionC7StorageO"
+- "9SQLiteKit0A13ConfigurationV7StorageO"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/CSQLite/module.modulemap"
+interface-hash: "c7bef7afb256468bc7e5349b351ff829"

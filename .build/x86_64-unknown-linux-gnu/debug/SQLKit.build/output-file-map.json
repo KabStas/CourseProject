@@ -1,0 +1,449 @@
+{
+  "": {
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/master.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLAlterEnumBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLAlterEnumBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLAlterEnumBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLAlterEnumBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLAlterEnumBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLAlterTableBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLAlterTableBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLAlterTableBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLAlterTableBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLAlterTableBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateEnumBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLCreateEnumBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLCreateEnumBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLCreateEnumBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLCreateEnumBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateIndexBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLCreateIndexBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLCreateIndexBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLCreateIndexBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLCreateIndexBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateTableBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLCreateTableBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLCreateTableBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLCreateTableBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLCreateTableBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateTriggerBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLCreateTriggerBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLCreateTriggerBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLCreateTriggerBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLCreateTriggerBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDeleteBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDeleteBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDeleteBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDeleteBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDeleteBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDropEnumBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDropEnumBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDropEnumBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDropEnumBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDropEnumBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDropIndexBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDropIndexBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDropIndexBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDropIndexBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDropIndexBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDropTableBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDropTableBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDropTableBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDropTableBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDropTableBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDropTriggerBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDropTriggerBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDropTriggerBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDropTriggerBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLDropTriggerBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLInsertBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLInsertBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLInsertBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLInsertBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLInsertBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLJoinBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLJoinBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLJoinBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLJoinBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLJoinBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLPredicateBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLPredicateBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLPredicateBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLPredicateBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLPredicateBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLPredicateGroupBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLPredicateGroupBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLPredicateGroupBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLPredicateGroupBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLPredicateGroupBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLQueryBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLQueryBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLQueryBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLQueryBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLQueryBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLQueryFetcher.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLQueryFetcher.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLQueryFetcher.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLQueryFetcher~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLQueryFetcher.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLRawBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLRawBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLRawBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLRawBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLRawBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLReturningBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLReturningBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLReturningBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLReturningBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLReturningBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLSelectBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLSelectBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLSelectBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLSelectBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLSelectBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLUpdateBuilder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLUpdateBuilder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLUpdateBuilder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLUpdateBuilder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Builders/SQLUpdateBuilder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Exports.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Exports.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Exports.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Exports.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLAlias.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLAlias.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLAlias.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLAlias~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLAlias.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLAlterColumnDefinitionType.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLAlterColumnDefinitionType.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLAlterColumnDefinitionType.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLAlterColumnDefinitionType~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLAlterColumnDefinitionType.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLAlterEnum.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLAlterEnum.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLAlterEnum.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLAlterEnum~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLAlterEnum.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLAlterTable.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLAlterTable.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLAlterTable.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLAlterTable~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLAlterTable.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLBinaryExpression.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLBinaryExpression.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLBinaryExpression.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLBinaryExpression~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLBinaryExpression.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLBinaryOperator.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLBinaryOperator.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLBinaryOperator.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLBinaryOperator~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLBinaryOperator.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLBind.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLBind.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLBind.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLBind~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLBind.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLColumnConstraintAlgorithm.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLColumnConstraintAlgorithm.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLColumnConstraintAlgorithm.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLColumnConstraintAlgorithm~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLColumnConstraintAlgorithm.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLColumnDefinition.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLColumnDefinition.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLColumnDefinition.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLColumnDefinition~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLColumnDefinition.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLColumnIdentifier.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLColumnIdentifier.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLColumnIdentifier.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLColumnIdentifier~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLColumnIdentifier.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLConstraint.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLConstraint.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLConstraint.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLConstraint~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLConstraint.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLCreateEnum.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLCreateEnum.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLCreateEnum.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLCreateEnum~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLCreateEnum.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLCreateIndex.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLCreateIndex.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLCreateIndex.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLCreateIndex~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLCreateIndex.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLCreateTable.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLCreateTable.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLCreateTable.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLCreateTable~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLCreateTable.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLCreateTrigger.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLCreateTrigger.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLCreateTrigger.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLCreateTrigger~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLCreateTrigger.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDataType.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDataType.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDataType.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDataType~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDataType.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDelete.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDelete.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDelete.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDelete~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDelete.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDirection.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDirection.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDirection.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDirection~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDirection.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDistinct.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDistinct.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDistinct.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDistinct~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDistinct.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropBehaviour.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropBehaviour.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropBehaviour.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropBehaviour~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropBehaviour.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropEnum.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropEnum.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropEnum.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropEnum~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropEnum.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropIndex.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropIndex.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropIndex.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropIndex~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropIndex.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropTable.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropTable.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropTable.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropTable~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropTable.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropTrigger.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropTrigger.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropTrigger.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropTrigger~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLDropTrigger.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLEnumDataType.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLEnumDataType.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLEnumDataType.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLEnumDataType~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLEnumDataType.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLForeignKey.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLForeignKey.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLForeignKey.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLForeignKey~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLForeignKey.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLForeignKeyAction.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLForeignKeyAction.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLForeignKeyAction.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLForeignKeyAction~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLForeignKeyAction.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLFunction.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLFunction.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLFunction.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLFunction~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLFunction.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLGroupExpression.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLGroupExpression.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLGroupExpression.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLGroupExpression~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLGroupExpression.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLIdentifier.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLIdentifier.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLIdentifier.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLIdentifier~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLIdentifier.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLInsert.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLInsert.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLInsert.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLInsert~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLInsert.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLJoin.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLJoin.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLJoin.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLJoin~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLJoin.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLJoinMethod.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLJoinMethod.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLJoinMethod.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLJoinMethod~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLJoinMethod.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLList.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLList.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLList.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLList~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLList.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLLiteral.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLLiteral.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLLiteral.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLLiteral~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLLiteral.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLLockingClause.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLLockingClause.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLLockingClause.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLLockingClause~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLLockingClause.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLOrderBy.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLOrderBy.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLOrderBy.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLOrderBy~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLOrderBy.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLQueryString.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLQueryString.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLQueryString.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLQueryString~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLQueryString.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLRaw.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLRaw.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLRaw.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLRaw~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLRaw.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLReturning.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLReturning.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLReturning.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLReturning~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLReturning.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLSelect.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLSelect.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLSelect.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLSelect~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLSelect.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLTableConstraintAlgorithm.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLTableConstraintAlgorithm.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLTableConstraintAlgorithm.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLTableConstraintAlgorithm~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLTableConstraintAlgorithm.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLUpdate.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLUpdate.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLUpdate.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLUpdate~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/Query/SQLUpdate.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/SQLDatabase.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLDatabase.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLDatabase.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLDatabase~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLDatabase.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/SQLDialect.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLDialect.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLDialect.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLDialect~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLDialect.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/SQLError.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLError.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLError.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLError~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLError.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/SQLExpression.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLExpression.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLExpression.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLExpression~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLExpression.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/SQLQueryEncoder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLQueryEncoder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLQueryEncoder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLQueryEncoder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLQueryEncoder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/SQLRow.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLRow.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLRow.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLRow~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLRow.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/SQLRowDecoder.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLRowDecoder.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLRowDecoder.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLRowDecoder~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLRowDecoder.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/SQLSerializer.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLSerializer.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLSerializer.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLSerializer~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLSerializer.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sql-kit/Sources/SQLKit/SQLStatement.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLStatement.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLStatement.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLStatement~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.build/SQLStatement.swiftdeps"
+  }
+}

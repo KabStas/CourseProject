@@ -1,0 +1,222 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseSocketProtocol"
+- "ServerSocketProtocol"
+- "SocketProtocol"
+provides-nominal:
+- "3NIO18BaseSocketProtocolP"
+- "3NIO20ServerSocketProtocolP"
+- "3NIO14SocketProtocolP"
+provides-member:
+- ["3NIO18BaseSocketProtocolP", ""]
+- ["3NIO20ServerSocketProtocolP", ""]
+- ["3NIO14SocketProtocolP", ""]
+- ["3NIO18BaseSocketProtocolP", "ignoreSIGPIPE"]
+- ["3NIO18BaseSocketProtocolP", "ignoreSIGPIPE"]
+depends-top-level:
+- "AssignmentPrecedence"
+- "BaseSocketProtocol"
+- "Bool"
+- "BooleanLiteralType"
+- "CInt"
+- "CustomStringConvertible"
+- "Glibc"
+- "IOResult"
+- "IOVector"
+- "Int"
+- "Int32"
+- "MMsgHdr"
+- "NIOBSDSocket"
+- "SIGPIPE"
+- "SIG_IGN"
+- "Selectable"
+- "ServerSocketProtocol"
+- "Shutdown"
+- "Socket"
+- "SocketAddress"
+- "SocketProtocol"
+- !private "StringLiteralType"
+- "UnsafeBufferPointer"
+- "UnsafeMutableBufferPointer"
+- "UnsafeMutableRawBufferPointer"
+- "UnsafePointer"
+- "UnsafeRawBufferPointer"
+- "UnsafeReceivedControlBytes"
+- !private "fatalError"
+- !private "globallyIgnoredSIGPIPE"
+- !private "ignoreSIGPIPE"
+- "sockaddr"
+- "sockaddr_storage"
+- "socklen_t"
+depends-member:
+- ["3NIO18BaseSocketProtocolP", "Bool"]
+- ["3NIO18BaseSocketProtocolP", "CInt"]
+- ["3NIO18BaseSocketProtocolP", "IOResult"]
+- ["3NIO18BaseSocketProtocolP", "IOVector"]
+- ["3NIO18BaseSocketProtocolP", "Int"]
+- ["3NIO18BaseSocketProtocolP", "Int32"]
+- ["3NIO18BaseSocketProtocolP", "MMsgHdr"]
+- ["3NIO18BaseSocketProtocolP", "NIOBSDSocket"]
+- ["3NIO18BaseSocketProtocolP", "Selectable"]
+- ["3NIO18BaseSocketProtocolP", "SelectableType"]
+- ["3NIO18BaseSocketProtocolP", "Shutdown"]
+- ["3NIO18BaseSocketProtocolP", "Socket"]
+- ["3NIO18BaseSocketProtocolP", "SocketAddress"]
+- ["3NIO18BaseSocketProtocolP", "UnsafeBufferPointer"]
+- ["3NIO18BaseSocketProtocolP", "UnsafeMutableBufferPointer"]
+- ["3NIO18BaseSocketProtocolP", "UnsafeMutableRawBufferPointer"]
+- ["3NIO18BaseSocketProtocolP", "UnsafePointer"]
+- ["3NIO18BaseSocketProtocolP", "UnsafeRawBufferPointer"]
+- ["3NIO18BaseSocketProtocolP", "UnsafeReceivedControlBytes"]
+- ["3NIO18BaseSocketProtocolP", ""]
+- ["3NIO18BaseSocketProtocolP", "accept"]
+- ["3NIO18BaseSocketProtocolP", "bind"]
+- ["3NIO18BaseSocketProtocolP", "close"]
+- ["3NIO18BaseSocketProtocolP", "connect"]
+- !private ["3NIO18BaseSocketProtocolP", "fatalError"]
+- ["3NIO18BaseSocketProtocolP", "finishConnect"]
+- ["3NIO18BaseSocketProtocolP", "getOption"]
+- !private ["3NIO18BaseSocketProtocolP", "globallyIgnoredSIGPIPE"]
+- ["3NIO18BaseSocketProtocolP", "ignoreSIGPIPE"]
+- ["3NIO18BaseSocketProtocolP", "isOpen"]
+- ["3NIO18BaseSocketProtocolP", "listen"]
+- ["3NIO18BaseSocketProtocolP", "localAddress"]
+- ["3NIO18BaseSocketProtocolP", "read"]
+- ["3NIO18BaseSocketProtocolP", "recvmmsg"]
+- ["3NIO18BaseSocketProtocolP", "recvmsg"]
+- ["3NIO18BaseSocketProtocolP", "remoteAddress"]
+- ["3NIO18BaseSocketProtocolP", "sendFile"]
+- ["3NIO18BaseSocketProtocolP", "sendmmsg"]
+- ["3NIO18BaseSocketProtocolP", "sendmsg"]
+- ["3NIO18BaseSocketProtocolP", "setOption"]
+- ["3NIO18BaseSocketProtocolP", "shutdown"]
+- ["3NIO18BaseSocketProtocolP", "sockaddr"]
+- ["3NIO18BaseSocketProtocolP", "sockaddr_storage"]
+- ["3NIO18BaseSocketProtocolP", "socklen_t"]
+- ["3NIO18BaseSocketProtocolP", "write"]
+- ["3NIO18BaseSocketProtocolP", "writev"]
+- ["s23CustomStringConvertibleP", "Bool"]
+- ["s23CustomStringConvertibleP", "CInt"]
+- ["s23CustomStringConvertibleP", "IOResult"]
+- ["s23CustomStringConvertibleP", "IOVector"]
+- ["s23CustomStringConvertibleP", "Int"]
+- ["s23CustomStringConvertibleP", "Int32"]
+- ["s23CustomStringConvertibleP", "MMsgHdr"]
+- ["s23CustomStringConvertibleP", "NIOBSDSocket"]
+- ["s23CustomStringConvertibleP", "Selectable"]
+- ["s23CustomStringConvertibleP", "Shutdown"]
+- ["s23CustomStringConvertibleP", "Socket"]
+- ["s23CustomStringConvertibleP", "SocketAddress"]
+- ["s23CustomStringConvertibleP", "UnsafeBufferPointer"]
+- ["s23CustomStringConvertibleP", "UnsafeMutableBufferPointer"]
+- ["s23CustomStringConvertibleP", "UnsafeMutableRawBufferPointer"]
+- ["s23CustomStringConvertibleP", "UnsafePointer"]
+- ["s23CustomStringConvertibleP", "UnsafeRawBufferPointer"]
+- ["s23CustomStringConvertibleP", "UnsafeReceivedControlBytes"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "accept"]
+- ["s23CustomStringConvertibleP", "bind"]
+- ["s23CustomStringConvertibleP", "close"]
+- ["s23CustomStringConvertibleP", "connect"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- ["s23CustomStringConvertibleP", "finishConnect"]
+- ["s23CustomStringConvertibleP", "getOption"]
+- !private ["s23CustomStringConvertibleP", "globallyIgnoredSIGPIPE"]
+- ["s23CustomStringConvertibleP", "ignoreSIGPIPE"]
+- ["s23CustomStringConvertibleP", "isOpen"]
+- ["s23CustomStringConvertibleP", "listen"]
+- ["s23CustomStringConvertibleP", "localAddress"]
+- ["s23CustomStringConvertibleP", "read"]
+- ["s23CustomStringConvertibleP", "recvmmsg"]
+- ["s23CustomStringConvertibleP", "recvmsg"]
+- ["s23CustomStringConvertibleP", "remoteAddress"]
+- ["s23CustomStringConvertibleP", "sendFile"]
+- ["s23CustomStringConvertibleP", "sendmmsg"]
+- ["s23CustomStringConvertibleP", "sendmsg"]
+- ["s23CustomStringConvertibleP", "setOption"]
+- ["s23CustomStringConvertibleP", "shutdown"]
+- ["s23CustomStringConvertibleP", "sockaddr"]
+- ["s23CustomStringConvertibleP", "sockaddr_storage"]
+- ["s23CustomStringConvertibleP", "socklen_t"]
+- ["s23CustomStringConvertibleP", "write"]
+- ["s23CustomStringConvertibleP", "writev"]
+- ["3NIO12NIOBSDSocketO", "Handle"]
+- ["3NIO12NIOBSDSocketO", "Option"]
+- ["3NIO12NIOBSDSocketO", "OptionLevel"]
+- ["3NIO20ServerSocketProtocolP", "Bool"]
+- ["3NIO20ServerSocketProtocolP", "Int32"]
+- ["3NIO20ServerSocketProtocolP", "SelectableType"]
+- ["3NIO20ServerSocketProtocolP", "Socket"]
+- ["3NIO20ServerSocketProtocolP", "accept"]
+- ["3NIO20ServerSocketProtocolP", "listen"]
+- ["3NIO14SocketProtocolP", "Bool"]
+- ["3NIO14SocketProtocolP", "IOResult"]
+- ["3NIO14SocketProtocolP", "IOVector"]
+- ["3NIO14SocketProtocolP", "Int"]
+- ["3NIO14SocketProtocolP", "Int32"]
+- ["3NIO14SocketProtocolP", "MMsgHdr"]
+- ["3NIO14SocketProtocolP", "SelectableType"]
+- ["3NIO14SocketProtocolP", "Shutdown"]
+- ["3NIO14SocketProtocolP", "SocketAddress"]
+- ["3NIO14SocketProtocolP", "UnsafeBufferPointer"]
+- ["3NIO14SocketProtocolP", "UnsafeMutableBufferPointer"]
+- ["3NIO14SocketProtocolP", "UnsafeMutableRawBufferPointer"]
+- ["3NIO14SocketProtocolP", "UnsafePointer"]
+- ["3NIO14SocketProtocolP", "UnsafeRawBufferPointer"]
+- ["3NIO14SocketProtocolP", "UnsafeReceivedControlBytes"]
+- ["3NIO14SocketProtocolP", "connect"]
+- ["3NIO14SocketProtocolP", "finishConnect"]
+- ["3NIO14SocketProtocolP", "ignoreSIGPIPE"]
+- ["3NIO14SocketProtocolP", "read"]
+- ["3NIO14SocketProtocolP", "recvmmsg"]
+- ["3NIO14SocketProtocolP", "recvmsg"]
+- ["3NIO14SocketProtocolP", "sendFile"]
+- ["3NIO14SocketProtocolP", "sendmmsg"]
+- ["3NIO14SocketProtocolP", "sendmsg"]
+- ["3NIO14SocketProtocolP", "shutdown"]
+- ["3NIO14SocketProtocolP", "sockaddr"]
+- ["3NIO14SocketProtocolP", "sockaddr_storage"]
+- ["3NIO14SocketProtocolP", "socklen_t"]
+- ["3NIO14SocketProtocolP", "write"]
+- ["3NIO14SocketProtocolP", "writev"]
+- ["3NIO18_BSDSocketProtocolP", "Handle"]
+- ["3NIO18_BSDSocketProtocolP", "Option"]
+- ["3NIO18_BSDSocketProtocolP", "OptionLevel"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "3NIO18BaseSocketProtocolP"
+- "s23CustomStringConvertibleP"
+- "3NIO12NIOBSDSocketO"
+- "3NIO20ServerSocketProtocolP"
+- "3NIO14SocketProtocolP"
+- "3NIO18_BSDSocketProtocolP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "e6d73753b9ca4b83d65e4e1ae16645d9"

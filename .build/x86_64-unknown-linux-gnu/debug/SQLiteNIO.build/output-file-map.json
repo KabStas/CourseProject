@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/master.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/Exports.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/Exports.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/Exports.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/Exports.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteConnection.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteConnection.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteConnection.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteConnection~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteConnection.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteData.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteData.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteData.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteData~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteData.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteDataConvertible.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteDataConvertible.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteDataConvertible.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteDataConvertible~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteDataConvertible.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteDataType.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteDataType.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteDataType.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteDataType~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteDataType.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteError.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteError.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteError.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteError~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteError.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteRow.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteRow.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteRow.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteRow~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteRow.swiftdeps"
+  },
+  "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteStatement.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteStatement.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteStatement.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteStatement~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.build/SQLiteStatement.swiftdeps"
+  }
+}

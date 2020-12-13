@@ -1,0 +1,200 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InboundEventBuffer"
+provides-nominal:
+- "8NIOHTTP218InboundEventBufferC"
+- "8NIOHTTP218InboundEventBufferC0bcD8IteratorV"
+provides-member:
+- ["8NIOHTTP218InboundEventBufferC", ""]
+- ["8NIOHTTP218InboundEventBufferC0bcD8IteratorV", ""]
+depends-top-level:
+- !private ">"
+- "AssignmentPrecedence"
+- "CircularBuffer"
+- "CustomStringConvertible"
+- "Element"
+- "FloatLiteralType"
+- "InboundEventBuffer"
+- "InboundEventBufferIterator"
+- "IntegerLiteralType"
+- "IteratorProtocol"
+- "Sequence"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- ["SK", "init"]
+- !private ["SK", "removeFirst"]
+- !private ["3NIO14CircularBufferV", "append"]
+- !private ["3NIO14CircularBufferV", "count"]
+- ["3NIO14CircularBufferV", "init"]
+- !private ["3NIO14CircularBufferV", "removeFirst"]
+- ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- !private ["Sl", "removeFirst"]
+- ["s23CustomStringConvertibleP", "CircularBuffer"]
+- ["s23CustomStringConvertibleP", "Default_Iterator"]
+- ["s23CustomStringConvertibleP", "Element"]
+- !private ["s23CustomStringConvertibleP", "InboundEventBufferIterator"]
+- ["s23CustomStringConvertibleP", "Iterator"]
+- ["s23CustomStringConvertibleP", "IteratorProtocol"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_Iterator"]
+- ["s23CustomStringConvertibleP", "_copyContents"]
+- ["s23CustomStringConvertibleP", "_copyToContiguousArray"]
+- ["s23CustomStringConvertibleP", "_customContainsEquatableElement"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "buffer"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "makeIterator"]
+- !private ["s23CustomStringConvertibleP", "removeFirst"]
+- ["s23CustomStringConvertibleP", "underestimatedCount"]
+- ["s23CustomStringConvertibleP", "withContiguousStorageIfAvailable"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- ["SQ", "init"]
+- !private ["SQ", "removeFirst"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeFirst"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- ["SH", "init"]
+- !private ["SH", "removeFirst"]
+- ["8NIOHTTP218InboundEventBufferC", "CircularBuffer"]
+- ["8NIOHTTP218InboundEventBufferC", "Default_Iterator"]
+- ["8NIOHTTP218InboundEventBufferC", "Element"]
+- ["8NIOHTTP218InboundEventBufferC", "InboundEventBuffer"]
+- ["8NIOHTTP218InboundEventBufferC", "InboundEventBufferIterator"]
+- ["8NIOHTTP218InboundEventBufferC", "Iterator"]
+- ["8NIOHTTP218InboundEventBufferC", "IteratorProtocol"]
+- ["8NIOHTTP218InboundEventBufferC", "String"]
+- ["8NIOHTTP218InboundEventBufferC", ""]
+- ["8NIOHTTP218InboundEventBufferC", "_Default_Iterator"]
+- ["8NIOHTTP218InboundEventBufferC", "_copyContents"]
+- ["8NIOHTTP218InboundEventBufferC", "_copyToContiguousArray"]
+- ["8NIOHTTP218InboundEventBufferC", "_customContainsEquatableElement"]
+- !private ["8NIOHTTP218InboundEventBufferC", "buffer"]
+- ["8NIOHTTP218InboundEventBufferC", "deinit"]
+- ["8NIOHTTP218InboundEventBufferC", "description"]
+- ["8NIOHTTP218InboundEventBufferC", "init"]
+- ["8NIOHTTP218InboundEventBufferC", "makeIterator"]
+- ["8NIOHTTP218InboundEventBufferC", "pendingUserEvent"]
+- ["8NIOHTTP218InboundEventBufferC", "underestimatedCount"]
+- ["8NIOHTTP218InboundEventBufferC", "withContiguousStorageIfAvailable"]
+- ["8NIOHTTP218InboundEventBufferC0bcD8IteratorV", "Element"]
+- ["8NIOHTTP218InboundEventBufferC0bcD8IteratorV", "InboundEventBuffer"]
+- ["8NIOHTTP218InboundEventBufferC0bcD8IteratorV", ""]
+- ["8NIOHTTP218InboundEventBufferC0bcD8IteratorV", "inboundBuffer"]
+- !private ["8NIOHTTP218InboundEventBufferC0bcD8IteratorV", "init"]
+- ["8NIOHTTP218InboundEventBufferC0bcD8IteratorV", "next"]
+- ["St", "Element"]
+- ["St", ""]
+- !private ["St", "inboundBuffer"]
+- !private ["St", "init"]
+- ["St", "next"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- ["SM", "init"]
+- !private ["SM", "removeFirst"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- ["Sk", "init"]
+- !private ["Sk", "removeFirst"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
+- !private ["Sm", "removeFirst"]
+- ["ST", "CircularBuffer"]
+- ["ST", "Default_Iterator"]
+- ["ST", "Element"]
+- !private ["ST", "InboundEventBufferIterator"]
+- ["ST", "Iterator"]
+- ["ST", "IteratorProtocol"]
+- ["ST", ""]
+- ["ST", "_Default_Iterator"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "append"]
+- !private ["ST", "buffer"]
+- !private ["ST", "count"]
+- ["ST", "description"]
+- ["ST", "init"]
+- ["ST", "makeIterator"]
+- !private ["ST", "removeFirst"]
+- ["ST", "underestimatedCount"]
+- ["ST", "withContiguousStorageIfAvailable"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "SK"
+- "3NIO14CircularBufferV"
+- "Sl"
+- "s23CustomStringConvertibleP"
+- !private "s26DefaultStringInterpolationV"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- "SH"
+- "8NIOHTTP218InboundEventBufferC"
+- "8NIOHTTP218InboundEventBufferC0bcD8IteratorV"
+- "St"
+- "SM"
+- "Sk"
+- "Sm"
+- "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHPACK.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTLS.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "ea04eeecab800571bdc66ac8fc39a773"
