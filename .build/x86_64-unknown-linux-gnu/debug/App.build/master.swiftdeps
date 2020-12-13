@@ -1,10 +1,9 @@
 version: "Swift version 5.3 (swift-5.3-RELEASE)"
 options: "c70dc95c6d9dc9d099761e9602457410"
-build_time: [1607829545, 890213600]
+build_time: [1607835082, 163631700]
 inputs:
   "/root/CourseProject/courseProject/Sources/App/App.swift": [1607777767, 582245900]
   "/root/CourseProject/courseProject/Sources/App/AppErrors.swift": [1607777767, 582245900]
-  "/root/CourseProject/courseProject/Sources/App/AppResults.swift": [1607777767, 582245900]
   "/root/CourseProject/courseProject/Sources/App/Arguments.swift": [1607579950, 850000000]
   "/root/CourseProject/courseProject/Sources/App/ArgumentsParser.swift": [1607777767, 582245900]
   "/root/CourseProject/courseProject/Sources/App/ArgumentsParserError.swift": [1607777761, 452245900]

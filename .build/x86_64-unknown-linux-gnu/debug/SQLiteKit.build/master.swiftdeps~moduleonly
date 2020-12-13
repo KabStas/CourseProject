@@ -1,6 +1,6 @@
 version: "Swift version 5.3 (swift-5.3-RELEASE)"
 options: "26c756ec259423238d41ab89a35d2f38"
-build_time: [1607829522, 500651700]
+build_time: [1607835080, 385338300]
 inputs:
   "/root/CourseProject/.build/checkouts/sqlite-kit/Sources/SQLiteKit/Exports.swift": [1607829478, 930000000]
   "/root/CourseProject/.build/checkouts/sqlite-kit/Sources/SQLiteKit/SQLiteConfiguration.swift": [1607829478, 930000000]

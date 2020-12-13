@@ -14,12 +14,6 @@
     "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/AppErrors~partial.swiftmodule",
     "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/AppErrors.swiftdeps"
   },
-  "/root/CourseProject/courseProject/Sources/App/AppResults.swift": {
-    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/AppResults.d",
-    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/AppResults.swift.o",
-    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/AppResults~partial.swiftmodule",
-    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/AppResults.swiftdeps"
-  },
   "/root/CourseProject/courseProject/Sources/App/Arguments.swift": {
     "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/Arguments.d",
     "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.build/Arguments.swift.o",

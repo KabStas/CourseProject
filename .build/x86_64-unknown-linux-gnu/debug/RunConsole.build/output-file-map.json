@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/RunConsole.build/master.swiftdeps"
+  },
+  "/root/CourseProject/courseProject/Sources/RunConsole/main.swift": {
+    "dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/RunConsole.build/main.d",
+    "object": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/RunConsole.build/main.swift.o",
+    "swiftmodule": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/RunConsole.build/main~partial.swiftmodule",
+    "swift-dependencies": "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/RunConsole.build/main.swiftdeps"
+  }
+}
