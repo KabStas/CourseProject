@@ -1,6 +1,6 @@
 version: "Swift version 5.3 (swift-5.3-RELEASE)"
 options: "2d6a06da1c16a544589f3d1eb4a4e769"
-build_time: [1607835453, 578674300]
+build_time: [1607856904, 795627600]
 inputs:
   "/root/CourseProject/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/Exports.swift": [1607829480, 190000000]
   "/root/CourseProject/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/FluentSQLiteConfiguration.swift": [1607829480, 190000000]

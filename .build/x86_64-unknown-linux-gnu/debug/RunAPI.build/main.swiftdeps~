@@ -9,7 +9,7 @@ depends-top-level:
 - "Environment"
 - "LoggingSystem"
 - "app"
-- "configure"
+- "configureAPI"
 - "env"
 depends-member:
 - ["5Vapor11ApplicationC", "init"]
@@ -96,4 +96,4 @@ depends-external:
 - "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
 - "/root/CourseProject/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
 - "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/CSQLite/module.modulemap"
-interface-hash: "27ecb2012f73842ab568e42cf7f8eb12"
+interface-hash: "fb54edc4023a77d856dab1af4b3f230c"

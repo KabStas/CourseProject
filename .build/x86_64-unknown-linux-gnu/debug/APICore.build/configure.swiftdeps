@@ -7,53 +7,83 @@ provides-member:
 depends-top-level:
 - "Application"
 - !private "CreatingDictionary"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
 - !private "StringLiteralType"
+- !private "UnicodeScalarType"
 - "configureAPI"
 - "configureWeb"
 - !private "routes"
 depends-member:
 - !private ["5Vapor11ApplicationC", "autoMigrate"]
 - !private ["5Vapor11ApplicationC", "databases"]
+- !private ["5Vapor11ApplicationC", "directory"]
+- !private ["5Vapor11ApplicationC", "logger"]
 - !private ["5Vapor11ApplicationC", "migrations"]
 - !private ["5Vapor11ApplicationC", "views"]
 - !private ["7APICore18CreatingDictionaryV", ""]
 - !private ["7APICore18CreatingDictionaryV", "init"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - !private ["9FluentKit21DatabaseConfigurationP", "sqlite"]
 - !private ["9FluentKit28DatabaseConfigurationFactoryV", "sqlite"]
 - !private ["9FluentKit10DatabaseIDV", "sqlite"]
 - !private ["9FluentKit9DatabasesC", "use"]
 - !private ["Se", "sqlite"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["5Vapor22DirectoryConfigurationV", "viewsDirectory"]
+- !private ["5Vapor22DirectoryConfigurationV", "workingDirectory"]
 - !private ["SE", "sqlite"]
 - !private ["SQ", ""]
 - !private ["SQ", "sqlite"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
 - !private ["SH", "sqlite"]
+- !private ["7Logging6LoggerV", "info"]
 - !private ["9FluentKit9MigrationP", "init"]
 - !private ["9FluentKit10MigrationsC", "add"]
 - !private ["5Vapor11ApplicationC5ViewsV8ProviderV", "leaf"]
 - !private ["5Vapor13RoutesBuilderP", "autoMigrate"]
 - !private ["5Vapor13RoutesBuilderP", "databases"]
+- !private ["5Vapor13RoutesBuilderP", "directory"]
+- !private ["5Vapor13RoutesBuilderP", "logger"]
 - !private ["5Vapor13RoutesBuilderP", "migrations"]
 - !private ["5Vapor13RoutesBuilderP", "views"]
 - !private ["9SQLiteKit0A13ConfigurationV", "file"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
 - !private ["5Vapor11ApplicationC5ViewsV", "use"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 depends-nominal:
 - !private "5Vapor11ApplicationC"
 - !private "7APICore18CreatingDictionaryV"
+- !private "s23CustomStringConvertibleP"
 - !private "9FluentKit21DatabaseConfigurationP"
 - !private "9FluentKit28DatabaseConfigurationFactoryV"
 - !private "9FluentKit10DatabaseIDV"
 - !private "9FluentKit9DatabasesC"
 - !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "5Vapor22DirectoryConfigurationV"
 - !private "SE"
 - !private "SQ"
+- !private "s32ExpressibleByStringInterpolationP"
 - !private "SH"
+- !private "7Logging6LoggerV"
 - !private "9FluentKit9MigrationP"
 - !private "9FluentKit10MigrationsC"
 - !private "5Vapor11ApplicationC5ViewsV8ProviderV"
 - !private "5Vapor13RoutesBuilderP"
 - !private "9SQLiteKit0A13ConfigurationV"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
 - !private "5Vapor11ApplicationC5ViewsV"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 depends-dynamic-lookup:
 depends-external:

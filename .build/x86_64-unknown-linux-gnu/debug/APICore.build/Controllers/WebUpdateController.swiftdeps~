@@ -1,0 +1,353 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WebUpdateController"
+provides-nominal:
+- "7APICore19WebUpdateControllerV"
+- "7APICore19WebUpdateControllerV8ResponseV"
+- "7APICore19WebUpdateControllerV8ResponseV0C7ResultsV"
+- "7APICore19WebUpdateControllerV8ResponseV0C7ResultsV7ElementV"
+provides-member:
+- ["7APICore19WebUpdateControllerV", ""]
+- ["7APICore19WebUpdateControllerV8ResponseV", ""]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV", ""]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV7ElementV", ""]
+- ["7APICore19WebUpdateControllerV", "Response"]
+depends-top-level:
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- "Codable"
+- "Content"
+- "Element"
+- "Error"
+- "EventLoopFuture"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "Parameters"
+- "Request"
+- "RouteCollection"
+- "RoutesBuilder"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "UpdateProtocol"
+- "UpdateResults"
+- "View"
+- "WebUpdateController"
+- !private "update"
+- !private "updatingView"
+- !private "~="
+depends-member:
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["5Vapor7ContentP", "Codable"]
+- ["5Vapor7ContentP", ""]
+- ["5Vapor7ContentP", "afterDecode"]
+- ["5Vapor7ContentP", "beforeEncode"]
+- ["5Vapor7ContentP", "decodeRequest"]
+- ["5Vapor7ContentP", "defaultContentType"]
+- ["5Vapor7ContentP", "encode"]
+- ["5Vapor7ContentP", "encodeResponse"]
+- ["5Vapor7ContentP", "init"]
+- !private ["5Vapor7ContentP", "key"]
+- !private ["5Vapor7ContentP", "language"]
+- !private ["5Vapor7ContentP", "results"]
+- !private ["5Vapor7ContentP", "word"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "logger"]
+- !private ["s23CustomStringConvertibleP", "query"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "Codable"]
+- ["Se", ""]
+- ["Se", "afterDecode"]
+- ["Se", "beforeEncode"]
+- ["Se", "decodeRequest"]
+- ["Se", "defaultContentType"]
+- !private ["Se", "elements"]
+- ["Se", "encode"]
+- ["Se", "encodeResponse"]
+- ["Se", "init"]
+- !private ["Se", "key"]
+- !private ["Se", "language"]
+- !private ["Se", "results"]
+- !private ["Se", "value"]
+- !private ["Se", "word"]
+- !private ["s7DecoderP", "container"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV7ElementV", "CodingKeys"]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV7ElementV", "String"]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV7ElementV", ""]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV7ElementV", "encode"]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV7ElementV", "init"]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV7ElementV", "language"]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV7ElementV", "value"]
+- ["SE", "Codable"]
+- ["SE", ""]
+- ["SE", "afterDecode"]
+- ["SE", "beforeEncode"]
+- ["SE", "decodeRequest"]
+- ["SE", "defaultContentType"]
+- !private ["SE", "elements"]
+- ["SE", "encode"]
+- ["SE", "encodeResponse"]
+- ["SE", "init"]
+- !private ["SE", "key"]
+- !private ["SE", "language"]
+- !private ["SE", "results"]
+- !private ["SE", "value"]
+- !private ["SE", "word"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "mapError"]
+- ["SQ", "stringValue"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "mapError"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["7Logging6LoggerV", "info"]
+- !private ["5Vapor7RequestC", "logger"]
+- !private ["5Vapor7RequestC", "query"]
+- ["5Vapor16RequestDecodableP", "Codable"]
+- ["5Vapor16RequestDecodableP", ""]
+- ["5Vapor16RequestDecodableP", "afterDecode"]
+- ["5Vapor16RequestDecodableP", "beforeEncode"]
+- ["5Vapor16RequestDecodableP", "decodeRequest"]
+- ["5Vapor16RequestDecodableP", "defaultContentType"]
+- ["5Vapor16RequestDecodableP", "encode"]
+- ["5Vapor16RequestDecodableP", "encodeResponse"]
+- ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "key"]
+- !private ["5Vapor16RequestDecodableP", "language"]
+- !private ["5Vapor16RequestDecodableP", "logger"]
+- !private ["5Vapor16RequestDecodableP", "query"]
+- !private ["5Vapor16RequestDecodableP", "results"]
+- !private ["5Vapor16RequestDecodableP", "word"]
+- ["7APICore19WebUpdateControllerV8ResponseV", "Codable"]
+- ["7APICore19WebUpdateControllerV8ResponseV", "CodingKeys"]
+- ["7APICore19WebUpdateControllerV8ResponseV", "String"]
+- ["7APICore19WebUpdateControllerV8ResponseV", "UpdateResults"]
+- ["7APICore19WebUpdateControllerV8ResponseV", ""]
+- ["7APICore19WebUpdateControllerV8ResponseV", "afterDecode"]
+- ["7APICore19WebUpdateControllerV8ResponseV", "beforeEncode"]
+- ["7APICore19WebUpdateControllerV8ResponseV", "decodeRequest"]
+- ["7APICore19WebUpdateControllerV8ResponseV", "defaultContentType"]
+- ["7APICore19WebUpdateControllerV8ResponseV", "encode"]
+- ["7APICore19WebUpdateControllerV8ResponseV", "encodeResponse"]
+- ["7APICore19WebUpdateControllerV8ResponseV", "init"]
+- ["7APICore19WebUpdateControllerV8ResponseV", "results"]
+- ["5Vapor17ResponseEncodableP", "Codable"]
+- ["5Vapor17ResponseEncodableP", ""]
+- ["5Vapor17ResponseEncodableP", "afterDecode"]
+- ["5Vapor17ResponseEncodableP", "beforeEncode"]
+- ["5Vapor17ResponseEncodableP", "decodeRequest"]
+- ["5Vapor17ResponseEncodableP", "defaultContentType"]
+- ["5Vapor17ResponseEncodableP", "encode"]
+- ["5Vapor17ResponseEncodableP", "encodeResponse"]
+- ["5Vapor17ResponseEncodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "key"]
+- !private ["5Vapor17ResponseEncodableP", "language"]
+- !private ["5Vapor17ResponseEncodableP", "results"]
+- !private ["5Vapor17ResponseEncodableP", "word"]
+- !private ["s6ResultO", "mapError"]
+- ["5Vapor15RouteCollectionP", "Codable"]
+- ["5Vapor15RouteCollectionP", "Content"]
+- !private ["5Vapor15RouteCollectionP", "Parameters"]
+- ["5Vapor15RouteCollectionP", ""]
+- ["5Vapor15RouteCollectionP", "boot"]
+- !private ["5Vapor15RouteCollectionP", "update"]
+- !private ["5Vapor15RouteCollectionP", "updatingView"]
+- !private ["5Vapor13RoutesBuilderP", "get"]
+- !private ["5Vapor13RoutesBuilderP", "grouped"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["5Vapor17URLQueryContainerP", "decode"]
+- !private ["3App14UpdateProtocolP", "updating"]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV", "Codable"]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV", "CodingKeys"]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV", "Element"]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV", "String"]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV", ""]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV", "elements"]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV", "encode"]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV", "init"]
+- ["7APICore19WebUpdateControllerV8ResponseV0C7ResultsV", "key"]
+- ["7APICore19WebUpdateControllerV", "Codable"]
+- ["7APICore19WebUpdateControllerV", "Content"]
+- !private ["7APICore19WebUpdateControllerV", "Error"]
+- ["7APICore19WebUpdateControllerV", "EventLoopFuture"]
+- !private ["7APICore19WebUpdateControllerV", "Parameters"]
+- ["7APICore19WebUpdateControllerV", "Request"]
+- ["7APICore19WebUpdateControllerV", "Response"]
+- ["7APICore19WebUpdateControllerV", "RoutesBuilder"]
+- ["7APICore19WebUpdateControllerV", "String"]
+- ["7APICore19WebUpdateControllerV", "UpdateProtocol"]
+- ["7APICore19WebUpdateControllerV", "View"]
+- ["7APICore19WebUpdateControllerV", ""]
+- ["7APICore19WebUpdateControllerV", "boot"]
+- ["7APICore19WebUpdateControllerV", "init"]
+- ["7APICore19WebUpdateControllerV", "update"]
+- ["7APICore19WebUpdateControllerV", "updatingView"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "s9CodingKeyP"
+- "5Vapor7ContentP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s26DefaultStringInterpolationV"
+- "7APICore19WebUpdateControllerV8ResponseV0C7ResultsV7ElementV"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "7Logging6LoggerV"
+- !private "5Vapor7RequestC"
+- "5Vapor16RequestDecodableP"
+- "7APICore19WebUpdateControllerV8ResponseV"
+- "5Vapor17ResponseEncodableP"
+- !private "s6ResultO"
+- "5Vapor15RouteCollectionP"
+- !private "5Vapor13RoutesBuilderP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "5Vapor17URLQueryContainerP"
+- !private "3App14UpdateProtocolP"
+- "7APICore19WebUpdateControllerV8ResponseV0C7ResultsV"
+- "7APICore19WebUpdateControllerV"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP2.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHPACK.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOSSL.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTLS.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Backtrace.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Leaf.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTPCompression.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Crypto.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Vapor.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOExtras.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Metrics.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CoreMetrics.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTransportServices.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOFoundationCompat.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOWebSocket.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ConsoleKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/LeafKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/RoutingKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/WebSocketKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentKit.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncHTTPClient.swiftmodule"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/root/CourseProject/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/root/CourseProject/.build/checkouts/swift-backtrace/Sources/CBacktrace/include/backtrace.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CURLParser/include/urlparser.h"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CMultipartParser/include/multipartparser.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+- "/root/CourseProject/.build/checkouts/sqlite-nio/Sources/CSQLite/module.modulemap"
+interface-hash: "9d04a283e476bb585f0950e2a696d6cc"

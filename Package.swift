@@ -47,9 +47,9 @@ let package = Package(
         .target(
             name: "RunWeb",
             dependencies: [
-                .target(name: "App")
+                .target(name: "APICore")
             ],
-            path: "courseProject/Sources/RunWeb" 
+            path: "courseProject/Sources/RunWeb"  
         ), 
         .testTarget(
             name: "AppTests",

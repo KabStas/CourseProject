@@ -12,6 +12,12 @@ depends-top-level:
 - "EventLoopFuture"
 - !private "StringLiteralType"
 - "View"
+- !private "WebDeleteController"
+- !private "WebDeletePageController"
+- !private "WebSearchController"
+- !private "WebSearchPageController"
+- !private "WebUpdateController"
+- !private "WebUpdatePageController"
 - "routes"
 depends-member:
 - !private ["7APICore19APIDeleteControllerV", ""]
@@ -27,14 +33,24 @@ depends-member:
 - !private ["3App9ContainerC", "search"]
 - !private ["3App9ContainerC", "update"]
 - !private ["s23CustomStringConvertibleP", "view"]
-- !private ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
-- !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["5Vapor7RequestC", "view"]
 - !private ["5Vapor16RequestDecodableP", "view"]
 - !private ["5Vapor15RouteCollectionP", "init"]
 - !private ["5Vapor13RoutesBuilderP", "get"]
 - !private ["5Vapor13RoutesBuilderP", "register"]
 - !private ["5Vapor12ViewRendererP", "render"]
+- !private ["7APICore19WebDeleteControllerV", ""]
+- !private ["7APICore19WebDeleteControllerV", "init"]
+- !private ["7APICore23WebDeletePageControllerV", ""]
+- !private ["7APICore23WebDeletePageControllerV", "init"]
+- !private ["7APICore19WebSearchControllerV", ""]
+- !private ["7APICore19WebSearchControllerV", "init"]
+- !private ["7APICore23WebSearchPageControllerV", ""]
+- !private ["7APICore23WebSearchPageControllerV", "init"]
+- !private ["7APICore19WebUpdateControllerV", ""]
+- !private ["7APICore19WebUpdateControllerV", "init"]
+- !private ["7APICore23WebUpdatePageControllerV", ""]
+- !private ["7APICore23WebUpdatePageControllerV", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 depends-nominal:
 - !private "7APICore19APIDeleteControllerV"
@@ -43,12 +59,17 @@ depends-nominal:
 - !private "5Vapor11ApplicationC"
 - !private "3App9ContainerC"
 - !private "s23CustomStringConvertibleP"
-- !private "s26ExpressibleByStringLiteralP"
 - !private "5Vapor7RequestC"
 - !private "5Vapor16RequestDecodableP"
 - !private "5Vapor15RouteCollectionP"
 - !private "5Vapor13RoutesBuilderP"
 - !private "5Vapor12ViewRendererP"
+- !private "7APICore19WebDeleteControllerV"
+- !private "7APICore23WebDeletePageControllerV"
+- !private "7APICore19WebSearchControllerV"
+- !private "7APICore23WebSearchPageControllerV"
+- !private "7APICore19WebUpdateControllerV"
+- !private "7APICore23WebUpdatePageControllerV"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 depends-dynamic-lookup:
 depends-external:

@@ -2,6 +2,12 @@
 /root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/APIDeleteController.swift.o
 /root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/APISearchController.swift.o
 /root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/APIUpdateController.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebDeleteController.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebDeletePageController.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebSearchController.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebSearchPageController.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebUpdateController.swift.o
+/root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebUpdatePageController.swift.o
 /root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Migrations/CreatingDictionary.swift.o
 /root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Models/Dictionary.swift.o
 /root/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/configure.swift.o
