@@ -23,6 +23,23 @@ public struct WebSearchController: RouteCollection {
             .searching(key: parameters?.key, language: parameters?.language, dictionary: nil, searchingForDeletion: false)
             .mapError{ $0 as Error }
 
+        let res = result.map { value in
+            Response(
+                results: value.map { value in
+                    Response.SearchResults(
+                        key: value.key,
+                        elements: value.value.map {
+                            Response.SearchResults.Element(
+                                language: $0.key,
+                                value: $0.value
+                            )
+                        }
+                    )
+                }
+            )
+        }
+        return req.view.render("resultPage", ["title": "Search results"])
+        
         // return result 
             // .map { value in
             //     Response(

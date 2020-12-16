@@ -23,6 +23,22 @@ public struct WebUpdateController: RouteCollection {
             .updating(word: parameters?.word ?? "", key: parameters?.key ?? "", language: parameters?.language ?? "")
             .mapError{ $0 as Error }
 
+        let res = result.map { value in
+            Response(
+                results: value.map { value in
+                    Response.UpdateResults(
+                        key: value.key,
+                        elements: value.value.map {
+                            Response.UpdateResults.Element(
+                                language: $0.key,
+                                value: $0.value
+                            )
+                        }
+                    )
+                }
+            )
+        }
+        return req.view.render("resultPage", ["title": "Update results"])
         
         
         // return result 

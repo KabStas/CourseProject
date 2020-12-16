@@ -10,9 +10,6 @@ public func routes(_ app: Application) throws {
     let deleting = container.delete
     let updating = container.update
 
-    // app.get() { req in
-    //     return "Здравствуйте!"
-    // }
     app.get() { req -> EventLoopFuture<View> in
         return req.view.render("main")
     }

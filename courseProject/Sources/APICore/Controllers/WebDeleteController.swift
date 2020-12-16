@@ -22,7 +22,24 @@ public struct WebDeleteController: RouteCollection {
         let result = delete
             .deleting(key: parameters?.key, language: parameters?.language)
             .mapError{ $0 as Error }
-
+        let res = result.map { value in
+            Response(
+                results: value.map { value in
+                    Response.DeleteResults(
+                        key: value.key,
+                        elements: value.value.map {
+                            Response.DeleteResults.Element(
+                                language: $0.key,
+                                value: $0.value
+                            )
+                        }
+                    )
+                }
+            )
+        }
+        return req.view.render("resultPage", ["title": "Delete results "])
+        
+        
         // return result 
             // .map { value in
             //     Response(
