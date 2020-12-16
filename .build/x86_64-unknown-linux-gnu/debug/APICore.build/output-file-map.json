@@ -1,0 +1,83 @@
+{
+  "": {
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/master.swiftdeps"
+  },
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/APIDeleteController.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/APIDeleteController.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/APIDeleteController.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/APIDeleteController~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/APIDeleteController.swiftdeps"
+  },
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/APISearchController.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/APISearchController.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/APISearchController.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/APISearchController~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/APISearchController.swiftdeps"
+  },
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/APIUpdateController.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/APIUpdateController.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/APIUpdateController.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/APIUpdateController~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/APIUpdateController.swiftdeps"
+  },
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/WebDeleteController.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebDeleteController.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebDeleteController.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebDeleteController~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebDeleteController.swiftdeps"
+  },
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/WebDeletePageController.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebDeletePageController.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebDeletePageController.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebDeletePageController~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebDeletePageController.swiftdeps"
+  },
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/WebSearchController.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebSearchController.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebSearchController.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebSearchController~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebSearchController.swiftdeps"
+  },
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/WebSearchPageController.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebSearchPageController.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebSearchPageController.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebSearchPageController~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebSearchPageController.swiftdeps"
+  },
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/WebUpdateController.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebUpdateController.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebUpdateController.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebUpdateController~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebUpdateController.swiftdeps"
+  },
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/WebUpdatePageController.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebUpdatePageController.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebUpdatePageController.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebUpdatePageController~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Controllers/WebUpdatePageController.swiftdeps"
+  },
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Migrations/CreatingDictionary.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Migrations/CreatingDictionary.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Migrations/CreatingDictionary.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Migrations/CreatingDictionary~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Migrations/CreatingDictionary.swiftdeps"
+  },
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Models/Dictionary.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Models/Dictionary.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Models/Dictionary.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Models/Dictionary~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/Models/Dictionary.swiftdeps"
+  },
+  "/workspaces/CourseProject/courseProject/Sources/APICore/configure.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/configure.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/configure.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/configure~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/configure.swiftdeps"
+  },
+  "/workspaces/CourseProject/courseProject/Sources/APICore/routes.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/routes.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/routes.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/routes~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/APICore.build/routes.swiftdeps"
+  }
+}

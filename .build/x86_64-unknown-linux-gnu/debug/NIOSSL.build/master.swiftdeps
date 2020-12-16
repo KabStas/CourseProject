@@ -1,0 +1,23 @@
+version: "Swift version 5.3.1 (swift-5.3.1-RELEASE)"
+options: "4dfac96fcadd15721f6dff2051e43039"
+build_time: [1608116828, 296724100]
+inputs:
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/ByteBufferBIO.swift": [1607864714, 42788800]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/IdentityVerification.swift": [1607864714, 46788900]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/LinuxCABundle.swift": [1607864714, 49790000]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/NIOSSLClientHandler.swift": [1607864714, 53789000]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/NIOSSLHandler.swift": [1607864714, 57789800]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/NIOSSLServerHandler.swift": [1607864714, 60788800]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/PosixPort.swift": [1607864714, 63789900]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLCallbacks.swift": [1607864714, 66788800]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLCertificate.swift": [1607864714, 69789000]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLConnection.swift": [1607864714, 74789100]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLContext.swift": [1607864714, 77788600]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLErrors.swift": [1607864714, 80790800]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLInit.swift": [1607864714, 84788600]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLPKCS12Bundle.swift": [1607864714, 88789100]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLPrivateKey.swift": [1607864714, 92789900]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLPublicKey.swift": [1607864714, 95789900]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SecurityFrameworkCertificateVerification.swift": [1607864714, 98788900]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/TLSConfiguration.swift": [1607864714, 101788800]
+  "/workspaces/CourseProject/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/UniversalBootstrapSupport.swift": [1607864714, 105788400]

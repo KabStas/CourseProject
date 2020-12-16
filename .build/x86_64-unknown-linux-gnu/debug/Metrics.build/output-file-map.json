@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Metrics.build/master.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-metrics/Sources/Metrics/Metrics.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Metrics.build/Metrics.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Metrics.build/Metrics.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Metrics.build/Metrics~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Metrics.build/Metrics.swiftdeps"
+  }
+}

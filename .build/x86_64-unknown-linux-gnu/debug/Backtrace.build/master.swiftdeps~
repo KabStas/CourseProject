@@ -1,0 +1,6 @@
+version: "Swift version 5.3.1 (swift-5.3.1-RELEASE)"
+options: "360c47b382e5a2fc19148682085fef83"
+build_time: [1607868169, 622175000]
+inputs:
+  "/workspaces/CourseProject/.build/checkouts/swift-backtrace/Sources/Backtrace/Backtrace.swift": [1607864811, 219886300]
+  "/workspaces/CourseProject/.build/checkouts/swift-backtrace/Sources/Backtrace/Demangle.swift": [1607864811, 224884600]

@@ -1,0 +1,112 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "result"
+provides-nominal:
+provides-member:
+depends-top-level:
+- "FloatLiteralType"
+- "Int32"
+- "IntegerLiteralType"
+- "exit"
+- "main"
+- "result"
+depends-member:
+- ["s18AdditiveArithmeticP", ""]
+- ["s18AdditiveArithmeticP", "init"]
+- ["3App0A6ErrorsO", "errorCode"]
+- ["Sz", ""]
+- ["Sz", "init"]
+- ["s7CVarArgP", "init"]
+- ["SL", ""]
+- ["SL", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "init"]
+- ["Se", "init"]
+- ["SE", "init"]
+- ["SQ", ""]
+- ["SQ", "errorCode"]
+- ["SQ", "failure"]
+- ["SQ", "init"]
+- ["SQ", "success"]
+- ["s5ErrorP", "errorCode"]
+- ["14ArgumentParser013ExpressibleByA0P", "init"]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s17FixedWidthIntegerP", "init"]
+- ["SH", ""]
+- ["SH", "failure"]
+- ["SH", "init"]
+- ["SH", "success"]
+- ["s5Int32V", "init"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["Sj", ""]
+- ["Sj", "init"]
+- ["s6ResultO", "failure"]
+- ["s6ResultO", "success"]
+- ["s10SIMDScalarP", "init"]
+- ["SZ", "init"]
+- ["s13SignedNumericP", ""]
+- ["s13SignedNumericP", "init"]
+- ["Sx", ""]
+- ["Sx", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "3App0A6ErrorsO"
+- "Sz"
+- "s7CVarArgP"
+- "SL"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- "14ArgumentParser013ExpressibleByA0P"
+- "s27ExpressibleByIntegerLiteralP"
+- "s17FixedWidthIntegerP"
+- "SH"
+- "s5Int32V"
+- "s25LosslessStringConvertibleP"
+- "Sj"
+- "s6ResultO"
+- "s10SIMDScalarP"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+interface-hash: "ba31c72a6d708c775a336a3c04bc34e3"

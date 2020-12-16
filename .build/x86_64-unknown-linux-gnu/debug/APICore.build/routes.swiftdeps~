@@ -1,0 +1,142 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "routes"
+provides-nominal:
+provides-member:
+depends-top-level:
+- !private "APIDeleteController"
+- !private "APISearchController"
+- !private "APIUpdateController"
+- "Application"
+- !private "Container"
+- "EventLoopFuture"
+- !private "StringLiteralType"
+- "View"
+- !private "WebDeleteController"
+- !private "WebDeletePageController"
+- !private "WebSearchController"
+- !private "WebSearchPageController"
+- !private "WebUpdateController"
+- !private "WebUpdatePageController"
+- "routes"
+depends-member:
+- !private ["7APICore19APIDeleteControllerV", ""]
+- !private ["7APICore19APIDeleteControllerV", "init"]
+- !private ["7APICore19APISearchControllerV", ""]
+- !private ["7APICore19APISearchControllerV", "init"]
+- !private ["7APICore19APIUpdateControllerV", ""]
+- !private ["7APICore19APIUpdateControllerV", "init"]
+- !private ["5Vapor11ApplicationC", "get"]
+- !private ["5Vapor11ApplicationC", "register"]
+- !private ["3App9ContainerC", "delete"]
+- !private ["3App9ContainerC", "init"]
+- !private ["3App9ContainerC", "search"]
+- !private ["3App9ContainerC", "update"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["5Vapor7RequestC", "view"]
+- !private ["5Vapor16RequestDecodableP", "view"]
+- !private ["5Vapor15RouteCollectionP", "init"]
+- !private ["5Vapor13RoutesBuilderP", "get"]
+- !private ["5Vapor13RoutesBuilderP", "register"]
+- !private ["5Vapor12ViewRendererP", "render"]
+- !private ["7APICore19WebDeleteControllerV", ""]
+- !private ["7APICore19WebDeleteControllerV", "init"]
+- !private ["7APICore23WebDeletePageControllerV", ""]
+- !private ["7APICore23WebDeletePageControllerV", "init"]
+- !private ["7APICore19WebSearchControllerV", ""]
+- !private ["7APICore19WebSearchControllerV", "init"]
+- !private ["7APICore23WebSearchPageControllerV", ""]
+- !private ["7APICore23WebSearchPageControllerV", "init"]
+- !private ["7APICore19WebUpdateControllerV", ""]
+- !private ["7APICore19WebUpdateControllerV", "init"]
+- !private ["7APICore23WebUpdatePageControllerV", ""]
+- !private ["7APICore23WebUpdatePageControllerV", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- !private "7APICore19APIDeleteControllerV"
+- !private "7APICore19APISearchControllerV"
+- !private "7APICore19APIUpdateControllerV"
+- !private "5Vapor11ApplicationC"
+- !private "3App9ContainerC"
+- !private "s23CustomStringConvertibleP"
+- !private "5Vapor7RequestC"
+- !private "5Vapor16RequestDecodableP"
+- !private "5Vapor15RouteCollectionP"
+- !private "5Vapor13RoutesBuilderP"
+- !private "5Vapor12ViewRendererP"
+- !private "7APICore19WebDeleteControllerV"
+- !private "7APICore23WebDeletePageControllerV"
+- !private "7APICore19WebSearchControllerV"
+- !private "7APICore23WebSearchPageControllerV"
+- !private "7APICore19WebUpdateControllerV"
+- !private "7APICore23WebUpdatePageControllerV"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP2.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHPACK.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOSSL.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTLS.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Backtrace.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Leaf.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTPCompression.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Crypto.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/App.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ArgumentParser.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Vapor.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOExtras.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Metrics.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CoreMetrics.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTransportServices.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOFoundationCompat.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOWebSocket.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ConsoleKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/LeafKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/RoutingKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/WebSocketKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncHTTPClient.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Fluent.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-backtrace/Sources/CBacktrace/include/backtrace.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CURLParser/include/urlparser.h"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CMultipartParser/include/multipartparser.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/sqlite-nio/Sources/CSQLite/module.modulemap"
+interface-hash: "3c84a6429583717f3abfa2b87727b32b"

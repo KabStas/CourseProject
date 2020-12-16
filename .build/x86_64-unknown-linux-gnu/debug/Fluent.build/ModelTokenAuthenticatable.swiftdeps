@@ -1,0 +1,393 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ModelTokenAuthenticatable"
+provides-nominal:
+- "6Fluent25ModelTokenAuthenticatableP"
+provides-member:
+- ["6Fluent25ModelTokenAuthenticatableP", ""]
+- ["6Fluent25ModelTokenAuthenticatableP", "authenticator"]
+- ["6Fluent25ModelTokenAuthenticatableP", "_$value"]
+- ["6Fluent25ModelTokenAuthenticatableP", "_$user"]
+depends-top-level:
+- !private "=="
+- "Authenticatable"
+- "Authenticator"
+- "BearerAuthenticator"
+- "BearerAuthorization"
+- "Bool"
+- "DatabaseID"
+- "EventLoopFuture"
+- "Field"
+- "KeyPath"
+- "Model"
+- "ModelTokenAuthenticatable"
+- !private "ModelTokenAuthenticator"
+- "Parent"
+- "Request"
+- "Self"
+- "String"
+- "Token"
+- "User"
+- "Void"
+depends-member:
+- !private ["9FluentKit18AnyCodablePropertyP", "get"]
+- !private ["9FluentKit19AnyDatabasePropertyP", "get"]
+- !private ["9FluentKit8AnyModelP", "$user"]
+- !private ["9FluentKit8AnyModelP", "$value"]
+- ["9FluentKit8AnyModelP", "Authenticatable"]
+- ["9FluentKit8AnyModelP", "Authenticator"]
+- ["9FluentKit8AnyModelP", "Bool"]
+- ["9FluentKit8AnyModelP", "DatabaseID"]
+- ["9FluentKit8AnyModelP", "Field"]
+- ["9FluentKit8AnyModelP", "KeyPath"]
+- ["9FluentKit8AnyModelP", "Model"]
+- !private ["9FluentKit8AnyModelP", "ModelTokenAuthenticator"]
+- ["9FluentKit8AnyModelP", "Parent"]
+- !private ["9FluentKit8AnyModelP", "Self"]
+- ["9FluentKit8AnyModelP", "String"]
+- ["9FluentKit8AnyModelP", "User"]
+- ["9FluentKit8AnyModelP", ""]
+- !private ["9FluentKit8AnyModelP", "_$user"]
+- !private ["9FluentKit8AnyModelP", "_$value"]
+- !private ["9FluentKit8AnyModelP", "delete"]
+- ["9FluentKit8AnyModelP", "isValid"]
+- !private ["9FluentKit8AnyModelP", "query"]
+- !private ["9FluentKit8AnyModelP", "subscript"]
+- ["9FluentKit8AnyModelP", "userKey"]
+- ["9FluentKit8AnyModelP", "valueKey"]
+- !private ["9FluentKit11AnyPropertyP", ""]
+- !private ["9FluentKit11AnyPropertyP", "get"]
+- !private ["9FluentKit20AnyQueryablePropertyP", ""]
+- !private ["5Vapor15AuthenticatableP", "$user"]
+- !private ["5Vapor15AuthenticatableP", "$value"]
+- ["5Vapor15AuthenticatableP", "Authenticatable"]
+- ["5Vapor15AuthenticatableP", "Authenticator"]
+- ["5Vapor15AuthenticatableP", "Bool"]
+- ["5Vapor15AuthenticatableP", "DatabaseID"]
+- ["5Vapor15AuthenticatableP", "Field"]
+- ["5Vapor15AuthenticatableP", "KeyPath"]
+- ["5Vapor15AuthenticatableP", "Model"]
+- !private ["5Vapor15AuthenticatableP", "ModelTokenAuthenticator"]
+- ["5Vapor15AuthenticatableP", "Parent"]
+- !private ["5Vapor15AuthenticatableP", "Self"]
+- ["5Vapor15AuthenticatableP", "String"]
+- ["5Vapor15AuthenticatableP", "User"]
+- ["5Vapor15AuthenticatableP", ""]
+- !private ["5Vapor15AuthenticatableP", "_$user"]
+- !private ["5Vapor15AuthenticatableP", "_$value"]
+- !private ["5Vapor15AuthenticatableP", "delete"]
+- ["5Vapor15AuthenticatableP", "isValid"]
+- !private ["5Vapor15AuthenticatableP", "query"]
+- !private ["5Vapor15AuthenticatableP", "subscript"]
+- ["5Vapor15AuthenticatableP", "userKey"]
+- ["5Vapor15AuthenticatableP", "valueKey"]
+- !private ["5Vapor7RequestC14AuthenticationV", "login"]
+- !private ["5Vapor13AuthenticatorP", "Token"]
+- ["5Vapor13AuthenticatorP", ""]
+- ["5Vapor13AuthenticatorP", "authenticate"]
+- !private ["5Vapor13AuthenticatorP", "database"]
+- !private ["5Vapor13AuthenticatorP", "init"]
+- ["5Vapor13AuthenticatorP", "respond"]
+- !private ["5Vapor19BearerAuthenticatorP", "Token"]
+- !private ["5Vapor19BearerAuthenticatorP", ""]
+- ["5Vapor19BearerAuthenticatorP", "authenticate"]
+- !private ["5Vapor19BearerAuthenticatorP", "database"]
+- !private ["5Vapor19BearerAuthenticatorP", "init"]
+- ["5Vapor19BearerAuthenticatorP", "respond"]
+- !private ["5Vapor19BearerAuthorizationV", "token"]
+- !private ["s23CustomStringConvertibleP", "$user"]
+- !private ["s23CustomStringConvertibleP", "$value"]
+- ["s23CustomStringConvertibleP", "Authenticatable"]
+- ["s23CustomStringConvertibleP", "Authenticator"]
+- ["s23CustomStringConvertibleP", "Bool"]
+- ["s23CustomStringConvertibleP", "DatabaseID"]
+- ["s23CustomStringConvertibleP", "Field"]
+- ["s23CustomStringConvertibleP", "KeyPath"]
+- ["s23CustomStringConvertibleP", "Model"]
+- !private ["s23CustomStringConvertibleP", "ModelTokenAuthenticator"]
+- ["s23CustomStringConvertibleP", "Parent"]
+- !private ["s23CustomStringConvertibleP", "Self"]
+- ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "User"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_$user"]
+- !private ["s23CustomStringConvertibleP", "_$value"]
+- !private ["s23CustomStringConvertibleP", "auth"]
+- !private ["s23CustomStringConvertibleP", "db"]
+- !private ["s23CustomStringConvertibleP", "delete"]
+- !private ["s23CustomStringConvertibleP", "eventLoop"]
+- !private ["s23CustomStringConvertibleP", "get"]
+- ["s23CustomStringConvertibleP", "isValid"]
+- !private ["s23CustomStringConvertibleP", "query"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "userKey"]
+- ["s23CustomStringConvertibleP", "valueKey"]
+- !private ["9FluentKit8DatabaseP", "callAsFunction"]
+- !private ["Se", "$user"]
+- !private ["Se", "$value"]
+- ["Se", "Authenticatable"]
+- ["Se", "Authenticator"]
+- ["Se", "Bool"]
+- ["Se", "DatabaseID"]
+- ["Se", "Field"]
+- ["Se", "KeyPath"]
+- ["Se", "Model"]
+- !private ["Se", "ModelTokenAuthenticator"]
+- ["Se", "Parent"]
+- !private ["Se", "Self"]
+- ["Se", "String"]
+- ["Se", "User"]
+- ["Se", ""]
+- !private ["Se", "_$user"]
+- !private ["Se", "_$value"]
+- !private ["Se", "delete"]
+- ["Se", "isValid"]
+- !private ["Se", "query"]
+- !private ["Se", "subscript"]
+- ["Se", "userKey"]
+- ["Se", "valueKey"]
+- !private ["9FluentKit16EagerLoadBuilderP", "filter"]
+- !private ["9FluentKit16EagerLoadBuilderP", "first"]
+- !private ["9FluentKit13EagerLoadableP", "get"]
+- !private ["SE", "$user"]
+- !private ["SE", "$value"]
+- ["SE", "Authenticatable"]
+- ["SE", "Authenticator"]
+- ["SE", "Bool"]
+- ["SE", "DatabaseID"]
+- ["SE", "Field"]
+- ["SE", "KeyPath"]
+- ["SE", "Model"]
+- !private ["SE", "ModelTokenAuthenticator"]
+- ["SE", "Parent"]
+- !private ["SE", "Self"]
+- ["SE", "String"]
+- ["SE", "User"]
+- ["SE", ""]
+- !private ["SE", "_$user"]
+- !private ["SE", "_$value"]
+- !private ["SE", "delete"]
+- ["SE", "isValid"]
+- !private ["SE", "query"]
+- !private ["SE", "subscript"]
+- ["SE", "userKey"]
+- ["SE", "valueKey"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "map"]
+- !private ["3NIO9EventLoopP", "makeSucceededFuture"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO14EventLoopGroupP", ""]
+- !private ["3NIO14EventLoopGroupP", "makeSucceededFuture"]
+- !private ["9FluentKit6FieldsP", "$user"]
+- !private ["9FluentKit6FieldsP", "$value"]
+- ["9FluentKit6FieldsP", "Authenticatable"]
+- ["9FluentKit6FieldsP", "Authenticator"]
+- ["9FluentKit6FieldsP", "Bool"]
+- ["9FluentKit6FieldsP", "DatabaseID"]
+- ["9FluentKit6FieldsP", "Field"]
+- ["9FluentKit6FieldsP", "KeyPath"]
+- ["9FluentKit6FieldsP", "Model"]
+- !private ["9FluentKit6FieldsP", "ModelTokenAuthenticator"]
+- ["9FluentKit6FieldsP", "Parent"]
+- !private ["9FluentKit6FieldsP", "Self"]
+- ["9FluentKit6FieldsP", "String"]
+- ["9FluentKit6FieldsP", "User"]
+- ["9FluentKit6FieldsP", ""]
+- !private ["9FluentKit6FieldsP", "_$user"]
+- !private ["9FluentKit6FieldsP", "_$value"]
+- !private ["9FluentKit6FieldsP", "delete"]
+- ["9FluentKit6FieldsP", "isValid"]
+- !private ["9FluentKit6FieldsP", "query"]
+- !private ["9FluentKit6FieldsP", "subscript"]
+- ["9FluentKit6FieldsP", "userKey"]
+- ["9FluentKit6FieldsP", "valueKey"]
+- !private ["5Vapor10MiddlewareP", "Token"]
+- ["5Vapor10MiddlewareP", ""]
+- ["5Vapor10MiddlewareP", "authenticate"]
+- !private ["5Vapor10MiddlewareP", "database"]
+- !private ["5Vapor10MiddlewareP", "init"]
+- ["5Vapor10MiddlewareP", "respond"]
+- !private ["9FluentKit5ModelP", "$user"]
+- !private ["9FluentKit5ModelP", "$value"]
+- ["9FluentKit5ModelP", "Authenticatable"]
+- ["9FluentKit5ModelP", "Authenticator"]
+- ["9FluentKit5ModelP", "Bool"]
+- ["9FluentKit5ModelP", "DatabaseID"]
+- ["9FluentKit5ModelP", "Field"]
+- ["9FluentKit5ModelP", "KeyPath"]
+- ["9FluentKit5ModelP", "Model"]
+- !private ["9FluentKit5ModelP", "ModelTokenAuthenticator"]
+- ["9FluentKit5ModelP", "Parent"]
+- !private ["9FluentKit5ModelP", "Self"]
+- ["9FluentKit5ModelP", "String"]
+- ["9FluentKit5ModelP", "User"]
+- ["9FluentKit5ModelP", ""]
+- !private ["9FluentKit5ModelP", "_$user"]
+- !private ["9FluentKit5ModelP", "_$value"]
+- !private ["9FluentKit5ModelP", "delete"]
+- ["9FluentKit5ModelP", "isValid"]
+- !private ["9FluentKit5ModelP", "query"]
+- !private ["9FluentKit5ModelP", "subscript"]
+- ["9FluentKit5ModelP", "userKey"]
+- ["9FluentKit5ModelP", "valueKey"]
+- !private ["6Fluent25ModelTokenAuthenticatableP", "$user"]
+- !private ["6Fluent25ModelTokenAuthenticatableP", "$value"]
+- ["6Fluent25ModelTokenAuthenticatableP", "Authenticatable"]
+- ["6Fluent25ModelTokenAuthenticatableP", "Authenticator"]
+- ["6Fluent25ModelTokenAuthenticatableP", "Bool"]
+- ["6Fluent25ModelTokenAuthenticatableP", "DatabaseID"]
+- ["6Fluent25ModelTokenAuthenticatableP", "Field"]
+- ["6Fluent25ModelTokenAuthenticatableP", "IDValue"]
+- ["6Fluent25ModelTokenAuthenticatableP", "KeyPath"]
+- ["6Fluent25ModelTokenAuthenticatableP", "Model"]
+- !private ["6Fluent25ModelTokenAuthenticatableP", "ModelTokenAuthenticator"]
+- ["6Fluent25ModelTokenAuthenticatableP", "Parent"]
+- !private ["6Fluent25ModelTokenAuthenticatableP", "Self"]
+- ["6Fluent25ModelTokenAuthenticatableP", "String"]
+- ["6Fluent25ModelTokenAuthenticatableP", "User"]
+- ["6Fluent25ModelTokenAuthenticatableP", ""]
+- ["6Fluent25ModelTokenAuthenticatableP", "_$user"]
+- ["6Fluent25ModelTokenAuthenticatableP", "_$value"]
+- ["6Fluent25ModelTokenAuthenticatableP", "authenticator"]
+- !private ["6Fluent25ModelTokenAuthenticatableP", "delete"]
+- ["6Fluent25ModelTokenAuthenticatableP", "isValid"]
+- !private ["6Fluent25ModelTokenAuthenticatableP", "query"]
+- !private ["6Fluent25ModelTokenAuthenticatableP", "subscript"]
+- ["6Fluent25ModelTokenAuthenticatableP", "userKey"]
+- ["6Fluent25ModelTokenAuthenticatableP", "valueKey"]
+- !private ["9FluentKit14ParentPropertyC", "get"]
+- !private ["9FluentKit8PropertyP", ""]
+- !private ["9FluentKit8PropertyP", "get"]
+- !private ["9FluentKit12QueryBuilderC", "filter"]
+- !private ["9FluentKit12QueryBuilderC", "first"]
+- !private ["9FluentKit8RelationP", "get"]
+- !private ["5Vapor7RequestC", "auth"]
+- !private ["5Vapor7RequestC", "db"]
+- !private ["5Vapor7RequestC", "eventLoop"]
+- !private ["5Vapor20RequestAuthenticatorP", "Token"]
+- ["5Vapor20RequestAuthenticatorP", ""]
+- ["5Vapor20RequestAuthenticatorP", "authenticate"]
+- !private ["5Vapor20RequestAuthenticatorP", "database"]
+- !private ["5Vapor20RequestAuthenticatorP", "init"]
+- ["5Vapor20RequestAuthenticatorP", "respond"]
+- !private ["5Vapor16RequestDecodableP", "auth"]
+- !private ["5Vapor16RequestDecodableP", "db"]
+- !private ["5Vapor16RequestDecodableP", "eventLoop"]
+- !private ["5Vapor17ResponseEncodableP", "flatMap"]
+- !private ["5Vapor17ResponseEncodableP", "map"]
+- !private ["9FluentKit6SchemaP", "$user"]
+- !private ["9FluentKit6SchemaP", "$value"]
+- ["9FluentKit6SchemaP", "Authenticatable"]
+- ["9FluentKit6SchemaP", "Authenticator"]
+- ["9FluentKit6SchemaP", "Bool"]
+- ["9FluentKit6SchemaP", "DatabaseID"]
+- ["9FluentKit6SchemaP", "Field"]
+- ["9FluentKit6SchemaP", "KeyPath"]
+- ["9FluentKit6SchemaP", "Model"]
+- !private ["9FluentKit6SchemaP", "ModelTokenAuthenticator"]
+- ["9FluentKit6SchemaP", "Parent"]
+- !private ["9FluentKit6SchemaP", "Self"]
+- ["9FluentKit6SchemaP", "String"]
+- ["9FluentKit6SchemaP", "User"]
+- ["9FluentKit6SchemaP", ""]
+- !private ["9FluentKit6SchemaP", "_$user"]
+- !private ["9FluentKit6SchemaP", "_$value"]
+- !private ["9FluentKit6SchemaP", "delete"]
+- ["9FluentKit6SchemaP", "isValid"]
+- !private ["9FluentKit6SchemaP", "query"]
+- !private ["9FluentKit6SchemaP", "subscript"]
+- ["9FluentKit6SchemaP", "userKey"]
+- ["9FluentKit6SchemaP", "valueKey"]
+depends-nominal:
+- !private "9FluentKit18AnyCodablePropertyP"
+- !private "9FluentKit19AnyDatabasePropertyP"
+- "9FluentKit8AnyModelP"
+- !private "9FluentKit11AnyPropertyP"
+- !private "9FluentKit20AnyQueryablePropertyP"
+- "5Vapor15AuthenticatableP"
+- !private "5Vapor7RequestC14AuthenticationV"
+- "5Vapor13AuthenticatorP"
+- "5Vapor19BearerAuthenticatorP"
+- !private "5Vapor19BearerAuthorizationV"
+- "s23CustomStringConvertibleP"
+- !private "9FluentKit8DatabaseP"
+- "Se"
+- !private "9FluentKit16EagerLoadBuilderP"
+- !private "9FluentKit13EagerLoadableP"
+- "SE"
+- !private "SQ"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- "9FluentKit6FieldsP"
+- "5Vapor10MiddlewareP"
+- "9FluentKit5ModelP"
+- "6Fluent25ModelTokenAuthenticatableP"
+- !private "9FluentKit14ParentPropertyC"
+- !private "9FluentKit8PropertyP"
+- !private "9FluentKit12QueryBuilderC"
+- !private "9FluentKit8RelationP"
+- !private "5Vapor7RequestC"
+- "5Vapor20RequestAuthenticatorP"
+- !private "5Vapor16RequestDecodableP"
+- !private "5Vapor17ResponseEncodableP"
+- "9FluentKit6SchemaP"
+depends-dynamic-lookup:
+depends-external:
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP2.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHPACK.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOSSL.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTLS.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Backtrace.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTPCompression.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Crypto.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Vapor.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOExtras.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Metrics.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CoreMetrics.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTransportServices.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOFoundationCompat.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOWebSocket.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ConsoleKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/RoutingKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/WebSocketKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncHTTPClient.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-backtrace/Sources/CBacktrace/include/backtrace.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CURLParser/include/urlparser.h"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CMultipartParser/include/multipartparser.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+interface-hash: "111e2ba354dd49d5260a6d19fd407bc6"

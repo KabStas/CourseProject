@@ -1,0 +1,168 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SendingPushPromiseState"
+provides-nominal:
+- "8NIOHTTP223SendingPushPromiseStateP"
+provides-member:
+- ["8NIOHTTP223SendingPushPromiseStateP", ""]
+- ["8NIOHTTP223SendingPushPromiseStateP", "sendPushPromise"]
+- ["8NIOHTTP223SendingPushPromiseStateP", "mayPush"]
+- ["8NIOHTTP223SendingPushPromiseStateP", "sendPushPromise"]
+- ["8NIOHTTP223SendingPushPromiseStateP", "mayPush"]
+depends-top-level:
+- !private "=="
+- "Bool"
+- !private "BooleanLiteralType"
+- "ConnectionStreamState"
+- !private "FloatLiteralType"
+- "HPACKHeaders"
+- "HTTP2ConnectionStateMachine"
+- "HTTP2StreamID"
+- "HTTP2StreamStateMachine"
+- "HasFlowControlWindows"
+- "HasRemoteSettings"
+- !private "IntegerLiteralType"
+- !private "NIOHTTP2Errors"
+- "RemotelyQuiescingState"
+- "Self"
+- "SendingPushPromiseState"
+- "StateMachineResultWithEffect"
+- "StateMachineResultWithStreamEffect"
+- !private "StringLiteralType"
+- "UInt32"
+- !private "parentStateModifier"
+- !private "preconditionFailure"
+depends-member:
+- !private ["8NIOHTTP221ConnectionStreamStateV", "createLocallyPushedStream"]
+- !private ["8NIOHTTP221ConnectionStreamStateV", "modifyStreamState"]
+- !private ["s28CustomDebugStringConvertibleP", "protocolError"]
+- !private ["SQ", ""]
+- !private ["SQ", "enabled"]
+- !private ["SQ", "protocolError"]
+- ["8NIOHTTP227HTTP2ConnectionStateMachineV", "ValidationState"]
+- !private ["8NIOHTTP214HTTP2ErrorCodeV", "protocolError"]
+- !private ["8NIOHTTP218HTTP2SettingsStateV", "enablePush"]
+- !private ["8NIOHTTP223HTTP2StreamStateMachineV", "sendPushPromise"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "Bool"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "ConnectionStreamState"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "HPACKHeaders"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "HTTP2ConnectionStateMachine"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "HTTP2StreamID"]
+- !private ["8NIOHTTP221HasFlowControlWindowsP", "HTTP2StreamStateMachine"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "HasRemoteSettings"]
+- !private ["8NIOHTTP221HasFlowControlWindowsP", "NIOHTTP2Errors"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "RemotelyQuiescingState"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "StateMachineResultWithEffect"]
+- !private ["8NIOHTTP221HasFlowControlWindowsP", "StateMachineResultWithStreamEffect"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "UInt32"]
+- ["8NIOHTTP221HasFlowControlWindowsP", ""]
+- !private ["8NIOHTTP221HasFlowControlWindowsP", "_sendPushPromise"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "headerBlockValidation"]
+- !private ["8NIOHTTP221HasFlowControlWindowsP", "inboundFlowControlWindow"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "localInitialWindowSize"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "mayPush"]
+- !private ["8NIOHTTP221HasFlowControlWindowsP", "outboundFlowControlWindow"]
+- !private ["8NIOHTTP221HasFlowControlWindowsP", "parentStateModifier"]
+- !private ["8NIOHTTP221HasFlowControlWindowsP", "preconditionFailure"]
+- !private ["8NIOHTTP221HasFlowControlWindowsP", "remoteSettings"]
+- !private ["8NIOHTTP221HasFlowControlWindowsP", "sendPushPromise"]
+- ["8NIOHTTP221HasFlowControlWindowsP", "streamState"]
+- ["8NIOHTTP217HasRemoteSettingsP", "Bool"]
+- ["8NIOHTTP217HasRemoteSettingsP", "HasRemoteSettings"]
+- !private ["8NIOHTTP217HasRemoteSettingsP", "remoteSettings"]
+- !private ["SH", "enabled"]
+- !private ["SH", "protocolError"]
+- !private ["8NIOHTTP20A6ErrorsO", "pushInViolationOfSetting"]
+- !private ["8NIOHTTP213PerStreamDataP", "sendPushPromise"]
+- !private ["8NIOHTTP20A6ErrorsO24PushInViolationOfSettingV", ""]
+- ["8NIOHTTP222RemotelyQuiescingStateP", "HPACKHeaders"]
+- ["8NIOHTTP222RemotelyQuiescingStateP", "HTTP2StreamID"]
+- ["8NIOHTTP222RemotelyQuiescingStateP", "RemotelyQuiescingState"]
+- ["8NIOHTTP222RemotelyQuiescingStateP", "StateMachineResultWithEffect"]
+- !private ["8NIOHTTP222RemotelyQuiescingStateP", "preconditionFailure"]
+- ["8NIOHTTP223SendingPushPromiseStateP", "Bool"]
+- ["8NIOHTTP223SendingPushPromiseStateP", "ConnectionStreamState"]
+- ["8NIOHTTP223SendingPushPromiseStateP", "HPACKHeaders"]
+- ["8NIOHTTP223SendingPushPromiseStateP", "HTTP2ConnectionStateMachine"]
+- ["8NIOHTTP223SendingPushPromiseStateP", "HTTP2StreamID"]
+- !private ["8NIOHTTP223SendingPushPromiseStateP", "HTTP2StreamStateMachine"]
+- ["8NIOHTTP223SendingPushPromiseStateP", "HasRemoteSettings"]
+- !private ["8NIOHTTP223SendingPushPromiseStateP", "NIOHTTP2Errors"]
+- ["8NIOHTTP223SendingPushPromiseStateP", "RemotelyQuiescingState"]
+- ["8NIOHTTP223SendingPushPromiseStateP", "StateMachineResultWithEffect"]
+- !private ["8NIOHTTP223SendingPushPromiseStateP", "StateMachineResultWithStreamEffect"]
+- ["8NIOHTTP223SendingPushPromiseStateP", "UInt32"]
+- ["8NIOHTTP223SendingPushPromiseStateP", ""]
+- !private ["8NIOHTTP223SendingPushPromiseStateP", "_sendPushPromise"]
+- ["8NIOHTTP223SendingPushPromiseStateP", "headerBlockValidation"]
+- !private ["8NIOHTTP223SendingPushPromiseStateP", "inboundFlowControlWindow"]
+- ["8NIOHTTP223SendingPushPromiseStateP", "localInitialWindowSize"]
+- ["8NIOHTTP223SendingPushPromiseStateP", "mayPush"]
+- !private ["8NIOHTTP223SendingPushPromiseStateP", "outboundFlowControlWindow"]
+- !private ["8NIOHTTP223SendingPushPromiseStateP", "parentStateModifier"]
+- !private ["8NIOHTTP223SendingPushPromiseStateP", "preconditionFailure"]
+- !private ["8NIOHTTP223SendingPushPromiseStateP", "remoteSettings"]
+- ["8NIOHTTP223SendingPushPromiseStateP", "sendPushPromise"]
+- ["8NIOHTTP223SendingPushPromiseStateP", "streamState"]
+- !private ["8NIOHTTP218StateMachineResultO", "connectionError"]
+- ["8NIOHTTP218StateMachineResultO", "succeed"]
+- !private ["8NIOHTTP228StateMachineResultWithEffectV", "init"]
+- !private ["8NIOHTTP228StateMachineResultWithEffectV", "result"]
+- !private ["8NIOHTTP227HTTP2ConnectionStateMachineV010ValidationD0O", ""]
+- !private ["8NIOHTTP227HTTP2ConnectionStateMachineV010ValidationD0O", "enabled"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- !private "8NIOHTTP221ConnectionStreamStateV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "SQ"
+- "8NIOHTTP227HTTP2ConnectionStateMachineV"
+- !private "8NIOHTTP214HTTP2ErrorCodeV"
+- !private "8NIOHTTP218HTTP2SettingsStateV"
+- !private "8NIOHTTP223HTTP2StreamStateMachineV"
+- "8NIOHTTP221HasFlowControlWindowsP"
+- "8NIOHTTP217HasRemoteSettingsP"
+- !private "SH"
+- !private "8NIOHTTP20A6ErrorsO"
+- !private "8NIOHTTP213PerStreamDataP"
+- !private "8NIOHTTP20A6ErrorsO24PushInViolationOfSettingV"
+- "8NIOHTTP222RemotelyQuiescingStateP"
+- "8NIOHTTP223SendingPushPromiseStateP"
+- "8NIOHTTP218StateMachineResultO"
+- !private "8NIOHTTP228StateMachineResultWithEffectV"
+- !private "8NIOHTTP227HTTP2ConnectionStateMachineV010ValidationD0O"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHPACK.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTLS.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "82af3e8fb5953d04da7d17eead876786"

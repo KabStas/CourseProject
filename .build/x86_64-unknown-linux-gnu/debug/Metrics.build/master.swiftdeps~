@@ -1,0 +1,5 @@
+version: "Swift version 5.3.1 (swift-5.3.1-RELEASE)"
+options: "4bac23cc85a115b765bb764e2d3cafc7"
+build_time: [1607868171, 460749600]
+inputs:
+  "/workspaces/CourseProject/.build/checkouts/swift-metrics/Sources/Metrics/Metrics.swift": [1607864855, 797762400]

@@ -1,0 +1,65 @@
+{
+  "": {
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/master.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIOHTTP1/ByteCollectionUtils.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/ByteCollectionUtils.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/ByteCollectionUtils.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/ByteCollectionUtils~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/ByteCollectionUtils.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPDecoder.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPDecoder.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPDecoder.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPDecoder~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPDecoder.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPEncoder.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPEncoder.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPEncoder.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPEncoder~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPEncoder.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPPipelineSetup.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPPipelineSetup.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPPipelineSetup.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPPipelineSetup~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPPipelineSetup.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPServerPipelineHandler.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPServerPipelineHandler.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPServerPipelineHandler.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPServerPipelineHandler~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPServerPipelineHandler.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPServerProtocolErrorHandler.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPServerProtocolErrorHandler.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPServerProtocolErrorHandler.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPServerProtocolErrorHandler~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPServerProtocolErrorHandler.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPServerUpgradeHandler.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPServerUpgradeHandler.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPServerUpgradeHandler.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPServerUpgradeHandler~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPServerUpgradeHandler.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPTypes.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPTypes.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPTypes.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPTypes~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/HTTPTypes.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIOHTTP1/NIOHTTPClientUpgradeHandler.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/NIOHTTPClientUpgradeHandler.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/NIOHTTPClientUpgradeHandler.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/NIOHTTPClientUpgradeHandler~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/NIOHTTPClientUpgradeHandler.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIOHTTP1/NIOHTTPObjectAggregator.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/NIOHTTPObjectAggregator.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/NIOHTTPObjectAggregator.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/NIOHTTPObjectAggregator~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.build/NIOHTTPObjectAggregator.swiftdeps"
+  }
+}

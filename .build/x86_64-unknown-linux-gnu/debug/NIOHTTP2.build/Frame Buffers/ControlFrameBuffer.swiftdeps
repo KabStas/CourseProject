@@ -1,0 +1,191 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ControlFrameBuffer"
+provides-nominal:
+- "8NIOHTTP218ControlFrameBufferV"
+- "8NIOHTTP218ControlFrameBufferV07PendingbC0V"
+provides-member:
+- ["8NIOHTTP218ControlFrameBufferV", ""]
+- ["8NIOHTTP218ControlFrameBufferV07PendingbC0V", ""]
+- ["8NIOHTTP218ControlFrameBufferV", "init"]
+- ["8NIOHTTP218ControlFrameBufferV", "processOutboundFrame"]
+- ["8NIOHTTP218ControlFrameBufferV", "flushReceived"]
+- ["8NIOHTTP218ControlFrameBufferV", "nextFlushedWritableFrame"]
+- ["8NIOHTTP218ControlFrameBufferV", "invalidateBuffer"]
+- ["8NIOHTTP218ControlFrameBufferV", "PendingControlFrame"]
+depends-top-level:
+- !private "!"
+- !private "&&"
+- "<"
+- "=="
+- ">"
+- "AssignmentPrecedence"
+- "Bool"
+- "ChannelError"
+- "ControlFrameBuffer"
+- "EventLoopPromise"
+- !private "FloatLiteralType"
+- "HTTP2Frame"
+- "Int"
+- !private "IntegerLiteralType"
+- "MarkedCircularBuffer"
+- !private "NIOHTTP2Errors"
+- "OutboundFrameAction"
+- "PendingControlFrame"
+- !private "StringLiteralType"
+- "Void"
+- !private "assert"
+- !private "||"
+depends-member:
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "hasMark"]
+- !private ["SK", "init"]
+- !private ["SK", "mark"]
+- !private ["SK", "removeFirst"]
+- !private ["Sl", ""]
+- !private ["Sl", "_copyToContiguousArray"]
+- !private ["Sl", "_customIndexOfEquatableElement"]
+- !private ["Sl", "_customLastIndexOfEquatableElement"]
+- !private ["Sl", "_failEarlyRangeCheck"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "distance"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "formIndex"]
+- !private ["Sl", "hasMark"]
+- !private ["Sl", "index"]
+- !private ["Sl", "indices"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "makeIterator"]
+- !private ["Sl", "mark"]
+- !private ["Sl", "removeFirst"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "underestimatedCount"]
+- ["8NIOHTTP218ControlFrameBufferV", "Bool"]
+- ["8NIOHTTP218ControlFrameBufferV", "ChannelError"]
+- ["8NIOHTTP218ControlFrameBufferV", "EventLoopPromise"]
+- ["8NIOHTTP218ControlFrameBufferV", "HTTP2Frame"]
+- ["8NIOHTTP218ControlFrameBufferV", "Int"]
+- ["8NIOHTTP218ControlFrameBufferV", "MarkedCircularBuffer"]
+- !private ["8NIOHTTP218ControlFrameBufferV", "NIOHTTP2Errors"]
+- ["8NIOHTTP218ControlFrameBufferV", "OutboundFrameAction"]
+- ["8NIOHTTP218ControlFrameBufferV", "PendingControlFrame"]
+- ["8NIOHTTP218ControlFrameBufferV", "Void"]
+- ["8NIOHTTP218ControlFrameBufferV", ""]
+- !private ["8NIOHTTP218ControlFrameBufferV", "assert"]
+- !private ["8NIOHTTP218ControlFrameBufferV", "bufferFrame"]
+- ["8NIOHTTP218ControlFrameBufferV", "flushReceived"]
+- ["8NIOHTTP218ControlFrameBufferV", "init"]
+- ["8NIOHTTP218ControlFrameBufferV", "invalidateBuffer"]
+- ["8NIOHTTP218ControlFrameBufferV", "maximumBufferSize"]
+- ["8NIOHTTP218ControlFrameBufferV", "nextFlushedWritableFrame"]
+- !private ["8NIOHTTP218ControlFrameBufferV", "pendingControlFrames"]
+- ["8NIOHTTP218ControlFrameBufferV", "processOutboundFrame"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "hasMark"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "mark"]
+- !private ["s23CustomStringConvertibleP", "removeFirst"]
+- !private ["3NIO16EventLoopPromiseV", "fail"]
+- !private ["8NIOHTTP20A6ErrorsO31ExcessiveOutboundFrameBufferingV", ""]
+- ["8NIOHTTP210HTTP2FrameV0C7PayloadO", "data"]
+- !private ["8NIOHTTP210HTTP2FrameV", "payload"]
+- !private ["3NIO20MarkedCircularBufferV", "append"]
+- !private ["3NIO20MarkedCircularBufferV", "count"]
+- !private ["3NIO20MarkedCircularBufferV", "hasMark"]
+- !private ["3NIO20MarkedCircularBufferV", "init"]
+- !private ["3NIO20MarkedCircularBufferV", "mark"]
+- !private ["3NIO20MarkedCircularBufferV", "removeFirst"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "hasMark"]
+- !private ["SM", "init"]
+- !private ["SM", "mark"]
+- !private ["SM", "removeFirst"]
+- !private ["8NIOHTTP20A6ErrorsO", "excessiveOutboundFrameBuffering"]
+- !private ["8NIOHTTP219OutboundFrameActionO", "forward"]
+- !private ["8NIOHTTP219OutboundFrameActionO", "nothing"]
+- ["8NIOHTTP218ControlFrameBufferV07PendingbC0V", "EventLoopPromise"]
+- ["8NIOHTTP218ControlFrameBufferV07PendingbC0V", "HTTP2Frame"]
+- ["8NIOHTTP218ControlFrameBufferV07PendingbC0V", "Void"]
+- ["8NIOHTTP218ControlFrameBufferV07PendingbC0V", "frame"]
+- ["8NIOHTTP218ControlFrameBufferV07PendingbC0V", "init"]
+- ["8NIOHTTP218ControlFrameBufferV07PendingbC0V", "promise"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "hasMark"]
+- !private ["Sk", "index"]
+- !private ["Sk", "init"]
+- !private ["Sk", "mark"]
+- !private ["Sk", "removeFirst"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "_copyContents"]
+- !private ["ST", "_copyToContiguousArray"]
+- !private ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "hasMark"]
+- !private ["ST", "init"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "mark"]
+- !private ["ST", "removeFirst"]
+- !private ["ST", "underestimatedCount"]
+- !private ["ST", "withContiguousStorageIfAvailable"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "Sl"
+- "8NIOHTTP218ControlFrameBufferV"
+- !private "s23CustomStringConvertibleP"
+- !private "3NIO16EventLoopPromiseV"
+- !private "8NIOHTTP20A6ErrorsO31ExcessiveOutboundFrameBufferingV"
+- "8NIOHTTP210HTTP2FrameV0C7PayloadO"
+- !private "8NIOHTTP210HTTP2FrameV"
+- !private "3NIO20MarkedCircularBufferV"
+- !private "SM"
+- !private "8NIOHTTP20A6ErrorsO"
+- !private "8NIOHTTP219OutboundFrameActionO"
+- "8NIOHTTP218ControlFrameBufferV07PendingbC0V"
+- !private "Sk"
+- !private "ST"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHPACK.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTLS.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "b9fe654dedf5b9d2da2f04927bd65cae"

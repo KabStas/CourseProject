@@ -10,8 +10,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-argument-parser", from: "0.3.0"),
         .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
         .package(url: "https://github.com/vapor/fluent.git", from: "4.0.0"),
-        .package(url: "https://github.com/vapor/fluent-sqlite-driver.git", from: "4.0.0"),
-        .package(url: "https://github.com/vapor/leaf.git", from: "4.0.0") 
+        .package(url: "https://github.com/vapor/fluent-sqlite-driver.git", from: "4.0.0"), 
     ],
 
     targets: [
@@ -21,8 +20,7 @@ let package = Package(
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
                 .product(name: "Vapor", package: "vapor"),
                 .product(name: "FluentSQLiteDriver", package: "fluent-sqlite-driver"), 
-                .product(name: "Fluent", package: "fluent"),
-                .product(name: "Leaf", package: "leaf"),
+                .product(name: "Fluent", package: "fluent")
                 ],
             path: "courseProject/Sources/App",
             resources: [
@@ -30,9 +28,9 @@ let package = Package(
                 ]
         ),
         .target(
-            name: "RunConsole",
+            name: "Run",
             dependencies: ["App"],
-            path: "courseProject/Sources/RunConsole"
+            path: "courseProject/Sources/Run"
         ), 
         .target(
             name: "APICore",
@@ -43,13 +41,6 @@ let package = Package(
             name: "RunAPI",
             dependencies: ["APICore"],
             path: "courseProject/Sources/RunAPI"
-        ),
-        .target(
-            name: "RunWeb",
-            dependencies: [
-                .target(name: "APICore")
-            ],
-            path: "courseProject/Sources/RunWeb"  
         ), 
         .testTarget(
             name: "AppTests",

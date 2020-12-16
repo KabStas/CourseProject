@@ -1,0 +1,111 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DOSHeuristics"
+provides-nominal:
+- "8NIOHTTP213DOSHeuristicsV"
+provides-member:
+- ["8NIOHTTP213DOSHeuristicsV", ""]
+- ["8NIOHTTP213DOSHeuristicsV", "process"]
+depends-top-level:
+- !private "+="
+- "=="
+- ">"
+- !private ">="
+- "AssignmentPrecedence"
+- "DOSHeuristics"
+- !private "FloatLiteralType"
+- "HTTP2Frame"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "NIOHTTP2Errors"
+- !private "StringLiteralType"
+- !private "precondition"
+depends-member:
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "readableBytes"]
+- ["8NIOHTTP213DOSHeuristicsV", "HTTP2Frame"]
+- ["8NIOHTTP213DOSHeuristicsV", "Int"]
+- !private ["8NIOHTTP213DOSHeuristicsV", "NIOHTTP2Errors"]
+- ["8NIOHTTP213DOSHeuristicsV", ""]
+- ["8NIOHTTP213DOSHeuristicsV", "init"]
+- !private ["8NIOHTTP213DOSHeuristicsV", "maximumSequentialEmptyDataFrames"]
+- !private ["8NIOHTTP213DOSHeuristicsV", "precondition"]
+- ["8NIOHTTP213DOSHeuristicsV", "process"]
+- !private ["8NIOHTTP213DOSHeuristicsV", "receivedEmptyDataFrames"]
+- !private ["8NIOHTTP210HTTP2FrameV0C7PayloadO4DataV", "data"]
+- !private ["8NIOHTTP210HTTP2FrameV0C7PayloadO4DataV", "endStream"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SQ", "readableBytes"]
+- !private ["8NIOHTTP20A6ErrorsO24ExcessiveEmptyDataFramesV", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["8NIOHTTP210HTTP2FrameV0C7PayloadO", "alternativeService"]
+- ["8NIOHTTP210HTTP2FrameV0C7PayloadO", "data"]
+- ["8NIOHTTP210HTTP2FrameV0C7PayloadO", "goAway"]
+- ["8NIOHTTP210HTTP2FrameV0C7PayloadO", "headers"]
+- ["8NIOHTTP210HTTP2FrameV0C7PayloadO", "origin"]
+- ["8NIOHTTP210HTTP2FrameV0C7PayloadO", "ping"]
+- ["8NIOHTTP210HTTP2FrameV0C7PayloadO", "priority"]
+- ["8NIOHTTP210HTTP2FrameV0C7PayloadO", "pushPromise"]
+- ["8NIOHTTP210HTTP2FrameV0C7PayloadO", "rstStream"]
+- ["8NIOHTTP210HTTP2FrameV0C7PayloadO", "settings"]
+- ["8NIOHTTP210HTTP2FrameV0C7PayloadO", "windowUpdate"]
+- !private ["8NIOHTTP210HTTP2FrameV", "payload"]
+- !private ["3NIO6IODataO", "readableBytes"]
+- !private ["8NIOHTTP20A6ErrorsO", "excessiveEmptyDataFrames"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- !private "s23CustomStringConvertibleP"
+- "8NIOHTTP213DOSHeuristicsV"
+- !private "8NIOHTTP210HTTP2FrameV0C7PayloadO4DataV"
+- !private "s26DefaultStringInterpolationV"
+- !private "SQ"
+- !private "8NIOHTTP20A6ErrorsO24ExcessiveEmptyDataFramesV"
+- !private "s32ExpressibleByStringInterpolationP"
+- "8NIOHTTP210HTTP2FrameV0C7PayloadO"
+- !private "8NIOHTTP210HTTP2FrameV"
+- !private "3NIO6IODataO"
+- !private "8NIOHTTP20A6ErrorsO"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHPACK.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTLS.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "76979ce986d3c540318819a8777d1ba0"

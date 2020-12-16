@@ -1,0 +1,13 @@
+version: "Swift version 5.3.1 (swift-5.3.1-RELEASE)"
+options: "54d176668e75072d585510917118aa1c"
+build_time: [1607868200, 775480700]
+inputs:
+  "/workspaces/CourseProject/.build/checkouts/fluent/Sources/Fluent/Exports.swift": [1607864801, 865667600]
+  "/workspaces/CourseProject/.build/checkouts/fluent/Sources/Fluent/Fluent+History.swift": [1607864801, 880665500]
+  "/workspaces/CourseProject/.build/checkouts/fluent/Sources/Fluent/Fluent+Paginate.swift": [1607864801, 892667200]
+  "/workspaces/CourseProject/.build/checkouts/fluent/Sources/Fluent/Fluent+Sessions.swift": [1607864801, 904692800]
+  "/workspaces/CourseProject/.build/checkouts/fluent/Sources/Fluent/FluentProvider.swift": [1607864801, 916664300]
+  "/workspaces/CourseProject/.build/checkouts/fluent/Sources/Fluent/MigrateCommand.swift": [1607864801, 928666600]
+  "/workspaces/CourseProject/.build/checkouts/fluent/Sources/Fluent/ModelAuthenticatable.swift": [1607864801, 939664300]
+  "/workspaces/CourseProject/.build/checkouts/fluent/Sources/Fluent/ModelCredentialsAuthenticatable.swift": [1607864801, 952686300]
+  "/workspaces/CourseProject/.build/checkouts/fluent/Sources/Fluent/ModelTokenAuthenticatable.swift": [1607864801, 964664900]

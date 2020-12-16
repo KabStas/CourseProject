@@ -1,0 +1,294 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NIOHTTPClientUpgradeConfiguration"
+- "HTTPUpgradeConfiguration"
+- "NIOHTTPServerUpgradeConfiguration"
+provides-nominal:
+provides-member:
+- ["3NIO15ChannelPipelineC", ""]
+- ["3NIO15ChannelPipelineC", "addHTTPClientHandlers"]
+- ["3NIO15ChannelPipelineC", "addHTTPClientHandlers"]
+- ["3NIO15ChannelPipelineC", "configureHTTPServerPipeline"]
+depends-top-level:
+- !private "=="
+- !private "Array"
+- "Bool"
+- "BooleanLiteralType"
+- !private "ByteToMessageHandler"
+- "ChannelHandlerContext"
+- "ChannelPipeline"
+- "EventLoopFuture"
+- !private "HTTPRequestDecoder"
+- !private "HTTPRequestEncoder"
+- !private "HTTPResponseDecoder"
+- !private "HTTPResponseEncoder"
+- !private "HTTPServerPipelineHandler"
+- !private "HTTPServerProtocolErrorHandler"
+- "HTTPServerProtocolUpgrader"
+- !private "HTTPServerUpgradeHandler"
+- "HTTPUpgradeConfiguration"
+- "NIOHTTPClientProtocolUpgrader"
+- "NIOHTTPClientUpgradeConfiguration"
+- !private "NIOHTTPClientUpgradeHandler"
+- "NIOHTTPServerUpgradeConfiguration"
+- "Position"
+- "RemovableChannelHandler"
+- "RemoveAfterUpgradeStrategy"
+- "TernaryPrecedence"
+- "Void"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "dropFirst"]
+- !private ["Sa", "init"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "dropFirst"]
+- !private ["SK", "init"]
+- !private ["3NIO20ByteToMessageDecoderP", ""]
+- !private ["3NIO20ByteToMessageDecoderP", "init"]
+- !private ["3NIO20ByteToMessageHandlerC", "init"]
+- !private ["3NIO14ChannelHandlerP", ""]
+- !private ["3NIO14ChannelHandlerP", "init"]
+- !private ["3NIO21ChannelInboundHandlerP", "init"]
+- !private ["3NIO21ChannelInboundInvokerP", "Array"]
+- !private ["3NIO21ChannelInboundInvokerP", "ByteToMessageHandler"]
+- !private ["3NIO21ChannelInboundInvokerP", "HTTPRequestDecoder"]
+- !private ["3NIO21ChannelInboundInvokerP", "HTTPRequestEncoder"]
+- !private ["3NIO21ChannelInboundInvokerP", "HTTPResponseDecoder"]
+- !private ["3NIO21ChannelInboundInvokerP", "HTTPResponseEncoder"]
+- !private ["3NIO21ChannelInboundInvokerP", "HTTPServerPipelineHandler"]
+- !private ["3NIO21ChannelInboundInvokerP", "HTTPServerProtocolErrorHandler"]
+- !private ["3NIO21ChannelInboundInvokerP", "HTTPServerUpgradeHandler"]
+- !private ["3NIO21ChannelInboundInvokerP", "NIOHTTPClientUpgradeHandler"]
+- ["3NIO21ChannelInboundInvokerP", "Position"]
+- ["3NIO21ChannelInboundInvokerP", ""]
+- !private ["3NIO21ChannelInboundInvokerP", "addHTTPClientHandlers"]
+- !private ["3NIO21ChannelInboundInvokerP", "addHandlers"]
+- !private ["3NIO14ChannelInvokerP", "Array"]
+- !private ["3NIO14ChannelInvokerP", "ByteToMessageHandler"]
+- !private ["3NIO14ChannelInvokerP", "HTTPRequestDecoder"]
+- !private ["3NIO14ChannelInvokerP", "HTTPRequestEncoder"]
+- !private ["3NIO14ChannelInvokerP", "HTTPResponseDecoder"]
+- !private ["3NIO14ChannelInvokerP", "HTTPResponseEncoder"]
+- !private ["3NIO14ChannelInvokerP", "HTTPServerPipelineHandler"]
+- !private ["3NIO14ChannelInvokerP", "HTTPServerProtocolErrorHandler"]
+- !private ["3NIO14ChannelInvokerP", "HTTPServerUpgradeHandler"]
+- !private ["3NIO14ChannelInvokerP", "NIOHTTPClientUpgradeHandler"]
+- ["3NIO14ChannelInvokerP", "Position"]
+- !private ["3NIO14ChannelInvokerP", "addHTTPClientHandlers"]
+- !private ["3NIO14ChannelInvokerP", "addHandlers"]
+- !private ["3NIO22ChannelOutboundHandlerP", "init"]
+- !private ["3NIO22ChannelOutboundInvokerP", "Array"]
+- !private ["3NIO22ChannelOutboundInvokerP", "ByteToMessageHandler"]
+- !private ["3NIO22ChannelOutboundInvokerP", "HTTPRequestDecoder"]
+- !private ["3NIO22ChannelOutboundInvokerP", "HTTPRequestEncoder"]
+- !private ["3NIO22ChannelOutboundInvokerP", "HTTPResponseDecoder"]
+- !private ["3NIO22ChannelOutboundInvokerP", "HTTPResponseEncoder"]
+- !private ["3NIO22ChannelOutboundInvokerP", "HTTPServerPipelineHandler"]
+- !private ["3NIO22ChannelOutboundInvokerP", "HTTPServerProtocolErrorHandler"]
+- !private ["3NIO22ChannelOutboundInvokerP", "HTTPServerUpgradeHandler"]
+- !private ["3NIO22ChannelOutboundInvokerP", "NIOHTTPClientUpgradeHandler"]
+- ["3NIO22ChannelOutboundInvokerP", "Position"]
+- ["3NIO22ChannelOutboundInvokerP", ""]
+- !private ["3NIO22ChannelOutboundInvokerP", "addHTTPClientHandlers"]
+- !private ["3NIO22ChannelOutboundInvokerP", "addHandlers"]
+- !private ["3NIO15ChannelPipelineC", "Array"]
+- ["3NIO15ChannelPipelineC", "Bool"]
+- !private ["3NIO15ChannelPipelineC", "ByteToMessageHandler"]
+- ["3NIO15ChannelPipelineC", "ChannelPipeline"]
+- ["3NIO15ChannelPipelineC", "EventLoopFuture"]
+- !private ["3NIO15ChannelPipelineC", "HTTPRequestDecoder"]
+- !private ["3NIO15ChannelPipelineC", "HTTPRequestEncoder"]
+- !private ["3NIO15ChannelPipelineC", "HTTPResponseDecoder"]
+- !private ["3NIO15ChannelPipelineC", "HTTPResponseEncoder"]
+- !private ["3NIO15ChannelPipelineC", "HTTPServerPipelineHandler"]
+- !private ["3NIO15ChannelPipelineC", "HTTPServerProtocolErrorHandler"]
+- !private ["3NIO15ChannelPipelineC", "HTTPServerUpgradeHandler"]
+- ["3NIO15ChannelPipelineC", "NIOHTTPClientUpgradeConfiguration"]
+- !private ["3NIO15ChannelPipelineC", "NIOHTTPClientUpgradeHandler"]
+- ["3NIO15ChannelPipelineC", "NIOHTTPServerUpgradeConfiguration"]
+- ["3NIO15ChannelPipelineC", "Position"]
+- !private ["3NIO15ChannelPipelineC", "RemovableChannelHandler"]
+- ["3NIO15ChannelPipelineC", "RemoveAfterUpgradeStrategy"]
+- ["3NIO15ChannelPipelineC", "Void"]
+- ["3NIO15ChannelPipelineC", ""]
+- ["3NIO15ChannelPipelineC", "addHTTPClientHandlers"]
+- !private ["3NIO15ChannelPipelineC", "addHandlers"]
+- ["3NIO15ChannelPipelineC", "configureHTTPServerPipeline"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "dropFirst"]
+- !private ["Sl", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Array"]
+- !private ["s28CustomDebugStringConvertibleP", "ByteToMessageHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPRequestDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPRequestEncoder"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPResponseDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPResponseEncoder"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPServerPipelineHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPServerProtocolErrorHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "HTTPServerUpgradeHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "NIOHTTPClientUpgradeHandler"]
+- ["s28CustomDebugStringConvertibleP", "Position"]
+- !private ["s28CustomDebugStringConvertibleP", "addHTTPClientHandlers"]
+- !private ["s28CustomDebugStringConvertibleP", "addHandlers"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "dropFirst"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "dropFirst"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "dropFirst"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "append"]
+- !private ["Se", "dropFirst"]
+- !private ["Se", "init"]
+- !private ["SE", "append"]
+- !private ["SE", "dropFirst"]
+- !private ["SE", "init"]
+- !private ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "dropBytes"]
+- !private ["SQ", "dropFirst"]
+- !private ["SQ", "forwardBytes"]
+- !private ["SQ", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "dropFirst"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["8NIOHTTP111HTTPDecoderC", ""]
+- !private ["8NIOHTTP111HTTPDecoderC", "init"]
+- !private ["8NIOHTTP118HTTPRequestEncoderC", ""]
+- !private ["8NIOHTTP118HTTPRequestEncoderC", "init"]
+- !private ["8NIOHTTP115HTTPRequestHeadV", ""]
+- !private ["8NIOHTTP119HTTPResponseEncoderC", ""]
+- !private ["8NIOHTTP119HTTPResponseEncoderC", "init"]
+- !private ["8NIOHTTP116HTTPResponseHeadV", ""]
+- !private ["8NIOHTTP125HTTPServerPipelineHandlerC", ""]
+- !private ["8NIOHTTP125HTTPServerPipelineHandlerC", "init"]
+- !private ["8NIOHTTP130HTTPServerProtocolErrorHandlerC", ""]
+- !private ["8NIOHTTP130HTTPServerProtocolErrorHandlerC", "init"]
+- !private ["8NIOHTTP124HTTPServerUpgradeHandlerC", ""]
+- !private ["8NIOHTTP124HTTPServerUpgradeHandlerC", "init"]
+- !private ["SH", "append"]
+- !private ["SH", "dropBytes"]
+- !private ["SH", "dropFirst"]
+- !private ["SH", "forwardBytes"]
+- !private ["SH", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "dropFirst"]
+- !private ["SM", "init"]
+- !private ["8NIOHTTP127NIOHTTPClientUpgradeHandlerC", ""]
+- !private ["8NIOHTTP127NIOHTTPClientUpgradeHandlerC", "init"]
+- !private ["3NIO15ChannelPipelineC8PositionO", "last"]
+- !private ["Sk", "append"]
+- !private ["Sk", "dropFirst"]
+- !private ["Sk", "init"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "dropFirst"]
+- !private ["Sm", "init"]
+- !private ["3NIO23RemovableChannelHandlerP", "init"]
+- !private ["8NIOHTTP126RemoveAfterUpgradeStrategyO", "dropBytes"]
+- !private ["8NIOHTTP126RemoveAfterUpgradeStrategyO", "forwardBytes"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "dropFirst"]
+- !private ["ST", "init"]
+- !private ["3NIO34WriteObservingByteToMessageDecoderP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "dropFirst"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["3NIO22_ChannelInboundHandlerP", ""]
+- !private ["3NIO22_ChannelInboundHandlerP", "init"]
+- !private ["3NIO23_ChannelOutboundHandlerP", ""]
+- !private ["3NIO23_ChannelOutboundHandlerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "dropFirst"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["3NIO23_EmittingChannelHandlerP", ""]
+- !private ["3NIO23_EmittingChannelHandlerP", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "dropFirst"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "dropFirst"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "3NIO20ByteToMessageDecoderP"
+- !private "3NIO20ByteToMessageHandlerC"
+- !private "3NIO14ChannelHandlerP"
+- !private "3NIO21ChannelInboundHandlerP"
+- "3NIO21ChannelInboundInvokerP"
+- "3NIO14ChannelInvokerP"
+- !private "3NIO22ChannelOutboundHandlerP"
+- "3NIO22ChannelOutboundInvokerP"
+- "3NIO15ChannelPipelineC"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "8NIOHTTP111HTTPDecoderC"
+- !private "8NIOHTTP118HTTPRequestEncoderC"
+- !private "8NIOHTTP115HTTPRequestHeadV"
+- !private "8NIOHTTP119HTTPResponseEncoderC"
+- !private "8NIOHTTP116HTTPResponseHeadV"
+- !private "8NIOHTTP125HTTPServerPipelineHandlerC"
+- !private "8NIOHTTP130HTTPServerProtocolErrorHandlerC"
+- !private "8NIOHTTP124HTTPServerUpgradeHandlerC"
+- !private "SH"
+- !private "SM"
+- !private "8NIOHTTP127NIOHTTPClientUpgradeHandlerC"
+- !private "3NIO15ChannelPipelineC8PositionO"
+- !private "Sk"
+- !private "Sm"
+- !private "3NIO23RemovableChannelHandlerP"
+- !private "8NIOHTTP126RemoveAfterUpgradeStrategyO"
+- !private "ST"
+- !private "3NIO34WriteObservingByteToMessageDecoderP"
+- !private "s14_ArrayProtocolP"
+- !private "3NIO22_ChannelInboundHandlerP"
+- !private "3NIO23_ChannelOutboundHandlerP"
+- !private "s24_DestructorSafeContainerP"
+- !private "3NIO23_EmittingChannelHandlerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+depends-dynamic-lookup:
+depends-external:
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "8ad9e6e119b4bf8bd059465745c603f1"

@@ -1,0 +1,17 @@
+version: "Swift version 5.3.1 (swift-5.3.1-RELEASE)"
+options: "e9d669149e305f9529f4797184886baa"
+build_time: [1608116865, 241114200]
+inputs:
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/APIDeleteController.swift": [1607858750, 311243800]
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/APISearchController.swift": [1607858750, 311243800]
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/APIUpdateController.swift": [1607867011, 553840400]
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/WebDeleteController.swift": [1607866865, 459468200]
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/WebDeletePageController.swift": [1607858750, 312245300]
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/WebSearchController.swift": [1607866889, 108134300]
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/WebSearchPageController.swift": [1607858750, 313245600]
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/WebUpdateController.swift": [1607866883, 180673700]
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Controllers/WebUpdatePageController.swift": [1607858750, 314247000]
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Migrations/CreatingDictionary.swift": [1607776935, 302841800]
+  "/workspaces/CourseProject/courseProject/Sources/APICore/Models/Dictionary.swift": [1607776935, 302841800]
+  "/workspaces/CourseProject/courseProject/Sources/APICore/configure.swift": [1607866182, 195575900]
+  "/workspaces/CourseProject/courseProject/Sources/APICore/routes.swift": [1607866261, 704120600]

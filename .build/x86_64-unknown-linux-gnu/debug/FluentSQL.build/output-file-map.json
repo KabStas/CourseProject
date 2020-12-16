@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/master.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/fluent-kit/Sources/FluentSQL/DatabaseQuery+SQL.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/DatabaseQuery+SQL.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/DatabaseQuery+SQL.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/DatabaseQuery+SQL~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/DatabaseQuery+SQL.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/fluent-kit/Sources/FluentSQL/DatabaseSchema+SQL.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/DatabaseSchema+SQL.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/DatabaseSchema+SQL.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/DatabaseSchema+SQL~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/DatabaseSchema+SQL.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/fluent-kit/Sources/FluentSQL/Exports.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/Exports.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/Exports.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/Exports.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLDatabase+Model.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/SQLDatabase+Model.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/SQLDatabase+Model.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/SQLDatabase+Model~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/SQLDatabase+Model.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLJSONColumnPath.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/SQLJSONColumnPath.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/SQLJSONColumnPath.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/SQLJSONColumnPath~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/SQLJSONColumnPath.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLQueryConverter.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/SQLQueryConverter.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/SQLQueryConverter.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/SQLQueryConverter~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/SQLQueryConverter.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLSchemaConverter.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/SQLSchemaConverter.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/SQLSchemaConverter.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/SQLSchemaConverter~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/SQLSchemaConverter.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/fluent-kit/Sources/FluentSQL/Utilities.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/Utilities.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/Utilities.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/Utilities~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.build/Utilities.swiftdeps"
+  }
+}

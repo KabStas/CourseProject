@@ -1,0 +1,7 @@
+version: "Swift version 5.3.1 (swift-5.3.1-RELEASE)"
+options: "fc8bc118010a73d4353a0a7744369c95"
+build_time: [1608116786, 15783700]
+inputs:
+  "/workspaces/CourseProject/.build/checkouts/swift-log/Sources/Logging/Locks.swift": [1607864893, 404374200]
+  "/workspaces/CourseProject/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift": [1607864893, 409374400]
+  "/workspaces/CourseProject/.build/checkouts/swift-log/Sources/Logging/Logging.swift": [1607864894, 34410100]

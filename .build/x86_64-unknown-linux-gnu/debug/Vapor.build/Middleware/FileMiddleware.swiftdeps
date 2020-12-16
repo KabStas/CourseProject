@@ -1,0 +1,521 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FileMiddleware"
+provides-nominal:
+- "5Vapor14FileMiddlewareC"
+provides-member:
+- ["5Vapor14FileMiddlewareC", ""]
+depends-top-level:
+- "!"
+- !private "+"
+- !private "Abort"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "EventLoopFuture"
+- !private "FileManager"
+- "FileMiddleware"
+- "Middleware"
+- "ObjCBool"
+- "Request"
+- "Responder"
+- "Response"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["5Vapor5AbortV", ""]
+- !private ["5Vapor5AbortV", "init"]
+- !private ["5Vapor10AbortErrorP", "init"]
+- !private ["SK", ""]
+- !private ["SK", "contains"]
+- !private ["SK", "dropFirst"]
+- !private ["SK", "hasPrefix"]
+- !private ["SK", "hasSuffix"]
+- !private ["SK", "init"]
+- !private ["SK", "removingPercentEncoding"]
+- !private ["5Vapor22CodingKeyRepresentableP", "contains"]
+- !private ["5Vapor22CodingKeyRepresentableP", "dropFirst"]
+- !private ["5Vapor22CodingKeyRepresentableP", "hasPrefix"]
+- !private ["5Vapor22CodingKeyRepresentableP", "hasSuffix"]
+- !private ["5Vapor22CodingKeyRepresentableP", "init"]
+- !private ["5Vapor22CodingKeyRepresentableP", "removingPercentEncoding"]
+- !private ["Sl", ""]
+- !private ["Sl", "contains"]
+- !private ["Sl", "dropFirst"]
+- !private ["Sl", "hasPrefix"]
+- !private ["Sl", "hasSuffix"]
+- !private ["Sl", "init"]
+- !private ["Sl", "removingPercentEncoding"]
+- !private ["SL", ""]
+- !private ["SL", "contains"]
+- !private ["SL", "dropFirst"]
+- !private ["SL", "hasPrefix"]
+- !private ["SL", "hasSuffix"]
+- !private ["SL", "init"]
+- !private ["SL", "removingPercentEncoding"]
+- !private ["5Vapor7ContentP", "contains"]
+- !private ["5Vapor7ContentP", "dropFirst"]
+- !private ["5Vapor7ContentP", "hasPrefix"]
+- !private ["5Vapor7ContentP", "hasSuffix"]
+- !private ["5Vapor7ContentP", "init"]
+- !private ["5Vapor7ContentP", "removingPercentEncoding"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "dropFirst"]
+- !private ["s28CustomDebugStringConvertibleP", "fileExists"]
+- !private ["s28CustomDebugStringConvertibleP", "hasPrefix"]
+- !private ["s28CustomDebugStringConvertibleP", "hasSuffix"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "removingPercentEncoding"]
+- !private ["s17CustomReflectableP", "boolValue"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "dropFirst"]
+- !private ["s17CustomReflectableP", "hasPrefix"]
+- !private ["s17CustomReflectableP", "hasSuffix"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removingPercentEncoding"]
+- !private ["s23CustomStringConvertibleP", "Element"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "boolValue"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "dropFirst"]
+- !private ["s23CustomStringConvertibleP", "eventLoop"]
+- !private ["s23CustomStringConvertibleP", "fileExists"]
+- !private ["s23CustomStringConvertibleP", "fileio"]
+- !private ["s23CustomStringConvertibleP", "hasPrefix"]
+- !private ["s23CustomStringConvertibleP", "hasSuffix"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "removingPercentEncoding"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["5Vapor15DebuggableErrorP", "init"]
+- ["Se", ""]
+- !private ["Se", "badRequest"]
+- !private ["Se", "contains"]
+- !private ["Se", "dropFirst"]
+- !private ["Se", "forbidden"]
+- !private ["Se", "hasPrefix"]
+- !private ["Se", "hasSuffix"]
+- !private ["Se", "init"]
+- !private ["Se", "removingPercentEncoding"]
+- ["SE", ""]
+- !private ["SE", "badRequest"]
+- !private ["SE", "contains"]
+- !private ["SE", "dropFirst"]
+- !private ["SE", "forbidden"]
+- !private ["SE", "hasPrefix"]
+- !private ["SE", "hasSuffix"]
+- !private ["SE", "init"]
+- !private ["SE", "removingPercentEncoding"]
+- !private ["SQ", ""]
+- !private ["SQ", "badRequest"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "default"]
+- !private ["SQ", "dropFirst"]
+- !private ["SQ", "fileExists"]
+- !private ["SQ", "forbidden"]
+- !private ["SQ", "hasPrefix"]
+- !private ["SQ", "hasSuffix"]
+- !private ["SQ", "init"]
+- !private ["SQ", "removingPercentEncoding"]
+- ["s5ErrorP", ""]
+- !private ["s5ErrorP", "init"]
+- !private ["3NIO9EventLoopP", "makeFailedFuture"]
+- !private ["3NIO9EventLoopP", "makeSucceededFuture"]
+- !private ["3NIO14EventLoopGroupP", ""]
+- !private ["3NIO14EventLoopGroupP", "makeFailedFuture"]
+- !private ["3NIO14EventLoopGroupP", "makeSucceededFuture"]
+- !private ["s27ExpressibleByBooleanLiteralP", "BooleanLiteralType"]
+- !private ["s27ExpressibleByBooleanLiteralP", "boolValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dropFirst"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hasSuffix"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "path"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "removingPercentEncoding"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "contains"]
+- !private ["s32ExpressibleByStringInterpolationP", "dropFirst"]
+- !private ["s32ExpressibleByStringInterpolationP", "hasPrefix"]
+- !private ["s32ExpressibleByStringInterpolationP", "hasSuffix"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "path"]
+- !private ["s32ExpressibleByStringInterpolationP", "removingPercentEncoding"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "contains"]
+- !private ["s26ExpressibleByStringLiteralP", "dropFirst"]
+- !private ["s26ExpressibleByStringLiteralP", "hasPrefix"]
+- !private ["s26ExpressibleByStringLiteralP", "hasSuffix"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "path"]
+- !private ["s26ExpressibleByStringLiteralP", "removingPercentEncoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "contains"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "dropFirst"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hasPrefix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hasSuffix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "path"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "removingPercentEncoding"]
+- !private ["5Vapor6FileIOV", "streamFile"]
+- !private ["10Foundation11FileManagerC", "default"]
+- !private ["10Foundation11FileManagerC", "fileExists"]
+- !private ["5Vapor14FileMiddlewareC", "Abort"]
+- ["5Vapor14FileMiddlewareC", "EventLoopFuture"]
+- !private ["5Vapor14FileMiddlewareC", "FileManager"]
+- !private ["5Vapor14FileMiddlewareC", "ObjCBool"]
+- ["5Vapor14FileMiddlewareC", "Request"]
+- ["5Vapor14FileMiddlewareC", "Responder"]
+- ["5Vapor14FileMiddlewareC", "Response"]
+- ["5Vapor14FileMiddlewareC", "String"]
+- ["5Vapor14FileMiddlewareC", "deinit"]
+- ["5Vapor14FileMiddlewareC", "init"]
+- !private ["5Vapor14FileMiddlewareC", "publicDirectory"]
+- ["5Vapor14FileMiddlewareC", "respond"]
+- !private ["8NIOHTTP118HTTPResponseStatusO", "badRequest"]
+- !private ["8NIOHTTP118HTTPResponseStatusO", "forbidden"]
+- !private ["SH", ""]
+- !private ["SH", "contains"]
+- !private ["SH", "default"]
+- !private ["SH", "dropFirst"]
+- !private ["SH", "fileExists"]
+- !private ["SH", "hasPrefix"]
+- !private ["SH", "hasSuffix"]
+- !private ["SH", "init"]
+- !private ["SH", "removingPercentEncoding"]
+- ["10Foundation14LocalizedErrorP", ""]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["s25LosslessStringConvertibleP", "Element"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "contains"]
+- !private ["s25LosslessStringConvertibleP", "dropFirst"]
+- !private ["s25LosslessStringConvertibleP", "hasPrefix"]
+- !private ["s25LosslessStringConvertibleP", "hasSuffix"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "removingPercentEncoding"]
+- !private ["5Vapor10MiddlewareP", "Abort"]
+- !private ["5Vapor10MiddlewareP", "FileManager"]
+- !private ["5Vapor10MiddlewareP", "String"]
+- ["5Vapor10MiddlewareP", ""]
+- !private ["5Vapor10MiddlewareP", "publicDirectory"]
+- ["5Vapor10MiddlewareP", "respond"]
+- !private ["s10MirrorPathP", "contains"]
+- !private ["s10MirrorPathP", "dropFirst"]
+- !private ["s10MirrorPathP", "hasPrefix"]
+- !private ["s10MirrorPathP", "hasSuffix"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "removingPercentEncoding"]
+- !private ["5Vapor24MultipartPartConvertibleP", "contains"]
+- !private ["5Vapor24MultipartPartConvertibleP", "dropFirst"]
+- !private ["5Vapor24MultipartPartConvertibleP", "hasPrefix"]
+- !private ["5Vapor24MultipartPartConvertibleP", "hasSuffix"]
+- !private ["5Vapor24MultipartPartConvertibleP", "init"]
+- !private ["5Vapor24MultipartPartConvertibleP", "removingPercentEncoding"]
+- !private ["10Foundation8NSCodingP", ""]
+- !private ["10Foundation8NSCodingP", "contains"]
+- !private ["10Foundation8NSCodingP", "dropFirst"]
+- !private ["10Foundation8NSCodingP", "hasPrefix"]
+- !private ["10Foundation8NSCodingP", "hasSuffix"]
+- !private ["10Foundation8NSCodingP", "removingPercentEncoding"]
+- !private ["10Foundation9NSCopyingP", "contains"]
+- !private ["10Foundation9NSCopyingP", "dropFirst"]
+- !private ["10Foundation9NSCopyingP", "hasPrefix"]
+- !private ["10Foundation9NSCopyingP", "hasSuffix"]
+- !private ["10Foundation9NSCopyingP", "removingPercentEncoding"]
+- !private ["10Foundation16NSMutableCopyingP", "contains"]
+- !private ["10Foundation16NSMutableCopyingP", "dropFirst"]
+- !private ["10Foundation16NSMutableCopyingP", "hasPrefix"]
+- !private ["10Foundation16NSMutableCopyingP", "hasSuffix"]
+- !private ["10Foundation16NSMutableCopyingP", "removingPercentEncoding"]
+- ["10Foundation8NSObjectC", ""]
+- !private ["10Foundation8NSObjectC", "contains"]
+- !private ["10Foundation8NSObjectC", "default"]
+- !private ["10Foundation8NSObjectC", "dropFirst"]
+- !private ["10Foundation8NSObjectC", "fileExists"]
+- !private ["10Foundation8NSObjectC", "hasPrefix"]
+- !private ["10Foundation8NSObjectC", "hasSuffix"]
+- !private ["10Foundation8NSObjectC", "removingPercentEncoding"]
+- !private ["10Foundation16NSObjectProtocolP", "contains"]
+- !private ["10Foundation16NSObjectProtocolP", "default"]
+- !private ["10Foundation16NSObjectProtocolP", "dropFirst"]
+- !private ["10Foundation16NSObjectProtocolP", "fileExists"]
+- !private ["10Foundation16NSObjectProtocolP", "hasPrefix"]
+- !private ["10Foundation16NSObjectProtocolP", "hasSuffix"]
+- !private ["10Foundation16NSObjectProtocolP", "removingPercentEncoding"]
+- !private ["10Foundation14NSSecureCodingP", "contains"]
+- !private ["10Foundation14NSSecureCodingP", "dropFirst"]
+- !private ["10Foundation14NSSecureCodingP", "hasPrefix"]
+- !private ["10Foundation14NSSecureCodingP", "hasSuffix"]
+- !private ["10Foundation14NSSecureCodingP", "removingPercentEncoding"]
+- !private ["10Foundation8NSStringC", "contains"]
+- !private ["10Foundation8NSStringC", "dropFirst"]
+- !private ["10Foundation8NSStringC", "hasPrefix"]
+- !private ["10Foundation8NSStringC", "hasSuffix"]
+- !private ["10Foundation8NSStringC", "removingPercentEncoding"]
+- !private ["10Foundation8ObjCBoolV", "boolValue"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "dropFirst"]
+- !private ["Sm", "hasPrefix"]
+- !private ["Sm", "hasSuffix"]
+- !private ["Sm", "init"]
+- !private ["Sm", "removingPercentEncoding"]
+- !private ["5Vapor7RequestC", "eventLoop"]
+- !private ["5Vapor7RequestC", "fileio"]
+- !private ["5Vapor7RequestC", "url"]
+- ["5Vapor16RequestDecodableP", ""]
+- !private ["5Vapor16RequestDecodableP", "contains"]
+- !private ["5Vapor16RequestDecodableP", "dropFirst"]
+- !private ["5Vapor16RequestDecodableP", "eventLoop"]
+- !private ["5Vapor16RequestDecodableP", "fileio"]
+- !private ["5Vapor16RequestDecodableP", "hasPrefix"]
+- !private ["5Vapor16RequestDecodableP", "hasSuffix"]
+- !private ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "removingPercentEncoding"]
+- !private ["5Vapor16RequestDecodableP", "url"]
+- !private ["5Vapor9ResponderP", "respond"]
+- ["5Vapor17ResponseEncodableP", ""]
+- !private ["5Vapor17ResponseEncodableP", "badRequest"]
+- !private ["5Vapor17ResponseEncodableP", "contains"]
+- !private ["5Vapor17ResponseEncodableP", "dropFirst"]
+- !private ["5Vapor17ResponseEncodableP", "forbidden"]
+- !private ["5Vapor17ResponseEncodableP", "hasPrefix"]
+- !private ["5Vapor17ResponseEncodableP", "hasSuffix"]
+- !private ["5Vapor17ResponseEncodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "removingPercentEncoding"]
+- !private ["ST", "Element"]
+- !private ["ST", ""]
+- !private ["ST", "contains"]
+- !private ["ST", "dropFirst"]
+- !private ["ST", "hasPrefix"]
+- !private ["ST", "hasSuffix"]
+- !private ["ST", "init"]
+- !private ["ST", "removingPercentEncoding"]
+- !private ["SS", ""]
+- !private ["SS", "contains"]
+- !private ["SS", "dropFirst"]
+- !private ["SS", "hasPrefix"]
+- !private ["SS", "hasSuffix"]
+- !private ["SS", "init"]
+- !private ["SS", "removingPercentEncoding"]
+- !private ["Sy", "contains"]
+- !private ["Sy", "dropFirst"]
+- !private ["Sy", "hasPrefix"]
+- !private ["Sy", "hasSuffix"]
+- !private ["Sy", "init"]
+- !private ["Sy", "removingPercentEncoding"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "contains"]
+- !private ["s16TextOutputStreamP", "dropFirst"]
+- !private ["s16TextOutputStreamP", "hasPrefix"]
+- !private ["s16TextOutputStreamP", "hasSuffix"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "removingPercentEncoding"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "contains"]
+- !private ["s20TextOutputStreamableP", "dropFirst"]
+- !private ["s20TextOutputStreamableP", "hasPrefix"]
+- !private ["s20TextOutputStreamableP", "hasSuffix"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "removingPercentEncoding"]
+- !private ["5Vapor3URIV", "path"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "contains"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "dropFirst"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "hasPrefix"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "hasSuffix"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "init"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "removingPercentEncoding"]
+- !private ["10Foundation13_CFBridgeableP", "contains"]
+- !private ["10Foundation13_CFBridgeableP", "dropFirst"]
+- !private ["10Foundation13_CFBridgeableP", "hasPrefix"]
+- !private ["10Foundation13_CFBridgeableP", "hasSuffix"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "removingPercentEncoding"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "contains"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "dropFirst"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "hasPrefix"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "hasSuffix"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "removingPercentEncoding"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "dropFirst"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hasSuffix"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "removingPercentEncoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "contains"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "dropFirst"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hasPrefix"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hasSuffix"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "removingPercentEncoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "contains"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "dropFirst"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hasPrefix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hasSuffix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "removingPercentEncoding"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "dropFirst"]
+- !private ["s19_HasContiguousBytesP", "hasPrefix"]
+- !private ["s19_HasContiguousBytesP", "hasSuffix"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "removingPercentEncoding"]
+- !private ["10Foundation13_NSBridgeableP", "contains"]
+- !private ["10Foundation13_NSBridgeableP", "dropFirst"]
+- !private ["10Foundation13_NSBridgeableP", "hasPrefix"]
+- !private ["10Foundation13_NSBridgeableP", "hasSuffix"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "removingPercentEncoding"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "dropFirst"]
+- !private ["s21_ObjectiveCBridgeableP", "hasPrefix"]
+- !private ["s21_ObjectiveCBridgeableP", "hasSuffix"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removingPercentEncoding"]
+- !private ["10Foundation17_StructBridgeableP", ""]
+- !private ["10Foundation17_StructBridgeableP", "contains"]
+- !private ["10Foundation17_StructBridgeableP", "dropFirst"]
+- !private ["10Foundation17_StructBridgeableP", "hasPrefix"]
+- !private ["10Foundation17_StructBridgeableP", "hasSuffix"]
+- !private ["10Foundation17_StructBridgeableP", "removingPercentEncoding"]
+- !private ["10Foundation21_StructTypeBridgeableP", "contains"]
+- !private ["10Foundation21_StructTypeBridgeableP", "dropFirst"]
+- !private ["10Foundation21_StructTypeBridgeableP", "hasPrefix"]
+- !private ["10Foundation21_StructTypeBridgeableP", "hasSuffix"]
+- !private ["10Foundation21_StructTypeBridgeableP", "removingPercentEncoding"]
+- !private ["10Foundation16_SwiftBridgeableP", "contains"]
+- !private ["10Foundation16_SwiftBridgeableP", "dropFirst"]
+- !private ["10Foundation16_SwiftBridgeableP", "hasPrefix"]
+- !private ["10Foundation16_SwiftBridgeableP", "hasSuffix"]
+- !private ["10Foundation16_SwiftBridgeableP", "removingPercentEncoding"]
+depends-nominal:
+- !private "5Vapor5AbortV"
+- !private "5Vapor10AbortErrorP"
+- !private "SK"
+- !private "5Vapor22CodingKeyRepresentableP"
+- !private "Sl"
+- !private "SL"
+- !private "5Vapor7ContentP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "5Vapor15DebuggableErrorP"
+- "Se"
+- "SE"
+- !private "SQ"
+- "s5ErrorP"
+- !private "3NIO9EventLoopP"
+- !private "3NIO14EventLoopGroupP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "5Vapor6FileIOV"
+- !private "10Foundation11FileManagerC"
+- "5Vapor14FileMiddlewareC"
+- !private "8NIOHTTP118HTTPResponseStatusO"
+- !private "SH"
+- "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- "5Vapor10MiddlewareP"
+- !private "s10MirrorPathP"
+- !private "5Vapor24MultipartPartConvertibleP"
+- !private "10Foundation8NSCodingP"
+- !private "10Foundation9NSCopyingP"
+- !private "10Foundation16NSMutableCopyingP"
+- "10Foundation8NSObjectC"
+- !private "10Foundation16NSObjectProtocolP"
+- !private "10Foundation14NSSecureCodingP"
+- !private "10Foundation8NSStringC"
+- !private "10Foundation8ObjCBoolV"
+- !private "Sm"
+- !private "5Vapor7RequestC"
+- "5Vapor16RequestDecodableP"
+- !private "5Vapor9ResponderP"
+- "5Vapor17ResponseEncodableP"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "5Vapor3URIV"
+- !private "5Vapor27URLQueryFragmentConvertibleP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "10Foundation17_StructBridgeableP"
+- !private "10Foundation21_StructTypeBridgeableP"
+- !private "10Foundation16_SwiftBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP2.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHPACK.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOSSL.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTLS.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Backtrace.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTPCompression.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Crypto.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOExtras.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Metrics.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CoreMetrics.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTransportServices.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOFoundationCompat.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOWebSocket.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ConsoleKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/RoutingKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/WebSocketKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncHTTPClient.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-backtrace/Sources/CBacktrace/include/backtrace.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CURLParser/include/urlparser.h"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CMultipartParser/include/multipartparser.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+interface-hash: "6b5c664942df6b11f6d81bb98c766857"

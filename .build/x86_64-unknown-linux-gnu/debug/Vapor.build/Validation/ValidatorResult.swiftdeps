@@ -1,0 +1,432 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ValidatorResults"
+- "ValidatorResult"
+provides-nominal:
+- "5Vapor16ValidatorResultsV"
+- "5Vapor16ValidatorResultsV6NestedV"
+- "5Vapor16ValidatorResultsV10NestedEachV"
+- "5Vapor16ValidatorResultsV7SkippedV"
+- "5Vapor16ValidatorResultsV7MissingV"
+- "5Vapor16ValidatorResultsV8NotFoundV"
+- "5Vapor16ValidatorResultsV7CodableV"
+- "5Vapor16ValidatorResultsV7InvalidV"
+- "5Vapor16ValidatorResultsV12TypeMismatchV"
+- "5Vapor15ValidatorResultP"
+provides-member:
+- ["5Vapor16ValidatorResultsV", ""]
+- ["5Vapor16ValidatorResultsV6NestedV", ""]
+- ["5Vapor16ValidatorResultsV10NestedEachV", ""]
+- ["5Vapor16ValidatorResultsV7SkippedV", ""]
+- ["5Vapor16ValidatorResultsV7MissingV", ""]
+- ["5Vapor16ValidatorResultsV8NotFoundV", ""]
+- ["5Vapor16ValidatorResultsV7CodableV", ""]
+- ["5Vapor16ValidatorResultsV7InvalidV", ""]
+- ["5Vapor16ValidatorResultsV12TypeMismatchV", ""]
+- ["5Vapor15ValidatorResultP", ""]
+depends-top-level:
+- "!"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Error"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- "UnicodeScalarType"
+- "ValidatorResult"
+- "ValidatorResults"
+- !private "error"
+depends-member:
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "flatMap"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "joined"]
+- !private ["SK", ""]
+- !private ["SK", "compactMap"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "filter"]
+- !private ["SK", "flatMap"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "joined"]
+- ["5Vapor16ValidatorResultsV7CodableV", "Bool"]
+- ["5Vapor16ValidatorResultsV7CodableV", "Error"]
+- ["5Vapor16ValidatorResultsV7CodableV", "String"]
+- ["5Vapor16ValidatorResultsV7CodableV", ""]
+- ["5Vapor16ValidatorResultsV7CodableV", "error"]
+- ["5Vapor16ValidatorResultsV7CodableV", "failureDescription"]
+- ["5Vapor16ValidatorResultsV7CodableV", "init"]
+- ["5Vapor16ValidatorResultsV7CodableV", "isFailure"]
+- ["5Vapor16ValidatorResultsV7CodableV", "successDescription"]
+- !private ["Sl", ""]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "flatMap"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "joined"]
+- !private ["5Vapor7ContentP", "compactMap"]
+- !private ["5Vapor7ContentP", "enumerated"]
+- !private ["5Vapor7ContentP", "filter"]
+- !private ["5Vapor7ContentP", "flatMap"]
+- !private ["5Vapor7ContentP", "isEmpty"]
+- !private ["5Vapor7ContentP", "joined"]
+- !private ["10Foundation15ContiguousBytesP", "compactMap"]
+- !private ["10Foundation15ContiguousBytesP", "enumerated"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "flatMap"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "flatMap"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "compactMap"]
+- !private ["10Foundation12DataProtocolP", "enumerated"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "flatMap"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- ["Se", ""]
+- !private ["Se", "compactMap"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "filter"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "joined"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", ""]
+- !private ["SE", "compactMap"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "filter"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "joined"]
+- !private ["s18EnumeratedSequenceV", "compactMap"]
+- !private ["SQ", ""]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "flatMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "filter"]
+- !private ["SH", "flatMap"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "joined"]
+- ["5Vapor16ValidatorResultsV7InvalidV", "Bool"]
+- ["5Vapor16ValidatorResultsV7InvalidV", "String"]
+- ["5Vapor16ValidatorResultsV7InvalidV", ""]
+- ["5Vapor16ValidatorResultsV7InvalidV", "failureDescription"]
+- ["5Vapor16ValidatorResultsV7InvalidV", "init"]
+- ["5Vapor16ValidatorResultsV7InvalidV", "isFailure"]
+- ["5Vapor16ValidatorResultsV7InvalidV", "reason"]
+- ["5Vapor16ValidatorResultsV7InvalidV", "successDescription"]
+- ["5Vapor16ValidatorResultsV7MissingV", "Bool"]
+- ["5Vapor16ValidatorResultsV7MissingV", "String"]
+- ["5Vapor16ValidatorResultsV7MissingV", ""]
+- ["5Vapor16ValidatorResultsV7MissingV", "failureDescription"]
+- ["5Vapor16ValidatorResultsV7MissingV", "init"]
+- ["5Vapor16ValidatorResultsV7MissingV", "isFailure"]
+- ["5Vapor16ValidatorResultsV7MissingV", "successDescription"]
+- !private ["SM", ""]
+- !private ["SM", "compactMap"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "filter"]
+- !private ["SM", "flatMap"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "compactMap"]
+- !private ["10Foundation19MutableDataProtocolP", "enumerated"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "flatMap"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- ["5Vapor16ValidatorResultsV6NestedV", "Bool"]
+- ["5Vapor16ValidatorResultsV6NestedV", "String"]
+- ["5Vapor16ValidatorResultsV6NestedV", "ValidatorResult"]
+- ["5Vapor16ValidatorResultsV6NestedV", ""]
+- ["5Vapor16ValidatorResultsV6NestedV", "failureDescription"]
+- ["5Vapor16ValidatorResultsV6NestedV", "init"]
+- ["5Vapor16ValidatorResultsV6NestedV", "isFailure"]
+- ["5Vapor16ValidatorResultsV6NestedV", "results"]
+- ["5Vapor16ValidatorResultsV6NestedV", "successDescription"]
+- ["5Vapor16ValidatorResultsV10NestedEachV", "Bool"]
+- ["5Vapor16ValidatorResultsV10NestedEachV", "String"]
+- ["5Vapor16ValidatorResultsV10NestedEachV", "ValidatorResult"]
+- ["5Vapor16ValidatorResultsV10NestedEachV", ""]
+- ["5Vapor16ValidatorResultsV10NestedEachV", "failureDescription"]
+- ["5Vapor16ValidatorResultsV10NestedEachV", "init"]
+- ["5Vapor16ValidatorResultsV10NestedEachV", "isFailure"]
+- ["5Vapor16ValidatorResultsV10NestedEachV", "results"]
+- ["5Vapor16ValidatorResultsV10NestedEachV", "successDescription"]
+- ["5Vapor16ValidatorResultsV8NotFoundV", "Bool"]
+- ["5Vapor16ValidatorResultsV8NotFoundV", "String"]
+- ["5Vapor16ValidatorResultsV8NotFoundV", ""]
+- ["5Vapor16ValidatorResultsV8NotFoundV", "failureDescription"]
+- ["5Vapor16ValidatorResultsV8NotFoundV", "init"]
+- ["5Vapor16ValidatorResultsV8NotFoundV", "isFailure"]
+- ["5Vapor16ValidatorResultsV8NotFoundV", "successDescription"]
+- !private ["Sk", ""]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "flatMap"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "joined"]
+- !private ["Sm", ""]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "flatMap"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "joined"]
+- ["5Vapor16RequestDecodableP", ""]
+- !private ["5Vapor16RequestDecodableP", "compactMap"]
+- !private ["5Vapor16RequestDecodableP", "enumerated"]
+- !private ["5Vapor16RequestDecodableP", "filter"]
+- !private ["5Vapor16RequestDecodableP", "flatMap"]
+- !private ["5Vapor16RequestDecodableP", "isEmpty"]
+- !private ["5Vapor16RequestDecodableP", "joined"]
+- ["5Vapor17ResponseEncodableP", ""]
+- !private ["5Vapor17ResponseEncodableP", "compactMap"]
+- !private ["5Vapor17ResponseEncodableP", "enumerated"]
+- !private ["5Vapor17ResponseEncodableP", "filter"]
+- !private ["5Vapor17ResponseEncodableP", "flatMap"]
+- !private ["5Vapor17ResponseEncodableP", "isEmpty"]
+- !private ["5Vapor17ResponseEncodableP", "joined"]
+- !private ["ST", ""]
+- !private ["ST", "compactMap"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "filter"]
+- !private ["ST", "flatMap"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "joined"]
+- ["5Vapor16ValidatorResultsV7SkippedV", "Bool"]
+- ["5Vapor16ValidatorResultsV7SkippedV", "String"]
+- ["5Vapor16ValidatorResultsV7SkippedV", ""]
+- ["5Vapor16ValidatorResultsV7SkippedV", "failureDescription"]
+- ["5Vapor16ValidatorResultsV7SkippedV", "init"]
+- ["5Vapor16ValidatorResultsV7SkippedV", "isFailure"]
+- ["5Vapor16ValidatorResultsV7SkippedV", "successDescription"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["5Vapor16ValidatorResultsV12TypeMismatchV", "Bool"]
+- ["5Vapor16ValidatorResultsV12TypeMismatchV", "String"]
+- ["5Vapor16ValidatorResultsV12TypeMismatchV", ""]
+- ["5Vapor16ValidatorResultsV12TypeMismatchV", "failureDescription"]
+- ["5Vapor16ValidatorResultsV12TypeMismatchV", "init"]
+- ["5Vapor16ValidatorResultsV12TypeMismatchV", "isFailure"]
+- ["5Vapor16ValidatorResultsV12TypeMismatchV", "successDescription"]
+- ["5Vapor16ValidatorResultsV12TypeMismatchV", "type"]
+- ["5Vapor15ValidatorResultP", "Bool"]
+- ["5Vapor15ValidatorResultP", "String"]
+- ["5Vapor15ValidatorResultP", ""]
+- !private ["5Vapor15ValidatorResultP", "error"]
+- ["5Vapor15ValidatorResultP", "failureDescription"]
+- ["5Vapor15ValidatorResultP", "isFailure"]
+- !private ["5Vapor15ValidatorResultP", "reason"]
+- !private ["5Vapor15ValidatorResultP", "results"]
+- ["5Vapor15ValidatorResultP", "successDescription"]
+- !private ["5Vapor15ValidatorResultP", "type"]
+- ["5Vapor16ValidatorResultsV", "Codable"]
+- ["5Vapor16ValidatorResultsV", "Error"]
+- ["5Vapor16ValidatorResultsV", "Invalid"]
+- ["5Vapor16ValidatorResultsV", "Missing"]
+- ["5Vapor16ValidatorResultsV", "Nested"]
+- ["5Vapor16ValidatorResultsV", "NestedEach"]
+- ["5Vapor16ValidatorResultsV", "NotFound"]
+- ["5Vapor16ValidatorResultsV", "Skipped"]
+- ["5Vapor16ValidatorResultsV", "String"]
+- ["5Vapor16ValidatorResultsV", "TypeMismatch"]
+- ["5Vapor16ValidatorResultsV", "ValidatorResult"]
+- ["5Vapor16ValidatorResultsV", "init"]
+- !private ["6Crypto11ZeroizationP", "compactMap"]
+- !private ["6Crypto11ZeroizationP", "enumerated"]
+- !private ["6Crypto11ZeroizationP", "filter"]
+- !private ["6Crypto11ZeroizationP", "flatMap"]
+- !private ["6Crypto11ZeroizationP", "isEmpty"]
+- !private ["6Crypto11ZeroizationP", "joined"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "flatMap"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["10Foundation13_CFBridgeableP", "compactMap"]
+- !private ["10Foundation13_CFBridgeableP", "enumerated"]
+- !private ["10Foundation13_CFBridgeableP", "filter"]
+- !private ["10Foundation13_CFBridgeableP", "flatMap"]
+- !private ["10Foundation13_CFBridgeableP", "isEmpty"]
+- !private ["10Foundation13_CFBridgeableP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "flatMap"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "compactMap"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "flatMap"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "flatMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["10Foundation13_NSBridgeableP", "compactMap"]
+- !private ["10Foundation13_NSBridgeableP", "enumerated"]
+- !private ["10Foundation13_NSBridgeableP", "filter"]
+- !private ["10Foundation13_NSBridgeableP", "flatMap"]
+- !private ["10Foundation13_NSBridgeableP", "isEmpty"]
+- !private ["10Foundation13_NSBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- "5Vapor16ValidatorResultsV7CodableV"
+- !private "Sl"
+- !private "5Vapor7ContentP"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- !private "s18EnumeratedSequenceV"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "SH"
+- "5Vapor16ValidatorResultsV7InvalidV"
+- "5Vapor16ValidatorResultsV7MissingV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "5Vapor16ValidatorResultsV6NestedV"
+- "5Vapor16ValidatorResultsV10NestedEachV"
+- "5Vapor16ValidatorResultsV8NotFoundV"
+- !private "Sk"
+- !private "Sm"
+- "5Vapor16RequestDecodableP"
+- "5Vapor17ResponseEncodableP"
+- !private "ST"
+- "5Vapor16ValidatorResultsV7SkippedV"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "5Vapor16ValidatorResultsV12TypeMismatchV"
+- "5Vapor15ValidatorResultP"
+- "5Vapor16ValidatorResultsV"
+- !private "6Crypto11ZeroizationP"
+- !private "s14_ArrayProtocolP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP1.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTP2.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHPACK.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOSSL.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTLS.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Backtrace.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOHTTPCompression.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Crypto.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOExtras.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Metrics.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CoreMetrics.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOTransportServices.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOFoundationCompat.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOWebSocket.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/ConsoleKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/RoutingKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/WebSocketKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncHTTPClient.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-backtrace/Sources/CBacktrace/include/backtrace.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CURLParser/include/urlparser.h"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CMultipartParser/include/multipartparser.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+interface-hash: "6411bb3d2ea800b39ba306dcc9a66e93"

@@ -1,0 +1,349 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LinuxCPUSet"
+provides-nominal:
+- "3NIO11LinuxCPUSetV"
+provides-member:
+- ["3NIO11LinuxCPUSetV", ""]
+- ["3NIO9NIOThreadC", ""]
+- ["3NIO27MultiThreadedEventLoopGroupC", ""]
+- ["3NIO9NIOThreadC", "affinity"]
+- ["3NIO27MultiThreadedEventLoopGroupC", "init"]
+depends-top-level:
+- !private "!"
+- "!="
+- !private "..<"
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CInt"
+- "CNIOLinux_CPU_ISSET"
+- "CNIOLinux_CPU_SET"
+- !private "CNIOLinux_CPU_SETSIZE"
+- !private "CNIOLinux_CPU_ZERO"
+- "CNIOLinux_pthread_getaffinity_np"
+- "CNIOLinux_pthread_setaffinity_np"
+- "Equatable"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "LinuxCPUSet"
+- "MemoryLayout"
+- "MultiThreadedEventLoopGroup"
+- "NIOThread"
+- "Set"
+- !private "StringLiteralType"
+- "ThreadInitializer"
+- !private "cpu_set_t"
+- !private "precondition"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "callAsFunction"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "map"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "callAsFunction"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["SK", ""]
+- !private ["SK", "filter"]
+- !private ["SK", "lazy"]
+- !private ["SK", "map"]
+- !private ["Sz", ""]
+- !private ["Sz", "callAsFunction"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "callAsFunction"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", ""]
+- !private ["Sl", "filter"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "lazy"]
+- !private ["Sl", "map"]
+- !private ["SL", ""]
+- !private ["SL", "callAsFunction"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "lazy"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "lazy"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "CInt"]
+- !private ["s23CustomStringConvertibleP", "CNIOLinux_CPU_ISSET"]
+- !private ["s23CustomStringConvertibleP", "CNIOLinux_CPU_SET"]
+- !private ["s23CustomStringConvertibleP", "CNIOLinux_CPU_SETSIZE"]
+- !private ["s23CustomStringConvertibleP", "CNIOLinux_CPU_ZERO"]
+- !private ["s23CustomStringConvertibleP", "CNIOLinux_pthread_getaffinity_np"]
+- !private ["s23CustomStringConvertibleP", "CNIOLinux_pthread_setaffinity_np"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "LinuxCPUSet"]
+- !private ["s23CustomStringConvertibleP", "MemoryLayout"]
+- !private ["s23CustomStringConvertibleP", "Set"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "affinity"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "callAsFunction"]
+- !private ["s23CustomStringConvertibleP", "cpu_set_t"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "lazy"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "precondition"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeThreadHandle"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "forEach"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "lazy"]
+- !private ["Se", "map"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "forEach"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "lazy"]
+- !private ["SE", "map"]
+- ["SQ", "=="]
+- !private ["SQ", "CInt"]
+- !private ["SQ", "CNIOLinux_CPU_ISSET"]
+- !private ["SQ", "CNIOLinux_CPU_SET"]
+- !private ["SQ", "CNIOLinux_CPU_SETSIZE"]
+- !private ["SQ", "CNIOLinux_CPU_ZERO"]
+- !private ["SQ", "CNIOLinux_pthread_getaffinity_np"]
+- !private ["SQ", "CNIOLinux_pthread_setaffinity_np"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "LinuxCPUSet"]
+- !private ["SQ", "MemoryLayout"]
+- !private ["SQ", "Set"]
+- ["SQ", ""]
+- !private ["SQ", "__derived_struct_equals"]
+- !private ["SQ", "affinity"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "cpuIds"]
+- !private ["SQ", "cpu_set_t"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "lazy"]
+- !private ["SQ", "map"]
+- !private ["SQ", "precondition"]
+- !private ["SQ", "withUnsafeThreadHandle"]
+- !private ["3NIO14EventLoopGroupP", "LinuxCPUSet"]
+- !private ["3NIO14EventLoopGroupP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "callAsFunction"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s17FixedWidthIntegerP", "callAsFunction"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", ""]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "forEach"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "lazy"]
+- !private ["SH", "map"]
+- !private ["Si", "callAsFunction"]
+- !private ["Si", "init"]
+- !private ["s5Int32V", "init"]
+- !private ["s22LazyCollectionProtocolP", "filter"]
+- !private ["s22LazyCollectionProtocolP", "map"]
+- !private ["s18LazyFilterSequenceV", "map"]
+- !private ["s12LazySequenceV", "filter"]
+- !private ["s20LazySequenceProtocolP", "Element"]
+- !private ["s20LazySequenceProtocolP", ""]
+- !private ["s20LazySequenceProtocolP", "filter"]
+- !private ["s20LazySequenceProtocolP", "map"]
+- ["3NIO11LinuxCPUSetV", "=="]
+- ["3NIO11LinuxCPUSetV", "Int"]
+- ["3NIO11LinuxCPUSetV", "Set"]
+- ["3NIO11LinuxCPUSetV", ""]
+- ["3NIO11LinuxCPUSetV", "__derived_struct_equals"]
+- ["3NIO11LinuxCPUSetV", "cpuIds"]
+- ["3NIO11LinuxCPUSetV", "init"]
+- !private ["3NIO11LinuxCPUSetV", "precondition"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "callAsFunction"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s10MirrorPathP", "callAsFunction"]
+- !private ["s10MirrorPathP", "init"]
+- ["3NIO27MultiThreadedEventLoopGroupC", "Int"]
+- !private ["3NIO27MultiThreadedEventLoopGroupC", "LinuxCPUSet"]
+- !private ["3NIO27MultiThreadedEventLoopGroupC", "ThreadInitializer"]
+- ["3NIO27MultiThreadedEventLoopGroupC", ""]
+- ["3NIO27MultiThreadedEventLoopGroupC", "init"]
+- !private ["SM", "map"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "callAsFunction"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- !private ["3NIO15NIORegistrationO", ""]
+- !private ["3NIO9NIOThreadC", "CInt"]
+- !private ["3NIO9NIOThreadC", "CNIOLinux_CPU_ISSET"]
+- !private ["3NIO9NIOThreadC", "CNIOLinux_CPU_SET"]
+- !private ["3NIO9NIOThreadC", "CNIOLinux_CPU_SETSIZE"]
+- !private ["3NIO9NIOThreadC", "CNIOLinux_CPU_ZERO"]
+- !private ["3NIO9NIOThreadC", "CNIOLinux_pthread_getaffinity_np"]
+- !private ["3NIO9NIOThreadC", "CNIOLinux_pthread_setaffinity_np"]
+- !private ["3NIO9NIOThreadC", "Int"]
+- ["3NIO9NIOThreadC", "LinuxCPUSet"]
+- !private ["3NIO9NIOThreadC", "MemoryLayout"]
+- !private ["3NIO9NIOThreadC", "Set"]
+- ["3NIO9NIOThreadC", ""]
+- ["3NIO9NIOThreadC", "affinity"]
+- !private ["3NIO9NIOThreadC", "cpu_set_t"]
+- !private ["3NIO9NIOThreadC", "precondition"]
+- !private ["3NIO9NIOThreadC", "withUnsafeThreadHandle"]
+- !private ["Sj", ""]
+- !private ["Sj", "callAsFunction"]
+- !private ["Sj", "init"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "lazy"]
+- !private ["Sk", "map"]
+- !private ["Sn", "lazy"]
+- !private ["SX", "lazy"]
+- !private ["Sm", ""]
+- !private ["Sm", "map"]
+- !private ["s10SIMDScalarP", "callAsFunction"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Element"]
+- !private ["ST", ""]
+- !private ["ST", "filter"]
+- !private ["ST", "forEach"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "lazy"]
+- !private ["ST", "map"]
+- !private ["Sh", "forEach"]
+- !private ["Sh", "init"]
+- !private ["Sh", "isEmpty"]
+- !private ["s10SetAlgebraP", "forEach"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "isEmpty"]
+- !private ["SZ", "callAsFunction"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "callAsFunction"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "callAsFunction"]
+- !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "callAsFunction"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "callAsFunction"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "callAsFunction"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["So9cpu_set_ta", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "3NIO14EventLoopGroupP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- !private "s5Int32V"
+- !private "s22LazyCollectionProtocolP"
+- !private "s18LazyFilterSequenceV"
+- !private "s12LazySequenceV"
+- !private "s20LazySequenceProtocolP"
+- "3NIO11LinuxCPUSetV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- "3NIO27MultiThreadedEventLoopGroupC"
+- !private "SM"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "3NIO15NIORegistrationO"
+- "3NIO9NIOThreadC"
+- !private "Sj"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "So9cpu_set_ta"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "ffc084871d3ac39ee283eb8abf15876a"

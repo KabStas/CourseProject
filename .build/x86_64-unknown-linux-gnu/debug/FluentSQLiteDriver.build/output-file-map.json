@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/master.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/Exports.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/Exports.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/Exports.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/Exports.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/FluentSQLiteConfiguration.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/FluentSQLiteConfiguration.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/FluentSQLiteConfiguration.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/FluentSQLiteConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/FluentSQLiteConfiguration.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/FluentSQLiteDatabase.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/FluentSQLiteDatabase.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/FluentSQLiteDatabase.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/FluentSQLiteDatabase~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/FluentSQLiteDatabase.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/FluentSQLiteDriver.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/FluentSQLiteDriver.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/FluentSQLiteDriver.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/FluentSQLiteDriver~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/FluentSQLiteDriver.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/SQLiteConverterDelegate.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/SQLiteConverterDelegate.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/SQLiteConverterDelegate.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/SQLiteConverterDelegate~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/SQLiteConverterDelegate.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/SQLiteError+Database.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/SQLiteError+Database.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/SQLiteError+Database.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/SQLiteError+Database~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/SQLiteError+Database.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/fluent-sqlite-driver/Sources/FluentSQLiteDriver/SQLiteRow+Database.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/SQLiteRow+Database.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/SQLiteRow+Database.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/SQLiteRow+Database~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQLiteDriver.build/SQLiteRow+Database.swiftdeps"
+  }
+}

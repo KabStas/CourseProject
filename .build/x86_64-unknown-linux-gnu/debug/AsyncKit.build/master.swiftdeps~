@@ -1,0 +1,21 @@
+version: "Swift version 5.3.1 (swift-5.3.1-RELEASE)"
+options: "267e1686f43396a7607f909d5c722f61"
+build_time: [1607868176, 138142600]
+inputs:
+  "/workspaces/CourseProject/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/ConnectionPoolError.swift": [1607864701, 195833900]
+  "/workspaces/CourseProject/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/ConnectionPoolItem.swift": [1607864701, 201835000]
+  "/workspaces/CourseProject/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/ConnectionPoolSource.swift": [1607864701, 205834300]
+  "/workspaces/CourseProject/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/EventLoopConnectionPool.swift": [1607864701, 210835500]
+  "/workspaces/CourseProject/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/EventLoopGroupConnectionPool.swift": [1607864701, 570335600]
+  "/workspaces/CourseProject/.build/checkouts/async-kit/Sources/AsyncKit/EventLoop/EventLoop+Flatten.swift": [1607864701, 602334600]
+  "/workspaces/CourseProject/.build/checkouts/async-kit/Sources/AsyncKit/EventLoop/EventLoop+Future.swift": [1607864701, 616331000]
+  "/workspaces/CourseProject/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Collection+Flatten.swift": [1607864701, 631330600]
+  "/workspaces/CourseProject/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/EventLoopFutureQueue+Sequence.swift": [1607864701, 639333600]
+  "/workspaces/CourseProject/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/EventLoopFutureQueue.swift": [1607864701, 644329000]
+  "/workspaces/CourseProject/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Collection.swift": [1607864701, 650329100]
+  "/workspaces/CourseProject/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Optional.swift": [1607864701, 655330900]
+  "/workspaces/CourseProject/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Throwing.swift": [1607864701, 660331900]
+  "/workspaces/CourseProject/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Transform.swift": [1607864701, 664328600]
+  "/workspaces/CourseProject/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/FutureExtensions.swift": [1607864701, 669328500]
+  "/workspaces/CourseProject/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/FutureOperators.swift": [1607864701, 673329300]
+  "/workspaces/CourseProject/.build/checkouts/async-kit/Sources/AsyncKit/Exports.swift": [1607864701, 677328800]

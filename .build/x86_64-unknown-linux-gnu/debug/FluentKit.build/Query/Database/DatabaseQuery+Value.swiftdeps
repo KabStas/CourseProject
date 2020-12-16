@@ -1,0 +1,166 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "9FluentKit13DatabaseQueryV5ValueO"
+provides-member:
+- ["9FluentKit13DatabaseQueryV", ""]
+- ["9FluentKit13DatabaseQueryV5ValueO", ""]
+- ["9FluentKit13DatabaseQueryV", "Value"]
+depends-top-level:
+- "CastingPrecedence"
+- "CustomDebugStringConvertible"
+- "CustomStringConvertible"
+- "DatabaseQuery"
+- "Encodable"
+- "FieldKey"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "Value"
+depends-member:
+- !private ["Sa", "description"]
+- !private ["SK", ""]
+- !private ["SK", "description"]
+- !private ["Sl", ""]
+- !private ["Sl", "description"]
+- !private ["10Foundation15ContiguousBytesP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s17CustomReflectableP", "description"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "array"]
+- ["s23CustomStringConvertibleP", "bind"]
+- ["s23CustomStringConvertibleP", "custom"]
+- ["s23CustomStringConvertibleP", "default"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "dictionary"]
+- ["s23CustomStringConvertibleP", "enumCase"]
+- ["s23CustomStringConvertibleP", "null"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "description"]
+- ["9FluentKit13DatabaseQueryV", "Encodable"]
+- ["9FluentKit13DatabaseQueryV", "FieldKey"]
+- ["9FluentKit13DatabaseQueryV", "String"]
+- ["9FluentKit13DatabaseQueryV", "Value"]
+- ["9FluentKit13DatabaseQueryV", ""]
+- !private ["Se", "description"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "description"]
+- !private ["SE", "description"]
+- !private ["SQ", ""]
+- !private ["SQ", "description"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "description"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "description"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["9FluentKit8FieldKeyO", ""]
+- !private ["SH", "description"]
+- !private ["SM", ""]
+- !private ["SM", "description"]
+- !private ["10Foundation19MutableDataProtocolP", "description"]
+- !private ["Sk", ""]
+- !private ["Sk", "description"]
+- !private ["Sm", ""]
+- !private ["Sm", "description"]
+- !private ["ST", ""]
+- !private ["ST", "description"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["9FluentKit13DatabaseQueryV5ValueO", "CustomDebugStringConvertible"]
+- ["9FluentKit13DatabaseQueryV5ValueO", "Encodable"]
+- ["9FluentKit13DatabaseQueryV5ValueO", "FieldKey"]
+- ["9FluentKit13DatabaseQueryV5ValueO", "String"]
+- ["9FluentKit13DatabaseQueryV5ValueO", "Value"]
+- ["9FluentKit13DatabaseQueryV5ValueO", ""]
+- ["9FluentKit13DatabaseQueryV5ValueO", "array"]
+- ["9FluentKit13DatabaseQueryV5ValueO", "bind"]
+- ["9FluentKit13DatabaseQueryV5ValueO", "custom"]
+- ["9FluentKit13DatabaseQueryV5ValueO", "default"]
+- ["9FluentKit13DatabaseQueryV5ValueO", "description"]
+- ["9FluentKit13DatabaseQueryV5ValueO", "dictionary"]
+- ["9FluentKit13DatabaseQueryV5ValueO", "enumCase"]
+- ["9FluentKit13DatabaseQueryV5ValueO", "null"]
+- !private ["s14_ArrayProtocolP", "description"]
+- !private ["10Foundation13_CFBridgeableP", "description"]
+- !private ["s24_DestructorSafeContainerP", "description"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "description"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- !private ["10Foundation13_NSBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "9FluentKit13DatabaseQueryV"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- "9FluentKit8FieldKeyO"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "9FluentKit13DatabaseQueryV5ValueO"
+- !private "s14_ArrayProtocolP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "86b17fed1d3373bb19f66f7c0ef9de02"

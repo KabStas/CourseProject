@@ -1,0 +1,59 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CompletionKind"
+provides-nominal:
+- "14ArgumentParser14CompletionKindV"
+- "14ArgumentParser14CompletionKindV0D0O"
+provides-member:
+- ["14ArgumentParser14CompletionKindV", ""]
+- ["14ArgumentParser14CompletionKindV0D0O", ""]
+depends-top-level:
+- "CompletionKind"
+- "Kind"
+- "String"
+depends-member:
+- ["14ArgumentParser14CompletionKindV", "CompletionKind"]
+- ["14ArgumentParser14CompletionKindV", "Kind"]
+- ["14ArgumentParser14CompletionKindV", "String"]
+- ["14ArgumentParser14CompletionKindV", "custom"]
+- ["14ArgumentParser14CompletionKindV", "default"]
+- ["14ArgumentParser14CompletionKindV", "directory"]
+- ["14ArgumentParser14CompletionKindV", "file"]
+- ["14ArgumentParser14CompletionKindV", "init"]
+- ["14ArgumentParser14CompletionKindV", "kind"]
+- ["14ArgumentParser14CompletionKindV", "list"]
+- ["14ArgumentParser14CompletionKindV", "shellCommand"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["14ArgumentParser14CompletionKindV0D0O", "String"]
+- ["14ArgumentParser14CompletionKindV0D0O", "custom"]
+- ["14ArgumentParser14CompletionKindV0D0O", "default"]
+- ["14ArgumentParser14CompletionKindV0D0O", "directory"]
+- ["14ArgumentParser14CompletionKindV0D0O", "file"]
+- ["14ArgumentParser14CompletionKindV0D0O", "list"]
+- ["14ArgumentParser14CompletionKindV0D0O", "shellCommand"]
+depends-nominal:
+- "14ArgumentParser14CompletionKindV"
+- "s25ExpressibleByArrayLiteralP"
+- "14ArgumentParser14CompletionKindV0D0O"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+interface-hash: "5b2105dc0bda51354eebe759b5b6b1da"

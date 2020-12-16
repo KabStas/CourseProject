@@ -1,0 +1,351 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OptionalEnumProperty"
+provides-nominal:
+- "9FluentKit20OptionalEnumPropertyC"
+provides-member:
+- ["9FluentKit6FieldsP", ""]
+- ["9FluentKit20OptionalEnumPropertyC", ""]
+- ["9FluentKit6FieldsP", "OptionalEnum"]
+depends-top-level:
+- !private "??"
+- "AnyCodableProperty"
+- "AnyDatabaseProperty"
+- "AnyProperty"
+- "AnyQueryableProperty"
+- "AssignmentPrecedence"
+- "Codable"
+- "DatabaseInput"
+- "DatabaseOutput"
+- "DatabaseQuery"
+- "Decoder"
+- "Encoder"
+- "FieldKey"
+- "Fields"
+- "FluentKit"
+- "Model"
+- "OptionalEnumProperty"
+- "OptionalFieldProperty"
+- "Property"
+- "QueryableProperty"
+- "RawRepresentable"
+- "Self"
+- "String"
+- "Value"
+- "WrappedValue"
+depends-member:
+- ["9FluentKit18AnyCodablePropertyP", "Default_Model"]
+- ["9FluentKit18AnyCodablePropertyP", "Default_Value"]
+- ["9FluentKit18AnyCodablePropertyP", "Model"]
+- ["9FluentKit18AnyCodablePropertyP", "Value"]
+- !private ["9FluentKit18AnyCodablePropertyP", "WrappedValue"]
+- ["9FluentKit18AnyCodablePropertyP", ""]
+- ["9FluentKit18AnyCodablePropertyP", "_Default_Model"]
+- ["9FluentKit18AnyCodablePropertyP", "_Default_Value"]
+- ["9FluentKit18AnyCodablePropertyP", "anyValue"]
+- ["9FluentKit18AnyCodablePropertyP", "anyValueType"]
+- ["9FluentKit18AnyCodablePropertyP", "decode"]
+- ["9FluentKit18AnyCodablePropertyP", "encode"]
+- !private ["9FluentKit18AnyCodablePropertyP", "field"]
+- !private ["9FluentKit18AnyCodablePropertyP", "init"]
+- ["9FluentKit18AnyCodablePropertyP", "input"]
+- !private ["9FluentKit18AnyCodablePropertyP", "key"]
+- ["9FluentKit18AnyCodablePropertyP", "keys"]
+- ["9FluentKit18AnyCodablePropertyP", "output"]
+- ["9FluentKit18AnyCodablePropertyP", "path"]
+- ["9FluentKit18AnyCodablePropertyP", "queryValue"]
+- ["9FluentKit18AnyCodablePropertyP", "value"]
+- !private ["9FluentKit18AnyCodablePropertyP", "wrappedValue"]
+- ["9FluentKit19AnyDatabasePropertyP", "Default_Model"]
+- ["9FluentKit19AnyDatabasePropertyP", "Default_Value"]
+- ["9FluentKit19AnyDatabasePropertyP", "Model"]
+- ["9FluentKit19AnyDatabasePropertyP", "Value"]
+- !private ["9FluentKit19AnyDatabasePropertyP", "WrappedValue"]
+- ["9FluentKit19AnyDatabasePropertyP", ""]
+- ["9FluentKit19AnyDatabasePropertyP", "_Default_Model"]
+- ["9FluentKit19AnyDatabasePropertyP", "_Default_Value"]
+- ["9FluentKit19AnyDatabasePropertyP", "anyValue"]
+- ["9FluentKit19AnyDatabasePropertyP", "anyValueType"]
+- ["9FluentKit19AnyDatabasePropertyP", "decode"]
+- ["9FluentKit19AnyDatabasePropertyP", "encode"]
+- !private ["9FluentKit19AnyDatabasePropertyP", "field"]
+- !private ["9FluentKit19AnyDatabasePropertyP", "init"]
+- ["9FluentKit19AnyDatabasePropertyP", "input"]
+- !private ["9FluentKit19AnyDatabasePropertyP", "key"]
+- ["9FluentKit19AnyDatabasePropertyP", "keys"]
+- ["9FluentKit19AnyDatabasePropertyP", "output"]
+- ["9FluentKit19AnyDatabasePropertyP", "path"]
+- ["9FluentKit19AnyDatabasePropertyP", "queryValue"]
+- ["9FluentKit19AnyDatabasePropertyP", "value"]
+- !private ["9FluentKit19AnyDatabasePropertyP", "wrappedValue"]
+- ["9FluentKit15AnyOptionalTypeP", ""]
+- !private ["9FluentKit15AnyOptionalTypeP", "enumCase"]
+- !private ["9FluentKit15AnyOptionalTypeP", "flatMap"]
+- !private ["9FluentKit15AnyOptionalTypeP", "map"]
+- !private ["9FluentKit15AnyOptionalTypeP", "some"]
+- ["9FluentKit11AnyPropertyP", "Default_Model"]
+- ["9FluentKit11AnyPropertyP", "Default_Value"]
+- ["9FluentKit11AnyPropertyP", "Model"]
+- ["9FluentKit11AnyPropertyP", "Value"]
+- !private ["9FluentKit11AnyPropertyP", "WrappedValue"]
+- ["9FluentKit11AnyPropertyP", ""]
+- ["9FluentKit11AnyPropertyP", "_Default_Model"]
+- ["9FluentKit11AnyPropertyP", "_Default_Value"]
+- ["9FluentKit11AnyPropertyP", "anyValue"]
+- ["9FluentKit11AnyPropertyP", "anyValueType"]
+- ["9FluentKit11AnyPropertyP", "decode"]
+- ["9FluentKit11AnyPropertyP", "encode"]
+- !private ["9FluentKit11AnyPropertyP", "field"]
+- !private ["9FluentKit11AnyPropertyP", "init"]
+- ["9FluentKit11AnyPropertyP", "input"]
+- !private ["9FluentKit11AnyPropertyP", "key"]
+- ["9FluentKit11AnyPropertyP", "keys"]
+- ["9FluentKit11AnyPropertyP", "output"]
+- ["9FluentKit11AnyPropertyP", "path"]
+- ["9FluentKit11AnyPropertyP", "queryValue"]
+- ["9FluentKit11AnyPropertyP", "value"]
+- !private ["9FluentKit11AnyPropertyP", "wrappedValue"]
+- ["9FluentKit20AnyQueryablePropertyP", "Default_Model"]
+- ["9FluentKit20AnyQueryablePropertyP", "Default_Value"]
+- ["9FluentKit20AnyQueryablePropertyP", "Model"]
+- ["9FluentKit20AnyQueryablePropertyP", "Value"]
+- !private ["9FluentKit20AnyQueryablePropertyP", "WrappedValue"]
+- ["9FluentKit20AnyQueryablePropertyP", ""]
+- ["9FluentKit20AnyQueryablePropertyP", "_Default_Model"]
+- ["9FluentKit20AnyQueryablePropertyP", "_Default_Value"]
+- ["9FluentKit20AnyQueryablePropertyP", "anyValue"]
+- ["9FluentKit20AnyQueryablePropertyP", "anyValueType"]
+- ["9FluentKit20AnyQueryablePropertyP", "decode"]
+- ["9FluentKit20AnyQueryablePropertyP", "encode"]
+- !private ["9FluentKit20AnyQueryablePropertyP", "field"]
+- !private ["9FluentKit20AnyQueryablePropertyP", "init"]
+- ["9FluentKit20AnyQueryablePropertyP", "input"]
+- !private ["9FluentKit20AnyQueryablePropertyP", "key"]
+- ["9FluentKit20AnyQueryablePropertyP", "keys"]
+- ["9FluentKit20AnyQueryablePropertyP", "output"]
+- ["9FluentKit20AnyQueryablePropertyP", "path"]
+- ["9FluentKit20AnyQueryablePropertyP", "queryValue"]
+- ["9FluentKit20AnyQueryablePropertyP", "value"]
+- !private ["9FluentKit20AnyQueryablePropertyP", "wrappedValue"]
+- !private ["s28CustomDebugStringConvertibleP", "enumCase"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s17CustomReflectableP", "enumCase"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "some"]
+- ["s23CustomStringConvertibleP", "Value"]
+- !private ["s23CustomStringConvertibleP", "enumCase"]
+- !private ["s23CustomStringConvertibleP", "null"]
+- !private ["9FluentKit13DatabaseInputP", "set"]
+- ["9FluentKit13DatabaseQueryV", "Value"]
+- ["Se", "Codable"]
+- ["Se", "OptionalEnumProperty"]
+- ["Se", "RawRepresentable"]
+- ["Se", "RawValue"]
+- ["Se", "String"]
+- ["Se", ""]
+- !private ["Se", "enumCase"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "rawValue"]
+- !private ["Se", "some"]
+- !private ["s7DecoderP", "singleValueContainer"]
+- ["SE", "Codable"]
+- ["SE", "OptionalEnumProperty"]
+- ["SE", "RawRepresentable"]
+- ["SE", "RawValue"]
+- ["SE", "String"]
+- ["SE", ""]
+- ["SE", "encode"]
+- !private ["SE", "enumCase"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "rawValue"]
+- !private ["SE", "some"]
+- !private ["s7EncoderP", "singleValueContainer"]
+- !private ["SQ", ""]
+- !private ["SQ", "enumCase"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "map"]
+- !private ["SQ", "some"]
+- !private ["s23ExpressibleByNilLiteralP", "enumCase"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s23ExpressibleByNilLiteralP", "some"]
+- ["9FluentKit6FieldsP", "Codable"]
+- ["9FluentKit6FieldsP", "OptionalEnum"]
+- ["9FluentKit6FieldsP", "OptionalEnumProperty"]
+- ["9FluentKit6FieldsP", "RawRepresentable"]
+- ["9FluentKit6FieldsP", "String"]
+- ["9FluentKit6FieldsP", ""]
+- !private ["SH", "enumCase"]
+- !private ["SH", "flatMap"]
+- !private ["SH", "map"]
+- !private ["SH", "some"]
+- !private ["Sq", "enumCase"]
+- !private ["Sq", "flatMap"]
+- !private ["Sq", "map"]
+- !private ["Sq", "some"]
+- ["9FluentKit20OptionalEnumPropertyC", "DatabaseInput"]
+- ["9FluentKit20OptionalEnumPropertyC", "DatabaseOutput"]
+- ["9FluentKit20OptionalEnumPropertyC", "DatabaseQuery"]
+- ["9FluentKit20OptionalEnumPropertyC", "Decoder"]
+- ["9FluentKit20OptionalEnumPropertyC", "Default_Model"]
+- ["9FluentKit20OptionalEnumPropertyC", "Default_Value"]
+- ["9FluentKit20OptionalEnumPropertyC", "Encoder"]
+- ["9FluentKit20OptionalEnumPropertyC", "FieldKey"]
+- ["9FluentKit20OptionalEnumPropertyC", "Model"]
+- ["9FluentKit20OptionalEnumPropertyC", "OptionalEnumProperty"]
+- ["9FluentKit20OptionalEnumPropertyC", "OptionalFieldProperty"]
+- ["9FluentKit20OptionalEnumPropertyC", "String"]
+- ["9FluentKit20OptionalEnumPropertyC", "Value"]
+- !private ["9FluentKit20OptionalEnumPropertyC", "WrappedValue"]
+- ["9FluentKit20OptionalEnumPropertyC", ""]
+- ["9FluentKit20OptionalEnumPropertyC", "_Default_Model"]
+- ["9FluentKit20OptionalEnumPropertyC", "_Default_Value"]
+- ["9FluentKit20OptionalEnumPropertyC", "anyValue"]
+- ["9FluentKit20OptionalEnumPropertyC", "anyValueType"]
+- ["9FluentKit20OptionalEnumPropertyC", "decode"]
+- ["9FluentKit20OptionalEnumPropertyC", "deinit"]
+- ["9FluentKit20OptionalEnumPropertyC", "encode"]
+- ["9FluentKit20OptionalEnumPropertyC", "field"]
+- ["9FluentKit20OptionalEnumPropertyC", "init"]
+- ["9FluentKit20OptionalEnumPropertyC", "input"]
+- ["9FluentKit20OptionalEnumPropertyC", "keys"]
+- ["9FluentKit20OptionalEnumPropertyC", "output"]
+- ["9FluentKit20OptionalEnumPropertyC", "path"]
+- ["9FluentKit20OptionalEnumPropertyC", "projectedValue"]
+- ["9FluentKit20OptionalEnumPropertyC", "queryValue"]
+- ["9FluentKit20OptionalEnumPropertyC", "subscript"]
+- ["9FluentKit20OptionalEnumPropertyC", "value"]
+- ["9FluentKit20OptionalEnumPropertyC", "wrappedValue"]
+- !private ["9FluentKit21OptionalFieldPropertyC", ""]
+- !private ["9FluentKit21OptionalFieldPropertyC", "init"]
+- !private ["9FluentKit21OptionalFieldPropertyC", "key"]
+- !private ["9FluentKit21OptionalFieldPropertyC", "keys"]
+- !private ["9FluentKit21OptionalFieldPropertyC", "output"]
+- !private ["9FluentKit21OptionalFieldPropertyC", "path"]
+- !private ["9FluentKit21OptionalFieldPropertyC", "value"]
+- !private ["9FluentKit12OptionalTypeP", "enumCase"]
+- !private ["9FluentKit12OptionalTypeP", "flatMap"]
+- !private ["9FluentKit12OptionalTypeP", "map"]
+- !private ["9FluentKit12OptionalTypeP", "some"]
+- ["9FluentKit8PropertyP", "Default_Model"]
+- ["9FluentKit8PropertyP", "Default_Value"]
+- ["9FluentKit8PropertyP", "Model"]
+- ["9FluentKit8PropertyP", "Value"]
+- !private ["9FluentKit8PropertyP", "WrappedValue"]
+- ["9FluentKit8PropertyP", ""]
+- ["9FluentKit8PropertyP", "_Default_Model"]
+- ["9FluentKit8PropertyP", "_Default_Value"]
+- ["9FluentKit8PropertyP", "anyValue"]
+- ["9FluentKit8PropertyP", "anyValueType"]
+- ["9FluentKit8PropertyP", "decode"]
+- ["9FluentKit8PropertyP", "encode"]
+- !private ["9FluentKit8PropertyP", "field"]
+- !private ["9FluentKit8PropertyP", "init"]
+- ["9FluentKit8PropertyP", "input"]
+- !private ["9FluentKit8PropertyP", "key"]
+- ["9FluentKit8PropertyP", "keys"]
+- ["9FluentKit8PropertyP", "output"]
+- ["9FluentKit8PropertyP", "path"]
+- ["9FluentKit8PropertyP", "queryValue"]
+- ["9FluentKit8PropertyP", "value"]
+- !private ["9FluentKit8PropertyP", "wrappedValue"]
+- ["9FluentKit17QueryablePropertyP", "Default_Model"]
+- ["9FluentKit17QueryablePropertyP", "Default_Value"]
+- ["9FluentKit17QueryablePropertyP", "Model"]
+- ["9FluentKit17QueryablePropertyP", "Value"]
+- !private ["9FluentKit17QueryablePropertyP", "WrappedValue"]
+- ["9FluentKit17QueryablePropertyP", ""]
+- ["9FluentKit17QueryablePropertyP", "_Default_Model"]
+- ["9FluentKit17QueryablePropertyP", "_Default_Value"]
+- ["9FluentKit17QueryablePropertyP", "anyValue"]
+- ["9FluentKit17QueryablePropertyP", "anyValueType"]
+- ["9FluentKit17QueryablePropertyP", "decode"]
+- ["9FluentKit17QueryablePropertyP", "encode"]
+- !private ["9FluentKit17QueryablePropertyP", "field"]
+- !private ["9FluentKit17QueryablePropertyP", "init"]
+- ["9FluentKit17QueryablePropertyP", "input"]
+- !private ["9FluentKit17QueryablePropertyP", "key"]
+- ["9FluentKit17QueryablePropertyP", "keys"]
+- ["9FluentKit17QueryablePropertyP", "output"]
+- ["9FluentKit17QueryablePropertyP", "path"]
+- ["9FluentKit17QueryablePropertyP", "queryValue"]
+- ["9FluentKit17QueryablePropertyP", "value"]
+- !private ["9FluentKit17QueryablePropertyP", "wrappedValue"]
+- ["SY", "RawValue"]
+- !private ["SY", "init"]
+- !private ["SY", "rawValue"]
+- !private ["s28SingleValueDecodingContainerP", "decode"]
+- !private ["s28SingleValueDecodingContainerP", "decodeNil"]
+- !private ["s28SingleValueEncodingContainerP", "encode"]
+- !private ["9FluentKit13DatabaseQueryV5ValueO", "enumCase"]
+- !private ["9FluentKit13DatabaseQueryV5ValueO", "null"]
+- !private ["s12_UnwrappableP", "enumCase"]
+- !private ["s12_UnwrappableP", "flatMap"]
+- !private ["s12_UnwrappableP", "map"]
+- !private ["s12_UnwrappableP", "some"]
+depends-nominal:
+- "9FluentKit18AnyCodablePropertyP"
+- "9FluentKit19AnyDatabasePropertyP"
+- "9FluentKit15AnyOptionalTypeP"
+- "9FluentKit11AnyPropertyP"
+- "9FluentKit20AnyQueryablePropertyP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "9FluentKit13DatabaseInputP"
+- "9FluentKit13DatabaseQueryV"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- !private "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "9FluentKit6FieldsP"
+- !private "SH"
+- !private "Sq"
+- "9FluentKit20OptionalEnumPropertyC"
+- !private "9FluentKit21OptionalFieldPropertyC"
+- !private "9FluentKit12OptionalTypeP"
+- "9FluentKit8PropertyP"
+- "9FluentKit17QueryablePropertyP"
+- "SY"
+- !private "s28SingleValueDecodingContainerP"
+- !private "s28SingleValueEncodingContainerP"
+- !private "9FluentKit13DatabaseQueryV5ValueO"
+- !private "s12_UnwrappableP"
+depends-dynamic-lookup:
+depends-external:
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "6ebe55472293e04c72a8223285591922"

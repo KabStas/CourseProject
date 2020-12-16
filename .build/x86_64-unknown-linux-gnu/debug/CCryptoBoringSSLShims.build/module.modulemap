@@ -1,0 +1,4 @@
+module CCryptoBoringSSLShims {
+    umbrella header "/workspaces/CourseProject/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include/CCryptoBoringSSLShims.h"
+    export *
+}

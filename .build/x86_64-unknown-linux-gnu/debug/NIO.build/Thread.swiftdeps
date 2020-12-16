@@ -1,0 +1,297 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LowLevelThreadOperations"
+- "ThreadOps"
+- "NIOThread"
+- "ThreadSpecificVariable"
+- "=="
+provides-nominal:
+- "3NIO24LowLevelThreadOperationsO"
+- "3NIO9ThreadOpsP"
+- "3NIO9NIOThreadC"
+- "3NIO22ThreadSpecificVariableC"
+- "3NIO22ThreadSpecificVariableC3KeyC"
+provides-member:
+- ["3NIO24LowLevelThreadOperationsO", ""]
+- ["3NIO9ThreadOpsP", ""]
+- ["3NIO9NIOThreadC", ""]
+- ["3NIO22ThreadSpecificVariableC", ""]
+- ["3NIO22ThreadSpecificVariableC3KeyC", ""]
+depends-top-level:
+- "=="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Box"
+- "BoxedType"
+- "CastingPrecedence"
+- "CustomStringConvertible"
+- "Equatable"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Key"
+- "LowLevelThreadOperations"
+- "NIOThread"
+- "String"
+- !private "StringLiteralType"
+- !private "ThreadBox"
+- "ThreadBoxValue"
+- "ThreadHandle"
+- "ThreadOps"
+- "ThreadOpsSystem"
+- "ThreadSpecificKey"
+- "ThreadSpecificKeyDestructor"
+- "ThreadSpecificVariable"
+- !private "UnicodeScalarType"
+- "Unmanaged"
+- "UnsafeMutableRawPointer"
+- "Value"
+- "Void"
+- !private "~="
+depends-member:
+- ["SK", ""]
+- ["SK", "none"]
+- !private ["3NIO3BoxC", "init"]
+- !private ["3NIO3BoxC", "value"]
+- ["Sl", ""]
+- ["Sl", "none"]
+- ["SL", ""]
+- ["SL", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "none"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s17CustomReflectableP", "none"]
+- ["s17CustomReflectableP", "some"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", "NIOThread"]
+- !private ["s23CustomStringConvertibleP", "ThreadBox"]
+- ["s23CustomStringConvertibleP", "ThreadBoxValue"]
+- !private ["s23CustomStringConvertibleP", "ThreadOpsSystem"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "currentName"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "desiredName"]
+- !private ["s23CustomStringConvertibleP", "handle"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "none"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeThreadHandle"]
+- !private ["Se", "map"]
+- ["Se", "none"]
+- ["Se", "some"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "map"]
+- ["SE", "none"]
+- ["SE", "some"]
+- ["SQ", "=="]
+- !private ["SQ", "NIOThread"]
+- !private ["SQ", "ThreadBox"]
+- ["SQ", "ThreadBoxValue"]
+- !private ["SQ", "ThreadOpsSystem"]
+- ["SQ", ""]
+- !private ["SQ", "currentName"]
+- ["SQ", "description"]
+- !private ["SQ", "desiredName"]
+- !private ["SQ", "handle"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- ["SQ", "none"]
+- ["SQ", "some"]
+- !private ["SQ", "withUnsafeThreadHandle"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "none"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- ["s23ExpressibleByNilLiteralP", "none"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["s32ExpressibleByStringInterpolationP", "none"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "none"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "none"]
+- ["SH", ""]
+- !private ["SH", "map"]
+- ["SH", "none"]
+- ["SH", "some"]
+- ["3NIO22ThreadSpecificVariableC3KeyC", "ThreadOpsSystem"]
+- ["3NIO22ThreadSpecificVariableC3KeyC", "UnsafeMutableRawPointer"]
+- ["3NIO22ThreadSpecificVariableC3KeyC", "deinit"]
+- ["3NIO22ThreadSpecificVariableC3KeyC", "get"]
+- ["3NIO22ThreadSpecificVariableC3KeyC", "init"]
+- ["3NIO22ThreadSpecificVariableC3KeyC", "set"]
+- !private ["3NIO22ThreadSpecificVariableC3KeyC", "underlyingKey"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", "none"]
+- ["s10MirrorPathP", "none"]
+- ["3NIO9NIOThreadC", "=="]
+- ["3NIO9NIOThreadC", "Bool"]
+- ["3NIO9NIOThreadC", "Box"]
+- ["3NIO9NIOThreadC", "NIOThread"]
+- ["3NIO9NIOThreadC", "String"]
+- ["3NIO9NIOThreadC", "ThreadBox"]
+- ["3NIO9NIOThreadC", "ThreadBoxValue"]
+- ["3NIO9NIOThreadC", "ThreadOpsSystem"]
+- ["3NIO9NIOThreadC", "Void"]
+- ["3NIO9NIOThreadC", ""]
+- ["3NIO9NIOThreadC", "current"]
+- ["3NIO9NIOThreadC", "currentName"]
+- ["3NIO9NIOThreadC", "deinit"]
+- ["3NIO9NIOThreadC", "description"]
+- !private ["3NIO9NIOThreadC", "desiredName"]
+- !private ["3NIO9NIOThreadC", "handle"]
+- ["3NIO9NIOThreadC", "init"]
+- ["3NIO9NIOThreadC", "isCurrent"]
+- ["3NIO9NIOThreadC", "join"]
+- ["3NIO9NIOThreadC", "spawnAndRun"]
+- ["3NIO9NIOThreadC", "withUnsafeThreadHandle"]
+- !private ["Sq", "map"]
+- ["Sq", "none"]
+- ["Sq", "some"]
+- ["Sm", "none"]
+- ["ST", ""]
+- ["ST", "none"]
+- ["SS", "none"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- ["Sy", "none"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["s16TextOutputStreamP", "none"]
+- ["s20TextOutputStreamableP", ""]
+- ["s20TextOutputStreamableP", "none"]
+- ["3NIO9ThreadOpsP", "Bool"]
+- ["3NIO9ThreadOpsP", "Box"]
+- ["3NIO9ThreadOpsP", "NIOThread"]
+- ["3NIO9ThreadOpsP", "String"]
+- ["3NIO9ThreadOpsP", "ThreadHandle"]
+- ["3NIO9ThreadOpsP", "ThreadSpecificKey"]
+- ["3NIO9ThreadOpsP", "ThreadSpecificKeyDestructor"]
+- ["3NIO9ThreadOpsP", "UnsafeMutableRawPointer"]
+- ["3NIO9ThreadOpsP", "allocateThreadSpecificValue"]
+- ["3NIO9ThreadOpsP", "compareThreads"]
+- ["3NIO9ThreadOpsP", "currentThread"]
+- ["3NIO9ThreadOpsP", "deallocateThreadSpecificValue"]
+- ["3NIO9ThreadOpsP", "getThreadSpecificValue"]
+- ["3NIO9ThreadOpsP", "isCurrentThread"]
+- ["3NIO9ThreadOpsP", "joinThread"]
+- ["3NIO9ThreadOpsP", "run"]
+- ["3NIO9ThreadOpsP", "setThreadSpecificValue"]
+- ["3NIO9ThreadOpsP", "threadName"]
+- ["3NIO14ThreadOpsPosixO", "ThreadHandle"]
+- ["3NIO14ThreadOpsPosixO", "ThreadSpecificKey"]
+- ["3NIO14ThreadOpsPosixO", "ThreadSpecificKeyDestructor"]
+- !private ["3NIO14ThreadOpsPosixO", ""]
+- !private ["3NIO14ThreadOpsPosixO", "allocateThreadSpecificValue"]
+- !private ["3NIO14ThreadOpsPosixO", "compareThreads"]
+- !private ["3NIO14ThreadOpsPosixO", "currentThread"]
+- !private ["3NIO14ThreadOpsPosixO", "deallocateThreadSpecificValue"]
+- !private ["3NIO14ThreadOpsPosixO", "getThreadSpecificValue"]
+- !private ["3NIO14ThreadOpsPosixO", "isCurrentThread"]
+- !private ["3NIO14ThreadOpsPosixO", "joinThread"]
+- !private ["3NIO14ThreadOpsPosixO", "run"]
+- !private ["3NIO14ThreadOpsPosixO", "setThreadSpecificValue"]
+- !private ["3NIO14ThreadOpsPosixO", "threadName"]
+- ["3NIO22ThreadSpecificVariableC", "AnyObject"]
+- ["3NIO22ThreadSpecificVariableC", "Box"]
+- !private ["3NIO22ThreadSpecificVariableC", "BoxedType"]
+- ["3NIO22ThreadSpecificVariableC", "Key"]
+- ["3NIO22ThreadSpecificVariableC", "ThreadOpsSystem"]
+- !private ["3NIO22ThreadSpecificVariableC", "Unmanaged"]
+- ["3NIO22ThreadSpecificVariableC", "UnsafeMutableRawPointer"]
+- ["3NIO22ThreadSpecificVariableC", "currentValue"]
+- ["3NIO22ThreadSpecificVariableC", "deinit"]
+- ["3NIO22ThreadSpecificVariableC", "init"]
+- !private ["3NIO22ThreadSpecificVariableC", "key"]
+- !private ["s9UnmanagedV", "fromOpaque"]
+- !private ["s9UnmanagedV", "passRetained"]
+- !private ["s9UnmanagedV", "release"]
+- !private ["s9UnmanagedV", "takeUnretainedValue"]
+- !private ["s9UnmanagedV", "toOpaque"]
+- ["s30_CustomPlaygroundQuickLookableP", "none"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "none"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "none"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "none"]
+- ["s19_HasContiguousBytesP", "none"]
+- !private ["s12_UnwrappableP", "map"]
+- ["s12_UnwrappableP", "none"]
+- ["s12_UnwrappableP", "some"]
+depends-nominal:
+- "SK"
+- !private "3NIO3BoxC"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "3NIO22ThreadSpecificVariableC3KeyC"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "3NIO9NIOThreadC"
+- "Sq"
+- "Sm"
+- "ST"
+- "SS"
+- !private "s27StringInterpolationProtocolP"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "3NIO9ThreadOpsP"
+- "3NIO14ThreadOpsPosixO"
+- "3NIO22ThreadSpecificVariableC"
+- !private "s9UnmanagedV"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s12_UnwrappableP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "f11ff04ecf12e1432e0468b8bc698121"

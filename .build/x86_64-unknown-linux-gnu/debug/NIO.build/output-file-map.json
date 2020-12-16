@@ -1,0 +1,437 @@
+{
+  "": {
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/master.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/AddressedEnvelope.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/AddressedEnvelope.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/AddressedEnvelope.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/AddressedEnvelope~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/AddressedEnvelope.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/BSDSocketAPI.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BSDSocketAPI.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BSDSocketAPI.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BSDSocketAPI~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BSDSocketAPI.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/BSDSocketAPIPosix.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BSDSocketAPIPosix.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BSDSocketAPIPosix.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BSDSocketAPIPosix~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BSDSocketAPIPosix.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/BSDSocketAPIWindows.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BSDSocketAPIWindows.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BSDSocketAPIWindows.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BSDSocketAPIWindows~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BSDSocketAPIWindows.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/BaseSocket.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BaseSocket.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BaseSocket.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BaseSocket~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BaseSocket.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/BaseSocketChannel.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BaseSocketChannel.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BaseSocketChannel.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BaseSocketChannel~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BaseSocketChannel.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/BaseStreamSocketChannel.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BaseStreamSocketChannel.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BaseStreamSocketChannel.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BaseStreamSocketChannel~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/BaseStreamSocketChannel.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/Bootstrap.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Bootstrap.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Bootstrap.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Bootstrap~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Bootstrap.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/ByteBuffer-aux.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-aux.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-aux.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-aux~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-aux.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/ByteBuffer-conversions.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-conversions.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-conversions.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-conversions~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-conversions.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/ByteBuffer-core.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-core.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-core.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-core~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-core.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/ByteBuffer-int.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-int.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-int.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-int~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-int.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/ByteBuffer-views.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-views.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-views.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-views~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ByteBuffer-views.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/Channel.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Channel.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Channel.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Channel~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Channel.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/ChannelHandler.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelHandler.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelHandler.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelHandler~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelHandler.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/ChannelHandlers.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelHandlers.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelHandlers.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelHandlers~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelHandlers.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/ChannelInvoker.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelInvoker.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelInvoker.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelInvoker~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelInvoker.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/ChannelOption.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelOption.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelOption.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelOption~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelOption.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/ChannelPipeline.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelPipeline.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelPipeline.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelPipeline~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ChannelPipeline.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/CircularBuffer.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/CircularBuffer.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/CircularBuffer.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/CircularBuffer~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/CircularBuffer.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/Codec.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Codec.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Codec.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Codec~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Codec.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/ControlMessage.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ControlMessage.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ControlMessage.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ControlMessage~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ControlMessage.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/ConvenienceOptionSupport.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ConvenienceOptionSupport.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ConvenienceOptionSupport.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ConvenienceOptionSupport~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ConvenienceOptionSupport.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/DatagramVectorReadManager.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/DatagramVectorReadManager.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/DatagramVectorReadManager.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/DatagramVectorReadManager~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/DatagramVectorReadManager.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/DeadChannel.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/DeadChannel.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/DeadChannel.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/DeadChannel~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/DeadChannel.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/DispathQueue+WithFuture.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/DispathQueue+WithFuture.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/DispathQueue+WithFuture.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/DispathQueue+WithFuture~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/DispathQueue+WithFuture.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/Embedded.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Embedded.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Embedded.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Embedded~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Embedded.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/EventLoop.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/EventLoop.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/EventLoop.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/EventLoop~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/EventLoop.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/EventLoopFuture.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/EventLoopFuture.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/EventLoopFuture.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/EventLoopFuture~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/EventLoopFuture.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/FileDescriptor.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/FileDescriptor.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/FileDescriptor.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/FileDescriptor~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/FileDescriptor.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/FileHandle.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/FileHandle.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/FileHandle.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/FileHandle~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/FileHandle.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/FileRegion.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/FileRegion.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/FileRegion.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/FileRegion~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/FileRegion.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/GetaddrinfoResolver.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/GetaddrinfoResolver.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/GetaddrinfoResolver.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/GetaddrinfoResolver~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/GetaddrinfoResolver.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/HappyEyeballs.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/HappyEyeballs.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/HappyEyeballs.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/HappyEyeballs~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/HappyEyeballs.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/Heap.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Heap.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Heap.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Heap~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Heap.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/IO.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/IO.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/IO.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/IO~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/IO.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/IOData.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/IOData.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/IOData.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/IOData~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/IOData.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/IntegerTypes.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/IntegerTypes.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/IntegerTypes.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/IntegerTypes~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/IntegerTypes.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/Interfaces.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Interfaces.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Interfaces.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Interfaces~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Interfaces.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/Linux.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Linux.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Linux.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Linux~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Linux.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/LinuxCPUSet.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/LinuxCPUSet.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/LinuxCPUSet.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/LinuxCPUSet~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/LinuxCPUSet.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/MarkedCircularBuffer.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/MarkedCircularBuffer.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/MarkedCircularBuffer.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/MarkedCircularBuffer~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/MarkedCircularBuffer.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/MulticastChannel.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/MulticastChannel.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/MulticastChannel.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/MulticastChannel~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/MulticastChannel.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/NIOAny.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/NIOAny.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/NIOAny.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/NIOAny~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/NIOAny.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/NIOCloseOnErrorHandler.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/NIOCloseOnErrorHandler.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/NIOCloseOnErrorHandler.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/NIOCloseOnErrorHandler~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/NIOCloseOnErrorHandler.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/NIOThreadPool.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/NIOThreadPool.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/NIOThreadPool.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/NIOThreadPool~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/NIOThreadPool.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/NonBlockingFileIO.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/NonBlockingFileIO.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/NonBlockingFileIO.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/NonBlockingFileIO~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/NonBlockingFileIO.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/PendingDatagramWritesManager.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PendingDatagramWritesManager.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PendingDatagramWritesManager.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PendingDatagramWritesManager~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PendingDatagramWritesManager.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/PendingWritesManager.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PendingWritesManager.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PendingWritesManager.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PendingWritesManager~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PendingWritesManager.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/PipeChannel.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PipeChannel.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PipeChannel.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PipeChannel~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PipeChannel.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/PipePair.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PipePair.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PipePair.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PipePair~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PipePair.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/PointerHelpers.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PointerHelpers.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PointerHelpers.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PointerHelpers~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PointerHelpers.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/PriorityQueue.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PriorityQueue.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PriorityQueue.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PriorityQueue~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/PriorityQueue.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/RecvByteBufferAllocator.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/RecvByteBufferAllocator.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/RecvByteBufferAllocator.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/RecvByteBufferAllocator~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/RecvByteBufferAllocator.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/Resolver.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Resolver.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Resolver.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Resolver~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Resolver.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/Selectable.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Selectable.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Selectable.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Selectable~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Selectable.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/SelectableEventLoop.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SelectableEventLoop.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SelectableEventLoop.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SelectableEventLoop~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SelectableEventLoop.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/Selector.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Selector.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Selector.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Selector~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Selector.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/ServerSocket.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ServerSocket.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ServerSocket.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ServerSocket~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ServerSocket.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/SingleStepByteToMessageDecoder.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SingleStepByteToMessageDecoder.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SingleStepByteToMessageDecoder.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SingleStepByteToMessageDecoder~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SingleStepByteToMessageDecoder.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/Socket.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Socket.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Socket.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Socket~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Socket.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/SocketAddresses.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SocketAddresses.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SocketAddresses.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SocketAddresses~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SocketAddresses.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/SocketChannel.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SocketChannel.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SocketChannel.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SocketChannel~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SocketChannel.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/SocketOptionProvider.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SocketOptionProvider.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SocketOptionProvider.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SocketOptionProvider~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SocketOptionProvider.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/SocketProtocols.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SocketProtocols.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SocketProtocols.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SocketProtocols~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/SocketProtocols.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/System.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/System.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/System.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/System~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/System.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/Thread.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Thread.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Thread.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Thread~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Thread.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/ThreadPosix.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ThreadPosix.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ThreadPosix.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ThreadPosix~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ThreadPosix.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/ThreadWindows.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ThreadWindows.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ThreadWindows.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ThreadWindows~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/ThreadWindows.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/TypeAssistedChannelHandler.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/TypeAssistedChannelHandler.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/TypeAssistedChannelHandler.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/TypeAssistedChannelHandler~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/TypeAssistedChannelHandler.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/UniversalBootstrapSupport.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/UniversalBootstrapSupport.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/UniversalBootstrapSupport.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/UniversalBootstrapSupport~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/UniversalBootstrapSupport.swiftdeps"
+  },
+  "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/NIO/Utilities.swift": {
+    "dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Utilities.d",
+    "object": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Utilities.swift.o",
+    "swiftmodule": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Utilities~partial.swiftmodule",
+    "swift-dependencies": "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.build/Utilities.swiftdeps"
+  }
+}

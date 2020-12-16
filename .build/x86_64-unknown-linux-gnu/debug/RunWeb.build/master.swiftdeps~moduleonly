@@ -1,0 +1,5 @@
+version: "Swift version 5.3.1 (swift-5.3.1-RELEASE)"
+options: "d6f48784560020467750cbfa91cb2900"
+build_time: [1608116874, 217949000]
+inputs:
+  "/workspaces/CourseProject/courseProject/Sources/RunWeb/main.swift": [1607858750, 316243900]

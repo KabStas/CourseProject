@@ -44,16 +44,13 @@ public func main() -> Result<[String : [String : String]], AppErrors> {
         case .success(let value):
             switch value {
             case .search(let key, let language):
-                let result = container.search
-                    .searching(key: key, language: language, dictionary: nil, searchingForDeletion: false)
+                let result = container.search.searching(key: key, language: language, dictionary: nil, searchingForDeletion: false)
                 return result
             case .delete(let key, let language):
-                let result = container.delete
-                    .deleting(key: key, language: language)
+                let result = container.delete.deleting(key: key, language: language)
                 return result
             case .update(let word, let key, let language):
-                let result = container.update
-                    .updating(word: word, key: key, language: language)
+                let result = container.update.updating(word: word, key: key, language: language)
                 return result                
             case .help(let helpText):
                 container.output.outputting(value: helpText) 

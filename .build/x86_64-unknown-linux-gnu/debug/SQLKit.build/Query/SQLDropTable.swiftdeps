@@ -1,0 +1,113 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLDropTable"
+provides-nominal:
+- "6SQLKit12SQLDropTableV"
+provides-member:
+- ["6SQLKit12SQLDropTableV", ""]
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "SQLDropBehavior"
+- "SQLDropTable"
+- "SQLExpression"
+- "SQLSerializer"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "behavior"
+depends-member:
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SQ", ""]
+- !private ["SQ", "restrict"]
+- !private ["SQ", "serialize"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["SH", "restrict"]
+- !private ["SH", "serialize"]
+- !private ["7Logging6LoggerV", "warning"]
+- !private ["6SQLKit11SQLDatabaseP", "logger"]
+- !private ["6SQLKit10SQLDialectP", "name"]
+- !private ["6SQLKit10SQLDialectP", "supportsDropBehavior"]
+- !private ["6SQLKit10SQLDialectP", "supportsIfExists"]
+- !private ["6SQLKit15SQLDropBehaviorO", ""]
+- !private ["6SQLKit15SQLDropBehaviorO", "restrict"]
+- !private ["6SQLKit15SQLDropBehaviorO", "serialize"]
+- ["6SQLKit12SQLDropTableV", "Bool"]
+- !private ["6SQLKit12SQLDropTableV", "SQLDropBehavior"]
+- ["6SQLKit12SQLDropTableV", "SQLExpression"]
+- ["6SQLKit12SQLDropTableV", "SQLSerializer"]
+- ["6SQLKit12SQLDropTableV", "behavior"]
+- ["6SQLKit12SQLDropTableV", "ifExists"]
+- ["6SQLKit12SQLDropTableV", "init"]
+- ["6SQLKit12SQLDropTableV", "serialize"]
+- ["6SQLKit12SQLDropTableV", "table"]
+- !private ["6SQLKit13SQLExpressionP", "SQLDropBehavior"]
+- ["6SQLKit13SQLExpressionP", ""]
+- !private ["6SQLKit13SQLExpressionP", "behavior"]
+- !private ["6SQLKit13SQLExpressionP", "ifExists"]
+- !private ["6SQLKit13SQLExpressionP", "restrict"]
+- ["6SQLKit13SQLExpressionP", "serialize"]
+- !private ["6SQLKit13SQLExpressionP", "table"]
+- !private ["6SQLKit13SQLSerializerV", "database"]
+- !private ["6SQLKit13SQLSerializerV", "dialect"]
+- !private ["6SQLKit13SQLSerializerV", "write"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- !private "s23CustomStringConvertibleP"
+- !private "s26DefaultStringInterpolationV"
+- !private "SQ"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "SH"
+- !private "7Logging6LoggerV"
+- !private "6SQLKit11SQLDatabaseP"
+- !private "6SQLKit10SQLDialectP"
+- !private "6SQLKit15SQLDropBehaviorO"
+- "6SQLKit12SQLDropTableV"
+- "6SQLKit13SQLExpressionP"
+- !private "6SQLKit13SQLSerializerV"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "428eaebee435d81c20bd009b0c311290"

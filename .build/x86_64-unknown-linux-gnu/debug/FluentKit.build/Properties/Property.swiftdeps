@@ -1,0 +1,137 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnyProperty"
+- "Property"
+- "AnyDatabaseProperty"
+- "AnyCodableProperty"
+- "AnyQueryableProperty"
+- "QueryableProperty"
+provides-nominal:
+- "9FluentKit11AnyPropertyP"
+- "9FluentKit8PropertyP"
+- "9FluentKit19AnyDatabasePropertyP"
+- "9FluentKit18AnyCodablePropertyP"
+- "9FluentKit20AnyQueryablePropertyP"
+- "9FluentKit17QueryablePropertyP"
+provides-member:
+- ["9FluentKit11AnyPropertyP", ""]
+- ["9FluentKit8PropertyP", ""]
+- ["9FluentKit19AnyDatabasePropertyP", ""]
+- ["9FluentKit18AnyCodablePropertyP", ""]
+- ["9FluentKit20AnyQueryablePropertyP", ""]
+- ["9FluentKit17QueryablePropertyP", ""]
+- ["9FluentKit11AnyPropertyP", "anyValue"]
+- ["9FluentKit11AnyPropertyP", "anyValueType"]
+- ["9FluentKit17QueryablePropertyP", "queryValue"]
+depends-top-level:
+- "AnyCodableProperty"
+- "AnyDatabaseProperty"
+- "AnyObject"
+- "AnyProperty"
+- "AnyQueryableProperty"
+- "Codable"
+- "DatabaseInput"
+- "DatabaseOutput"
+- "DatabaseQuery"
+- "Decoder"
+- "Encoder"
+- "FieldKey"
+- "Fields"
+- "Property"
+- "QueryableProperty"
+- "Self"
+- "Value"
+depends-member:
+- ["9FluentKit18AnyCodablePropertyP", "Decoder"]
+- ["9FluentKit18AnyCodablePropertyP", "Encoder"]
+- ["9FluentKit18AnyCodablePropertyP", "decode"]
+- ["9FluentKit18AnyCodablePropertyP", "encode"]
+- ["9FluentKit19AnyDatabasePropertyP", "DatabaseInput"]
+- ["9FluentKit19AnyDatabasePropertyP", "DatabaseOutput"]
+- ["9FluentKit19AnyDatabasePropertyP", "FieldKey"]
+- ["9FluentKit19AnyDatabasePropertyP", "input"]
+- ["9FluentKit19AnyDatabasePropertyP", "keys"]
+- ["9FluentKit19AnyDatabasePropertyP", "output"]
+- ["9FluentKit11AnyPropertyP", "Codable"]
+- ["9FluentKit11AnyPropertyP", "DatabaseInput"]
+- ["9FluentKit11AnyPropertyP", "DatabaseOutput"]
+- ["9FluentKit11AnyPropertyP", "DatabaseQuery"]
+- ["9FluentKit11AnyPropertyP", "Decoder"]
+- ["9FluentKit11AnyPropertyP", "Encoder"]
+- ["9FluentKit11AnyPropertyP", "FieldKey"]
+- ["9FluentKit11AnyPropertyP", "Fields"]
+- ["9FluentKit11AnyPropertyP", "Property"]
+- ["9FluentKit11AnyPropertyP", "Value"]
+- ["9FluentKit11AnyPropertyP", ""]
+- ["9FluentKit11AnyPropertyP", "anyValue"]
+- ["9FluentKit11AnyPropertyP", "anyValueType"]
+- ["9FluentKit11AnyPropertyP", "decode"]
+- ["9FluentKit11AnyPropertyP", "encode"]
+- ["9FluentKit11AnyPropertyP", "input"]
+- ["9FluentKit11AnyPropertyP", "keys"]
+- ["9FluentKit11AnyPropertyP", "output"]
+- ["9FluentKit11AnyPropertyP", "path"]
+- ["9FluentKit11AnyPropertyP", "queryValue"]
+- ["9FluentKit11AnyPropertyP", "value"]
+- ["9FluentKit20AnyQueryablePropertyP", "DatabaseQuery"]
+- ["9FluentKit20AnyQueryablePropertyP", "FieldKey"]
+- ["9FluentKit20AnyQueryablePropertyP", "Value"]
+- ["9FluentKit20AnyQueryablePropertyP", ""]
+- ["9FluentKit20AnyQueryablePropertyP", "path"]
+- ["9FluentKit20AnyQueryablePropertyP", "queryValue"]
+- ["s23CustomStringConvertibleP", "Value"]
+- !private ["s23CustomStringConvertibleP", "bind"]
+- ["9FluentKit13DatabaseQueryV", "Value"]
+- ["9FluentKit8PropertyP", "Codable"]
+- ["9FluentKit8PropertyP", "DatabaseQuery"]
+- ["9FluentKit8PropertyP", "Fields"]
+- ["9FluentKit8PropertyP", "Model"]
+- ["9FluentKit8PropertyP", "Property"]
+- ["9FluentKit8PropertyP", "Value"]
+- ["9FluentKit8PropertyP", ""]
+- ["9FluentKit8PropertyP", "queryValue"]
+- ["9FluentKit8PropertyP", "value"]
+- ["9FluentKit17QueryablePropertyP", "DatabaseQuery"]
+- ["9FluentKit17QueryablePropertyP", "Value"]
+- ["9FluentKit17QueryablePropertyP", ""]
+- ["9FluentKit17QueryablePropertyP", "queryValue"]
+- !private ["9FluentKit13DatabaseQueryV5ValueO", "bind"]
+depends-nominal:
+- "9FluentKit18AnyCodablePropertyP"
+- "9FluentKit19AnyDatabasePropertyP"
+- "9FluentKit11AnyPropertyP"
+- "9FluentKit20AnyQueryablePropertyP"
+- "s23CustomStringConvertibleP"
+- "9FluentKit13DatabaseQueryV"
+- "9FluentKit8PropertyP"
+- "9FluentKit17QueryablePropertyP"
+- !private "9FluentKit13DatabaseQueryV5ValueO"
+depends-dynamic-lookup:
+depends-external:
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "7e594d9d0b2f33829be7c54a72bc7e0b"

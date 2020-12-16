@@ -1,0 +1,496 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TimerFd"
+- "EventFd"
+- "Epoll"
+- "Linux"
+provides-nominal:
+- "3NIO7TimerFdO"
+- "3NIO7EventFdO"
+- "3NIO5EpollO"
+- "3NIO5LinuxO"
+provides-member:
+- ["3NIO7TimerFdO", ""]
+- ["3NIO7EventFdO", ""]
+- ["3NIO5EpollO", ""]
+- ["3NIO5LinuxO", ""]
+depends-top-level:
+- !private "!"
+- "!="
+- !private "+"
+- "-"
+- !private "/"
+- ">"
+- !private ">="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "ByteBufferAllocator"
+- "CInt"
+- "CNIOLinux"
+- "CUnsignedInt"
+- "EFD_CLOEXEC"
+- "EFD_NONBLOCK"
+- "Epoll"
+- "EventFd"
+- "ExtendedGraphemeClusterType"
+- "FloatLiteralType"
+- "Glibc"
+- "IOResult"
+- "Int"
+- "Int32"
+- !private "IntegerLiteralType"
+- "Linux"
+- !private "NIOFileHandle"
+- "Posix"
+- "String"
+- "StringLiteralType"
+- "Substring"
+- "TimerFd"
+- "UInt64"
+- !private "UnicodeScalarType"
+- "UnsafeMutablePointer"
+- "UnsafePointer"
+- !private "countCoreIds"
+- "epoll_event"
+- !private "firstLineOfFile"
+- "itimerspec"
+- "numericCast"
+- "preconditionFailure"
+- "sockaddr"
+- "socklen_t"
+- "ssize_t"
+- !private "syscall"
+- "|"
+depends-member:
+- ["s18AdditiveArithmeticP", ""]
+- ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "first"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "last"]
+- !private ["Sa", "map"]
+- !private ["Sa", "reduce"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["SK", ""]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "count"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "last"]
+- !private ["SK", "map"]
+- !private ["SK", "prefix"]
+- !private ["SK", "reduce"]
+- !private ["SK", "split"]
+- ["Sz", ""]
+- ["Sz", "init"]
+- !private ["3NIO10ByteBufferV", "capacity"]
+- !private ["3NIO10ByteBufferV", "writeWithUnsafeMutableBytes"]
+- !private ["3NIO19ByteBufferAllocatorV", "buffer"]
+- !private ["3NIO19ByteBufferAllocatorV", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["Sl", ""]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "count"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "last"]
+- !private ["Sl", "map"]
+- !private ["Sl", "prefix"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "split"]
+- ["SL", ""]
+- ["SL", "init"]
+- !private ["SL", "prefix"]
+- !private ["SL", "split"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "prefix"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "split"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "prefix"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "split"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "capacity"]
+- !private ["s23CustomStringConvertibleP", "close"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "prefix"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "split"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeFileDescriptor"]
+- !private ["s23CustomStringConvertibleP", "writeWithUnsafeMutableBytes"]
+- !private ["Se", "first"]
+- !private ["Se", "flatMap"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "last"]
+- !private ["Se", "map"]
+- !private ["Se", "prefix"]
+- !private ["Se", "reduce"]
+- ["So12EPOLL_EVENTSV", "RawValue"]
+- ["So12EPOLL_EVENTSV", "rawValue"]
+- !private ["SE", "first"]
+- !private ["SE", "flatMap"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "last"]
+- !private ["SE", "map"]
+- !private ["SE", "prefix"]
+- !private ["SE", "reduce"]
+- ["3NIO5EpollO", "CInt"]
+- ["3NIO5EpollO", "CNIOLinux"]
+- ["3NIO5EpollO", "CUnsignedInt"]
+- ["3NIO5EpollO", "ENOENT"]
+- ["3NIO5EpollO", "EPOLLERR"]
+- ["3NIO5EpollO", "EPOLLET"]
+- ["3NIO5EpollO", "EPOLLHUP"]
+- ["3NIO5EpollO", "EPOLLIN"]
+- ["3NIO5EpollO", "EPOLLOUT"]
+- ["3NIO5EpollO", "EPOLLRDHUP"]
+- ["3NIO5EpollO", "EPOLL_CTL_ADD"]
+- ["3NIO5EpollO", "EPOLL_CTL_DEL"]
+- ["3NIO5EpollO", "EPOLL_CTL_MOD"]
+- ["3NIO5EpollO", "Int32"]
+- ["3NIO5EpollO", "UnsafeMutablePointer"]
+- ["3NIO5EpollO", "epoll_create"]
+- ["3NIO5EpollO", "epoll_ctl"]
+- ["3NIO5EpollO", "epoll_event"]
+- ["3NIO5EpollO", "epoll_wait"]
+- ["3NIO5EpollO", "numericCast"]
+- !private ["3NIO5EpollO", "syscall"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- !private ["SQ", "capacity"]
+- !private ["SQ", "first"]
+- !private ["SQ", "flatMap"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "last"]
+- !private ["SQ", "map"]
+- !private ["SQ", "prefix"]
+- ["SQ", "processed"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "result"]
+- !private ["SQ", "split"]
+- !private ["SQ", "wouldBlock"]
+- !private ["SQ", "writeWithUnsafeMutableBytes"]
+- ["3NIO7EventFdO", "CNIOLinux"]
+- ["3NIO7EventFdO", "EFD_CLOEXEC"]
+- ["3NIO7EventFdO", "EFD_NONBLOCK"]
+- ["3NIO7EventFdO", "Int32"]
+- ["3NIO7EventFdO", "UInt64"]
+- ["3NIO7EventFdO", "UnsafeMutablePointer"]
+- ["3NIO7EventFdO", "eventfd"]
+- ["3NIO7EventFdO", "eventfd_read"]
+- ["3NIO7EventFdO", "eventfd_t"]
+- ["3NIO7EventFdO", "eventfd_write"]
+- !private ["3NIO7EventFdO", "syscall"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "prefix"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "split"]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "prefix"]
+- !private ["s32ExpressibleByStringInterpolationP", "split"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "prefix"]
+- !private ["s26ExpressibleByStringLiteralP", "split"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "prefix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "split"]
+- !private ["3NIO14FileDescriptorP", "close"]
+- !private ["3NIO14FileDescriptorP", "init"]
+- !private ["3NIO14FileDescriptorP", "withUnsafeFileDescriptor"]
+- ["s17FixedWidthIntegerP", "init"]
+- ["SH", ""]
+- !private ["SH", "capacity"]
+- !private ["SH", "first"]
+- !private ["SH", "flatMap"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "last"]
+- !private ["SH", "map"]
+- !private ["SH", "prefix"]
+- !private ["SH", "reduce"]
+- !private ["SH", "split"]
+- !private ["SH", "writeWithUnsafeMutableBytes"]
+- ["3NIO8IOResultO", "processed"]
+- !private ["3NIO8IOResultO", "result"]
+- !private ["3NIO8IOResultO", "wouldBlock"]
+- !private ["Si", "init"]
+- ["s5Int32V", "init"]
+- !private ["3NIO5LinuxO", "ByteBufferAllocator"]
+- ["3NIO5LinuxO", "CInt"]
+- !private ["3NIO5LinuxO", "CNIOLinux"]
+- ["3NIO5LinuxO", "Glibc"]
+- !private ["3NIO5LinuxO", "IOResult"]
+- ["3NIO5LinuxO", "Int"]
+- !private ["3NIO5LinuxO", "NIOFileHandle"]
+- !private ["3NIO5LinuxO", "Posix"]
+- ["3NIO5LinuxO", "SOCK_CLOEXEC"]
+- ["3NIO5LinuxO", "SOCK_NONBLOCK"]
+- ["3NIO5LinuxO", "String"]
+- ["3NIO5LinuxO", "Substring"]
+- ["3NIO5LinuxO", "UnsafeMutablePointer"]
+- ["3NIO5LinuxO", "accept4"]
+- ["3NIO5LinuxO", "cfsPeriodPath"]
+- ["3NIO5LinuxO", "cfsQuotaPath"]
+- ["3NIO5LinuxO", "coreCount"]
+- !private ["3NIO5LinuxO", "countCoreIds"]
+- ["3NIO5LinuxO", "cpuSetPath"]
+- !private ["3NIO5LinuxO", "firstLineOfFile"]
+- !private ["3NIO5LinuxO", "preconditionFailure"]
+- ["3NIO5LinuxO", "sockaddr"]
+- ["3NIO5LinuxO", "socklen_t"]
+- !private ["3NIO5LinuxO", "ssize_t"]
+- !private ["3NIO5LinuxO", "syscall"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "prefix"]
+- !private ["s25LosslessStringConvertibleP", "split"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "prefix"]
+- !private ["SM", "baseAddress"]
+- !private ["SM", "count"]
+- !private ["SM", "first"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "last"]
+- !private ["SM", "map"]
+- !private ["SM", "reduce"]
+- ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- !private ["3NIO13NIOFileHandleC", ""]
+- !private ["3NIO13NIOFileHandleC", "close"]
+- !private ["3NIO13NIOFileHandleC", "init"]
+- !private ["3NIO13NIOFileHandleC", "withUnsafeFileDescriptor"]
+- ["Sj", ""]
+- ["Sj", "init"]
+- !private ["Sq", "flatMap"]
+- !private ["3NIO5PosixO", "read"]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "count"]
+- !private ["Sk", "first"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "last"]
+- !private ["Sk", "map"]
+- !private ["Sk", "reduce"]
+- !private ["Sm", ""]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "last"]
+- !private ["Sm", "map"]
+- !private ["Sm", "prefix"]
+- !private ["Sm", "reduce"]
+- !private ["Sm", "split"]
+- ["SY", "RawValue"]
+- ["SY", "rawValue"]
+- ["s10SIMDScalarP", "init"]
+- !private ["ST", "Element"]
+- !private ["ST", ""]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "count"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "last"]
+- !private ["ST", "map"]
+- !private ["ST", "prefix"]
+- !private ["ST", "reduce"]
+- !private ["ST", "split"]
+- ["SZ", "init"]
+- ["s13SignedNumericP", ""]
+- ["s13SignedNumericP", "init"]
+- ["Sx", ""]
+- ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "prefix"]
+- !private ["Sy", "init"]
+- !private ["Sy", "prefix"]
+- !private ["Sy", "split"]
+- !private ["Ss", "split"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "prefix"]
+- !private ["s16TextOutputStreamP", "split"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "prefix"]
+- !private ["s20TextOutputStreamableP", "split"]
+- ["3NIO7TimerFdO", "CNIOLinux"]
+- ["3NIO7TimerFdO", "Int32"]
+- ["3NIO7TimerFdO", "TFD_CLOEXEC"]
+- ["3NIO7TimerFdO", "TFD_NONBLOCK"]
+- ["3NIO7TimerFdO", "UnsafeMutablePointer"]
+- ["3NIO7TimerFdO", "UnsafePointer"]
+- ["3NIO7TimerFdO", "itimerspec"]
+- !private ["3NIO7TimerFdO", "syscall"]
+- ["3NIO7TimerFdO", "timerfd_create"]
+- ["3NIO7TimerFdO", "timerfd_settime"]
+- !private ["Sw", "baseAddress"]
+- !private ["Sw", "count"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "prefix"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "split"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "prefix"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "prefix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "prefix"]
+- !private ["s19_HasContiguousBytesP", "baseAddress"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "prefix"]
+- !private ["s19_HasContiguousBytesP", "reduce"]
+- !private ["s19_HasContiguousBytesP", "split"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["s12_UnwrappableP", "flatMap"]
+- ["So13__socket_typeV", "RawValue"]
+- ["So13__socket_typeV", "rawValue"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- !private "Sa"
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "SK"
+- "Sz"
+- !private "3NIO10ByteBufferV"
+- !private "3NIO19ByteBufferAllocatorV"
+- "s7CVarArgP"
+- !private "Sl"
+- "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "So12EPOLL_EVENTSV"
+- "SE"
+- "3NIO5EpollO"
+- "SQ"
+- "3NIO7EventFdO"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "3NIO14FileDescriptorP"
+- "s17FixedWidthIntegerP"
+- "SH"
+- "3NIO8IOResultO"
+- !private "Si"
+- "s5Int32V"
+- "3NIO5LinuxO"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "3NIO13NIOFileHandleC"
+- "Sj"
+- !private "Sq"
+- !private "3NIO5PosixO"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- "s10SIMDScalarP"
+- !private "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "Ss"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "3NIO7TimerFdO"
+- !private "Sw"
+- !private "s14_ArrayProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "s12_UnwrappableP"
+- "So13__socket_typeV"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+interface-hash: "120219cb79a006daab62433937802ae5"

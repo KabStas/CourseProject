@@ -1,0 +1,150 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "_FluentSQLiteDriver"
+- "_ConnectionPoolSQLiteDatabase"
+provides-nominal:
+- "18FluentSQLiteDriver01_abC0V"
+- "18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV"
+provides-member:
+- ["18FluentSQLiteDriver01_abC0V", ""]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", ""]
+depends-top-level:
+- !private "BooleanLiteralType"
+- "Database"
+- "DatabaseContext"
+- "DatabaseDriver"
+- "EventLoop"
+- "EventLoopConnectionPool"
+- "EventLoopFuture"
+- "EventLoopGroup"
+- "EventLoopGroupConnectionPool"
+- "Int"
+- "Logger"
+- "SQLiteConnection"
+- "SQLiteConnectionSource"
+- "SQLiteData"
+- "SQLiteDatabase"
+- "SQLiteRow"
+- "String"
+- "Void"
+- "_ConnectionPoolSQLiteDatabase"
+- !private "_FluentSQLiteDatabase"
+- "_FluentSQLiteDriver"
+depends-member:
+- !private ["8AsyncKit18ConnectionPoolItemP", "lastAutoincrementID"]
+- !private ["8AsyncKit18ConnectionPoolItemP", "query"]
+- !private ["8AsyncKit20ConnectionPoolSourceP", "makeConnection"]
+- !private ["9FluentKit8DatabaseP", "init"]
+- !private ["9FluentKit15DatabaseContextV", "eventLoop"]
+- !private ["9FluentKit15DatabaseContextV", "logger"]
+- !private ["9FluentKit14DatabaseDriverP", "ConnectionPoolSQLiteDatabase"]
+- !private ["9FluentKit14DatabaseDriverP", "FluentSQLiteDatabase"]
+- ["9FluentKit14DatabaseDriverP", ""]
+- !private ["9FluentKit14DatabaseDriverP", "_ConnectionPoolSQLiteDatabase"]
+- !private ["9FluentKit14DatabaseDriverP", "_FluentSQLiteDatabase"]
+- !private ["9FluentKit14DatabaseDriverP", "eventLoopGroup"]
+- ["9FluentKit14DatabaseDriverP", "makeDatabase"]
+- !private ["9FluentKit14DatabaseDriverP", "pool"]
+- ["9FluentKit14DatabaseDriverP", "shutdown"]
+- !private ["8AsyncKit23EventLoopConnectionPoolC", "eventLoop"]
+- !private ["8AsyncKit23EventLoopConnectionPoolC", "withConnection"]
+- !private ["8AsyncKit28EventLoopGroupConnectionPoolC", "eventLoopGroup"]
+- !private ["8AsyncKit28EventLoopGroupConnectionPoolC", "pool"]
+- !private ["8AsyncKit28EventLoopGroupConnectionPoolC", "shutdown"]
+- !private ["6SQLKit11SQLDatabaseP", "init"]
+- !private ["9SQLiteNIO0A10ConnectionC", "lastAutoincrementID"]
+- !private ["9SQLiteNIO0A10ConnectionC", "query"]
+- ["9SQLiteNIO0A8DatabaseP", ""]
+- ["9SQLiteNIO0A8DatabaseP", "eventLoop"]
+- !private ["9SQLiteNIO0A8DatabaseP", "init"]
+- !private ["9SQLiteNIO0A8DatabaseP", "lastAutoincrementID"]
+- ["9SQLiteNIO0A8DatabaseP", "logger"]
+- !private ["9SQLiteNIO0A8DatabaseP", "pool"]
+- ["9SQLiteNIO0A8DatabaseP", "query"]
+- ["9SQLiteNIO0A8DatabaseP", "withConnection"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "EventLoop"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "EventLoopConnectionPool"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "EventLoopFuture"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "Int"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "Logger"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "SQLiteConnection"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "SQLiteConnectionSource"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "SQLiteData"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "SQLiteRow"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "String"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "Void"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", ""]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "eventLoop"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "init"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "lastAutoincrementID"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "logger"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "pool"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "query"]
+- ["18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV", "withConnection"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["18FluentSQLiteDriver01_aB8DatabaseV", ""]
+- !private ["18FluentSQLiteDriver01_aB8DatabaseV", "init"]
+- !private ["18FluentSQLiteDriver01_abC0V", "ConnectionPoolSQLiteDatabase"]
+- ["18FluentSQLiteDriver01_abC0V", "Database"]
+- ["18FluentSQLiteDriver01_abC0V", "DatabaseContext"]
+- ["18FluentSQLiteDriver01_abC0V", "EventLoopGroup"]
+- ["18FluentSQLiteDriver01_abC0V", "EventLoopGroupConnectionPool"]
+- !private ["18FluentSQLiteDriver01_abC0V", "FluentSQLiteDatabase"]
+- ["18FluentSQLiteDriver01_abC0V", "SQLiteConnectionSource"]
+- !private ["18FluentSQLiteDriver01_abC0V", "_ConnectionPoolSQLiteDatabase"]
+- !private ["18FluentSQLiteDriver01_abC0V", "_FluentSQLiteDatabase"]
+- ["18FluentSQLiteDriver01_abC0V", "eventLoopGroup"]
+- ["18FluentSQLiteDriver01_abC0V", "init"]
+- ["18FluentSQLiteDriver01_abC0V", "makeDatabase"]
+- ["18FluentSQLiteDriver01_abC0V", "pool"]
+- ["18FluentSQLiteDriver01_abC0V", "shutdown"]
+depends-nominal:
+- !private "8AsyncKit18ConnectionPoolItemP"
+- !private "8AsyncKit20ConnectionPoolSourceP"
+- !private "9FluentKit8DatabaseP"
+- !private "9FluentKit15DatabaseContextV"
+- "9FluentKit14DatabaseDriverP"
+- !private "8AsyncKit23EventLoopConnectionPoolC"
+- !private "8AsyncKit28EventLoopGroupConnectionPoolC"
+- !private "6SQLKit11SQLDatabaseP"
+- !private "9SQLiteNIO0A10ConnectionC"
+- "9SQLiteNIO0A8DatabaseP"
+- "18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "18FluentSQLiteDriver01_aB8DatabaseV"
+- "18FluentSQLiteDriver01_abC0V"
+depends-dynamic-lookup:
+depends-external:
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentSQL.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIO.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteNIO.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/Logging.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/AsyncKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/SQLiteKit.swiftmodule"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/FluentKit.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOSHA1.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CBacktrace.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIODarwin.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CURLParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOHTTPParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CMultipartParser.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOAtomics.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/workspaces/CourseProject/.build/x86_64-unknown-linux-gnu/debug/CNIOLinux.build/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/workspaces/CourseProject/.build/checkouts/sqlite-nio/Sources/CSQLite/module.modulemap"
+interface-hash: "5653105909b8679c7993baf63eb6be33"
