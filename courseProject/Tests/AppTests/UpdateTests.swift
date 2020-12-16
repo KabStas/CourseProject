@@ -4,7 +4,6 @@ import XCTest
 final class UpdateTests: XCTestCase {
     private var updating: Update!
     private var reading: GetDataMock!
-    private var searching: SearchMock!
     private var outputting: OutputMock!
     private var writing: PutDataMock!
     
@@ -12,9 +11,7 @@ final class UpdateTests: XCTestCase {
         reading = GetDataMock()
         writing = PutDataMock()
         outputting = OutputMock()
-        searching = SearchMock() 
-        updating = Update(reading: reading, searching: searching, 
-            writing: writing, outputting: outputting)
+        updating = Update(reading: reading, writing: writing, outputting: outputting)
     }
     
     func testUpdateWithWord() throws {
@@ -23,12 +20,11 @@ final class UpdateTests: XCTestCase {
         let language = "ukr"
         reading.getDataResult = ["cat": ["ukr":"jhg"]]
         let result = updating.updating(word: word, key: key, language: language)
-        XCTAssertEqual(result, AppResults.updatingSuccess)
+        XCTAssertEqual(result, .success(["cat": ["ukr":"kit"]]))
         XCTAssertEqual(reading.getDataCallsCount, 1)
         XCTAssertEqual(writing.putDataCallsCount, 1)
         XCTAssertEqual(writing.putDataParameters, ["cat": ["ukr":"kit"]])
-        XCTAssertEqual(outputting.outputCallsCount, 1)
-        XCTAssertEqual(outputting.outputttingCallsCount, 1)
+        XCTAssertEqual(outputting.outputtingCallsCount, 1)
     }
 
     func testUpdateWithAnotherWord() throws {
@@ -37,12 +33,11 @@ final class UpdateTests: XCTestCase {
         let language = "rom"
         reading.getDataResult = ["cat": ["rom":"jhg"]]
         let result = updating.updating(word: word, key: key, language: language)
-        XCTAssertEqual(result, AppResults.updatingSuccess)
+        XCTAssertEqual(result, .success(["cat": ["rom":"kot"]]))
         XCTAssertEqual(reading.getDataCallsCount, 1)
         XCTAssertEqual(writing.putDataCallsCount, 1)
         XCTAssertEqual(writing.putDataParameters, ["cat": ["rom":"kot"]])
-        XCTAssertEqual(outputting.outputCallsCount, 1)
-        XCTAssertEqual(outputting.outputttingCallsCount, 1)
+        XCTAssertEqual(outputting.outputtingCallsCount, 1)
     }
 
     func testUpdateWithUncorrectWord() throws {
@@ -50,12 +45,11 @@ final class UpdateTests: XCTestCase {
         let key = "cnt"
         let language = "rom"
         reading.getDataResult = ["cat": ["rom":"kot"]]
-        searching.searchWithKeyResult = .notFound
         let result = updating.updating(word: word, key: key, language: language)
-        XCTAssertEqual(result, AppResults.notFound)
+        XCTAssertEqual(result, .success(["cnt": ["rom":"kot"]]))
         XCTAssertEqual(reading.getDataCallsCount, 1)
-        XCTAssertEqual(writing.putDataCallsCount, 0)
-        XCTAssertEqual(outputting.outputCallsCount, 0)
+        XCTAssertEqual(writing.putDataCallsCount, 1)
+        XCTAssertEqual(outputting.outputtingCallsCount, 1)
     }
     
     static var allTests = [

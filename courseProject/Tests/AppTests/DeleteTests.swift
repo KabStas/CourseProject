@@ -22,7 +22,7 @@ final class DeleteTests: XCTestCase {
         let language = "rus"
         reading.getDataResult = ["cat":["rus":"Кот"]]
         let results = deleting.deleting(key: key, language: language)
-        XCTAssertEqual(results, AppResults.deletingSuccess)
+        XCTAssertEqual(results, .success(["cat":[:]]))
         XCTAssertEqual(reading.getDataCallsCount, 1)  
         XCTAssertEqual(writing.putDataCallsCount, 1)
         XCTAssertEqual(writing.putDataParameters, ["cat":[:]])
@@ -33,7 +33,7 @@ final class DeleteTests: XCTestCase {
         let key = "mouse"
         reading.getDataResult = ["mouse":["fr":"La souris"]]
         let results = deleting.deleting(key: key, language: nil)
-        XCTAssertEqual(results, AppResults.deletingSuccess)
+        XCTAssertEqual(results, .success([:]))
         XCTAssertEqual(reading.getDataCallsCount, 1)  
         XCTAssertEqual(writing.putDataCallsCount, 1)
         XCTAssertEqual(writing.putDataParameters, [:])
@@ -44,7 +44,7 @@ final class DeleteTests: XCTestCase {
         let language = "rus"
         reading.getDataResult = ["mouse":["rus":"Мышь"]]
         let results = deleting.deleting(key: nil, language: language)
-        XCTAssertEqual(results, AppResults.deletingSuccess)
+        XCTAssertEqual(results, .success(["mouse":[:]]))
         XCTAssertEqual(reading.getDataCallsCount, 1)  
         XCTAssertEqual(writing.putDataCallsCount, 1)
         XCTAssertEqual(writing.putDataParameters, ["mouse":[:]])
@@ -54,9 +54,9 @@ final class DeleteTests: XCTestCase {
     func testDeleteWithUncorrectLanguage() throws {
         let language = "lg"
         reading.getDataResult = ["mouse":["rus":"Мышь"]]
-        searching.searchResult = .notFound
+        searching.searchResult = .failure(.notFound)
         let results = deleting.deleting(key: nil, language: language)
-        XCTAssertEqual(results, AppResults.notFound)
+        XCTAssertEqual(results, .failure(.notFound))
         XCTAssertEqual(reading.getDataCallsCount, 1)  
         XCTAssertEqual(writing.putDataCallsCount, 0)
         XCTAssertEqual(outputting.outputtingCallsCount, 0)
@@ -65,9 +65,9 @@ final class DeleteTests: XCTestCase {
     func testDeleteWithUncorrectKey() throws {
         let key = "horse"
         reading.getDataResult = ["mouse":["rus":"Мышь"]]
-        searching.searchResult = .notFound
+        searching.searchResult = .failure(.notFound)
         let results = deleting.deleting(key: key, language: nil)
-        XCTAssertEqual(results, AppResults.notFound)
+        XCTAssertEqual(results, .failure(.notFound))
         XCTAssertEqual(reading.getDataCallsCount, 1)  
         XCTAssertEqual(writing.putDataCallsCount, 0)
         XCTAssertEqual(outputting.outputtingCallsCount, 0)

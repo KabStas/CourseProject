@@ -13,6 +13,7 @@ class Output: OutputProtocol  {
 
     func outputtingResults(dictionary: [String: [String: String]]) { 
         let alternativeOutput = false
+        
         for (word, translations) in dictionary {
             outputting(value: word)
             for (language, value) in translations {

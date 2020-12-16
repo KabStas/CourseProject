@@ -21,7 +21,7 @@ class ArgumentsParserTests: XCTestCase {
                 XCTAssertEqual(key, "cat")
                 XCTAssertEqual(language, nil)
             default:
-                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
+                XCTFail(AppErrors.parseError(text: "error").errorDescription)
         }
     }
 
@@ -34,7 +34,7 @@ class ArgumentsParserTests: XCTestCase {
                 XCTAssertEqual(language, nil)
 
             default:
-                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
+                XCTFail(AppErrors.parseError(text: "error").errorDescription)
     
         }
     }
@@ -48,7 +48,7 @@ class ArgumentsParserTests: XCTestCase {
                 XCTAssertEqual(language, "rus")
 
             default:
-                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
+                XCTFail(AppErrors.parseError(text: "error").errorDescription)
         }
     }
 
@@ -61,7 +61,7 @@ class ArgumentsParserTests: XCTestCase {
                 XCTAssertEqual(language, "esp")
 
             default:
-                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
+                XCTFail(AppErrors.parseError(text: "error").errorDescription)
         }
     }
 
@@ -74,7 +74,7 @@ class ArgumentsParserTests: XCTestCase {
                 XCTAssertEqual(language, "rus")
 
             default:
-                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
+                XCTFail(AppErrors.parseError(text: "error").errorDescription)
         }
     }
 
@@ -87,7 +87,7 @@ class ArgumentsParserTests: XCTestCase {
                 XCTAssertEqual(language, "esp")
 
             default:
-                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
+                XCTFail(AppErrors.parseError(text: "error").errorDescription)
         }
     }
 
@@ -100,7 +100,7 @@ class ArgumentsParserTests: XCTestCase {
                 XCTAssertEqual(language, nil)
 
             default:
-                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
+                XCTFail(AppErrors.parseError(text: "error").errorDescription)
         }
     }
 
@@ -114,7 +114,7 @@ class ArgumentsParserTests: XCTestCase {
                 XCTAssertEqual(language, "ukr")
 
             default:
-                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
+                XCTFail(AppErrors.parseError(text: "error").errorDescription)
         }
     }
 
@@ -126,7 +126,7 @@ class ArgumentsParserTests: XCTestCase {
             case .failure(.commandNotFound(let text)):
                 XCTAssertEqual(text, Commands.helpMessage())
             default:
-                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
+                XCTFail(AppErrors.parseError(text: "error").errorDescription)
         }
     }
 
@@ -138,7 +138,7 @@ class ArgumentsParserTests: XCTestCase {
             case .failure(.parseError(let text)):
                 XCTAssertEqual(text, Commands.helpMessage())
             default:
-                XCTFail(ArgumentsParserError.parseError(text: "error").errorDescription)
+                XCTFail(AppErrors.parseError(text: "error").errorDescription)
         }
     }
 

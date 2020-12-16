@@ -3,31 +3,24 @@ import Foundation
 class Update: UpdateProtocol {
     
     let read: GetDataProtocol
-    let search: SearchProtocol
     let write: PutDataProtocol
     let output: OutputProtocol
     
-    init(reading: GetDataProtocol,searching: SearchProtocol, 
-        writing: PutDataProtocol, outputting: OutputProtocol) {
+    init(reading: GetDataProtocol,writing: PutDataProtocol, outputting: OutputProtocol) {
             self.read = reading
-            self.search = searching
             self.write = writing
             self.output = outputting
     }
     
-    func updating(word: String, key: String, language: String) -> AppResults {
+    func updating(word: String, key: String, language: String) -> Result<[String : [String : String]], AppErrors> {
         var dictionary = read.creatingDictionary()
-        let result = search.searching(key: key, dictionary: dictionary)
-        guard result == .searchingSuccess else {
-            return .notFound
-        }
+        var anotherDict: [String: [String: String]] = [:]
         var newWord: [String: String] = dictionary[key] ?? [:]
         newWord[language] = word
-        dictionary[key] = newWord
-        let dict = dictionary[key] ?? [:]
-        output.outputting(value: key)
-        output.outputtingResults(dictionary: dict)
+        anotherDict.updateValue(newWord, forKey: key)
+        dictionary.updateValue(newWord, forKey: key)
+        output.outputtingResults(dictionary: anotherDict)
         write.writing(dictionary: dictionary)
-        return .updatingSuccess
+        return .success(anotherDict)
     }
 }

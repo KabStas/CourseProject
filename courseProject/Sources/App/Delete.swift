@@ -18,11 +18,12 @@ class Delete: DeleteProtocol {
     private func deletingValuesFromDictionary(language: String, dictionary: [String: [String: String]]) -> 
         [String: [String: String]] {
             var dictionary = dictionary
-            for (word, translations) in dictionary {
+
+            dictionary.forEach { word, translations in 
                 var  translations = translations
                 translations[language] = nil
                 dictionary[word] = translations
-            } 
+            }
             return dictionary
     }
 
@@ -42,27 +43,29 @@ class Delete: DeleteProtocol {
             return dictionary     
     }
 
-    func deleting(key: String?, language: String?) -> AppResults{
+    func deleting(key: String?, language: String?) -> Result<[String : [String : String]], AppErrors> {
         var dictionary = read.creatingDictionary()
-        let result = search.searching(key: key, language:language, dictionary: dictionary)
-
-        guard result == .searchingSuccess else {
-            return .notFound
+        let result = search.searching(key: key, language:language, dictionary: dictionary, 
+            searchingForDeletion: true)
+        
+        guard result != .failure(.notFound) else {
+            return .failure(.notFound)
         }
+
         if let key = key {
             if let language = language { 
                 dictionary = deletingValuesFromDictionary(key: key, language: language, 
-                    dictionary: dictionary)  
+                    dictionary: dictionary)      
             } else { 
                 dictionary = deletingValuesFromDictionary(key: key, 
-                    dictionary: dictionary)            
+                    dictionary: dictionary)
             }
         } else if let language = language {
             dictionary = deletingValuesFromDictionary(language: language, 
-                dictionary: dictionary)
+                dictionary: dictionary)    
         }
-        output.outputtingResults(dictionary: dictionary)
         write.writing(dictionary: dictionary)
-        return .deletingSuccess
+        output.outputtingResults(dictionary: dictionary)
+        return .success(dictionary)
     }
 }
