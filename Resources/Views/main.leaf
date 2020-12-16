@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>MainPage</title>
+        <style>
+            .button {
+            background-color: #FF4500;
+            border: black;
+            color: white;
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 4px;
+            cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <p align="center">
+        <iframe src="https://gifer.com/embed/CA7o" width=90 height=48 frameBorder="0" allowFullScreen></iframe>
+        <iframe src="https://gifer.com/embed/AWqk" width=90 height=48 frameBorder="0" allowFullScreen></iframe>
+        <iframe src="https://gifer.com/embed/8r5T" width=90 height=48 frameBorder="0" allowFullScreen></iframe>
+        <iframe src="https://gifer.com/embed/9Xaa" width=90 height=48 frameBorder="0" allowFullScreen></iframe></p>
+        <center><h3>Localization Manager</h3></center>
+        <p align="center">
+        <a href="/searchPage" class="button">Search</a>
+        <a href="/updatePage" class="button">Update</a>
+        <a href="/deletePage" class="button">Delete</a></p>
+    </body>
+</html>
