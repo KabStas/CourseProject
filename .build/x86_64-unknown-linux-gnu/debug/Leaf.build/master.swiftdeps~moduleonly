@@ -1,9 +1,0 @@
-version: "Swift version 5.3.1 (swift-5.3.1-RELEASE)"
-options: "daaa5c539534713aef368e57b7151c7b"
-build_time: [1608116855, 974638500]
-inputs:
-  "/workspaces/CourseProject/.build/checkouts/leaf/Sources/Leaf/Application+Leaf.swift": [1607864859, 709684300]
-  "/workspaces/CourseProject/.build/checkouts/leaf/Sources/Leaf/Exports.swift": [1607864859, 713686500]
-  "/workspaces/CourseProject/.build/checkouts/leaf/Sources/Leaf/LeafEncoder.swift": [1607864859, 716684600]
-  "/workspaces/CourseProject/.build/checkouts/leaf/Sources/Leaf/LeafRenderer+ViewRenderer.swift": [1607864859, 719684100]
-  "/workspaces/CourseProject/.build/checkouts/leaf/Sources/Leaf/Request+Leaf.swift": [1607864859, 722684500]

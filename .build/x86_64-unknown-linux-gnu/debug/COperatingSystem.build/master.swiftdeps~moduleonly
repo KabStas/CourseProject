@@ -1,5 +1,0 @@
-version: "Swift version 5.3.1 (swift-5.3.1-RELEASE)"
-options: "598ef6e579e01a7778dea0087b00e68b"
-build_time: [1608116786, 4692900]
-inputs:
-  "/workspaces/CourseProject/.build/checkouts/vapor/Sources/COperatingSystem/Exports.swift": [1607864826, 589162100]
