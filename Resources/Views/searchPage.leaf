@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Search</title>
+        <style>
+            .button {
+            background-color: #98FB98;
+            border: black;
+            color: black;
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 8px 8px;
+            cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="GET" action="/searchResultPage">
+            <div class="block" style="margin-left: 33%; margin-right: 33%; margin-top: 7%">
+                <div class="field">
+                  <label class="label" ><b>Searching word</b></label>
+                  <div class="control" style="margin-top: 2%; margin-bottom: 5%">
+               
+                    <input class="input" type="text" name="key" value="#(key)" placeholder="Enter word"> 
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label" ><b>Searching language</b></label>
+                  <div class="control"style="margin-top: 2%; margin-bottom: 2%">
+                    <input class="input" type="text" name="language" value="#(language)" placeholder="Enter language">
+                  </div>
+                </div>
+                <div class="control">
+                  <button type="submit" class="button">Search</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

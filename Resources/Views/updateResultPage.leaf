@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>#(title)</title>
+    </head>
+    <body>
+        <div class="table-holder" style="margin-left: 33%; margin-right: 33%; margin-top: 7%">
+            <table class="table" >
+                #for(result in results.results):
+                    #if(count(result.elements) != 0):
+                        <tr>
+                            <td style="background-color: rgb(230, 230, 250)"><b>#(result.key)</b></td>
+                        </tr>
+                        <tr>
+                            #for(element in result.elements):
+                                <td style="background-color: rgb(216, 191, 216)">#(element.language):</td> 
+                                <td style="background-color: rgb(221, 160, 221)">#(element.value)</td>
+                            #endfor
+                        </tr>
+                    #endif
+                #endfor
+            </table>
+        </div>
+    </body>
+</html>
