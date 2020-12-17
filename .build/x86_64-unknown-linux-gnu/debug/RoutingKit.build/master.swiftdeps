@@ -1,8 +1,0 @@
-version: "Swift version 5.3.1 (swift-5.3.1-RELEASE)"
-options: "a2d0625b7182354d4f7ba6747d27f31e"
-build_time: [1608116786, 19107500]
-inputs:
-  "/workspaces/CourseProject/.build/checkouts/routing-kit/Sources/RoutingKit/Parameters.swift": [1607864556, 181352500]
-  "/workspaces/CourseProject/.build/checkouts/routing-kit/Sources/RoutingKit/PathComponent.swift": [1607864556, 185351800]
-  "/workspaces/CourseProject/.build/checkouts/routing-kit/Sources/RoutingKit/Router.swift": [1607864556, 189354100]
-  "/workspaces/CourseProject/.build/checkouts/routing-kit/Sources/RoutingKit/TrieRouter.swift": [1607864556, 193354700]
