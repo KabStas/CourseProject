@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Update</title>
+          <style>
+              .button {
+              background-color: #98FB98;
+              border: black;
+              color: black;
+              padding: 5px 20px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 20px;
+              margin: 8px 8px;
+              cursor: pointer;
+              }
+            </style>
+    </head>
+    <body>
+        <form method="GET" action="/updateResultPage?word=#(word)&key=#(key)&language=#(language)">
+            <div class="block" style="margin-left: 33%; margin-right: 33%; margin-top: 7%">
+                <div class="field">
+                  <label class="label"><b>New word</b></label>
+                  <div class="control" style="margin-top: 2%; margin-bottom: 5%">
+                    <input class="input" type="text" name="word" value="#(word)" placeholder="Enter new word">
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label"><b>Key value</b></label>
+                  <div class="control" style="margin-top: 2%; margin-bottom: 5%">
+                    <input class="input" type="text" name="key" value="#(key)" placeholder="Enter key value">
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label"><b>Language</b></label>
+                  <div class="control" style="margin-top: 2%; margin-bottom: 2%">
+                    <input class="input" type="text" name="language" value="#(language)" placeholder="Enter language">
+                  </div>
+                </div>
+                <div class="control">
+                  <button type="submit" class="button">Update</button>
+                </div>
+            </div>
+        </form> 
+    </body>
+</html>

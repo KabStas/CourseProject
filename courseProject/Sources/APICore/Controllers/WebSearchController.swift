@@ -12,54 +12,53 @@ public struct WebSearchController: RouteCollection {
     }
 
     public func boot(routes: RoutesBuilder) throws {
-        let todos = routes.grouped("resultPage")
-        todos.get(use: searchingView)
+        let todos = routes.grouped("searchResultPage")
+        todos.get(use: searchResultPage)
     }
 
-    func searchingView(req: Request) -> EventLoopFuture<View> {
+    func searchResultPage(req: Request) -> EventLoopFuture<View> {
         let parameters = try? req.query.decode(Parameters.self)
-        req.logger.info("Parameters: \(parameters?.key ?? "") \(parameters?.language ?? "")")
-        let result = search
-            .searching(key: parameters?.key, language: parameters?.language, dictionary: nil, searchingForDeletion: false)
-            .mapError{ $0 as Error }
 
-        let res = result.map { value in
-            Response(
-                results: value.map { value in
-                    Response.SearchResults(
-                        key: value.key,
-                        elements: value.value.map {
-                            Response.SearchResults.Element(
-                                language: $0.key,
-                                value: $0.value
-                            )
-                        }
-                    )
-                }
-            )
-        }
-        return req.view.render("resultPage", ["title": "Search results"])
+        var key = parameters?.key
+        var language = parameters?.language
         
-        // return result 
-            // .map { value in
-            //     Response(
-            //         results: value.map { value in
-            //             Response.SearchResults(
-            //                 key: value.key,
-            //                 elements: value.elements.map {
-            //                 Response.SearchResults.Element(
-            //                     language: $0.language,
-            //                     value: $0.value
-            //                 )
-            //             }
-            //         )
-            //     }
-            // )
-            //     .flatMap { value in 
-            //     req.view.render("search", value)  
-            // }
-            
+        if ((parameters?.key?.isEmpty) == true) { 
+            key = nil
+        }
+        if ((parameters?.language?.isEmpty) == true) {
+            language = nil
+        }
+        
+        let result = search
+            .searching(key: key, language: language, dictionary: nil, searchingForDeletion: false)
+
+        if case .success(_) = result {
+            let newRes = result.map { value in
+                Response(
+                    results: value.map { value in
+                        Response.SearchResults(
+                            key: value.key,
+                            elements: value.value.map {
+                                Response.SearchResults.Element(
+                                    language: $0.key,
+                                    value: $0.value
+                                )
+                            }
+                        )
+                    }
+                )
+            }
+            if case .success(let dictionary) = newRes {
+                return req.view.render("searchResultPage", WebSearchPageContext(title: "Search results", results: dictionary))
+            }
+        }
+        return req.view.render("searchResultPage", ["title": "Search results"])
     }
+}
+
+struct WebSearchPageContext: Content {
+    var title: String
+    var results: WebSearchController.Response
 }
 
 private extension WebSearchController {

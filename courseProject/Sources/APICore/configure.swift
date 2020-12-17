@@ -21,7 +21,4 @@ public func configureWeb(_ app: Application) throws {
     let _ = app.autoMigrate()
     app.views.use(.leaf)
     try routes(app)
-
-    app.logger.info("\(app.directory.viewsDirectory) \(app.directory.workingDirectory)")
-
 }

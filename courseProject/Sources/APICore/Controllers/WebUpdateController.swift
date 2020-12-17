@@ -12,55 +12,43 @@ public struct WebUpdateController: RouteCollection {
     }
 
     public func boot(routes: RoutesBuilder) throws {
-        let todos = routes.grouped("resultPage")
+        let todos = routes.grouped("updateResultPage")
         todos.get(use: updatingView)
     }
 
     func updatingView(req: Request) -> EventLoopFuture<View> {
         let parameters = try? req.query.decode(Parameters.self)
-        req.logger.info("Parameters: \(parameters?.key ?? "") \(parameters?.language ?? "")")
         let result = update
             .updating(word: parameters?.word ?? "", key: parameters?.key ?? "", language: parameters?.language ?? "")
             .mapError{ $0 as Error }
 
-        let res = result.map { value in
-            Response(
-                results: value.map { value in
-                    Response.UpdateResults(
-                        key: value.key,
-                        elements: value.value.map {
-                            Response.UpdateResults.Element(
-                                language: $0.key,
-                                value: $0.value
-                            )
-                        }
-                    )
-                }
-            )
+        if case .success(_) = result {
+            let newRes = result.map { value in
+                Response(
+                    results: value.map { value in
+                        Response.UpdateResults(
+                            key: value.key,
+                            elements: value.value.map {
+                                Response.UpdateResults.Element(
+                                    language: $0.key,
+                                    value: $0.value
+                                )
+                            }
+                        )
+                    }
+                )
+            }
+            if case .success(let dictionary) = newRes {
+                return req.view.render("updateResultPage", WebUpdatePageContext(title: "Update results", results: dictionary))
+            }
         }
-        return req.view.render("resultPage", ["title": "Update results"])
-        
-        
-        // return result 
-            // .map { value in
-            //     Response(
-            //         results: value.map { value in
-            //             Response.SearchResults(
-            //                 key: value.key,
-            //                 elements: value.elements.map {
-            //                 Response.SearchResults.Element(
-            //                     language: $0.language,
-            //                     value: $0.value
-            //                 )
-            //             }
-            //         )
-            //     }
-            // )
-            //     .flatMap { value in 
-            //     req.view.render("search", value)  
-            // }
-            
+        return req.view.render("updateResultPage", ["title": "Update results"])
     }
+}
+
+struct WebUpdatePageContext: Content {
+    var title: String
+    var results: WebUpdateController.Response
 }
 
 private extension WebUpdateController {

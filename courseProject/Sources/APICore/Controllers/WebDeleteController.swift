@@ -12,54 +12,53 @@ public struct WebDeleteController: RouteCollection {
     }
 
     public func boot(routes: RoutesBuilder) throws {
-        let todos = routes.grouped("resultPage")
-        todos.get(use: deletingView)
+        let todos = routes.grouped("deleteResultPage")
+        todos.get(use: deleteResultPage)
     }
 
-    func deletingView(req: Request) -> EventLoopFuture<View> {
+    func deleteResultPage(req: Request) -> EventLoopFuture<View> {
         let parameters = try? req.query.decode(Parameters.self)
-        req.logger.info("Parameters: \(parameters?.key ?? "") \(parameters?.language ?? "")")
-        let result = delete
-            .deleting(key: parameters?.key, language: parameters?.language)
-            .mapError{ $0 as Error }
-        let res = result.map { value in
-            Response(
-                results: value.map { value in
-                    Response.DeleteResults(
-                        key: value.key,
-                        elements: value.value.map {
-                            Response.DeleteResults.Element(
-                                language: $0.key,
-                                value: $0.value
-                            )
-                        }
-                    )
-                }
-            )
+        
+        var key = parameters?.key
+        var language = parameters?.language
+        
+        if ((parameters?.key?.isEmpty) == true) { 
+            key = nil
         }
-        return req.view.render("resultPage", ["title": "Delete results "])
+        if ((parameters?.language?.isEmpty) == true) {
+            language = nil
+        }
         
-        
-        // return result 
-            // .map { value in
-            //     Response(
-            //         results: value.map { value in
-            //             Response.SearchResults(
-            //                 key: value.key,
-            //                 elements: value.elements.map {
-            //                 Response.SearchResults.Element(
-            //                     language: $0.language,
-            //                     value: $0.value
-            //                 )
-            //             }
-            //         )
-            //     }
-            // )
-            //     .flatMap { value in 
-            //     req.view.render("search", value)  
-            // }
-            
+        let result = delete
+            .deleting(key: key, language: language)
+            .mapError{ $0 as Error }
+        if case .success(_) = result {
+            let newRes = result.map { value in
+                Response(
+                    results: value.map { value in
+                        Response.DeleteResults(
+                            key: value.key,
+                            elements: value.value.map {
+                                Response.DeleteResults.Element(
+                                    language: $0.key,
+                                    value: $0.value
+                                )
+                            }
+                        )
+                    }
+                )
+            }
+            if case .success(let dictionary) = newRes {
+                return req.view.render("deleteResultPage", WebDeletePageContext(title: "Delete results", results: dictionary))
+            }
+        }
+        return req.view.render("deleteResultPage", ["title": "Delete results"])
     }
+}
+
+struct WebDeletePageContext: Content {
+    var title: String
+    var results: WebDeleteController.Response
 }
 
 private extension WebDeleteController {

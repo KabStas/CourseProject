@@ -9,7 +9,7 @@ public func routes(_ app: Application) throws {
     let searching = container.search
     let deleting = container.delete
     let updating = container.update
-
+    
     app.get() { req -> EventLoopFuture<View> in
         return req.view.render("main")
     }
