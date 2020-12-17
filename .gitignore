@@ -5,7 +5,7 @@ xcuserdata/
 /.vscode
 /docker
 /test_tasks
-/.devcontainer
+.devcontainer
 .build
 /.build
 toolbox
