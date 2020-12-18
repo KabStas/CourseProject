@@ -11,6 +11,7 @@ class GetData: GetDataProtocol {
         } else {
             dictionary = [:]
         }
+        dictionary = ["cat": ["rus": "Кот"]]
         return dictionary
     }
 }
