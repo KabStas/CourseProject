@@ -9,7 +9,7 @@
 ### Запуск проекта
 > 
     
-    USAGE: swift run Run <subcommand>
+    USAGE: swift run RunConsole <subcommand>
     
     SUBCOMMAND:
 
@@ -30,3 +30,12 @@
       search [--key <key>] [--language <language>]
       update [<word> --key <key> --language <language>]
       delete [--key <key>] [--language <language>]
+      
+### Запуск API-проекта
+> 
+    USAGE: swift run RunAPI
+    
+### Запуск Web-проекта
+> 
+    USAGE: swift run RunWeb
+    
