@@ -6,7 +6,7 @@
     cd courseProject
     swift build 
 
-### Запуск проекта
+### Запуск консольного проекта
 > 
     
     USAGE: swift run Run <subcommand>
@@ -30,3 +30,7 @@
       search [--key <key>] [--language <language>]
       update [<word> --key <key> --language <language>]
       delete [--key <key>] [--language <language>]
+      
+### Запуск API-проекта
+> 
+    USAGE: swift run RunAPI
