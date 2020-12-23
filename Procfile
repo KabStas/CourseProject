@@ -1,1 +1,1 @@
-web: RunAPI serve --env production --hostname 0.0.0.0 --port $PORT
+web: RunWeb serve --env production --hostname 0.0.0.0 --port $PORT
