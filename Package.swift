@@ -24,14 +24,7 @@ let package = Package(
                 .product(name: "Fluent", package: "fluent"),
                 .product(name: "Leaf", package: "leaf")
                 ],
-<<<<<<< HEAD
-            path: "courseProject/Sources/App"
-            // resources: [
-            //     .process("dict.json")
-            //     ]
-=======
             path: "courseProject/Sources/App"    
->>>>>>> b592d3c4bd5983a85717a7271c248d551085dac1
         ),
         .target(
             name: "RunConsole",
